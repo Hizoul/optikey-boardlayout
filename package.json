@@ -63,6 +63,7 @@
     "@xpfw/data": "1.0.0-beta.16",
     "@xpfw/form": "^1.0.0-beta.16",
     "@xpfw/form-web": "^1.0.0-beta.16",
+    "fast-json-patch": "^2.1.0",
     "lodash": "^4.17.11",
     "mobx": "^5.9.4",
     "mobx-react-lite": "^1.3.1",
