@@ -10,6 +10,31 @@ exports[`app: inital app render 1`] = `
       type="text"
       value="MMB2s Keyboard"
     />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={40}
+    />
+    <input
+      onChange={[Function]}
+      type="text"
+      value="0,0,0,0"
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={7}
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={30}
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
   </div>
 </div>
 `;

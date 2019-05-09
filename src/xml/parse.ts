@@ -6,6 +6,7 @@ export interface IKeyboard {
     Name: string
     Height: number
     BorderThickness: string
+    SymbolMargin: number
     Grid: {rows: number}
     Keys: any[]
   }
