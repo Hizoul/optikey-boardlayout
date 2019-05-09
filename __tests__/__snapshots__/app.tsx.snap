@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app: inital app render 1`] = `
+<div>
+  hi App
+  <div>
+    hi panep
+    <input
+      onChange={[Function]}
+      type="text"
+      value="MMB2s Keyboard"
+    />
+  </div>
+</div>
+`;
