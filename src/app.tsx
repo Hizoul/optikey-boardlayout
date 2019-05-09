@@ -8,7 +8,6 @@ FormStore.setValue("Keyboard", xmlParser(exampleXml).Keyboard)
 
 const App: React.FunctionComponent<any> = () => (
   <div>
-    hi App
     <RightPanel />
   </div>
 )
