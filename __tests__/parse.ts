@@ -1,5 +1,5 @@
-import example from "./example"
-import xmlParser, { toXml } from "./parse"
+import example from "../src/xml/example"
+import xmlParser, { toXml } from "../src/xml/parse"
 
 test("parser", () => {
   expect(xmlParser(example)).toMatchSnapshot("xml to js")
