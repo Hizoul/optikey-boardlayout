@@ -666,6 +666,11 @@
     "@webassemblyjs/wast-parser" "1.8.5"
     "@xtuc/long" "4.2.2"
 
+"@xpfw/data@1.0.0-beta.16":
+  version "1.0.0-beta.16"
+  resolved "https://registry.yarnpkg.com/@xpfw/data/-/data-1.0.0-beta.16.tgz#e77e1b3211e652deb57dfa484ae7b18663e39efb"
+  integrity sha512-D6WafnoYGIvXMPJssi5gCImpTjRhaA7wr7zddPC5U5VDbuKj0uRrKQnQG5pA5cPyD91hC7G7Y1YQ6D7NUpsMRA==
+
 "@xpfw/form-web@^1.0.0-beta.16":
   version "1.0.0-beta.16"
   resolved "https://registry.yarnpkg.com/@xpfw/form-web/-/form-web-1.0.0-beta.16.tgz#253bad53970673a21f23efce0fd8b9fea5eebbe5"
