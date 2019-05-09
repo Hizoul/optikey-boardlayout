@@ -82,7 +82,7 @@ const toXml = (keyboard: IKeyboard) => {
       ...keyboard.Keyboard,
       Keys: changedKeys
     }
-  }, {compact: true})
+  }, {compact: true, spaces: 2})
 }
 
 export default xmlParser

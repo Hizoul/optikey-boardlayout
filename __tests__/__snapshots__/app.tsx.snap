@@ -35,6 +35,12 @@ exports[`app: inital app render 1`] = `
       type="number"
       value={1}
     />
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      save keyboard
+    </a>
   </div>
 </div>
 `;

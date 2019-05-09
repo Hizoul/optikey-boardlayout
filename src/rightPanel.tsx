@@ -1,6 +1,29 @@
 import { ComponentRegistry, ExtendedJSONSchema, FormStore, SharedField } from "@xpfw/form"
 import { registerComponents, TextField } from "@xpfw/form-web"
 import * as React from "react"
+import { toXml } from "./xml/parse"
+
+const keyboardPrefix = "Keyboard"
+
+const downloadUrl = (title: string, url: string) => {
+  const a = document.createElement("a")
+  document.body.appendChild(a)
+  a.href = url
+  a.download = title
+  a.click()
+  document.body.removeChild(a)
+}
+
+const downloadBlob = (title: string, blob: Blob) => {
+  const url = window.URL.createObjectURL(blob)
+  downloadUrl(title, url)
+  window.URL.revokeObjectURL(url)
+}
+
+const downloadKeyboard = () => {
+  downloadBlob("keyboard.xml",
+    new Blob([toXml({Keyboard: FormStore.getValue(keyboardPrefix)})], {type: "application/xml"}))
+}
 
 registerComponents()
 ComponentRegistry.registerComponent("number", TextField)
@@ -24,7 +47,6 @@ const rowsSchema: ExtendedJSONSchema = {
 const colsSchema: ExtendedJSONSchema = {
   title: "Grid.Cols", type: "number"
 }
-const keyboardPrefix = "Keyboard"
 
 const RightPanel: React.FunctionComponent<any> = () => (
   <div>
@@ -35,6 +57,7 @@ const RightPanel: React.FunctionComponent<any> = () => (
     <SharedField schema={rowsSchema} prefix={keyboardPrefix} />
     <SharedField schema={colsSchema} prefix={keyboardPrefix} />
     <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+    <a className="button" onClick={downloadKeyboard}>save keyboard</a>
   </div>
 )
 
