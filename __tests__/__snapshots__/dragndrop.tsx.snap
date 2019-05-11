@@ -13,11 +13,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      0
-       
-      4
       ~
     </div>
     <div
@@ -31,11 +26,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDrop={[Function]}
     >
       0
-       
-      1
-       
-      40
-      0
     </div>
     <div
       className="key  "
@@ -47,11 +37,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      2
-       
-      24
       1
     </div>
     <div
@@ -64,11 +49,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      3
-       
-      25
       2
     </div>
     <div
@@ -81,11 +61,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      4
-       
-      33
       3
     </div>
     <div
@@ -98,11 +73,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      5
-       
-      12
       4
     </div>
     <div
@@ -115,11 +85,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      6
-       
-      13
       5
     </div>
     <div
@@ -132,11 +97,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      7
-       
-      14
       6
     </div>
     <div
@@ -149,11 +109,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      8
-       
-      0
       7
     </div>
     <div
@@ -166,11 +121,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      9
-       
-      1
       8
     </div>
     <div
@@ -183,11 +133,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      10
-       
-      2
       9
     </div>
     <div
@@ -200,11 +145,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      11
-       
-      11
+      MenuKeyboard
     </div>
     <div
       className="breakPoint"
@@ -219,11 +160,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      0
-       
-      36
       @
     </div>
     <div
@@ -236,11 +172,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      1
-       
-      6
       &
     </div>
     <div
@@ -253,11 +184,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      2
-       
-      5
       $
     </div>
     <div
@@ -270,11 +196,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      3
-       
-      15
       /
     </div>
     <div
@@ -287,11 +208,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      4
-       
-      48
       +
     </div>
     <div
@@ -304,11 +220,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      5
-       
-      38
       '
     </div>
     <div
@@ -321,11 +232,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      6
-       
-      34
       _
     </div>
     <div
@@ -338,11 +244,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      7
-       
-      37
       "
     </div>
     <div
@@ -355,11 +256,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      8
-       
-      22
       %
     </div>
     <div
@@ -371,13 +267,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      9
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -387,13 +277,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      10
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -403,13 +287,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      11
-       
-      -1
-    </div>
+    />
     <div
       className="breakPoint"
     />
@@ -423,11 +301,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      0
-       
-      8
       !
     </div>
     <div
@@ -439,12 +312,18 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
     >
-      2
-       
-      1
-       
-      3
+      Q
     </div>
     <div
       className="key  "
@@ -456,11 +335,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      2
-       
-      20
+      W
     </div>
     <div
       className="key  "
@@ -472,11 +347,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      3
-       
-      47
+      E
     </div>
     <div
       className="key  "
@@ -488,11 +359,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      4
-       
-      52
+      R
     </div>
     <div
       className="key  "
@@ -504,11 +371,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      5
-       
-      43
+      T
     </div>
     <div
       className="key  "
@@ -520,11 +383,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      6
-       
-      44
+      Z
     </div>
     <div
       className="key  "
@@ -536,11 +395,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      7
-       
-      58
+      U
     </div>
     <div
       className="key  "
@@ -552,11 +407,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      8
-       
-      55
+      I
     </div>
     <div
       className="key  "
@@ -568,11 +419,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      9
-       
-      53
+      O
     </div>
     <div
       className="key  "
@@ -584,27 +431,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      10
-       
-      54
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      2
-       
-      11
-       
-      28
+      P
     </div>
     <div
       className="breakPoint"
@@ -619,11 +446,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      0
-       
-      32
       -
     </div>
     <div
@@ -636,11 +458,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      1
-       
-      7
       ^
     </div>
     <div
@@ -653,11 +470,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      2
-       
-      9
       ?
     </div>
     <div
@@ -670,11 +482,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      3
-       
-      51
+      A
     </div>
     <div
       className="key  "
@@ -686,11 +494,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      4
-       
-      42
+      S
     </div>
     <div
       className="key  "
@@ -702,11 +506,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      5
-       
-      46
+      D
     </div>
     <div
       className="key  "
@@ -718,11 +518,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      6
-       
-      17
+      F
     </div>
     <div
       className="key  "
@@ -734,11 +530,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      7
-       
-      18
+      G
     </div>
     <div
       className="key  "
@@ -750,11 +542,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      8
-       
-      19
+      H
     </div>
     <div
       className="key  "
@@ -766,11 +554,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      9
-       
-      21
+      J
     </div>
     <div
       className="key  "
@@ -782,11 +566,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      10
-       
-      30
+      K
     </div>
     <div
       className="key  "
@@ -798,11 +578,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      11
-       
-      41
+      L
     </div>
     <div
       className="breakPoint"
@@ -817,11 +593,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      0
-       
-      16
       :
     </div>
     <div
@@ -834,11 +605,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      1
-       
-      49
       &lt;
     </div>
     <div
@@ -851,11 +617,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      2
-       
-      50
       =
     </div>
     <div
@@ -868,11 +629,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      3
-       
-      57
+      Y
     </div>
     <div
       className="key  "
@@ -884,11 +641,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      4
-       
-      56
+      X
     </div>
     <div
       className="key  "
@@ -900,11 +653,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      5
-       
-      45
+      C
     </div>
     <div
       className="key  "
@@ -916,11 +665,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      6
-       
-      31
+      V
     </div>
     <div
       className="key  "
@@ -932,11 +677,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      7
-       
-      29
+      B
     </div>
     <div
       className="key  "
@@ -948,11 +689,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      8
-       
-      27
+      N
     </div>
     <div
       className="key  "
@@ -964,11 +701,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      9
-       
-      26
+      M
     </div>
     <div
       className="key  "
@@ -980,11 +713,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      10
-       
-      10
       |
     </div>
     <div
@@ -997,11 +725,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      11
-       
-      39
       #
     </div>
     <div
@@ -1017,11 +740,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      0
-       
-      59
       Win
     </div>
     <div
@@ -1034,11 +752,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      1
-       
-      60
       &gt;
     </div>
     <div
@@ -1051,11 +764,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      2
-       
-      61
       ,
     </div>
     <div
@@ -1068,11 +776,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      3
-       
-      62
       .
     </div>
     <div
@@ -1085,11 +788,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      4
-       
-      63
       (
     </div>
     <div
@@ -1102,11 +800,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      5
-       
-      64
       )
     </div>
     <div
@@ -1119,11 +812,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      6
-       
-      65
       [
     </div>
     <div
@@ -1136,11 +824,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      7
-       
-      66
       ]
     </div>
     <div
@@ -1153,11 +836,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      8
-       
-      67
       {
     </div>
     <div
@@ -1170,11 +848,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      9
-       
-      68
       }
     </div>
     <div
@@ -1187,11 +860,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      10
-       
-      69
+      ArrowUp
     </div>
     <div
       className="key  "
@@ -1203,11 +872,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      11
-       
-      70
       Esc
     </div>
     <div
@@ -1223,11 +887,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      0
-       
-      71
       Ctrl
     </div>
     <div
@@ -1240,11 +899,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      1
-       
-      72
       Alt
     </div>
     <div
@@ -1257,11 +911,6 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      2
-       
-      35
       ;
     </div>
     <div
@@ -1274,11 +923,59 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      3
-       
-      73
+      LeftShift
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      BackOne
     </div>
     <div
       className="key  "
@@ -1290,11 +987,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      4
-       
-      74
+      ArrowLeft
     </div>
     <div
       className="key  "
@@ -1306,11 +999,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      5
-       
-      75
+      ArrowDown
     </div>
     <div
       className="key  "
@@ -1322,91 +1011,7 @@ exports[`app: 1 hovering over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      6
-       
-      -1
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      7
-       
-      76
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      8
-       
-      23
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      9
-       
-      77
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      10
-       
-      78
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      11
-       
-      79
+      ArrowRight
     </div>
     <div
       className="breakPoint"
@@ -1513,11 +1118,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      0
-       
-      4
       ~
     </div>
     <div
@@ -1531,11 +1131,6 @@ exports[`app: back to nothing 1`] = `
       onDrop={[Function]}
     >
       0
-       
-      1
-       
-      40
-      0
     </div>
     <div
       className="key  "
@@ -1547,11 +1142,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      2
-       
-      24
       1
     </div>
     <div
@@ -1564,11 +1154,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      3
-       
-      25
       2
     </div>
     <div
@@ -1581,11 +1166,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      4
-       
-      33
       3
     </div>
     <div
@@ -1598,11 +1178,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      5
-       
-      12
       4
     </div>
     <div
@@ -1615,11 +1190,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      6
-       
-      13
       5
     </div>
     <div
@@ -1632,11 +1202,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      7
-       
-      14
       6
     </div>
     <div
@@ -1649,11 +1214,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      8
-       
-      0
       7
     </div>
     <div
@@ -1666,11 +1226,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      9
-       
-      1
       8
     </div>
     <div
@@ -1683,11 +1238,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      10
-       
-      2
       9
     </div>
     <div
@@ -1700,11 +1250,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      11
-       
-      11
+      MenuKeyboard
     </div>
     <div
       className="breakPoint"
@@ -1719,11 +1265,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      0
-       
-      36
       @
     </div>
     <div
@@ -1736,11 +1277,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      1
-       
-      6
       &
     </div>
     <div
@@ -1753,11 +1289,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      2
-       
-      5
       $
     </div>
     <div
@@ -1770,11 +1301,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      3
-       
-      15
       /
     </div>
     <div
@@ -1787,11 +1313,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      4
-       
-      48
       +
     </div>
     <div
@@ -1804,11 +1325,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      5
-       
-      38
       '
     </div>
     <div
@@ -1821,11 +1337,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      6
-       
-      34
       _
     </div>
     <div
@@ -1838,11 +1349,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      7
-       
-      37
       "
     </div>
     <div
@@ -1855,11 +1361,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      8
-       
-      22
       %
     </div>
     <div
@@ -1871,13 +1372,7 @@ exports[`app: back to nothing 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      9
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -1887,13 +1382,7 @@ exports[`app: back to nothing 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      10
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -1903,13 +1392,7 @@ exports[`app: back to nothing 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      11
-       
-      -1
-    </div>
+    />
     <div
       className="breakPoint"
     />
@@ -1923,11 +1406,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      0
-       
-      8
       !
     </div>
     <div
@@ -1939,12 +1417,18 @@ exports[`app: back to nothing 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
     >
-      2
-       
-      1
-       
-      3
+      Q
     </div>
     <div
       className="key  "
@@ -1956,11 +1440,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      2
-       
-      20
+      W
     </div>
     <div
       className="key  "
@@ -1972,11 +1452,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      3
-       
-      47
+      E
     </div>
     <div
       className="key  "
@@ -1988,11 +1464,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      4
-       
-      52
+      R
     </div>
     <div
       className="key  "
@@ -2004,11 +1476,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      5
-       
-      43
+      T
     </div>
     <div
       className="key  "
@@ -2020,11 +1488,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      6
-       
-      44
+      Z
     </div>
     <div
       className="key  "
@@ -2036,11 +1500,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      7
-       
-      58
+      U
     </div>
     <div
       className="key  "
@@ -2052,11 +1512,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      8
-       
-      55
+      I
     </div>
     <div
       className="key  "
@@ -2068,11 +1524,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      9
-       
-      53
+      O
     </div>
     <div
       className="key  "
@@ -2084,27 +1536,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      10
-       
-      54
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      2
-       
-      11
-       
-      28
+      P
     </div>
     <div
       className="breakPoint"
@@ -2119,11 +1551,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      0
-       
-      32
       -
     </div>
     <div
@@ -2136,11 +1563,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      1
-       
-      7
       ^
     </div>
     <div
@@ -2153,11 +1575,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      2
-       
-      9
       ?
     </div>
     <div
@@ -2170,11 +1587,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      3
-       
-      51
+      A
     </div>
     <div
       className="key  "
@@ -2186,11 +1599,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      4
-       
-      42
+      S
     </div>
     <div
       className="key  "
@@ -2202,11 +1611,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      5
-       
-      46
+      D
     </div>
     <div
       className="key  "
@@ -2218,11 +1623,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      6
-       
-      17
+      F
     </div>
     <div
       className="key  "
@@ -2234,11 +1635,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      7
-       
-      18
+      G
     </div>
     <div
       className="key  "
@@ -2250,11 +1647,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      8
-       
-      19
+      H
     </div>
     <div
       className="key  "
@@ -2266,11 +1659,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      9
-       
-      21
+      J
     </div>
     <div
       className="key  "
@@ -2282,11 +1671,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      10
-       
-      30
+      K
     </div>
     <div
       className="key  "
@@ -2298,11 +1683,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      11
-       
-      41
+      L
     </div>
     <div
       className="breakPoint"
@@ -2317,11 +1698,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      0
-       
-      16
       :
     </div>
     <div
@@ -2334,11 +1710,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      1
-       
-      49
       &lt;
     </div>
     <div
@@ -2351,11 +1722,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      2
-       
-      50
       =
     </div>
     <div
@@ -2368,11 +1734,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      3
-       
-      57
+      Y
     </div>
     <div
       className="key  "
@@ -2384,11 +1746,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      4
-       
-      56
+      X
     </div>
     <div
       className="key  "
@@ -2400,11 +1758,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      5
-       
-      45
+      C
     </div>
     <div
       className="key  "
@@ -2416,11 +1770,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      6
-       
-      31
+      V
     </div>
     <div
       className="key  "
@@ -2432,11 +1782,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      7
-       
-      29
+      B
     </div>
     <div
       className="key  "
@@ -2448,11 +1794,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      8
-       
-      27
+      N
     </div>
     <div
       className="key  "
@@ -2464,11 +1806,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      9
-       
-      26
+      M
     </div>
     <div
       className="key  "
@@ -2480,11 +1818,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      10
-       
-      10
       |
     </div>
     <div
@@ -2497,11 +1830,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      11
-       
-      39
       #
     </div>
     <div
@@ -2517,11 +1845,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      0
-       
-      59
       Win
     </div>
     <div
@@ -2534,11 +1857,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      1
-       
-      60
       &gt;
     </div>
     <div
@@ -2551,11 +1869,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      2
-       
-      61
       ,
     </div>
     <div
@@ -2568,11 +1881,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      3
-       
-      62
       .
     </div>
     <div
@@ -2585,11 +1893,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      4
-       
-      63
       (
     </div>
     <div
@@ -2602,11 +1905,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      5
-       
-      64
       )
     </div>
     <div
@@ -2619,11 +1917,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      6
-       
-      65
       [
     </div>
     <div
@@ -2636,11 +1929,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      7
-       
-      66
       ]
     </div>
     <div
@@ -2653,11 +1941,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      8
-       
-      67
       {
     </div>
     <div
@@ -2670,11 +1953,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      9
-       
-      68
       }
     </div>
     <div
@@ -2687,11 +1965,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      10
-       
-      69
+      ArrowUp
     </div>
     <div
       className="key  "
@@ -2703,11 +1977,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      11
-       
-      70
       Esc
     </div>
     <div
@@ -2723,11 +1992,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      0
-       
-      71
       Ctrl
     </div>
     <div
@@ -2740,11 +2004,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      1
-       
-      72
       Alt
     </div>
     <div
@@ -2757,11 +2016,6 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      2
-       
-      35
       ;
     </div>
     <div
@@ -2774,11 +2028,59 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      3
-       
-      73
+      LeftShift
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      BackOne
     </div>
     <div
       className="key  "
@@ -2790,11 +2092,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      4
-       
-      74
+      ArrowLeft
     </div>
     <div
       className="key  "
@@ -2806,11 +2104,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      5
-       
-      75
+      ArrowDown
     </div>
     <div
       className="key  "
@@ -2822,91 +2116,7 @@ exports[`app: back to nothing 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      6
-       
-      -1
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      7
-       
-      76
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      8
-       
-      23
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      9
-       
-      77
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      10
-       
-      78
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      11
-       
-      79
+      ArrowRight
     </div>
     <div
       className="breakPoint"
@@ -3000,11 +2210,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      0
-       
-      4
       ~
     </div>
     <div
@@ -3018,11 +2223,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDrop={[Function]}
     >
       0
-       
-      1
-       
-      40
-      0
     </div>
     <div
       className="key  "
@@ -3034,11 +2234,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      2
-       
-      24
       1
     </div>
     <div
@@ -3051,11 +2246,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      3
-       
-      25
       2
     </div>
     <div
@@ -3068,11 +2258,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      4
-       
-      33
       3
     </div>
     <div
@@ -3085,11 +2270,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      5
-       
-      12
       4
     </div>
     <div
@@ -3102,11 +2282,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      6
-       
-      13
       5
     </div>
     <div
@@ -3119,11 +2294,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      7
-       
-      14
       6
     </div>
     <div
@@ -3136,11 +2306,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      8
-       
-      0
       7
     </div>
     <div
@@ -3153,11 +2318,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      9
-       
-      1
       8
     </div>
     <div
@@ -3170,11 +2330,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      10
-       
-      2
       9
     </div>
     <div
@@ -3187,11 +2342,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      11
-       
-      11
+      MenuKeyboard
     </div>
     <div
       className="breakPoint"
@@ -3206,11 +2357,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      0
-       
-      36
       @
     </div>
     <div
@@ -3223,11 +2369,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      1
-       
-      6
       &
     </div>
     <div
@@ -3240,11 +2381,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      2
-       
-      5
       $
     </div>
     <div
@@ -3257,11 +2393,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      3
-       
-      15
       /
     </div>
     <div
@@ -3274,11 +2405,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      4
-       
-      48
       +
     </div>
     <div
@@ -3291,11 +2417,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      5
-       
-      38
       '
     </div>
     <div
@@ -3308,11 +2429,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      6
-       
-      34
       _
     </div>
     <div
@@ -3325,11 +2441,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      7
-       
-      37
       "
     </div>
     <div
@@ -3342,11 +2453,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      8
-       
-      22
       %
     </div>
     <div
@@ -3358,13 +2464,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      9
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -3374,13 +2474,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      10
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -3390,13 +2484,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      11
-       
-      -1
-    </div>
+    />
     <div
       className="breakPoint"
     />
@@ -3410,11 +2498,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      0
-       
-      8
       !
     </div>
     <div
@@ -3426,12 +2509,18 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
     >
-      2
-       
-      1
-       
-      3
+      Q
     </div>
     <div
       className="key  "
@@ -3443,11 +2532,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      2
-       
-      20
+      W
     </div>
     <div
       className="key  "
@@ -3459,11 +2544,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      3
-       
-      47
+      E
     </div>
     <div
       className="key  "
@@ -3475,11 +2556,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      4
-       
-      52
+      R
     </div>
     <div
       className="key  "
@@ -3491,11 +2568,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      5
-       
-      43
+      T
     </div>
     <div
       className="key  "
@@ -3507,11 +2580,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      6
-       
-      44
+      Z
     </div>
     <div
       className="key  "
@@ -3523,11 +2592,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      7
-       
-      58
+      U
     </div>
     <div
       className="key  "
@@ -3539,11 +2604,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      8
-       
-      55
+      I
     </div>
     <div
       className="key  "
@@ -3555,11 +2616,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      9
-       
-      53
+      O
     </div>
     <div
       className="key  "
@@ -3571,27 +2628,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      10
-       
-      54
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      2
-       
-      11
-       
-      28
+      P
     </div>
     <div
       className="breakPoint"
@@ -3606,11 +2643,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      0
-       
-      32
       -
     </div>
     <div
@@ -3623,11 +2655,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      1
-       
-      7
       ^
     </div>
     <div
@@ -3640,11 +2667,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      2
-       
-      9
       ?
     </div>
     <div
@@ -3657,11 +2679,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      3
-       
-      51
+      A
     </div>
     <div
       className="key  "
@@ -3673,11 +2691,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      4
-       
-      42
+      S
     </div>
     <div
       className="key  "
@@ -3689,11 +2703,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      5
-       
-      46
+      D
     </div>
     <div
       className="key  "
@@ -3705,11 +2715,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      6
-       
-      17
+      F
     </div>
     <div
       className="key  "
@@ -3721,11 +2727,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      7
-       
-      18
+      G
     </div>
     <div
       className="key  "
@@ -3737,11 +2739,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      8
-       
-      19
+      H
     </div>
     <div
       className="key  "
@@ -3753,11 +2751,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      9
-       
-      21
+      J
     </div>
     <div
       className="key  "
@@ -3769,11 +2763,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      10
-       
-      30
+      K
     </div>
     <div
       className="key  "
@@ -3785,11 +2775,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      11
-       
-      41
+      L
     </div>
     <div
       className="breakPoint"
@@ -3804,11 +2790,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      0
-       
-      16
       :
     </div>
     <div
@@ -3821,11 +2802,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      1
-       
-      49
       &lt;
     </div>
     <div
@@ -3838,11 +2814,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      2
-       
-      50
       =
     </div>
     <div
@@ -3855,11 +2826,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      3
-       
-      57
+      Y
     </div>
     <div
       className="key  "
@@ -3871,11 +2838,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      4
-       
-      56
+      X
     </div>
     <div
       className="key  "
@@ -3887,11 +2850,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      5
-       
-      45
+      C
     </div>
     <div
       className="key  "
@@ -3903,11 +2862,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      6
-       
-      31
+      V
     </div>
     <div
       className="key  "
@@ -3919,11 +2874,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      7
-       
-      29
+      B
     </div>
     <div
       className="key  "
@@ -3935,11 +2886,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      8
-       
-      27
+      N
     </div>
     <div
       className="key  "
@@ -3951,11 +2898,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      9
-       
-      26
+      M
     </div>
     <div
       className="key  "
@@ -3967,11 +2910,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      10
-       
-      10
       |
     </div>
     <div
@@ -3984,11 +2922,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      11
-       
-      39
       #
     </div>
     <div
@@ -4004,11 +2937,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      0
-       
-      59
       Win
     </div>
     <div
@@ -4021,11 +2949,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      1
-       
-      60
       &gt;
     </div>
     <div
@@ -4038,11 +2961,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      2
-       
-      61
       ,
     </div>
     <div
@@ -4055,11 +2973,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      3
-       
-      62
       .
     </div>
     <div
@@ -4072,11 +2985,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      4
-       
-      63
       (
     </div>
     <div
@@ -4089,11 +2997,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      5
-       
-      64
       )
     </div>
     <div
@@ -4106,11 +3009,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      6
-       
-      65
       [
     </div>
     <div
@@ -4123,11 +3021,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      7
-       
-      66
       ]
     </div>
     <div
@@ -4140,11 +3033,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      8
-       
-      67
       {
     </div>
     <div
@@ -4157,11 +3045,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      9
-       
-      68
       }
     </div>
     <div
@@ -4174,11 +3057,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      10
-       
-      69
+      ArrowUp
     </div>
     <div
       className="key  "
@@ -4190,11 +3069,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      11
-       
-      70
       Esc
     </div>
     <div
@@ -4210,11 +3084,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      0
-       
-      71
       Ctrl
     </div>
     <div
@@ -4227,11 +3096,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      1
-       
-      72
       Alt
     </div>
     <div
@@ -4244,11 +3108,6 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      2
-       
-      35
       ;
     </div>
     <div
@@ -4261,11 +3120,59 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      3
-       
-      73
+      LeftShift
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      BackOne
     </div>
     <div
       className="key  "
@@ -4277,11 +3184,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      4
-       
-      74
+      ArrowLeft
     </div>
     <div
       className="key  "
@@ -4293,11 +3196,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      5
-       
-      75
+      ArrowDown
     </div>
     <div
       className="key  "
@@ -4309,91 +3208,7 @@ exports[`app: dragging 1 but left 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      6
-       
-      -1
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      7
-       
-      76
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      8
-       
-      23
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      9
-       
-      77
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      10
-       
-      78
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      11
-       
-      79
+      ArrowRight
     </div>
     <div
       className="breakPoint"
@@ -4487,11 +3302,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      0
-       
-      4
       ~
     </div>
     <div
@@ -4505,11 +3315,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDrop={[Function]}
     >
       0
-       
-      1
-       
-      40
-      0
     </div>
     <div
       className="key  "
@@ -4521,11 +3326,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      2
-       
-      24
       1
     </div>
     <div
@@ -4538,11 +3338,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      3
-       
-      25
       2
     </div>
     <div
@@ -4555,11 +3350,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      4
-       
-      33
       3
     </div>
     <div
@@ -4572,11 +3362,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      5
-       
-      12
       4
     </div>
     <div
@@ -4589,11 +3374,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      6
-       
-      13
       5
     </div>
     <div
@@ -4606,11 +3386,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      7
-       
-      14
       6
     </div>
     <div
@@ -4623,11 +3398,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      8
-       
-      0
       7
     </div>
     <div
@@ -4640,11 +3410,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      9
-       
-      1
       8
     </div>
     <div
@@ -4657,11 +3422,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      10
-       
-      2
       9
     </div>
     <div
@@ -4674,11 +3434,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      11
-       
-      11
+      MenuKeyboard
     </div>
     <div
       className="breakPoint"
@@ -4693,11 +3449,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      0
-       
-      36
       @
     </div>
     <div
@@ -4710,11 +3461,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      1
-       
-      6
       &
     </div>
     <div
@@ -4727,11 +3473,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      2
-       
-      5
       $
     </div>
     <div
@@ -4744,11 +3485,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      3
-       
-      15
       /
     </div>
     <div
@@ -4761,11 +3497,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      4
-       
-      48
       +
     </div>
     <div
@@ -4778,11 +3509,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      5
-       
-      38
       '
     </div>
     <div
@@ -4795,11 +3521,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      6
-       
-      34
       _
     </div>
     <div
@@ -4812,11 +3533,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      7
-       
-      37
       "
     </div>
     <div
@@ -4829,11 +3545,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      8
-       
-      22
       %
     </div>
     <div
@@ -4845,13 +3556,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      9
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -4861,13 +3566,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      10
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -4877,13 +3576,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      11
-       
-      -1
-    </div>
+    />
     <div
       className="breakPoint"
     />
@@ -4897,11 +3590,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      0
-       
-      8
       !
     </div>
     <div
@@ -4913,12 +3601,18 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
     >
-      2
-       
-      1
-       
-      3
+      Q
     </div>
     <div
       className="key  "
@@ -4930,11 +3624,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      2
-       
-      20
+      W
     </div>
     <div
       className="key  "
@@ -4946,11 +3636,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      3
-       
-      47
+      E
     </div>
     <div
       className="key  "
@@ -4962,11 +3648,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      4
-       
-      52
+      R
     </div>
     <div
       className="key  "
@@ -4978,11 +3660,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      5
-       
-      43
+      T
     </div>
     <div
       className="key  "
@@ -4994,11 +3672,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      6
-       
-      44
+      Z
     </div>
     <div
       className="key  "
@@ -5010,11 +3684,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      7
-       
-      58
+      U
     </div>
     <div
       className="key  "
@@ -5026,11 +3696,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      8
-       
-      55
+      I
     </div>
     <div
       className="key  "
@@ -5042,11 +3708,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      9
-       
-      53
+      O
     </div>
     <div
       className="key  "
@@ -5058,27 +3720,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      10
-       
-      54
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      2
-       
-      11
-       
-      28
+      P
     </div>
     <div
       className="breakPoint"
@@ -5093,11 +3735,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      0
-       
-      32
       -
     </div>
     <div
@@ -5110,11 +3747,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      1
-       
-      7
       ^
     </div>
     <div
@@ -5127,11 +3759,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      2
-       
-      9
       ?
     </div>
     <div
@@ -5144,11 +3771,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      3
-       
-      51
+      A
     </div>
     <div
       className="key  "
@@ -5160,11 +3783,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      4
-       
-      42
+      S
     </div>
     <div
       className="key  "
@@ -5176,11 +3795,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      5
-       
-      46
+      D
     </div>
     <div
       className="key  "
@@ -5192,11 +3807,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      6
-       
-      17
+      F
     </div>
     <div
       className="key  "
@@ -5208,11 +3819,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      7
-       
-      18
+      G
     </div>
     <div
       className="key  "
@@ -5224,11 +3831,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      8
-       
-      19
+      H
     </div>
     <div
       className="key  "
@@ -5240,11 +3843,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      9
-       
-      21
+      J
     </div>
     <div
       className="key  "
@@ -5256,11 +3855,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      10
-       
-      30
+      K
     </div>
     <div
       className="key  "
@@ -5272,11 +3867,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      11
-       
-      41
+      L
     </div>
     <div
       className="breakPoint"
@@ -5291,11 +3882,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      0
-       
-      16
       :
     </div>
     <div
@@ -5308,11 +3894,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      1
-       
-      49
       &lt;
     </div>
     <div
@@ -5325,11 +3906,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      2
-       
-      50
       =
     </div>
     <div
@@ -5342,11 +3918,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      3
-       
-      57
+      Y
     </div>
     <div
       className="key  "
@@ -5358,11 +3930,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      4
-       
-      56
+      X
     </div>
     <div
       className="key  "
@@ -5374,11 +3942,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      5
-       
-      45
+      C
     </div>
     <div
       className="key  "
@@ -5390,11 +3954,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      6
-       
-      31
+      V
     </div>
     <div
       className="key  "
@@ -5406,11 +3966,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      7
-       
-      29
+      B
     </div>
     <div
       className="key  "
@@ -5422,11 +3978,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      8
-       
-      27
+      N
     </div>
     <div
       className="key  "
@@ -5438,11 +3990,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      9
-       
-      26
+      M
     </div>
     <div
       className="key  "
@@ -5454,11 +4002,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      10
-       
-      10
       |
     </div>
     <div
@@ -5471,11 +4014,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      11
-       
-      39
       #
     </div>
     <div
@@ -5491,11 +4029,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      0
-       
-      59
       Win
     </div>
     <div
@@ -5508,11 +4041,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      1
-       
-      60
       &gt;
     </div>
     <div
@@ -5525,11 +4053,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      2
-       
-      61
       ,
     </div>
     <div
@@ -5542,11 +4065,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      3
-       
-      62
       .
     </div>
     <div
@@ -5559,11 +4077,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      4
-       
-      63
       (
     </div>
     <div
@@ -5576,11 +4089,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      5
-       
-      64
       )
     </div>
     <div
@@ -5593,11 +4101,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      6
-       
-      65
       [
     </div>
     <div
@@ -5610,11 +4113,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      7
-       
-      66
       ]
     </div>
     <div
@@ -5627,11 +4125,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      8
-       
-      67
       {
     </div>
     <div
@@ -5644,11 +4137,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      9
-       
-      68
       }
     </div>
     <div
@@ -5661,11 +4149,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      10
-       
-      69
+      ArrowUp
     </div>
     <div
       className="key  "
@@ -5677,11 +4161,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      11
-       
-      70
       Esc
     </div>
     <div
@@ -5697,11 +4176,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      0
-       
-      71
       Ctrl
     </div>
     <div
@@ -5714,11 +4188,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      1
-       
-      72
       Alt
     </div>
     <div
@@ -5731,11 +4200,6 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      2
-       
-      35
       ;
     </div>
     <div
@@ -5748,11 +4212,59 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      3
-       
-      73
+      LeftShift
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      BackOne
     </div>
     <div
       className="key  "
@@ -5764,11 +4276,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      4
-       
-      74
+      ArrowLeft
     </div>
     <div
       className="key  "
@@ -5780,11 +4288,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      5
-       
-      75
+      ArrowDown
     </div>
     <div
       className="key  "
@@ -5796,91 +4300,7 @@ exports[`app: dragging 1 over 2 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      6
-       
-      -1
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      7
-       
-      76
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      8
-       
-      23
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      9
-       
-      77
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      10
-       
-      78
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      11
-       
-      79
+      ArrowRight
     </div>
     <div
       className="breakPoint"
@@ -5974,11 +4394,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      0
-       
-      4
       ~
     </div>
     <div
@@ -5992,11 +4407,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDrop={[Function]}
     >
       0
-       
-      1
-       
-      40
-      0
     </div>
     <div
       className="key  "
@@ -6008,11 +4418,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      2
-       
-      24
       1
     </div>
     <div
@@ -6025,11 +4430,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      3
-       
-      25
       2
     </div>
     <div
@@ -6042,11 +4442,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      4
-       
-      33
       3
     </div>
     <div
@@ -6059,11 +4454,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      5
-       
-      12
       4
     </div>
     <div
@@ -6076,11 +4466,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      6
-       
-      13
       5
     </div>
     <div
@@ -6093,11 +4478,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      7
-       
-      14
       6
     </div>
     <div
@@ -6110,11 +4490,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      8
-       
-      0
       7
     </div>
     <div
@@ -6127,11 +4502,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      9
-       
-      1
       8
     </div>
     <div
@@ -6144,11 +4514,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      10
-       
-      2
       9
     </div>
     <div
@@ -6161,11 +4526,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      11
-       
-      11
+      MenuKeyboard
     </div>
     <div
       className="breakPoint"
@@ -6180,11 +4541,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      0
-       
-      36
       @
     </div>
     <div
@@ -6197,11 +4553,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      1
-       
-      6
       &
     </div>
     <div
@@ -6214,11 +4565,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      2
-       
-      5
       $
     </div>
     <div
@@ -6231,11 +4577,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      3
-       
-      15
       /
     </div>
     <div
@@ -6248,11 +4589,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      4
-       
-      48
       +
     </div>
     <div
@@ -6265,11 +4601,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      5
-       
-      38
       '
     </div>
     <div
@@ -6282,11 +4613,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      6
-       
-      34
       _
     </div>
     <div
@@ -6299,11 +4625,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      7
-       
-      37
       "
     </div>
     <div
@@ -6316,11 +4637,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      8
-       
-      22
       %
     </div>
     <div
@@ -6332,13 +4648,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      9
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -6348,13 +4658,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      10
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -6364,13 +4668,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      11
-       
-      -1
-    </div>
+    />
     <div
       className="breakPoint"
     />
@@ -6384,11 +4682,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      0
-       
-      8
       !
     </div>
     <div
@@ -6400,12 +4693,18 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
     >
-      2
-       
-      1
-       
-      3
+      Q
     </div>
     <div
       className="key  "
@@ -6417,11 +4716,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      2
-       
-      20
+      W
     </div>
     <div
       className="key  "
@@ -6433,11 +4728,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      3
-       
-      47
+      E
     </div>
     <div
       className="key  "
@@ -6449,11 +4740,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      4
-       
-      52
+      R
     </div>
     <div
       className="key  "
@@ -6465,11 +4752,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      5
-       
-      43
+      T
     </div>
     <div
       className="key  "
@@ -6481,11 +4764,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      6
-       
-      44
+      Z
     </div>
     <div
       className="key  "
@@ -6497,11 +4776,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      7
-       
-      58
+      U
     </div>
     <div
       className="key  "
@@ -6513,11 +4788,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      8
-       
-      55
+      I
     </div>
     <div
       className="key  "
@@ -6529,11 +4800,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      9
-       
-      53
+      O
     </div>
     <div
       className="key  "
@@ -6545,27 +4812,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      10
-       
-      54
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      2
-       
-      11
-       
-      28
+      P
     </div>
     <div
       className="breakPoint"
@@ -6580,11 +4827,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      0
-       
-      32
       -
     </div>
     <div
@@ -6597,11 +4839,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      1
-       
-      7
       ^
     </div>
     <div
@@ -6614,11 +4851,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      2
-       
-      9
       ?
     </div>
     <div
@@ -6631,11 +4863,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      3
-       
-      51
+      A
     </div>
     <div
       className="key  "
@@ -6647,11 +4875,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      4
-       
-      42
+      S
     </div>
     <div
       className="key  "
@@ -6663,11 +4887,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      5
-       
-      46
+      D
     </div>
     <div
       className="key  "
@@ -6679,11 +4899,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      6
-       
-      17
+      F
     </div>
     <div
       className="key  "
@@ -6695,11 +4911,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      7
-       
-      18
+      G
     </div>
     <div
       className="key  "
@@ -6711,11 +4923,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      8
-       
-      19
+      H
     </div>
     <div
       className="key  "
@@ -6727,11 +4935,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      9
-       
-      21
+      J
     </div>
     <div
       className="key  "
@@ -6743,11 +4947,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      10
-       
-      30
+      K
     </div>
     <div
       className="key  "
@@ -6759,11 +4959,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      11
-       
-      41
+      L
     </div>
     <div
       className="breakPoint"
@@ -6778,11 +4974,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      0
-       
-      16
       :
     </div>
     <div
@@ -6795,11 +4986,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      1
-       
-      49
       &lt;
     </div>
     <div
@@ -6812,11 +4998,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      2
-       
-      50
       =
     </div>
     <div
@@ -6829,11 +5010,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      3
-       
-      57
+      Y
     </div>
     <div
       className="key  "
@@ -6845,11 +5022,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      4
-       
-      56
+      X
     </div>
     <div
       className="key  "
@@ -6861,11 +5034,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      5
-       
-      45
+      C
     </div>
     <div
       className="key  "
@@ -6877,11 +5046,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      6
-       
-      31
+      V
     </div>
     <div
       className="key  "
@@ -6893,11 +5058,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      7
-       
-      29
+      B
     </div>
     <div
       className="key  "
@@ -6909,11 +5070,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      8
-       
-      27
+      N
     </div>
     <div
       className="key  "
@@ -6925,11 +5082,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      9
-       
-      26
+      M
     </div>
     <div
       className="key  "
@@ -6941,11 +5094,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      10
-       
-      10
       |
     </div>
     <div
@@ -6958,11 +5106,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      11
-       
-      39
       #
     </div>
     <div
@@ -6978,11 +5121,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      0
-       
-      59
       Win
     </div>
     <div
@@ -6995,11 +5133,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      1
-       
-      60
       &gt;
     </div>
     <div
@@ -7012,11 +5145,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      2
-       
-      61
       ,
     </div>
     <div
@@ -7029,11 +5157,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      3
-       
-      62
       .
     </div>
     <div
@@ -7046,11 +5169,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      4
-       
-      63
       (
     </div>
     <div
@@ -7063,11 +5181,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      5
-       
-      64
       )
     </div>
     <div
@@ -7080,11 +5193,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      6
-       
-      65
       [
     </div>
     <div
@@ -7097,11 +5205,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      7
-       
-      66
       ]
     </div>
     <div
@@ -7114,11 +5217,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      8
-       
-      67
       {
     </div>
     <div
@@ -7131,11 +5229,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      9
-       
-      68
       }
     </div>
     <div
@@ -7148,11 +5241,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      10
-       
-      69
+      ArrowUp
     </div>
     <div
       className="key  "
@@ -7164,11 +5253,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      11
-       
-      70
       Esc
     </div>
     <div
@@ -7184,11 +5268,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      0
-       
-      71
       Ctrl
     </div>
     <div
@@ -7201,11 +5280,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      1
-       
-      72
       Alt
     </div>
     <div
@@ -7218,11 +5292,6 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      2
-       
-      35
       ;
     </div>
     <div
@@ -7235,11 +5304,59 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      3
-       
-      73
+      LeftShift
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      BackOne
     </div>
     <div
       className="key  "
@@ -7251,11 +5368,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      4
-       
-      74
+      ArrowLeft
     </div>
     <div
       className="key  "
@@ -7267,11 +5380,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      5
-       
-      75
+      ArrowDown
     </div>
     <div
       className="key  "
@@ -7283,91 +5392,7 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      6
-       
-      -1
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      7
-       
-      76
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      8
-       
-      23
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      9
-       
-      77
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      10
-       
-      78
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      11
-       
-      79
+      ArrowRight
     </div>
     <div
       className="breakPoint"
@@ -7461,11 +5486,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      0
-       
-      4
       ~
     </div>
     <div
@@ -7479,11 +5499,6 @@ exports[`app: nothing yet 1`] = `
       onDrop={[Function]}
     >
       0
-       
-      1
-       
-      40
-      0
     </div>
     <div
       className="key  "
@@ -7495,11 +5510,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      2
-       
-      24
       1
     </div>
     <div
@@ -7512,11 +5522,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      3
-       
-      25
       2
     </div>
     <div
@@ -7529,11 +5534,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      4
-       
-      33
       3
     </div>
     <div
@@ -7546,11 +5546,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      5
-       
-      12
       4
     </div>
     <div
@@ -7563,11 +5558,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      6
-       
-      13
       5
     </div>
     <div
@@ -7580,11 +5570,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      7
-       
-      14
       6
     </div>
     <div
@@ -7597,11 +5582,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      8
-       
-      0
       7
     </div>
     <div
@@ -7614,11 +5594,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      9
-       
-      1
       8
     </div>
     <div
@@ -7631,11 +5606,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      10
-       
-      2
       9
     </div>
     <div
@@ -7648,11 +5618,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      11
-       
-      11
+      MenuKeyboard
     </div>
     <div
       className="breakPoint"
@@ -7667,11 +5633,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      0
-       
-      36
       @
     </div>
     <div
@@ -7684,11 +5645,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      1
-       
-      6
       &
     </div>
     <div
@@ -7701,11 +5657,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      2
-       
-      5
       $
     </div>
     <div
@@ -7718,11 +5669,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      3
-       
-      15
       /
     </div>
     <div
@@ -7735,11 +5681,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      4
-       
-      48
       +
     </div>
     <div
@@ -7752,11 +5693,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      5
-       
-      38
       '
     </div>
     <div
@@ -7769,11 +5705,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      6
-       
-      34
       _
     </div>
     <div
@@ -7786,11 +5717,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      7
-       
-      37
       "
     </div>
     <div
@@ -7803,11 +5729,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      8
-       
-      22
       %
     </div>
     <div
@@ -7819,13 +5740,7 @@ exports[`app: nothing yet 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      9
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -7835,13 +5750,7 @@ exports[`app: nothing yet 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      10
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -7851,13 +5760,7 @@ exports[`app: nothing yet 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      11
-       
-      -1
-    </div>
+    />
     <div
       className="breakPoint"
     />
@@ -7871,11 +5774,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      0
-       
-      8
       !
     </div>
     <div
@@ -7887,12 +5785,18 @@ exports[`app: nothing yet 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
     >
-      2
-       
-      1
-       
-      3
+      Q
     </div>
     <div
       className="key  "
@@ -7904,11 +5808,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      2
-       
-      20
+      W
     </div>
     <div
       className="key  "
@@ -7920,11 +5820,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      3
-       
-      47
+      E
     </div>
     <div
       className="key  "
@@ -7936,11 +5832,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      4
-       
-      52
+      R
     </div>
     <div
       className="key  "
@@ -7952,11 +5844,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      5
-       
-      43
+      T
     </div>
     <div
       className="key  "
@@ -7968,11 +5856,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      6
-       
-      44
+      Z
     </div>
     <div
       className="key  "
@@ -7984,11 +5868,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      7
-       
-      58
+      U
     </div>
     <div
       className="key  "
@@ -8000,11 +5880,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      8
-       
-      55
+      I
     </div>
     <div
       className="key  "
@@ -8016,11 +5892,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      9
-       
-      53
+      O
     </div>
     <div
       className="key  "
@@ -8032,27 +5904,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      10
-       
-      54
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      2
-       
-      11
-       
-      28
+      P
     </div>
     <div
       className="breakPoint"
@@ -8067,11 +5919,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      0
-       
-      32
       -
     </div>
     <div
@@ -8084,11 +5931,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      1
-       
-      7
       ^
     </div>
     <div
@@ -8101,11 +5943,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      2
-       
-      9
       ?
     </div>
     <div
@@ -8118,11 +5955,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      3
-       
-      51
+      A
     </div>
     <div
       className="key  "
@@ -8134,11 +5967,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      4
-       
-      42
+      S
     </div>
     <div
       className="key  "
@@ -8150,11 +5979,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      5
-       
-      46
+      D
     </div>
     <div
       className="key  "
@@ -8166,11 +5991,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      6
-       
-      17
+      F
     </div>
     <div
       className="key  "
@@ -8182,11 +6003,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      7
-       
-      18
+      G
     </div>
     <div
       className="key  "
@@ -8198,11 +6015,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      8
-       
-      19
+      H
     </div>
     <div
       className="key  "
@@ -8214,11 +6027,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      9
-       
-      21
+      J
     </div>
     <div
       className="key  "
@@ -8230,11 +6039,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      10
-       
-      30
+      K
     </div>
     <div
       className="key  "
@@ -8246,11 +6051,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      11
-       
-      41
+      L
     </div>
     <div
       className="breakPoint"
@@ -8265,11 +6066,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      0
-       
-      16
       :
     </div>
     <div
@@ -8282,11 +6078,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      1
-       
-      49
       &lt;
     </div>
     <div
@@ -8299,11 +6090,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      2
-       
-      50
       =
     </div>
     <div
@@ -8316,11 +6102,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      3
-       
-      57
+      Y
     </div>
     <div
       className="key  "
@@ -8332,11 +6114,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      4
-       
-      56
+      X
     </div>
     <div
       className="key  "
@@ -8348,11 +6126,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      5
-       
-      45
+      C
     </div>
     <div
       className="key  "
@@ -8364,11 +6138,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      6
-       
-      31
+      V
     </div>
     <div
       className="key  "
@@ -8380,11 +6150,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      7
-       
-      29
+      B
     </div>
     <div
       className="key  "
@@ -8396,11 +6162,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      8
-       
-      27
+      N
     </div>
     <div
       className="key  "
@@ -8412,11 +6174,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      9
-       
-      26
+      M
     </div>
     <div
       className="key  "
@@ -8428,11 +6186,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      10
-       
-      10
       |
     </div>
     <div
@@ -8445,11 +6198,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      11
-       
-      39
       #
     </div>
     <div
@@ -8465,11 +6213,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      0
-       
-      59
       Win
     </div>
     <div
@@ -8482,11 +6225,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      1
-       
-      60
       &gt;
     </div>
     <div
@@ -8499,11 +6237,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      2
-       
-      61
       ,
     </div>
     <div
@@ -8516,11 +6249,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      3
-       
-      62
       .
     </div>
     <div
@@ -8533,11 +6261,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      4
-       
-      63
       (
     </div>
     <div
@@ -8550,11 +6273,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      5
-       
-      64
       )
     </div>
     <div
@@ -8567,11 +6285,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      6
-       
-      65
       [
     </div>
     <div
@@ -8584,11 +6297,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      7
-       
-      66
       ]
     </div>
     <div
@@ -8601,11 +6309,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      8
-       
-      67
       {
     </div>
     <div
@@ -8618,11 +6321,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      9
-       
-      68
       }
     </div>
     <div
@@ -8635,11 +6333,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      10
-       
-      69
+      ArrowUp
     </div>
     <div
       className="key  "
@@ -8651,11 +6345,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      11
-       
-      70
       Esc
     </div>
     <div
@@ -8671,11 +6360,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      0
-       
-      71
       Ctrl
     </div>
     <div
@@ -8688,11 +6372,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      1
-       
-      72
       Alt
     </div>
     <div
@@ -8705,11 +6384,6 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      2
-       
-      35
       ;
     </div>
     <div
@@ -8722,11 +6396,59 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      3
-       
-      73
+      LeftShift
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      BackOne
     </div>
     <div
       className="key  "
@@ -8738,11 +6460,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      4
-       
-      74
+      ArrowLeft
     </div>
     <div
       className="key  "
@@ -8754,11 +6472,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      5
-       
-      75
+      ArrowDown
     </div>
     <div
       className="key  "
@@ -8770,91 +6484,7 @@ exports[`app: nothing yet 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      6
-       
-      -1
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      7
-       
-      76
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      8
-       
-      23
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      9
-       
-      77
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      10
-       
-      78
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      11
-       
-      79
+      ArrowRight
     </div>
     <div
       className="breakPoint"
@@ -8948,11 +6578,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      0
-       
-      4
       ~
     </div>
     <div
@@ -8966,11 +6591,6 @@ exports[`app: started dragging 1 1`] = `
       onDrop={[Function]}
     >
       0
-       
-      1
-       
-      40
-      0
     </div>
     <div
       className="key  "
@@ -8982,11 +6602,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      2
-       
-      24
       1
     </div>
     <div
@@ -8999,11 +6614,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      3
-       
-      25
       2
     </div>
     <div
@@ -9016,11 +6626,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      4
-       
-      33
       3
     </div>
     <div
@@ -9033,11 +6638,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      5
-       
-      12
       4
     </div>
     <div
@@ -9050,11 +6650,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      6
-       
-      13
       5
     </div>
     <div
@@ -9067,11 +6662,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      7
-       
-      14
       6
     </div>
     <div
@@ -9084,11 +6674,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      8
-       
-      0
       7
     </div>
     <div
@@ -9101,11 +6686,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      9
-       
-      1
       8
     </div>
     <div
@@ -9118,11 +6698,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      10
-       
-      2
       9
     </div>
     <div
@@ -9135,11 +6710,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      0
-       
-      11
-       
-      11
+      MenuKeyboard
     </div>
     <div
       className="breakPoint"
@@ -9154,11 +6725,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      0
-       
-      36
       @
     </div>
     <div
@@ -9171,11 +6737,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      1
-       
-      6
       &
     </div>
     <div
@@ -9188,11 +6749,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      2
-       
-      5
       $
     </div>
     <div
@@ -9205,11 +6761,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      3
-       
-      15
       /
     </div>
     <div
@@ -9222,11 +6773,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      4
-       
-      48
       +
     </div>
     <div
@@ -9239,11 +6785,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      5
-       
-      38
       '
     </div>
     <div
@@ -9256,11 +6797,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      6
-       
-      34
       _
     </div>
     <div
@@ -9273,11 +6809,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      7
-       
-      37
       "
     </div>
     <div
@@ -9290,11 +6821,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      1
-       
-      8
-       
-      22
       %
     </div>
     <div
@@ -9306,13 +6832,7 @@ exports[`app: started dragging 1 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      9
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -9322,13 +6842,7 @@ exports[`app: started dragging 1 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      10
-       
-      -1
-    </div>
+    />
     <div
       className="key  "
       draggable={true}
@@ -9338,13 +6852,7 @@ exports[`app: started dragging 1 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
-    >
-      1
-       
-      11
-       
-      -1
-    </div>
+    />
     <div
       className="breakPoint"
     />
@@ -9358,11 +6866,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      0
-       
-      8
       !
     </div>
     <div
@@ -9374,12 +6877,18 @@ exports[`app: started dragging 1 1`] = `
       onDragOver={[Function]}
       onDragStart={[Function]}
       onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
     >
-      2
-       
-      1
-       
-      3
+      Q
     </div>
     <div
       className="key  "
@@ -9391,11 +6900,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      2
-       
-      20
+      W
     </div>
     <div
       className="key  "
@@ -9407,11 +6912,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      3
-       
-      47
+      E
     </div>
     <div
       className="key  "
@@ -9423,11 +6924,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      4
-       
-      52
+      R
     </div>
     <div
       className="key  "
@@ -9439,11 +6936,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      5
-       
-      43
+      T
     </div>
     <div
       className="key  "
@@ -9455,11 +6948,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      6
-       
-      44
+      Z
     </div>
     <div
       className="key  "
@@ -9471,11 +6960,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      7
-       
-      58
+      U
     </div>
     <div
       className="key  "
@@ -9487,11 +6972,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      8
-       
-      55
+      I
     </div>
     <div
       className="key  "
@@ -9503,11 +6984,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      9
-       
-      53
+      O
     </div>
     <div
       className="key  "
@@ -9519,27 +6996,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      2
-       
-      10
-       
-      54
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      2
-       
-      11
-       
-      28
+      P
     </div>
     <div
       className="breakPoint"
@@ -9554,11 +7011,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      0
-       
-      32
       -
     </div>
     <div
@@ -9571,11 +7023,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      1
-       
-      7
       ^
     </div>
     <div
@@ -9588,11 +7035,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      2
-       
-      9
       ?
     </div>
     <div
@@ -9605,11 +7047,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      3
-       
-      51
+      A
     </div>
     <div
       className="key  "
@@ -9621,11 +7059,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      4
-       
-      42
+      S
     </div>
     <div
       className="key  "
@@ -9637,11 +7071,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      5
-       
-      46
+      D
     </div>
     <div
       className="key  "
@@ -9653,11 +7083,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      6
-       
-      17
+      F
     </div>
     <div
       className="key  "
@@ -9669,11 +7095,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      7
-       
-      18
+      G
     </div>
     <div
       className="key  "
@@ -9685,11 +7107,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      8
-       
-      19
+      H
     </div>
     <div
       className="key  "
@@ -9701,11 +7119,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      9
-       
-      21
+      J
     </div>
     <div
       className="key  "
@@ -9717,11 +7131,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      10
-       
-      30
+      K
     </div>
     <div
       className="key  "
@@ -9733,11 +7143,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      3
-       
-      11
-       
-      41
+      L
     </div>
     <div
       className="breakPoint"
@@ -9752,11 +7158,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      0
-       
-      16
       :
     </div>
     <div
@@ -9769,11 +7170,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      1
-       
-      49
       &lt;
     </div>
     <div
@@ -9786,11 +7182,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      2
-       
-      50
       =
     </div>
     <div
@@ -9803,11 +7194,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      3
-       
-      57
+      Y
     </div>
     <div
       className="key  "
@@ -9819,11 +7206,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      4
-       
-      56
+      X
     </div>
     <div
       className="key  "
@@ -9835,11 +7218,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      5
-       
-      45
+      C
     </div>
     <div
       className="key  "
@@ -9851,11 +7230,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      6
-       
-      31
+      V
     </div>
     <div
       className="key  "
@@ -9867,11 +7242,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      7
-       
-      29
+      B
     </div>
     <div
       className="key  "
@@ -9883,11 +7254,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      8
-       
-      27
+      N
     </div>
     <div
       className="key  "
@@ -9899,11 +7266,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      9
-       
-      26
+      M
     </div>
     <div
       className="key  "
@@ -9915,11 +7278,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      10
-       
-      10
       |
     </div>
     <div
@@ -9932,11 +7290,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      4
-       
-      11
-       
-      39
       #
     </div>
     <div
@@ -9952,11 +7305,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      0
-       
-      59
       Win
     </div>
     <div
@@ -9969,11 +7317,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      1
-       
-      60
       &gt;
     </div>
     <div
@@ -9986,11 +7329,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      2
-       
-      61
       ,
     </div>
     <div
@@ -10003,11 +7341,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      3
-       
-      62
       .
     </div>
     <div
@@ -10020,11 +7353,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      4
-       
-      63
       (
     </div>
     <div
@@ -10037,11 +7365,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      5
-       
-      64
       )
     </div>
     <div
@@ -10054,11 +7377,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      6
-       
-      65
       [
     </div>
     <div
@@ -10071,11 +7389,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      7
-       
-      66
       ]
     </div>
     <div
@@ -10088,11 +7401,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      8
-       
-      67
       {
     </div>
     <div
@@ -10105,11 +7413,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      9
-       
-      68
       }
     </div>
     <div
@@ -10122,11 +7425,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      10
-       
-      69
+      ArrowUp
     </div>
     <div
       className="key  "
@@ -10138,11 +7437,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      5
-       
-      11
-       
-      70
       Esc
     </div>
     <div
@@ -10158,11 +7452,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      0
-       
-      71
       Ctrl
     </div>
     <div
@@ -10175,11 +7464,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      1
-       
-      72
       Alt
     </div>
     <div
@@ -10192,11 +7476,6 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      2
-       
-      35
       ;
     </div>
     <div
@@ -10209,11 +7488,59 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      3
-       
-      73
+      LeftShift
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      BackOne
     </div>
     <div
       className="key  "
@@ -10225,11 +7552,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      4
-       
-      74
+      ArrowLeft
     </div>
     <div
       className="key  "
@@ -10241,11 +7564,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      5
-       
-      75
+      ArrowDown
     </div>
     <div
       className="key  "
@@ -10257,91 +7576,7 @@ exports[`app: started dragging 1 1`] = `
       onDragStart={[Function]}
       onDrop={[Function]}
     >
-      6
-       
-      6
-       
-      -1
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      7
-       
-      76
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      8
-       
-      23
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      9
-       
-      77
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      10
-       
-      78
-    </div>
-    <div
-      className="key  "
-      draggable={true}
-      onClick={[Function]}
-      onDragEnd={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDragStart={[Function]}
-      onDrop={[Function]}
-    >
-      6
-       
-      11
-       
-      79
+      ArrowRight
     </div>
     <div
       className="breakPoint"

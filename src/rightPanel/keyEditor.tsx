@@ -1,8 +1,10 @@
 import { FormStore, SharedField } from "@xpfw/form"
+import { SelectField } from "@xpfw/form-web"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, keyboardPrefix } from "../form/def"
 import TypeSelectionField, { textKeyVal } from "../form/typeSelection"
+import actionKeyList from "../util/actionKeys"
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
@@ -33,7 +35,9 @@ const KeyEditor = observer(() => {
   }
   const actionSchema = {
     title: `Keys[${keyIndex}].Action`,
-    type: "string"
+    type: "string",
+    theme: "select",
+    selectOptions: actionKeyList.map((v) => ({label: v, value: v}))
   }
   const twoLabelsSchema = {
     title: `Keys[${keyIndex}].twoLabels`,
@@ -62,7 +66,7 @@ const KeyEditor = observer(() => {
           ) : (
             <>
             <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
-            <SharedField schema={actionSchema} prefix={keyboardPrefix} />
+            <SelectField schema={actionSchema} prefix={keyboardPrefix} />
             </>
           )}
 
