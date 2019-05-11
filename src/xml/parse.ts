@@ -36,13 +36,20 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     if (Text != null) {
       ele.Text = Text
     }
-    const Label = getElementText(find(eles, ["name", "Label"]))
-    if (Label != null) {
-      ele.Label = Label
-    }
     const ShiftUpLabel = getElementText(find(eles, ["name", "ShiftUpLabel"]))
     if (ShiftUpLabel != null) {
       ele.ShiftUpLabel = ShiftUpLabel
+      ele.twoLabels = true
+    }
+    const ShiftDownLabel = getElementText(find(eles, ["name", "ShiftDownLabel"]))
+    if (ShiftDownLabel != null) {
+      ele.ShiftDownLabel = ShiftDownLabel
+      ele.twoLabels = true
+    }
+    const Label = getElementText(find(eles, ["name", "Label"]))
+    if (ele.twoLabels == null && Label != null) {
+      ele.Label = Label
+      ele.twoLabels = false
     }
     const sym = getElementText(find(eles, ["name", "Symbol"]))
     if (sym != null) {
@@ -51,10 +58,6 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     const Action = getElementText(find(eles, ["name", "Action"]))
     if (Action != null) {
       ele.Action = Action
-    }
-    const ShiftDownLabel = getElementText(find(eles, ["name", "ShiftDownLabel"]))
-    if (ShiftDownLabel != null) {
-      ele.ShiftDownLabel = ShiftDownLabel
     }
     return ele
   })
@@ -79,6 +82,7 @@ const toXml = (keyboard: IKeyboard) => {
   for (const key of keyboard.Keyboard.Keys) {
     const newKey = cloneDeep(key)
     delete newKey.type
+    delete newKey.twoLabels
     changedKeys[key.type].push(newKey)
   }
   return js2xml({

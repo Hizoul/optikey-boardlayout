@@ -2,7 +2,7 @@ import { FormStore, SharedField } from "@xpfw/form"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, keyboardPrefix } from "../form/def"
-import TypeSelectionField from "../form/typeSelection"
+import TypeSelectionField, { textKeyVal } from "../form/typeSelection"
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
@@ -35,6 +35,12 @@ const KeyEditor = observer(() => {
     title: `Keys[${keyIndex}].Action`,
     type: "string"
   }
+  const twoLabelsSchema = {
+    title: `Keys[${keyIndex}].twoLabels`,
+    type: "boolean"
+  }
+  const twoLabelsValue = FormStore.getValue(twoLabelsSchema.title, keyboardPrefix)
+  const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
   return (
     <div>
       Key Editor
@@ -43,11 +49,23 @@ const KeyEditor = observer(() => {
           Editing {keyIndex}
           <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
           <SharedField schema={textSchema} prefix={keyboardPrefix} />
-          <SharedField schema={labelSchema} prefix={keyboardPrefix} />
-          <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
-          <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
-          <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
-          <SharedField schema={actionSchema} prefix={keyboardPrefix} />
+          {typeValue === textKeyVal ? (
+            <>
+              {twoLabelsValue ? (
+                <>
+                  <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
+                  <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
+                </>
+              ) : <SharedField schema={labelSchema} prefix={keyboardPrefix} />}
+              <SharedField schema={twoLabelsSchema} prefix={keyboardPrefix} />
+            </>
+          ) : (
+            <>
+            <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+            <SharedField schema={actionSchema} prefix={keyboardPrefix} />
+            </>
+          )}
+
         </div>
       ) : (
         <p>Click on a Key in the Keyboard to edit it</p>

@@ -1474,8 +1474,3035 @@ exports[`app: clicked on 1 1`] = `
           value="."
         />
         <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </div>
+    </div>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      save keyboard
+    </a>
+    <div
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+    >
+      <input
+        autoComplete="off"
+        multiple={true}
+        onChange={[Function]}
+        onClick={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        tabIndex={-1}
+        type="file"
+      />
+      <p>
+        Drag 'n' drop some files here, or click to select files
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`app: clicked on 1 force only text 1`] = `
+<div>
+  <div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      0
+       
+      4
+      ~
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      1
+       
+      40
+      0
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      2
+       
+      24
+      1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      3
+       
+      25
+      2
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      4
+       
+      33
+      3
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      5
+       
+      12
+      4
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      6
+       
+      13
+      5
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      7
+       
+      14
+      6
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      8
+       
+      0
+      7
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      9
+       
+      1
+      8
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      10
+       
+      2
+      9
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      11
+       
+      11
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      0
+       
+      36
+      @
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      1
+       
+      6
+      &
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      2
+       
+      5
+      $
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      3
+       
+      15
+      /
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      4
+       
+      48
+      +
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      5
+       
+      38
+      '
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      6
+       
+      34
+      _
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      7
+       
+      37
+      "
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      8
+       
+      22
+      %
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      9
+       
+      -1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      10
+       
+      -1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      11
+       
+      -1
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      0
+       
+      8
+      !
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      1
+       
+      3
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      2
+       
+      20
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      3
+       
+      47
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      4
+       
+      52
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      5
+       
+      43
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      6
+       
+      44
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      7
+       
+      58
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      8
+       
+      55
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      9
+       
+      53
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      10
+       
+      54
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      11
+       
+      28
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      0
+       
+      32
+      -
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      1
+       
+      7
+      ^
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      2
+       
+      9
+      ?
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      3
+       
+      51
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      4
+       
+      42
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      5
+       
+      46
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      6
+       
+      17
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      7
+       
+      18
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      8
+       
+      19
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      9
+       
+      21
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      10
+       
+      30
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      11
+       
+      41
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      0
+       
+      16
+      :
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      1
+       
+      49
+      &lt;
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      2
+       
+      50
+      =
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      3
+       
+      57
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      4
+       
+      56
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      5
+       
+      45
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      6
+       
+      31
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      7
+       
+      29
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      8
+       
+      27
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      9
+       
+      26
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      10
+       
+      10
+      |
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      11
+       
+      39
+      #
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      0
+       
+      59
+      Win
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      1
+       
+      60
+      &gt;
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      2
+       
+      61
+      ,
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      3
+       
+      62
+      .
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      4
+       
+      63
+      (
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      5
+       
+      64
+      )
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      6
+       
+      65
+      [
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      7
+       
+      66
+      ]
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      8
+       
+      67
+      {
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      9
+       
+      68
+      }
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      10
+       
+      69
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      11
+       
+      70
+      Esc
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      0
+       
+      71
+      Ctrl
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      1
+       
+      72
+      Alt
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      2
+       
+      35
+      ;
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      3
+       
+      73
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      4
+       
+      74
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      5
+       
+      75
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      6
+       
+      -1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      7
+       
+      76
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      8
+       
+      23
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      9
+       
+      77
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      10
+       
+      78
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      11
+       
+      79
+    </div>
+    <div
+      className="breakPoint"
+    />
+  </div>
+  <div>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="MMB2s Keyboard"
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={40}
+    />
+    <input
+      onChange={[Function]}
+      type="text"
+      value="0,0,0,0"
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={7}
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={12}
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
+    <div>
+      Key Editor
+      <div>
+        Editing 
+        62
+        <div>
+          Select Key Type
+          <a
+            className="button selected"
+            onClick={[Function]}
+          >
+            TextKey
+          </a>
+          <a
+            className="button "
+            onClick={[Function]}
+          >
+            ActionKey
+          </a>
+        </div>
+        <input
           onChange={[Function]}
           type="text"
+          value="."
+        />
+        <input
+          onChange={[Function]}
+          type="text"
+          value="."
+        />
+        <input
+          checked={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+      </div>
+    </div>
+    <a
+      className="button"
+      onClick={[Function]}
+    >
+      save keyboard
+    </a>
+    <div
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+    >
+      <input
+        autoComplete="off"
+        multiple={true}
+        onChange={[Function]}
+        onClick={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+        tabIndex={-1}
+        type="file"
+      />
+      <p>
+        Drag 'n' drop some files here, or click to select files
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`app: clicked on 1 force shiftup + down text 1`] = `
+<div>
+  <div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      0
+       
+      4
+      ~
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      1
+       
+      40
+      0
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      2
+       
+      24
+      1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      3
+       
+      25
+      2
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      4
+       
+      33
+      3
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      5
+       
+      12
+      4
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      6
+       
+      13
+      5
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      7
+       
+      14
+      6
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      8
+       
+      0
+      7
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      9
+       
+      1
+      8
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      10
+       
+      2
+      9
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      0
+       
+      11
+       
+      11
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      0
+       
+      36
+      @
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      1
+       
+      6
+      &
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      2
+       
+      5
+      $
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      3
+       
+      15
+      /
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      4
+       
+      48
+      +
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      5
+       
+      38
+      '
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      6
+       
+      34
+      _
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      7
+       
+      37
+      "
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      8
+       
+      22
+      %
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      9
+       
+      -1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      10
+       
+      -1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      1
+       
+      11
+       
+      -1
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      0
+       
+      8
+      !
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      1
+       
+      3
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      2
+       
+      20
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      3
+       
+      47
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      4
+       
+      52
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      5
+       
+      43
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      6
+       
+      44
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      7
+       
+      58
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      8
+       
+      55
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      9
+       
+      53
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      10
+       
+      54
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      2
+       
+      11
+       
+      28
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      0
+       
+      32
+      -
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      1
+       
+      7
+      ^
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      2
+       
+      9
+      ?
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      3
+       
+      51
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      4
+       
+      42
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      5
+       
+      46
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      6
+       
+      17
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      7
+       
+      18
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      8
+       
+      19
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      9
+       
+      21
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      10
+       
+      30
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      3
+       
+      11
+       
+      41
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      0
+       
+      16
+      :
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      1
+       
+      49
+      &lt;
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      2
+       
+      50
+      =
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      3
+       
+      57
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      4
+       
+      56
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      5
+       
+      45
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      6
+       
+      31
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      7
+       
+      29
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      8
+       
+      27
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      9
+       
+      26
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      10
+       
+      10
+      |
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      4
+       
+      11
+       
+      39
+      #
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      0
+       
+      59
+      Win
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      1
+       
+      60
+      &gt;
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      2
+       
+      61
+      ,
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      3
+       
+      62
+      .
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      4
+       
+      63
+      (
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      5
+       
+      64
+      )
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      6
+       
+      65
+      [
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      7
+       
+      66
+      ]
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      8
+       
+      67
+      {
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      9
+       
+      68
+      }
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      10
+       
+      69
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      5
+       
+      11
+       
+      70
+      Esc
+    </div>
+    <div
+      className="breakPoint"
+    />
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      0
+       
+      71
+      Ctrl
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      1
+       
+      72
+      Alt
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      2
+       
+      35
+      ;
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      3
+       
+      73
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      4
+       
+      74
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      5
+       
+      75
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      6
+       
+      -1
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      7
+       
+      76
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      8
+       
+      23
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      9
+       
+      77
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      10
+       
+      78
+    </div>
+    <div
+      className="key  "
+      draggable={true}
+      onClick={[Function]}
+      onDragEnd={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDragStart={[Function]}
+      onDrop={[Function]}
+    >
+      6
+       
+      11
+       
+      79
+    </div>
+    <div
+      className="breakPoint"
+    />
+  </div>
+  <div>
+    <input
+      onChange={[Function]}
+      type="text"
+      value="MMB2s Keyboard"
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={40}
+    />
+    <input
+      onChange={[Function]}
+      type="text"
+      value="0,0,0,0"
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={7}
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={12}
+    />
+    <input
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
+    <div>
+      Key Editor
+      <div>
+        Editing 
+        62
+        <div>
+          Select Key Type
+          <a
+            className="button selected"
+            onClick={[Function]}
+          >
+            TextKey
+          </a>
+          <a
+            className="button "
+            onClick={[Function]}
+          >
+            ActionKey
+          </a>
+        </div>
+        <input
+          onChange={[Function]}
+          type="text"
+          value="."
         />
         <input
           onChange={[Function]}
@@ -1486,8 +4513,9 @@ exports[`app: clicked on 1 1`] = `
           type="text"
         />
         <input
+          checked={true}
           onChange={[Function]}
-          type="text"
+          type="checkbox"
         />
       </div>
     </div>
@@ -2976,7 +6004,7 @@ exports[`app: clicked on 2 1`] = `
       Key Editor
       <div>
         Editing 
-        63
+        13
         <div>
           Select Key Type
           <a
@@ -2995,28 +6023,17 @@ exports[`app: clicked on 2 1`] = `
         <input
           onChange={[Function]}
           type="text"
-          value="("
+          value="5"
         />
         <input
           onChange={[Function]}
           type="text"
-          value="("
+          value="5"
         />
         <input
+          checked={false}
           onChange={[Function]}
-          type="text"
-        />
-        <input
-          onChange={[Function]}
-          type="text"
-        />
-        <input
-          onChange={[Function]}
-          type="text"
-        />
-        <input
-          onChange={[Function]}
-          type="text"
+          type="checkbox"
         />
       </div>
     </div>
@@ -4505,7 +7522,7 @@ exports[`app: clicked on 2 and set to action key 1`] = `
       Key Editor
       <div>
         Editing 
-        63
+        13
         <div>
           Select Key Type
           <a
@@ -4524,20 +7541,7 @@ exports[`app: clicked on 2 and set to action key 1`] = `
         <input
           onChange={[Function]}
           type="text"
-          value="("
-        />
-        <input
-          onChange={[Function]}
-          type="text"
-          value="("
-        />
-        <input
-          onChange={[Function]}
-          type="text"
-        />
-        <input
-          onChange={[Function]}
-          type="text"
+          value="5"
         />
         <input
           onChange={[Function]}
@@ -6034,7 +9038,7 @@ exports[`app: clicked on 2 and set to text key 1`] = `
       Key Editor
       <div>
         Editing 
-        63
+        13
         <div>
           Select Key Type
           <a
@@ -6053,28 +9057,17 @@ exports[`app: clicked on 2 and set to text key 1`] = `
         <input
           onChange={[Function]}
           type="text"
-          value="("
+          value="5"
         />
         <input
           onChange={[Function]}
           type="text"
-          value="("
+          value="5"
         />
         <input
+          checked={false}
           onChange={[Function]}
-          type="text"
-        />
-        <input
-          onChange={[Function]}
-          type="text"
-        />
-        <input
-          onChange={[Function]}
-          type="text"
-        />
-        <input
-          onChange={[Function]}
-          type="text"
+          type="checkbox"
         />
       </div>
     </div>
