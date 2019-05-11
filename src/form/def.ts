@@ -1,8 +1,10 @@
 import { ComponentRegistry, ExtendedJSONSchema } from "@xpfw/form"
-import { registerComponents, TextField } from "@xpfw/form-web"
+import { registerComponents } from "@xpfw/form-web"
+import TextField from "./text"
 
 registerComponents()
 ComponentRegistry.registerComponent("number", TextField)
+ComponentRegistry.registerComponent("string", TextField)
 
 const nameSchema: ExtendedJSONSchema = {
   title: "Name", type: "string"

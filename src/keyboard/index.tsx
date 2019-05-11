@@ -22,7 +22,7 @@ const KeyboardDisplay = observer(() => {
     toRender.push(<div key={`break${row}`} className="breakPoint" />)
   }
   return (
-    <div>
+    <div className="keyboard">
       {toRender}
     </div>
   )

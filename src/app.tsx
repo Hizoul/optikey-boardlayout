@@ -8,10 +8,12 @@ import xmlParser from "./xml/parse"
 FormStore.setValue("Keyboard", xmlParser(exampleXml).Keyboard)
 
 const App: React.FunctionComponent<any> = () => (
-  <div>
-    <KeyboardDisplay />
+  <>
+    <div className="keyboardContainer">
+      <KeyboardDisplay />
+    </div>
     <RightPanel />
-  </div>
+  </>
 )
 
 export default App

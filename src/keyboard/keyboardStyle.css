@@ -1,3 +1,11 @@
+body, html, #root {
+  margin: 0pt;
+  padding: 0pt;
+}
+#root {
+  min-height: 100vh;
+}
+
 .key {
   display: inline-block;
   padding: 1rem;
@@ -18,4 +26,21 @@
 
 .button.selected {
   background-color: green;
+}
+
+#root, .keyboardContainer {
+  display: flex;
+  flex: 1;
+}
+
+.keyboardContainer, .center {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.rightPanel {
+  display: block;
+  width: 30vw;
+  padding: 1rem 0;
 }
