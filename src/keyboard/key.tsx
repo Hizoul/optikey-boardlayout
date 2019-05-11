@@ -65,8 +65,7 @@ const KeyDisplay: React.FunctionComponent<{
       onDragOver={dragOverHandler(props.index, props.row, props.col)}
       onDragLeave={dragLeaveHandler(props.index, props.row, props.col)}
     >
-      {props.row} {props.col} {props.index}
-      {get(props, "entry.Label")}
+      {get(props, "entry.Label", get(props, "entry.ShiftDownLabel", get(props, "entry.Action")))}
     </div>
   )
 })
