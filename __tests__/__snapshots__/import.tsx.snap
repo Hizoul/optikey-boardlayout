@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`READ FILES: empty import makes no changes 1`] = `undefined`;
+
 exports[`READ FILES: imported via file 1`] = `
 Object {
   "BorderThickness": "0,0,0,0",
