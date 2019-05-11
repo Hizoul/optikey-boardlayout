@@ -29,7 +29,11 @@ const colsSchema: ExtendedJSONSchema = {
 }
 
 const keyboardPrefix = "Keyboard"
+const hoverKey = `hover`
+const dragKey = `drag`
+const activeKey = `active`
 
 export {
-  nameSchema, heightSchema, borderSchema, symbolSchema, rowsSchema, colsSchema, keyboardPrefix
+  nameSchema, heightSchema, borderSchema, symbolSchema, rowsSchema, colsSchema, keyboardPrefix,
+  activeKey, dragKey, hoverKey
 }

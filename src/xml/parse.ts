@@ -21,9 +21,9 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   const BorderThickness = getElementText(find(root, ["name", "BorderThickness"]))
   const Height = Number(getElementText(find(root, ["name", "Height"]), "30"))
   const SymbolMargin = Number(getElementText(find(root, ["name", "SymbolMargin"]), "10"))
-  const grid = get(find(root, ["name", "Name"]), "elements", [])
+  const grid = get(find(root, ["name", "Grid"]), "elements", [])
   const Rows = Number(getElementText(find(grid, ["name", "Rows"]), "7"))
-  const Cols = Number(getElementText(find(grid, ["name", "Height"]), "30"))
+  const Cols = Number(getElementText(find(grid, ["name", "Cols"]), "3"))
   const keys = get(find(root, ["name", "Keys"]), "elements", [])
   const Keys = keys.map((entry: any) => {
     const eles = entry.elements

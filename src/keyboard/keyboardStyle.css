@@ -1,0 +1,13 @@
+.key {
+  display: inline-block;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.isDragged {
+  background-color: blue;
+}
+
+.isHovered {
+  background-color: yellow;
+}

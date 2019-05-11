@@ -8,7 +8,7 @@ exports[`parser: js to xml 1`] = `
   <BorderThickness>0,0,0,0</BorderThickness>
   <Grid>
     <Rows>7</Rows>
-    <Cols>30</Cols>
+    <Cols>12</Cols>
   </Grid>
   <Keys>
     <TextKey>
@@ -456,7 +456,7 @@ Object {
   "Keyboard": Object {
     "BorderThickness": "0,0,0,0",
     "Grid": Object {
-      "Cols": 30,
+      "Cols": 12,
       "Rows": 7,
     },
     "Height": 40,

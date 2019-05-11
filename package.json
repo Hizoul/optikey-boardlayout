@@ -17,6 +17,9 @@
     "definition": "dist/index.d.ts"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.124",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
     "@types/jest": "^24.0.12",
     "@types/node": "^12.0.0",
     "@types/react-test-renderer": "^16.8.1",
@@ -42,6 +45,10 @@
     "transform": {
       ".(ts|tsx)": "ts-jest"
     },
+    "moduleNameMapper": {
+      "\\.(css|sass|scss)$": "<rootDir>/__mocks__/styleMock.ts",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.ts"
+    },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "testPathIgnorePatterns": [
       "\\.snap$",
@@ -57,9 +64,6 @@
     "testURL": "http://localhost/"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.124",
-    "@types/react": "^16.8.17",
-    "@types/react-dom": "^16.8.4",
     "@xpfw/data": "1.0.0-beta.16",
     "@xpfw/form": "^1.0.0-beta.16",
     "@xpfw/form-web": "^1.0.0-beta.16",
