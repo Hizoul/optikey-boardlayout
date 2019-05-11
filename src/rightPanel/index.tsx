@@ -5,6 +5,7 @@ import {
 } from "../form/def"
 import downloadKeyboard from "../util/download"
 import KeyboardImporter from "./import"
+import KeyEditor from "./keyEditor";
 
 const RightPanel: React.FunctionComponent<any> = () => (
   <div>
@@ -14,6 +15,7 @@ const RightPanel: React.FunctionComponent<any> = () => (
     <SharedField schema={rowsSchema} prefix={keyboardPrefix} />
     <SharedField schema={colsSchema} prefix={keyboardPrefix} />
     <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+    <KeyEditor />
     <a className="button" onClick={downloadKeyboard}>save keyboard</a>
     <KeyboardImporter />
   </div>

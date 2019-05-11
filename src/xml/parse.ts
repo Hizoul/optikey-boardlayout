@@ -32,6 +32,10 @@ const xmlParser: (xml: string) => any = (xml: string) => {
       Row: Number(getElementText(find(eles, ["name", "Row"]), "7")),
       Col: Number(getElementText(find(eles, ["name", "Col"]), "7"))
     }
+    const Text = getElementText(find(eles, ["name", "Text"]))
+    if (Text != null) {
+      ele.Text = Text
+    }
     const Label = getElementText(find(eles, ["name", "Label"]))
     if (Label != null) {
       ele.Label = Label

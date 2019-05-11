@@ -1443,6 +1443,12 @@ exports[`app: inital app render 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}

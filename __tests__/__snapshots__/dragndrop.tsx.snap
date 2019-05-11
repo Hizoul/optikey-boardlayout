@@ -1443,6 +1443,12 @@ exports[`app: 1 hovering over 2 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}
@@ -2937,6 +2943,12 @@ exports[`app: back to nothing 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}
@@ -4418,6 +4430,12 @@ exports[`app: dragging 1 but left 2 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}
@@ -5899,6 +5917,12 @@ exports[`app: dragging 1 over 2 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}
@@ -7380,6 +7404,12 @@ exports[`app: drop 1 on 2 and hence switch them 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}
@@ -8861,6 +8891,12 @@ exports[`app: nothing yet 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}
@@ -10342,6 +10378,12 @@ exports[`app: started dragging 1 1`] = `
       type="number"
       value={1}
     />
+    <div>
+      Key Editor
+      <p>
+        Click on a Key in the Keyboard to edit it
+      </p>
+    </div>
     <a
       className="button"
       onClick={[Function]}
