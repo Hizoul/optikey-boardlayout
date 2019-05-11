@@ -2,6 +2,7 @@ import { FormStore, SharedField } from "@xpfw/form"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, keyboardPrefix } from "../form/def"
+import TypeSelectionField from "../form/typeSelection"
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
@@ -40,7 +41,7 @@ const KeyEditor = observer(() => {
       {keyIndex && keyIndex > 0 && keyIndex < keysLength ? (
         <div>
           Editing {keyIndex}
-          <SharedField schema={typeSchema} prefix={keyboardPrefix} />
+          <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
           <SharedField schema={textSchema} prefix={keyboardPrefix} />
           <SharedField schema={labelSchema} prefix={keyboardPrefix} />
           <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />

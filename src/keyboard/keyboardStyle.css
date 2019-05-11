@@ -11,3 +11,11 @@
 .isHovered {
   background-color: yellow;
 }
+
+.button {
+  background-color: grey;
+}
+
+.button.selected {
+  background-color: green;
+}

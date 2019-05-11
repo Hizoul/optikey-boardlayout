@@ -1,6 +1,8 @@
 import { findIndex } from "lodash"
 import * as React from "react"
 import App from "../src/app"
+import { keyboardPrefix } from "../src/form/def";
+import { actionKeyVal, changeHelper, textKeyVal } from "../src/form/typeSelection"
 import {
   clickHandler
 } from "../src/keyboard/key"
@@ -23,4 +25,8 @@ test("app", () => {
   renderSnapshot(<App />, "clicked on 1")
   clickHandler(i2)()
   renderSnapshot(<App />, "clicked on 2")
+  changeHelper(`Keys[${i2}].type`, keyboardPrefix, textKeyVal)()
+  renderSnapshot(<App />, "clicked on 2 and set to text key")
+  changeHelper(`Keys[${i2}].type`, keyboardPrefix, actionKeyVal)()
+  renderSnapshot(<App />, "clicked on 2 and set to action key")
 })

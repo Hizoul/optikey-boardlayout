@@ -5,7 +5,7 @@ import {
 } from "../form/def"
 import downloadKeyboard from "../util/download"
 import KeyboardImporter from "./import"
-import KeyEditor from "./keyEditor";
+import KeyEditor from "./keyEditor"
 
 const RightPanel: React.FunctionComponent<any> = () => (
   <div>
