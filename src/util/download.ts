@@ -17,9 +17,18 @@ const downloadBlob = (title: string, blob: Blob) => {
   window.URL.revokeObjectURL(url)
 }
 
+const getKeyboardAsXml = () => toXml({Keyboard: FormStore.getValue(keyboardPrefix)})
+
 const downloadKeyboard = () => {
   downloadBlob("keyboard.xml",
-    new Blob([toXml({Keyboard: FormStore.getValue(keyboardPrefix)})], {type: "application/xml"}))
+    new Blob([getKeyboardAsXml()], {type: "application/xml"}))
+}
+
+const copyToClipboard = () => {
+  navigator.clipboard.writeText(getKeyboardAsXml()).then(() => console.log("WRITTEN TO CLIP")).catch((e) => console.error("CANT WRITE TO CLIP", e))
 }
 
 export default downloadKeyboard
+export {
+  copyToClipboard
+}

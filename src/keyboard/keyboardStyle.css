@@ -20,17 +20,15 @@ body, html, #root {
   background-color: yellow;
 }
 
-.button {
-  background-color: grey;
-}
-
-.button.selected {
-  background-color: green;
-}
-
-#root, .keyboardContainer {
+#root, .keyboardContainer, .flex1 {
   display: flex;
   flex: 1;
+}
+.flex1 {
+  width: 100%;
+}
+.vertical {
+  flex-direction: column
 }
 
 .keyboardContainer, .center {

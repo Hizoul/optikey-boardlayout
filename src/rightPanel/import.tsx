@@ -1,3 +1,8 @@
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
+import Typography from '@material-ui/core/Typography'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import { FormStore } from "@xpfw/form"
 import * as React from "react"
 import { useCallback } from "react"
@@ -19,12 +24,16 @@ const readFiles = (acceptedFiles: any) => {
 const KeyboardImporter = () => {
   const onDrop = useCallback(readFiles, [])
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
-
+  const rp: any = getRootProps()
   return (
-    <div {...getRootProps()}>
-      <input {...getInputProps()} />
-      <p>Drag 'n' drop some files here, or click to select files</p>
-    </div>
+
+    <ExpansionPanel {...rp} defaultExpanded={false} expanded={false}>
+      <ExpansionPanelSummary>
+        <input {...getInputProps()} />
+        <Typography>Upload</Typography>
+        <Typography>Drag 'n' drop some files here, or click to select files</Typography>
+      </ExpansionPanelSummary>
+    </ExpansionPanel>
   )
 }
 

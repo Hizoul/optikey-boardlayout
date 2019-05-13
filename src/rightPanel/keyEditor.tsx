@@ -1,3 +1,8 @@
+import ExpansionPanel from '@material-ui/core/ExpansionPanel'
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
+import Typography from '@material-ui/core/Typography'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import { FormStore, SharedField } from "@xpfw/form"
 import { SelectField } from "@xpfw/form-web"
 import { observer } from "mobx-react-lite"
@@ -45,36 +50,40 @@ const KeyEditor = observer(() => {
   }
   const twoLabelsValue = FormStore.getValue(twoLabelsSchema.title, keyboardPrefix)
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
+  const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
   return (
-    <div>
-      Key Editor
-      {keyIndex && keyIndex > 0 && keyIndex < keysLength ? (
-        <div>
-          Editing {keyIndex}
-          <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
-          <SharedField schema={textSchema} prefix={keyboardPrefix} />
-          {typeValue === textKeyVal ? (
-            <>
-              {twoLabelsValue ? (
-                <>
-                  <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
-                  <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
-                </>
-              ) : <SharedField schema={labelSchema} prefix={keyboardPrefix} />}
-              <SharedField schema={twoLabelsSchema} prefix={keyboardPrefix} />
-            </>
-          ) : (
-            <>
-            <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
-            <SelectField schema={actionSchema} prefix={keyboardPrefix} />
-            </>
-          )}
+    <ExpansionPanel expanded={keySelected ? true : false}>
+      <ExpansionPanelSummary>
+        <Typography>{keySelected ? "Key Settings" : "Click on a key to edit it here"}</Typography>
+      </ExpansionPanelSummary>
+      <ExpansionPanelDetails>
+        {keySelected ? (
+          <div className="center vertical flex1">
+            <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
+            <SharedField schema={textSchema} prefix={keyboardPrefix} />
+            {typeValue === textKeyVal ? (
+              <>
+                {twoLabelsValue ? (
+                  <>
+                    <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
+                    <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
+                  </>
+                ) : <SharedField schema={labelSchema} prefix={keyboardPrefix} />}
+                <SharedField schema={twoLabelsSchema} prefix={keyboardPrefix} />
+              </>
+            ) : (
+              <>
+              <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+              <SelectField schema={actionSchema} prefix={keyboardPrefix} />
+              </>
+            )}
 
-        </div>
-      ) : (
-        <p>Click on a Key in the Keyboard to edit it</p>
-      )}
-    </div>
+          </div>
+        ) : (
+          <p>Click on a Key in the Keyboard to edit it</p>
+        )}
+      </ExpansionPanelDetails>
+    </ExpansionPanel>
   )
 })
 
