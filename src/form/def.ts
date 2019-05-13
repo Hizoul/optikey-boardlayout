@@ -1,10 +1,14 @@
 import { ComponentRegistry, ExtendedJSONSchema } from "@xpfw/form"
 import { registerComponents } from "@xpfw/form-web"
+import BooleanField from "./boolean"
+import SelectField from "./select"
 import TextField from "./text"
 
 registerComponents()
 ComponentRegistry.registerComponent("number", TextField)
 ComponentRegistry.registerComponent("string", TextField)
+ComponentRegistry.registerComponent("boolean", BooleanField)
+ComponentRegistry.registerComponent("string", SelectField, "select")
 
 const nameSchema: ExtendedJSONSchema = {
   title: "Name", type: "string"

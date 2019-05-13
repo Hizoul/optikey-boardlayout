@@ -13,7 +13,7 @@ const SelectButton: React.FunctionComponent<IFieldProps & {value: any, v: string
   const mapTo = getMapTo(props.schema, props.mapTo)
   return (
     <Button
-      color={props.v === props.value ? "primary" : "Type"}
+      color={props.v === props.value ? "primary" : "secondary"}
       onClick={changeHelper(mapTo, props.prefix, props.v)}
       fullWidth
     >

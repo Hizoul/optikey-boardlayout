@@ -60,7 +60,6 @@ const KeyEditor = observer(() => {
         {keySelected ? (
           <div className="center vertical flex1">
             <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
-            <SharedField schema={textSchema} prefix={keyboardPrefix} />
             {typeValue === textKeyVal ? (
               <>
                 {twoLabelsValue ? (
@@ -68,13 +67,16 @@ const KeyEditor = observer(() => {
                     <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
                     <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
                   </>
-                ) : <SharedField schema={labelSchema} prefix={keyboardPrefix} />}
+                ) : <>
+                  <SharedField schema={textSchema} prefix={keyboardPrefix} />
+                  <SharedField schema={labelSchema} prefix={keyboardPrefix} />
+                </>}
                 <SharedField schema={twoLabelsSchema} prefix={keyboardPrefix} />
               </>
             ) : (
               <>
-              <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
-              <SelectField schema={actionSchema} prefix={keyboardPrefix} />
+                <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+                <SharedField schema={actionSchema} prefix={keyboardPrefix} />
               </>
             )}
 
