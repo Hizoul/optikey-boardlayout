@@ -49,14 +49,18 @@ const dragLeaveHandler = (index: number, row: number, col: number) => memo(() =>
 const KeyDisplay: React.FunctionComponent<{
   row: number, col: number
   index: number
+  width: number
+  height: number
   entry: any
 }> = observer((props) => {
   const k = `x${props.index}X${props.row}X${props.col}`
   const isOver = FormStore.getValue(k, hoverKey, false)
   const isDragged = FormStore.getValue(k, dragKey, false)
+  const keyIndex = FormStore.getValue(activeKey, undefined)
+  const selected = props.index === keyIndex
   return (
     <div
-      className={`key ${isOver ? "isHovered" : ""} ${isDragged ? "isDragged" : ""}`}
+      className={`key center ${selected ? "isSelected" : ""} ${isOver ? "isHovered" : ""} ${isDragged ? "isDragged" : ""}`}
       draggable
       onClick={clickHandler(props.index)}
       onDragStart={dragStartHandler(props.index, props.row, props.col)}
@@ -64,6 +68,7 @@ const KeyDisplay: React.FunctionComponent<{
       onDrop={dropHandler(props.index, props.row, props.col)}
       onDragOver={dragOverHandler(props.index, props.row, props.col)}
       onDragLeave={dragLeaveHandler(props.index, props.row, props.col)}
+      style={{maxWidth: props.width, maxHeight: props.height, width: props.width, height: props.height}}
     >
       {get(props, "entry.Label", get(props, "entry.ShiftDownLabel", get(props, "entry.Action")))}
     </div>

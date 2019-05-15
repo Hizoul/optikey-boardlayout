@@ -78,6 +78,7 @@
     "react-dom": "^16.8.6",
     "react-draggable": "^3.3.0",
     "react-dropzone": "^10.1.4",
+    "react-measure": "^2.3.0",
     "xml-js": "^1.6.11"
   }
 }
