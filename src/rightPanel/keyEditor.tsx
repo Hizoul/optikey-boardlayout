@@ -44,11 +44,11 @@ const KeyEditor = observer(() => {
     theme: "select",
     selectOptions: actionKeyList.map((v) => ({label: v, value: v}))
   }
-  const twoLabelsSchema = {
-    title: `Keys[${keyIndex}].twoLabels`,
+  const caseSensitiveSchema = {
+    title: `Keys[${keyIndex}].caseSensitive`,
     type: "boolean"
   }
-  const twoLabelsValue = FormStore.getValue(twoLabelsSchema.title, keyboardPrefix)
+  const caseSensitiveValue = FormStore.getValue(caseSensitiveSchema.title, keyboardPrefix)
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
   const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
   return (
@@ -62,16 +62,16 @@ const KeyEditor = observer(() => {
             <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
             {typeValue === textKeyVal ? (
               <>
-                {twoLabelsValue ? (
+                <SharedField schema={textSchema} prefix={keyboardPrefix} />
+                {caseSensitiveValue ? (
                   <>
                     <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
                     <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
                   </>
                 ) : <>
-                  <SharedField schema={textSchema} prefix={keyboardPrefix} />
                   <SharedField schema={labelSchema} prefix={keyboardPrefix} />
                 </>}
-                <SharedField schema={twoLabelsSchema} prefix={keyboardPrefix} />
+                <SharedField schema={caseSensitiveSchema} prefix={keyboardPrefix} />
               </>
             ) : (
               <>

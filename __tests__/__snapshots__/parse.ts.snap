@@ -531,7 +531,7 @@ Object {
         "Label": "7",
         "Row": 0,
         "Text": "7",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -539,7 +539,7 @@ Object {
         "Label": "8",
         "Row": 0,
         "Text": "8",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -547,7 +547,7 @@ Object {
         "Label": "9",
         "Row": 0,
         "Text": "9",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -560,7 +560,7 @@ Object {
         "Label": "~",
         "Row": 0,
         "Text": "~",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -568,7 +568,7 @@ Object {
         "Label": "$",
         "Row": 1,
         "Text": "$",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -576,7 +576,7 @@ Object {
         "Label": "&",
         "Row": 1,
         "Text": "&",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -584,7 +584,7 @@ Object {
         "Label": "^",
         "Row": 3,
         "Text": "^",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -592,7 +592,7 @@ Object {
         "Label": "!",
         "Row": 2,
         "Text": "!",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -600,7 +600,7 @@ Object {
         "Label": "?",
         "Row": 3,
         "Text": "?",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -608,7 +608,7 @@ Object {
         "Label": "|",
         "Row": 4,
         "Text": "|",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -623,7 +623,7 @@ Object {
         "Label": "4",
         "Row": 0,
         "Text": "4",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -631,7 +631,7 @@ Object {
         "Label": "5",
         "Row": 0,
         "Text": "5",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -639,7 +639,7 @@ Object {
         "Label": "6",
         "Row": 0,
         "Text": "6",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -647,7 +647,7 @@ Object {
         "Label": "/",
         "Row": 1,
         "Text": "/",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -655,7 +655,7 @@ Object {
         "Label": ":",
         "Row": 4,
         "Text": ":",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -664,7 +664,7 @@ Object {
         "ShiftDownLabel": "F",
         "ShiftUpLabel": "f",
         "Text": "f",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -673,7 +673,7 @@ Object {
         "ShiftDownLabel": "G",
         "ShiftUpLabel": "g",
         "Text": "g",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -682,7 +682,7 @@ Object {
         "ShiftDownLabel": "H",
         "ShiftUpLabel": "h",
         "Text": "h",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -691,7 +691,7 @@ Object {
         "ShiftDownLabel": "Q",
         "ShiftUpLabel": "q",
         "Text": "q",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -700,7 +700,7 @@ Object {
         "ShiftDownLabel": "J",
         "ShiftUpLabel": "j",
         "Text": "j",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -708,7 +708,7 @@ Object {
         "Label": "%",
         "Row": 1,
         "Text": "%",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -723,7 +723,7 @@ Object {
         "Label": "1",
         "Row": 0,
         "Text": "1",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -731,7 +731,7 @@ Object {
         "Label": "2",
         "Row": 0,
         "Text": "2",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -740,7 +740,7 @@ Object {
         "ShiftDownLabel": "M",
         "ShiftUpLabel": "m",
         "Text": "m",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -749,7 +749,7 @@ Object {
         "ShiftDownLabel": "N",
         "ShiftUpLabel": "n",
         "Text": "n",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -758,7 +758,7 @@ Object {
         "ShiftDownLabel": "P",
         "ShiftUpLabel": "p",
         "Text": "p",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -767,7 +767,7 @@ Object {
         "ShiftDownLabel": "B",
         "ShiftUpLabel": "b",
         "Text": "b",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -776,7 +776,7 @@ Object {
         "ShiftDownLabel": "K",
         "ShiftUpLabel": "k",
         "Text": "k",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -785,7 +785,7 @@ Object {
         "ShiftDownLabel": "V",
         "ShiftUpLabel": "v",
         "Text": "v",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -793,7 +793,7 @@ Object {
         "Label": "-",
         "Row": 3,
         "Text": "-",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -801,7 +801,7 @@ Object {
         "Label": "3",
         "Row": 0,
         "Text": "3",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -809,7 +809,7 @@ Object {
         "Label": "_",
         "Row": 1,
         "Text": "_",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -817,7 +817,7 @@ Object {
         "Label": ";",
         "Row": 6,
         "Text": ";",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -825,7 +825,7 @@ Object {
         "Label": "@",
         "Row": 1,
         "Text": "@",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -833,7 +833,7 @@ Object {
         "Label": "\\"",
         "Row": 1,
         "Text": "\\"",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -841,7 +841,7 @@ Object {
         "Label": "'",
         "Row": 1,
         "Text": "'",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -849,7 +849,7 @@ Object {
         "Label": "#",
         "Row": 4,
         "Text": "#",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -857,7 +857,7 @@ Object {
         "Label": "0",
         "Row": 0,
         "Text": "0",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -866,7 +866,7 @@ Object {
         "ShiftDownLabel": "L",
         "ShiftUpLabel": "l",
         "Text": "l",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -875,7 +875,7 @@ Object {
         "ShiftDownLabel": "S",
         "ShiftUpLabel": "s",
         "Text": "s",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -884,7 +884,7 @@ Object {
         "ShiftDownLabel": "R",
         "ShiftUpLabel": "r",
         "Text": "r",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -893,7 +893,7 @@ Object {
         "ShiftDownLabel": "T",
         "ShiftUpLabel": "t",
         "Text": "t",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -902,7 +902,7 @@ Object {
         "ShiftDownLabel": "C",
         "ShiftUpLabel": "c",
         "Text": "c",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -911,7 +911,7 @@ Object {
         "ShiftDownLabel": "D",
         "ShiftUpLabel": "d",
         "Text": "d",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -920,7 +920,7 @@ Object {
         "ShiftDownLabel": "W",
         "ShiftUpLabel": "w",
         "Text": "w",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -928,7 +928,7 @@ Object {
         "Label": "+",
         "Row": 1,
         "Text": "+",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -936,7 +936,7 @@ Object {
         "Label": "<",
         "Row": 4,
         "Text": "<",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -944,7 +944,7 @@ Object {
         "Label": "=",
         "Row": 4,
         "Text": "=",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -953,7 +953,7 @@ Object {
         "ShiftDownLabel": "A",
         "ShiftUpLabel": "a",
         "Text": "a",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -962,7 +962,7 @@ Object {
         "ShiftDownLabel": "E",
         "ShiftUpLabel": "e",
         "Text": "e",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -971,7 +971,7 @@ Object {
         "ShiftDownLabel": "I",
         "ShiftUpLabel": "i",
         "Text": "i",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -980,7 +980,7 @@ Object {
         "ShiftDownLabel": "O",
         "ShiftUpLabel": "o",
         "Text": "o",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -989,7 +989,7 @@ Object {
         "ShiftDownLabel": "U",
         "ShiftUpLabel": "u",
         "Text": "u",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -998,7 +998,7 @@ Object {
         "ShiftDownLabel": "X",
         "ShiftUpLabel": "x",
         "Text": "x",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -1007,7 +1007,7 @@ Object {
         "ShiftDownLabel": "Y",
         "ShiftUpLabel": "y",
         "Text": "y",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -1016,7 +1016,7 @@ Object {
         "ShiftDownLabel": "Z",
         "ShiftUpLabel": "z",
         "Text": "z",
-        "twoLabels": true,
+        "caseSensitive": true,
         "type": "TextKey",
       },
       Object {
@@ -1024,7 +1024,7 @@ Object {
         "Col": 0,
         "Label": "Win",
         "Row": 5,
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "ActionKey",
       },
       Object {
@@ -1032,7 +1032,7 @@ Object {
         "Label": ">",
         "Row": 5,
         "Text": ">",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1040,7 +1040,7 @@ Object {
         "Label": ",",
         "Row": 5,
         "Text": ",",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1048,7 +1048,7 @@ Object {
         "Label": ".",
         "Row": 5,
         "Text": ".",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1056,7 +1056,7 @@ Object {
         "Label": "(",
         "Row": 5,
         "Text": "(",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1064,7 +1064,7 @@ Object {
         "Label": ")",
         "Row": 5,
         "Text": ")",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1072,7 +1072,7 @@ Object {
         "Label": "[",
         "Row": 5,
         "Text": "[",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1080,7 +1080,7 @@ Object {
         "Label": "]",
         "Row": 5,
         "Text": "]",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1088,7 +1088,7 @@ Object {
         "Label": "{",
         "Row": 5,
         "Text": "{",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1096,7 +1096,7 @@ Object {
         "Label": "}",
         "Row": 5,
         "Text": "}",
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "TextKey",
       },
       Object {
@@ -1111,7 +1111,7 @@ Object {
         "Col": 11,
         "Label": "Esc",
         "Row": 5,
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "ActionKey",
       },
       Object {
@@ -1119,7 +1119,7 @@ Object {
         "Col": 0,
         "Label": "Ctrl",
         "Row": 6,
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "ActionKey",
       },
       Object {
@@ -1127,7 +1127,7 @@ Object {
         "Col": 1,
         "Label": "Alt",
         "Row": 6,
-        "twoLabels": false,
+        "caseSensitive": false,
         "type": "ActionKey",
       },
       Object {

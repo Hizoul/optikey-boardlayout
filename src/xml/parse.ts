@@ -39,17 +39,17 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     const ShiftUpLabel = getElementText(find(eles, ["name", "ShiftUpLabel"]))
     if (ShiftUpLabel != null) {
       ele.ShiftUpLabel = ShiftUpLabel
-      ele.twoLabels = true
+      ele.caseSensitive = true
     }
     const ShiftDownLabel = getElementText(find(eles, ["name", "ShiftDownLabel"]))
     if (ShiftDownLabel != null) {
       ele.ShiftDownLabel = ShiftDownLabel
-      ele.twoLabels = true
+      ele.caseSensitive = true
     }
     const Label = getElementText(find(eles, ["name", "Label"]))
-    if (ele.twoLabels == null && Label != null) {
+    if (ele.caseSensitive == null && Label != null) {
       ele.Label = Label
-      ele.twoLabels = false
+      ele.caseSensitive = false
     }
     const sym = getElementText(find(eles, ["name", "Symbol"]))
     if (sym != null) {
@@ -82,7 +82,7 @@ const toXml = (keyboard: IKeyboard) => {
   for (const key of keyboard.Keyboard.Keys) {
     const newKey = cloneDeep(key)
     delete newKey.type
-    delete newKey.twoLabels
+    delete newKey.caseSensitive
     changedKeys[key.type].push(newKey)
   }
   return js2xml({

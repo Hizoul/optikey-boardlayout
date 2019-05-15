@@ -4,6 +4,7 @@ import { get } from "lodash"
 import { observer } from "mobx-react-lite"
 import * as momentA from "moment"
 import * as React from "react"
+import getLabel from "./getLabel";
 const MTextField: any = TextFiel
 const TextField: React.FunctionComponent<IFieldProps & {
   className?: string
@@ -15,7 +16,7 @@ const TextField: React.FunctionComponent<IFieldProps & {
     valueEventKey: "nativeEvent.target.value"
   })
   const fieldType = get(props, "schema.type")
-  const value = fieldHelper.value
+  const value = fieldHelper.value ? fieldHelper.value : ""
   let type = "text"
   let min
   let max
@@ -30,7 +31,7 @@ const TextField: React.FunctionComponent<IFieldProps & {
   return (
     <MTextField
       type={type}
-      label={getMapTo(props.schema, props.mapTo)}
+      label={getLabel(getMapTo(props.schema, props.mapTo))}
       id={get(props, "id")}
       className={get(props, "className")}
       value={value}

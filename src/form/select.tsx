@@ -9,15 +9,14 @@ import { getMapToFromProps, IFieldProps, JSONSchemaDefinition, memo, useFieldWit
 import { get, isFunction } from "lodash"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
+import getLabel from "./getLabel";
 
 const SelectField: React.FunctionComponent<IFieldProps & {
   className?: string
   placeholder?: string
 }> = observer((props) => {
   const mapTo = getMapToFromProps(props)
-  const fieldHelper = useFieldWithValidation(props.schema, mapTo, props.prefix, {
-    valueEventKey: "nativeEvent.target.value"
-  })
+  const fieldHelper = useFieldWithValidation(props.schema, mapTo, props.prefix)
   let selOpts = get(props, "schema.selectOptions", [])
   if (isFunction(selOpts)) {
     selOpts = selOpts(fieldHelper.value, props.schema, props)
@@ -31,7 +30,7 @@ const SelectField: React.FunctionComponent<IFieldProps & {
   })
   return (
     <FormControl fullWidth>
-      <InputLabel>{mapTo}</InputLabel>
+      <InputLabel>{getLabel(mapTo)}</InputLabel>
         <Select
           onChange={(e) => {
             const t: any = get(e, "nativeEvent.target")
