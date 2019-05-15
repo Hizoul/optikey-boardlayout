@@ -18,6 +18,7 @@ Object {
       "Text": "7",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 9,
@@ -26,6 +27,7 @@ Object {
       "Text": "8",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 10,
@@ -34,6 +36,7 @@ Object {
       "Text": "9",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 1,
@@ -47,6 +50,7 @@ Object {
       "Text": "~",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 2,
@@ -55,6 +59,7 @@ Object {
       "Text": "$",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 1,
@@ -63,6 +68,7 @@ Object {
       "Text": "&",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 1,
@@ -71,6 +77,7 @@ Object {
       "Text": "^",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 0,
@@ -79,6 +86,7 @@ Object {
       "Text": "!",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 2,
@@ -87,6 +95,7 @@ Object {
       "Text": "?",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 10,
@@ -95,6 +104,7 @@ Object {
       "Text": "|",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Action": "MenuKeyboard",
@@ -102,6 +112,7 @@ Object {
       "Row": 0,
       "Symbol": "MenuIcon",
       "type": "ActionKey",
+      "useSymbol": true,
     },
     Object {
       "Col": 5,
@@ -110,6 +121,7 @@ Object {
       "Text": "4",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 6,
@@ -118,6 +130,7 @@ Object {
       "Text": "5",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 7,
@@ -126,6 +139,7 @@ Object {
       "Text": "6",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 3,
@@ -134,6 +148,7 @@ Object {
       "Text": "/",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 0,
@@ -142,6 +157,7 @@ Object {
       "Text": ":",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 6,
@@ -195,6 +211,7 @@ Object {
       "Text": "%",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Action": "BackOne",
@@ -202,6 +219,7 @@ Object {
       "Row": 6,
       "Symbol": "BackOneIcon",
       "type": "ActionKey",
+      "useSymbol": true,
     },
     Object {
       "Col": 2,
@@ -210,6 +228,7 @@ Object {
       "Text": "1",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 3,
@@ -218,6 +237,7 @@ Object {
       "Text": "2",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 9,
@@ -280,6 +300,7 @@ Object {
       "Text": "-",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 4,
@@ -288,6 +309,7 @@ Object {
       "Text": "3",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 6,
@@ -296,6 +318,7 @@ Object {
       "Text": "_",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 2,
@@ -304,6 +327,7 @@ Object {
       "Text": ";",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 0,
@@ -312,6 +336,7 @@ Object {
       "Text": "@",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 7,
@@ -320,6 +345,7 @@ Object {
       "Text": "\\"",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 5,
@@ -328,6 +354,7 @@ Object {
       "Text": "'",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 11,
@@ -336,6 +363,7 @@ Object {
       "Text": "#",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 1,
@@ -344,6 +372,7 @@ Object {
       "Text": "0",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 11,
@@ -415,6 +444,7 @@ Object {
       "Text": "+",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 1,
@@ -423,6 +453,7 @@ Object {
       "Text": "<",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 2,
@@ -431,6 +462,7 @@ Object {
       "Text": "=",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 3,
@@ -511,6 +543,7 @@ Object {
       "Row": 5,
       "caseSensitive": false,
       "type": "ActionKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 1,
@@ -519,6 +552,7 @@ Object {
       "Text": ">",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 2,
@@ -527,6 +561,7 @@ Object {
       "Text": ",",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 3,
@@ -535,6 +570,7 @@ Object {
       "Text": ".",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 4,
@@ -543,6 +579,7 @@ Object {
       "Text": "(",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 5,
@@ -551,6 +588,7 @@ Object {
       "Text": ")",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 6,
@@ -559,6 +597,7 @@ Object {
       "Text": "[",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 7,
@@ -567,6 +606,7 @@ Object {
       "Text": "]",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 8,
@@ -575,6 +615,7 @@ Object {
       "Text": "{",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 9,
@@ -583,6 +624,7 @@ Object {
       "Text": "}",
       "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Action": "ArrowUp",
@@ -590,6 +632,7 @@ Object {
       "Row": 5,
       "Symbol": "UpArrowKeyIcon",
       "type": "ActionKey",
+      "useSymbol": true,
     },
     Object {
       "Action": "Escape",
@@ -598,6 +641,7 @@ Object {
       "Row": 5,
       "caseSensitive": false,
       "type": "ActionKey",
+      "useSymbol": false,
     },
     Object {
       "Action": "LeftCtrl",
@@ -606,6 +650,7 @@ Object {
       "Row": 6,
       "caseSensitive": false,
       "type": "ActionKey",
+      "useSymbol": false,
     },
     Object {
       "Action": "LeftAlt",
@@ -614,6 +659,7 @@ Object {
       "Row": 6,
       "caseSensitive": false,
       "type": "ActionKey",
+      "useSymbol": false,
     },
     Object {
       "Action": "LeftShift",
@@ -621,24 +667,31 @@ Object {
       "Row": 6,
       "Symbol": "ShiftIcon",
       "type": "ActionKey",
+      "useSymbol": true,
     },
     Object {
       "Col": 4,
       "Row": 6,
       "Symbol": "TabIcon",
+      "Text": "&#9;",
       "type": "TextKey",
+      "useSymbol": true,
     },
     Object {
       "Col": 5,
       "Row": 6,
       "Symbol": "SpaceIcon",
+      "Text": "&#32;",
       "type": "TextKey",
+      "useSymbol": true,
     },
     Object {
       "Col": 7,
       "Row": 6,
       "Symbol": "EnterIcon",
+      "Text": "&#13;",
       "type": "TextKey",
+      "useSymbol": true,
     },
     Object {
       "Action": "ArrowLeft",
@@ -646,6 +699,7 @@ Object {
       "Row": 6,
       "Symbol": "LeftArrowKeyIcon",
       "type": "ActionKey",
+      "useSymbol": true,
     },
     Object {
       "Action": "ArrowDown",
@@ -653,6 +707,7 @@ Object {
       "Row": 6,
       "Symbol": "DownArrowKeyIcon",
       "type": "ActionKey",
+      "useSymbol": true,
     },
     Object {
       "Action": "ArrowRight",
@@ -660,6 +715,7 @@ Object {
       "Row": 6,
       "Symbol": "RightArrowKeyIcon",
       "type": "ActionKey",
+      "useSymbol": true,
     },
   ],
   "Name": "MMB2s Keyboard",

@@ -48,7 +48,12 @@ const KeyEditor = observer(() => {
     title: `Keys[${keyIndex}].caseSensitive`,
     type: "boolean"
   }
+  const useSymbolSchema = {
+    title: `Keys[${keyIndex}].useSymbol`,
+    type: "boolean"
+  }
   const caseSensitiveValue = FormStore.getValue(caseSensitiveSchema.title, keyboardPrefix)
+  const useSymbol = FormStore.getValue(useSymbolSchema.title, keyboardPrefix)
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
   const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
   return (
@@ -58,20 +63,26 @@ const KeyEditor = observer(() => {
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
         {keySelected ? (
-          <div className="center vertical flex1">
+          <div className="vertical flex1">
             <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
             {typeValue === textKeyVal ? (
               <>
                 <SharedField schema={textSchema} prefix={keyboardPrefix} />
-                {caseSensitiveValue ? (
-                  <>
-                    <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
-                    <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
-                  </>
-                ) : <>
-                  <SharedField schema={labelSchema} prefix={keyboardPrefix} />
-                </>}
-                <SharedField schema={caseSensitiveSchema} prefix={keyboardPrefix} />
+                <SharedField schema={useSymbolSchema} prefix={keyboardPrefix} />
+                {useSymbol ?
+                  <SharedField schema={symbolSchema} prefix={keyboardPrefix} /> :
+                  (<>
+                    <SharedField schema={caseSensitiveSchema} prefix={keyboardPrefix} />
+                    {caseSensitiveValue ? (
+                      <>
+                        <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
+                        <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
+                      </>
+                    ) : <>
+                      <SharedField schema={labelSchema} prefix={keyboardPrefix} />
+                    </>}
+                  </>)
+                  }
               </>
             ) : (
               <>

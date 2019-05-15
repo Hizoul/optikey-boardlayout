@@ -58,6 +58,8 @@ const KeyDisplay: React.FunctionComponent<{
   const isDragged = FormStore.getValue(k, dragKey, false)
   const keyIndex = FormStore.getValue(activeKey, undefined)
   const selected = props.index === keyIndex
+  const useSymbol = get(props, "entry.useSymbol", false)
+  const caseSensitive = get(props, "entry.caseSensitive", false)
   return (
     <div
       className={`key center ${selected ? "isSelected" : ""} ${isOver ? "isHovered" : ""} ${isDragged ? "isDragged" : ""}`}
@@ -70,7 +72,7 @@ const KeyDisplay: React.FunctionComponent<{
       onDragLeave={dragLeaveHandler(props.index, props.row, props.col)}
       style={{maxWidth: props.width, maxHeight: props.height, width: props.width, height: props.height}}
     >
-      {get(props, "entry.Label", get(props, "entry.ShiftDownLabel", get(props, "entry.Action")))}
+      {get(props, (useSymbol ? "entry.Symbol" : caseSensitive ? "entry.ShiftDownLabel" : "entry.Label"), get(props, "entry.Action"))}
     </div>
   )
 })

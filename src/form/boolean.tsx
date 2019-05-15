@@ -5,7 +5,7 @@ import CheckBoxIcon from '@material-ui/icons/CheckBox'
 import { getMapToFromProps, IFieldProps, JSONSchemaDefinition, memo, useFieldWithValidation } from "@xpfw/form"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
-import getLabel from "./getLabel";
+import getLabel from "./getLabel"
 
 const BooleanField: React.FunctionComponent<IFieldProps & {
   className?: string
@@ -25,7 +25,7 @@ const BooleanField: React.FunctionComponent<IFieldProps & {
           />
         }
         label={getLabel(mapTo)}
-      />
+    />
   )
 })
 

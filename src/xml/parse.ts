@@ -50,10 +50,26 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     if (ele.caseSensitive == null && Label != null) {
       ele.Label = Label
       ele.caseSensitive = false
+      ele.useSymbol = false
     }
     const sym = getElementText(find(eles, ["name", "Symbol"]))
     if (sym != null) {
       ele.Symbol = sym
+      ele.useSymbol = true
+      switch (ele.Symbol) {
+        case "SpaceIcon": {
+          ele.Text = "&#32;"
+          break
+        }
+        case "EnterIcon": {
+          ele.Text = "&#13;"
+          break
+        }
+        case "TabIcon": {
+          ele.Text = "&#9;"
+          break
+        }
+      }
     }
     const Action = getElementText(find(eles, ["name", "Action"]))
     if (Action != null) {
@@ -83,14 +99,16 @@ const toXml = (keyboard: IKeyboard) => {
     const newKey = cloneDeep(key)
     delete newKey.type
     delete newKey.caseSensitive
+    delete newKey.useSymbol
     changedKeys[key.type].push(newKey)
   }
-  return js2xml({
+  const res = js2xml({
     Keyboard: {
       ...keyboard.Keyboard,
       Keys: changedKeys
     }
   }, {compact: true, spaces: 2})
+  return res.replace(/\&amp;/g, "&")
 }
 
 export default xmlParser
