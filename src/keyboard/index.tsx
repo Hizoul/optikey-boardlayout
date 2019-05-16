@@ -18,7 +18,7 @@ const KeyboardDisplay = observer(() => {
   let height = 20
   if (r[0] != null) {
     const ele: any = r[0]
-    width = Math.floor((ele.clientWidth - 10)  / (gridHeight))
+    width = Math.floor((ele.clientWidth - 26)  / (gridHeight))
     height = Math.floor((Math.min(ele.clientHeight, window.innerHeight) - 10) / (gridLength))
   }
   for (let row = 0; row < gridLength; row++) {

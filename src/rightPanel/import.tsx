@@ -1,8 +1,8 @@
-import ExpansionPanel from '@material-ui/core/ExpansionPanel'
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails'
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary'
-import Typography from '@material-ui/core/Typography'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
+import ExpansionPanel from "@material-ui/core/ExpansionPanel"
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails"
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary"
+import Typography from "@material-ui/core/Typography"
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import { FormStore } from "@xpfw/form"
 import * as React from "react"
 import { useCallback } from "react"
@@ -31,7 +31,7 @@ const KeyboardImporter = () => {
       <ExpansionPanelSummary>
         <input {...getInputProps()} />
         <Typography>Upload</Typography>
-        <Typography>Drag 'n' drop some files here, or click to select files</Typography>
+        <Typography>Drag "n" drop some files here, or click to select files</Typography>
       </ExpansionPanelSummary>
     </ExpansionPanel>
   )
