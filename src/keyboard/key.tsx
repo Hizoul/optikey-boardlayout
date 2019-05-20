@@ -24,7 +24,18 @@ const switchKeys = action((row1: number, col1: number, row2: number, col2: numbe
 })
 const keyMaker = (index: number, row: number, col: number) => `x${index}X${row}X${col}`
 
-const clickHandler = (index: number) => memo(() => () => FormStore.setValue(activeKey, index), [activeKey, index])
+const clickHandler = (index: number, Row: number, Col: number) => memo(() => action(() => {
+  let indexToUse = index
+  if (indexToUse === -1) {
+    const keys = FormStore.getValue(`${keyboardPrefix}.Keys`)
+    indexToUse = keys.push({
+      Row, Col, type: "TextKey", Text: "", Label: "", caseSensitive: false, useSymbol: false
+    }) - 1
+    FormStore.getValue(`${keyboardPrefix}.Keys`, keys)
+  }
+  FormStore.setValue(activeKey, indexToUse)
+}), [activeKey, Row, Col, index])
+
 const dragStartHandler = (index: number, row: number, col: number) => memo(() => (e: any) => {
   e.dataTransfer.dropEffect = "copy"
   e.dataTransfer.setData("row", String(row))
@@ -64,7 +75,7 @@ const KeyDisplay: React.FunctionComponent<{
     <div
       className={`key center ${selected ? "isSelected" : ""} ${isOver ? "isHovered" : ""} ${isDragged ? "isDragged" : ""}`}
       draggable
-      onClick={clickHandler(props.index)}
+      onClick={clickHandler(props.index, props.row, props.col)}
       onDragStart={dragStartHandler(props.index, props.row, props.col)}
       onDragEnd={dragEndHandler(props.index, props.row, props.col)}
       onDrop={dropHandler(props.index, props.row, props.col)}
