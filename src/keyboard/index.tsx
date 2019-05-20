@@ -1,18 +1,21 @@
-import { toJS } from "@xpfw/data"
 import { FormStore } from "@xpfw/form"
 import { findIndex } from "lodash"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
-import { withContentRect } from "react-measure"
 import { activeKey, colsSchema, keyboardPrefix, rowsSchema } from "../form/def"
 import KeyDisplay from "./key"
 import "./keyboardStyle.css"
 
+window.addEventListener("resize", () => {
+  const prev = FormStore.getValue(activeKey)
+  FormStore.setValue(activeKey, -2)
+  FormStore.setValue(activeKey, prev)
+})
 const KeyboardDisplay = observer(() => {
   const gridLength = FormStore.getValue(rowsSchema.title, keyboardPrefix, 1)
   const gridHeight = FormStore.getValue(colsSchema.title, keyboardPrefix, 1)
   const keys = FormStore.getValue("Keys", keyboardPrefix, [])
-  const keyIndex = FormStore.getValue(activeKey)
+  FormStore.getValue(activeKey)
   const r = React.useState(undefined)
   const toRender = []
   let width = 30
