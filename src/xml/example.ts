@@ -27,8 +27,8 @@ const exampleXml =  `<Keyboard>
         <Col>10</Col>
     </TextKey>
     <TextKey>
-        <Label>\</Label>
-        <Text>\</Text>
+        <Label>\\</Label>
+        <Text>\\</Text>
         <Row>2</Row>
         <Col>1</Col>
     </TextKey>

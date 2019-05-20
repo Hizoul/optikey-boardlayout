@@ -40,8 +40,12 @@ Object {
     },
     Object {
       "Col": 1,
+      "Label": "\\\\",
       "Row": 2,
+      "Text": "\\\\",
+      "caseSensitive": false,
       "type": "TextKey",
+      "useSymbol": false,
     },
     Object {
       "Col": 0,
@@ -682,6 +686,7 @@ Object {
       "Row": 6,
       "Symbol": "SpaceIcon",
       "Text": "&#32;",
+      "Width": "2",
       "type": "TextKey",
       "useSymbol": true,
     },

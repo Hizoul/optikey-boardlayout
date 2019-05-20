@@ -519,7 +519,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        \\
+      </div>
       <div
         className="key center   "
         draggable={true}
@@ -1684,10 +1686,10 @@ Array [
     className="rightPanel"
   >
     <div
-      className="center"
+      className=" row"
     >
       <button
-        className="MuiButtonBase-root-932 MuiButton-root-906 MuiButton-outlined-914 MuiButton-outlinedPrimary-915 MuiButton-fullWidth-931"
+        className="MuiButtonBase-root-1012 MuiButton-root-986 MuiButton-outlined-994 MuiButton-outlinedPrimary-995 MuiButton-fullWidth-1011"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1705,16 +1707,16 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-907"
+          className="MuiButton-label-987"
         >
           download xml
         </span>
         <span
-          className="MuiTouchRipple-root-1080"
+          className="MuiTouchRipple-root-1176"
         />
       </button>
       <button
-        className="MuiButtonBase-root-932 MuiButton-root-906 MuiButton-outlined-914 MuiButton-outlinedPrimary-915 MuiButton-fullWidth-931"
+        className="MuiButtonBase-root-1012 MuiButton-root-986 MuiButton-outlined-994 MuiButton-outlinedPrimary-995 MuiButton-fullWidth-1011"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -1732,21 +1734,30 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-907"
+          className="MuiButton-label-987"
         >
           copy xml to clipboard
         </span>
         <span
-          className="MuiTouchRipple-root-1080"
+          className="MuiTouchRipple-root-1176"
         />
       </button>
     </div>
     <div
-      className="MuiPaper-root-939 MuiPaper-elevation1-942 MuiPaper-rounded-940 MuiExpansionPanel-root-935 MuiExpansionPanel-rounded-936"
+      className="MuiPaper-root-1019 MuiPaper-elevation1-1022 MuiPaper-rounded-1020 MuiExpansionPanel-root-1015 MuiExpansionPanel-rounded-1016"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-932 MuiExpansionPanelSummary-root-966"
+        className="MuiButtonBase-root-1012 MuiExpansionPanelSummary-root-1046"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -1763,17 +1774,84 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-970"
+          className="MuiExpansionPanelSummary-content-1050"
+        >
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p
+            className="MuiTypography-root-1052 MuiTypography-body1-1061"
+          >
+            Upload
+          </p>
+          <p
+            className="MuiTypography-root-1052 MuiTypography-body1-1061"
+          >
+            Drag "n" drop some files here, or click to select files
+          </p>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-1088"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-1090"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-1091"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiPaper-root-1019 MuiPaper-elevation1-1022 MuiPaper-rounded-1020 MuiExpansionPanel-root-1015 MuiExpansionPanel-rounded-1016"
+    >
+      <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-1012 MuiExpansionPanelSummary-root-1046"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-1050"
         >
           <p
-            className="MuiTypography-root-972 MuiTypography-body1-981"
+            className="MuiTypography-root-1052 MuiTypography-body1-1061"
           >
             Global Settings
           </p>
         </div>
         <div
           aria-hidden="true"
-          className="MuiButtonBase-root-932 MuiIconButton-root-1008 MuiExpansionPanelSummary-expandIcon-971"
+          className="MuiButtonBase-root-1012 MuiIconButton-root-1092 MuiExpansionPanelSummary-expandIcon-1051"
           onBlur={[Function]}
           onContextMenu={[Function]}
           onFocus={[Function]}
@@ -1789,11 +1867,11 @@ Array [
           tabIndex={-1}
         >
           <span
-            className="MuiIconButton-label-1013"
+            className="MuiIconButton-label-1097"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-1014"
+              className="MuiSvgIcon-root-1098"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -1808,13 +1886,13 @@ Array [
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-1080"
+            className="MuiTouchRipple-root-1176"
           />
         </div>
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-1023"
+        className="MuiCollapse-container-1088"
         style={
           Object {
             "minHeight": "0px",
@@ -1822,13 +1900,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-1025"
+          className="MuiCollapse-wrapper-1090"
         >
           <div
-            className="MuiCollapse-wrapperInner-1026"
+            className="MuiCollapse-wrapperInner-1091"
           >
             <div
-              className="MuiExpansionPanelDetails-root-1027"
+              className="MuiExpansionPanelDetails-root-1107"
             >
               <div
                 className="center"
@@ -1840,21 +1918,21 @@ Array [
                 }
               >
                 <div
-                  className="MuiFormControl-root-1028 MuiFormControl-fullWidth-1031"
+                  className="MuiFormControl-root-1108 MuiFormControl-fullWidth-1111"
                 >
                   <label
-                    className="MuiFormLabel-root-1043 MuiFormLabel-filled-1047 MuiInputLabel-root-1032 MuiInputLabel-formControl-1037 MuiInputLabel-animated-1040 MuiInputLabel-shrink-1039"
+                    className="MuiFormLabel-root-1123 MuiFormLabel-filled-1127 MuiInputLabel-root-1112 MuiInputLabel-formControl-1117 MuiInputLabel-animated-1120 MuiInputLabel-shrink-1119"
                     data-shrink={true}
                   >
                     Name
                   </label>
                   <div
-                    className="MuiInputBase-root-1063 MuiInput-root-1050 MuiInput-underline-1054 MuiInputBase-fullWidth-1072 MuiInput-fullWidth-1057 MuiInputBase-formControl-1064 MuiInput-formControl-1051"
+                    className="MuiInputBase-root-1143 MuiInput-root-1130 MuiInput-underline-1134 MuiInputBase-fullWidth-1152 MuiInput-fullWidth-1137 MuiInputBase-formControl-1144 MuiInput-formControl-1131"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1073 MuiInput-input-1058"
+                      className="MuiInputBase-input-1153 MuiInput-input-1138"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -1866,21 +1944,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1028 MuiFormControl-fullWidth-1031"
+                  className="MuiFormControl-root-1108 MuiFormControl-fullWidth-1111"
                 >
                   <label
-                    className="MuiFormLabel-root-1043 MuiFormLabel-filled-1047 MuiInputLabel-root-1032 MuiInputLabel-formControl-1037 MuiInputLabel-animated-1040 MuiInputLabel-shrink-1039"
+                    className="MuiFormLabel-root-1123 MuiFormLabel-filled-1127 MuiInputLabel-root-1112 MuiInputLabel-formControl-1117 MuiInputLabel-animated-1120 MuiInputLabel-shrink-1119"
                     data-shrink={true}
                   >
                     Height
                   </label>
                   <div
-                    className="MuiInputBase-root-1063 MuiInput-root-1050 MuiInput-underline-1054 MuiInputBase-fullWidth-1072 MuiInput-fullWidth-1057 MuiInputBase-formControl-1064 MuiInput-formControl-1051"
+                    className="MuiInputBase-root-1143 MuiInput-root-1130 MuiInput-underline-1134 MuiInputBase-fullWidth-1152 MuiInput-fullWidth-1137 MuiInputBase-formControl-1144 MuiInput-formControl-1131"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1073 MuiInput-input-1058 MuiInputBase-inputType-1076 MuiInput-inputType-1061"
+                      className="MuiInputBase-input-1153 MuiInput-input-1138 MuiInputBase-inputType-1156 MuiInput-inputType-1141"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -1892,21 +1970,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1028 MuiFormControl-fullWidth-1031"
+                  className="MuiFormControl-root-1108 MuiFormControl-fullWidth-1111"
                 >
                   <label
-                    className="MuiFormLabel-root-1043 MuiFormLabel-filled-1047 MuiInputLabel-root-1032 MuiInputLabel-formControl-1037 MuiInputLabel-animated-1040 MuiInputLabel-shrink-1039"
+                    className="MuiFormLabel-root-1123 MuiFormLabel-filled-1127 MuiInputLabel-root-1112 MuiInputLabel-formControl-1117 MuiInputLabel-animated-1120 MuiInputLabel-shrink-1119"
                     data-shrink={true}
                   >
                     BorderThickness
                   </label>
                   <div
-                    className="MuiInputBase-root-1063 MuiInput-root-1050 MuiInput-underline-1054 MuiInputBase-fullWidth-1072 MuiInput-fullWidth-1057 MuiInputBase-formControl-1064 MuiInput-formControl-1051"
+                    className="MuiInputBase-root-1143 MuiInput-root-1130 MuiInput-underline-1134 MuiInputBase-fullWidth-1152 MuiInput-fullWidth-1137 MuiInputBase-formControl-1144 MuiInput-formControl-1131"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1073 MuiInput-input-1058"
+                      className="MuiInputBase-input-1153 MuiInput-input-1138"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -1918,21 +1996,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1028 MuiFormControl-fullWidth-1031"
+                  className="MuiFormControl-root-1108 MuiFormControl-fullWidth-1111"
                 >
                   <label
-                    className="MuiFormLabel-root-1043 MuiFormLabel-filled-1047 MuiInputLabel-root-1032 MuiInputLabel-formControl-1037 MuiInputLabel-animated-1040 MuiInputLabel-shrink-1039"
+                    className="MuiFormLabel-root-1123 MuiFormLabel-filled-1127 MuiInputLabel-root-1112 MuiInputLabel-formControl-1117 MuiInputLabel-animated-1120 MuiInputLabel-shrink-1119"
                     data-shrink={true}
                   >
                     Grid.Rows
                   </label>
                   <div
-                    className="MuiInputBase-root-1063 MuiInput-root-1050 MuiInput-underline-1054 MuiInputBase-fullWidth-1072 MuiInput-fullWidth-1057 MuiInputBase-formControl-1064 MuiInput-formControl-1051"
+                    className="MuiInputBase-root-1143 MuiInput-root-1130 MuiInput-underline-1134 MuiInputBase-fullWidth-1152 MuiInput-fullWidth-1137 MuiInputBase-formControl-1144 MuiInput-formControl-1131"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1073 MuiInput-input-1058 MuiInputBase-inputType-1076 MuiInput-inputType-1061"
+                      className="MuiInputBase-input-1153 MuiInput-input-1138 MuiInputBase-inputType-1156 MuiInput-inputType-1141"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -1944,21 +2022,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1028 MuiFormControl-fullWidth-1031"
+                  className="MuiFormControl-root-1108 MuiFormControl-fullWidth-1111"
                 >
                   <label
-                    className="MuiFormLabel-root-1043 MuiFormLabel-filled-1047 MuiInputLabel-root-1032 MuiInputLabel-formControl-1037 MuiInputLabel-animated-1040 MuiInputLabel-shrink-1039"
+                    className="MuiFormLabel-root-1123 MuiFormLabel-filled-1127 MuiInputLabel-root-1112 MuiInputLabel-formControl-1117 MuiInputLabel-animated-1120 MuiInputLabel-shrink-1119"
                     data-shrink={true}
                   >
                     Grid.Cols
                   </label>
                   <div
-                    className="MuiInputBase-root-1063 MuiInput-root-1050 MuiInput-underline-1054 MuiInputBase-fullWidth-1072 MuiInput-fullWidth-1057 MuiInputBase-formControl-1064 MuiInput-formControl-1051"
+                    className="MuiInputBase-root-1143 MuiInput-root-1130 MuiInput-underline-1134 MuiInputBase-fullWidth-1152 MuiInput-fullWidth-1137 MuiInputBase-formControl-1144 MuiInput-formControl-1131"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1073 MuiInput-input-1058 MuiInputBase-inputType-1076 MuiInput-inputType-1061"
+                      className="MuiInputBase-input-1153 MuiInput-input-1138 MuiInputBase-inputType-1156 MuiInput-inputType-1141"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -1970,21 +2048,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1028 MuiFormControl-fullWidth-1031"
+                  className="MuiFormControl-root-1108 MuiFormControl-fullWidth-1111"
                 >
                   <label
-                    className="MuiFormLabel-root-1043 MuiFormLabel-filled-1047 MuiInputLabel-root-1032 MuiInputLabel-formControl-1037 MuiInputLabel-animated-1040 MuiInputLabel-shrink-1039"
+                    className="MuiFormLabel-root-1123 MuiFormLabel-filled-1127 MuiInputLabel-root-1112 MuiInputLabel-formControl-1117 MuiInputLabel-animated-1120 MuiInputLabel-shrink-1119"
                     data-shrink={true}
                   >
                     SymbolMargin
                   </label>
                   <div
-                    className="MuiInputBase-root-1063 MuiInput-root-1050 MuiInput-underline-1054 MuiInputBase-fullWidth-1072 MuiInput-fullWidth-1057 MuiInputBase-formControl-1064 MuiInput-formControl-1051"
+                    className="MuiInputBase-root-1143 MuiInput-root-1130 MuiInput-underline-1134 MuiInputBase-fullWidth-1152 MuiInput-fullWidth-1137 MuiInputBase-formControl-1144 MuiInput-formControl-1131"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1073 MuiInput-input-1058 MuiInputBase-inputType-1076 MuiInput-inputType-1061"
+                      className="MuiInputBase-input-1153 MuiInput-input-1138 MuiInputBase-inputType-1156 MuiInput-inputType-1141"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -2002,11 +2080,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-939 MuiPaper-elevation1-942 MuiPaper-rounded-940 MuiExpansionPanel-root-935 MuiExpansionPanel-rounded-936"
+      className="MuiPaper-root-1019 MuiPaper-elevation1-1022 MuiPaper-rounded-1020 MuiExpansionPanel-root-1015 MuiExpansionPanel-rounded-1016"
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-932 MuiExpansionPanelSummary-root-966"
+        className="MuiButtonBase-root-1012 MuiExpansionPanelSummary-root-1046"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -2023,10 +2101,10 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-970"
+          className="MuiExpansionPanelSummary-content-1050"
         >
           <p
-            className="MuiTypography-root-972 MuiTypography-body1-981"
+            className="MuiTypography-root-1052 MuiTypography-body1-1061"
           >
             Click on a key to edit it here
           </p>
@@ -2034,7 +2112,7 @@ Array [
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-1023"
+        className="MuiCollapse-container-1088"
         style={
           Object {
             "minHeight": "0px",
@@ -2042,13 +2120,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-1025"
+          className="MuiCollapse-wrapper-1090"
         >
           <div
-            className="MuiCollapse-wrapperInner-1026"
+            className="MuiCollapse-wrapperInner-1091"
           >
             <div
-              className="MuiExpansionPanelDetails-root-1027"
+              className="MuiExpansionPanelDetails-root-1107"
             >
               <p>
                 Click on a Key in the Keyboard to edit it
@@ -2059,20 +2137,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-939 MuiPaper-elevation1-942 MuiPaper-rounded-940 MuiExpansionPanel-root-935 MuiExpansionPanel-rounded-936"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragEnter={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      tabIndex={0}
+      className="MuiPaper-root-1019 MuiPaper-elevation1-1022 MuiPaper-rounded-1020 MuiExpansionPanel-root-1015 MuiExpansionPanel-expanded-1017 MuiExpansionPanel-rounded-1016"
     >
       <div
-        aria-expanded={false}
-        className="MuiButtonBase-root-932 MuiExpansionPanelSummary-root-966"
+        aria-expanded={true}
+        className="MuiButtonBase-root-1012 MuiExpansionPanelSummary-root-1046 MuiExpansionPanelSummary-expanded-1047"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -2089,36 +2158,17 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-970"
+          className="MuiExpansionPanelSummary-content-1050 MuiExpansionPanelSummary-expanded-1047"
         >
-          <input
-            autoComplete="off"
-            multiple={true}
-            onChange={[Function]}
-            onClick={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            tabIndex={-1}
-            type="file"
-          />
           <p
-            className="MuiTypography-root-972 MuiTypography-body1-981"
+            className="MuiTypography-root-1052 MuiTypography-body1-1061"
           >
-            Upload
-          </p>
-          <p
-            className="MuiTypography-root-972 MuiTypography-body1-981"
-          >
-            Drag 'n' drop some files here, or click to select files
+            About
           </p>
         </div>
       </div>
       <div
-        aria-hidden="true"
-        className="MuiCollapse-container-1023"
+        className="MuiCollapse-container-1088 MuiCollapse-entered-1089"
         style={
           Object {
             "minHeight": "0px",
@@ -2126,11 +2176,45 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-1025"
+          className="MuiCollapse-wrapper-1090"
         >
           <div
-            className="MuiCollapse-wrapperInner-1026"
-          />
+            className="MuiCollapse-wrapperInner-1091"
+          >
+            <div
+              className="MuiExpansionPanelDetails-root-1107"
+            >
+              <p
+                className="MuiTypography-root-1052 MuiTypography-body1-1061"
+              >
+                Written with ❤️ by 
+                <a>
+                  hizoul
+                </a>
+                <br />
+                Special thanks to 
+                <a
+                  href="https://github.com/JuliusSweetland"
+                >
+                  Julius Sweetland
+                </a>
+                 for writing 
+                <a
+                  href="https://github.com/OptiKey/OptiKey"
+                >
+                  OptiKey
+                </a>
+                 and 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  all other authors of open source libraries
+                </a>
+                 that make this small tool possible
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -2670,7 +2754,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        \\
+      </div>
       <div
         className="key center   "
         draggable={true}
@@ -3835,10 +3921,10 @@ Array [
     className="rightPanel"
   >
     <div
-      className="center"
+      className=" row"
     >
       <button
-        className="MuiButtonBase-root-751 MuiButton-root-725 MuiButton-outlined-733 MuiButton-outlinedPrimary-734 MuiButton-fullWidth-750"
+        className="MuiButtonBase-root-815 MuiButton-root-789 MuiButton-outlined-797 MuiButton-outlinedPrimary-798 MuiButton-fullWidth-814"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -3856,16 +3942,16 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-726"
+          className="MuiButton-label-790"
         >
           download xml
         </span>
         <span
-          className="MuiTouchRipple-root-899"
+          className="MuiTouchRipple-root-979"
         />
       </button>
       <button
-        className="MuiButtonBase-root-751 MuiButton-root-725 MuiButton-outlined-733 MuiButton-outlinedPrimary-734 MuiButton-fullWidth-750"
+        className="MuiButtonBase-root-815 MuiButton-root-789 MuiButton-outlined-797 MuiButton-outlinedPrimary-798 MuiButton-fullWidth-814"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -3883,21 +3969,30 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-726"
+          className="MuiButton-label-790"
         >
           copy xml to clipboard
         </span>
         <span
-          className="MuiTouchRipple-root-899"
+          className="MuiTouchRipple-root-979"
         />
       </button>
     </div>
     <div
-      className="MuiPaper-root-758 MuiPaper-elevation1-761 MuiPaper-rounded-759 MuiExpansionPanel-root-754 MuiExpansionPanel-rounded-755"
+      className="MuiPaper-root-822 MuiPaper-elevation1-825 MuiPaper-rounded-823 MuiExpansionPanel-root-818 MuiExpansionPanel-rounded-819"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-751 MuiExpansionPanelSummary-root-785"
+        className="MuiButtonBase-root-815 MuiExpansionPanelSummary-root-849"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -3914,17 +4009,84 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-789"
+          className="MuiExpansionPanelSummary-content-853"
+        >
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p
+            className="MuiTypography-root-855 MuiTypography-body1-864"
+          >
+            Upload
+          </p>
+          <p
+            className="MuiTypography-root-855 MuiTypography-body1-864"
+          >
+            Drag "n" drop some files here, or click to select files
+          </p>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-891"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-893"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-894"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiPaper-root-822 MuiPaper-elevation1-825 MuiPaper-rounded-823 MuiExpansionPanel-root-818 MuiExpansionPanel-rounded-819"
+    >
+      <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-815 MuiExpansionPanelSummary-root-849"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-853"
         >
           <p
-            className="MuiTypography-root-791 MuiTypography-body1-800"
+            className="MuiTypography-root-855 MuiTypography-body1-864"
           >
             Global Settings
           </p>
         </div>
         <div
           aria-hidden="true"
-          className="MuiButtonBase-root-751 MuiIconButton-root-827 MuiExpansionPanelSummary-expandIcon-790"
+          className="MuiButtonBase-root-815 MuiIconButton-root-895 MuiExpansionPanelSummary-expandIcon-854"
           onBlur={[Function]}
           onContextMenu={[Function]}
           onFocus={[Function]}
@@ -3940,11 +4102,11 @@ Array [
           tabIndex={-1}
         >
           <span
-            className="MuiIconButton-label-832"
+            className="MuiIconButton-label-900"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-833"
+              className="MuiSvgIcon-root-901"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -3959,13 +4121,13 @@ Array [
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-899"
+            className="MuiTouchRipple-root-979"
           />
         </div>
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-842"
+        className="MuiCollapse-container-891"
         style={
           Object {
             "minHeight": "0px",
@@ -3973,13 +4135,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-844"
+          className="MuiCollapse-wrapper-893"
         >
           <div
-            className="MuiCollapse-wrapperInner-845"
+            className="MuiCollapse-wrapperInner-894"
           >
             <div
-              className="MuiExpansionPanelDetails-root-846"
+              className="MuiExpansionPanelDetails-root-910"
             >
               <div
                 className="center"
@@ -3991,21 +4153,21 @@ Array [
                 }
               >
                 <div
-                  className="MuiFormControl-root-847 MuiFormControl-fullWidth-850"
+                  className="MuiFormControl-root-911 MuiFormControl-fullWidth-914"
                 >
                   <label
-                    className="MuiFormLabel-root-862 MuiFormLabel-filled-866 MuiInputLabel-root-851 MuiInputLabel-formControl-856 MuiInputLabel-animated-859 MuiInputLabel-shrink-858"
+                    className="MuiFormLabel-root-926 MuiFormLabel-filled-930 MuiInputLabel-root-915 MuiInputLabel-formControl-920 MuiInputLabel-animated-923 MuiInputLabel-shrink-922"
                     data-shrink={true}
                   >
                     Name
                   </label>
                   <div
-                    className="MuiInputBase-root-882 MuiInput-root-869 MuiInput-underline-873 MuiInputBase-fullWidth-891 MuiInput-fullWidth-876 MuiInputBase-formControl-883 MuiInput-formControl-870"
+                    className="MuiInputBase-root-946 MuiInput-root-933 MuiInput-underline-937 MuiInputBase-fullWidth-955 MuiInput-fullWidth-940 MuiInputBase-formControl-947 MuiInput-formControl-934"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-892 MuiInput-input-877"
+                      className="MuiInputBase-input-956 MuiInput-input-941"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -4017,21 +4179,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-847 MuiFormControl-fullWidth-850"
+                  className="MuiFormControl-root-911 MuiFormControl-fullWidth-914"
                 >
                   <label
-                    className="MuiFormLabel-root-862 MuiFormLabel-filled-866 MuiInputLabel-root-851 MuiInputLabel-formControl-856 MuiInputLabel-animated-859 MuiInputLabel-shrink-858"
+                    className="MuiFormLabel-root-926 MuiFormLabel-filled-930 MuiInputLabel-root-915 MuiInputLabel-formControl-920 MuiInputLabel-animated-923 MuiInputLabel-shrink-922"
                     data-shrink={true}
                   >
                     Height
                   </label>
                   <div
-                    className="MuiInputBase-root-882 MuiInput-root-869 MuiInput-underline-873 MuiInputBase-fullWidth-891 MuiInput-fullWidth-876 MuiInputBase-formControl-883 MuiInput-formControl-870"
+                    className="MuiInputBase-root-946 MuiInput-root-933 MuiInput-underline-937 MuiInputBase-fullWidth-955 MuiInput-fullWidth-940 MuiInputBase-formControl-947 MuiInput-formControl-934"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-892 MuiInput-input-877 MuiInputBase-inputType-895 MuiInput-inputType-880"
+                      className="MuiInputBase-input-956 MuiInput-input-941 MuiInputBase-inputType-959 MuiInput-inputType-944"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -4043,21 +4205,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-847 MuiFormControl-fullWidth-850"
+                  className="MuiFormControl-root-911 MuiFormControl-fullWidth-914"
                 >
                   <label
-                    className="MuiFormLabel-root-862 MuiFormLabel-filled-866 MuiInputLabel-root-851 MuiInputLabel-formControl-856 MuiInputLabel-animated-859 MuiInputLabel-shrink-858"
+                    className="MuiFormLabel-root-926 MuiFormLabel-filled-930 MuiInputLabel-root-915 MuiInputLabel-formControl-920 MuiInputLabel-animated-923 MuiInputLabel-shrink-922"
                     data-shrink={true}
                   >
                     BorderThickness
                   </label>
                   <div
-                    className="MuiInputBase-root-882 MuiInput-root-869 MuiInput-underline-873 MuiInputBase-fullWidth-891 MuiInput-fullWidth-876 MuiInputBase-formControl-883 MuiInput-formControl-870"
+                    className="MuiInputBase-root-946 MuiInput-root-933 MuiInput-underline-937 MuiInputBase-fullWidth-955 MuiInput-fullWidth-940 MuiInputBase-formControl-947 MuiInput-formControl-934"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-892 MuiInput-input-877"
+                      className="MuiInputBase-input-956 MuiInput-input-941"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -4069,21 +4231,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-847 MuiFormControl-fullWidth-850"
+                  className="MuiFormControl-root-911 MuiFormControl-fullWidth-914"
                 >
                   <label
-                    className="MuiFormLabel-root-862 MuiFormLabel-filled-866 MuiInputLabel-root-851 MuiInputLabel-formControl-856 MuiInputLabel-animated-859 MuiInputLabel-shrink-858"
+                    className="MuiFormLabel-root-926 MuiFormLabel-filled-930 MuiInputLabel-root-915 MuiInputLabel-formControl-920 MuiInputLabel-animated-923 MuiInputLabel-shrink-922"
                     data-shrink={true}
                   >
                     Grid.Rows
                   </label>
                   <div
-                    className="MuiInputBase-root-882 MuiInput-root-869 MuiInput-underline-873 MuiInputBase-fullWidth-891 MuiInput-fullWidth-876 MuiInputBase-formControl-883 MuiInput-formControl-870"
+                    className="MuiInputBase-root-946 MuiInput-root-933 MuiInput-underline-937 MuiInputBase-fullWidth-955 MuiInput-fullWidth-940 MuiInputBase-formControl-947 MuiInput-formControl-934"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-892 MuiInput-input-877 MuiInputBase-inputType-895 MuiInput-inputType-880"
+                      className="MuiInputBase-input-956 MuiInput-input-941 MuiInputBase-inputType-959 MuiInput-inputType-944"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -4095,21 +4257,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-847 MuiFormControl-fullWidth-850"
+                  className="MuiFormControl-root-911 MuiFormControl-fullWidth-914"
                 >
                   <label
-                    className="MuiFormLabel-root-862 MuiFormLabel-filled-866 MuiInputLabel-root-851 MuiInputLabel-formControl-856 MuiInputLabel-animated-859 MuiInputLabel-shrink-858"
+                    className="MuiFormLabel-root-926 MuiFormLabel-filled-930 MuiInputLabel-root-915 MuiInputLabel-formControl-920 MuiInputLabel-animated-923 MuiInputLabel-shrink-922"
                     data-shrink={true}
                   >
                     Grid.Cols
                   </label>
                   <div
-                    className="MuiInputBase-root-882 MuiInput-root-869 MuiInput-underline-873 MuiInputBase-fullWidth-891 MuiInput-fullWidth-876 MuiInputBase-formControl-883 MuiInput-formControl-870"
+                    className="MuiInputBase-root-946 MuiInput-root-933 MuiInput-underline-937 MuiInputBase-fullWidth-955 MuiInput-fullWidth-940 MuiInputBase-formControl-947 MuiInput-formControl-934"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-892 MuiInput-input-877 MuiInputBase-inputType-895 MuiInput-inputType-880"
+                      className="MuiInputBase-input-956 MuiInput-input-941 MuiInputBase-inputType-959 MuiInput-inputType-944"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -4121,21 +4283,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-847 MuiFormControl-fullWidth-850"
+                  className="MuiFormControl-root-911 MuiFormControl-fullWidth-914"
                 >
                   <label
-                    className="MuiFormLabel-root-862 MuiFormLabel-filled-866 MuiInputLabel-root-851 MuiInputLabel-formControl-856 MuiInputLabel-animated-859 MuiInputLabel-shrink-858"
+                    className="MuiFormLabel-root-926 MuiFormLabel-filled-930 MuiInputLabel-root-915 MuiInputLabel-formControl-920 MuiInputLabel-animated-923 MuiInputLabel-shrink-922"
                     data-shrink={true}
                   >
                     SymbolMargin
                   </label>
                   <div
-                    className="MuiInputBase-root-882 MuiInput-root-869 MuiInput-underline-873 MuiInputBase-fullWidth-891 MuiInput-fullWidth-876 MuiInputBase-formControl-883 MuiInput-formControl-870"
+                    className="MuiInputBase-root-946 MuiInput-root-933 MuiInput-underline-937 MuiInputBase-fullWidth-955 MuiInput-fullWidth-940 MuiInputBase-formControl-947 MuiInput-formControl-934"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-892 MuiInput-input-877 MuiInputBase-inputType-895 MuiInput-inputType-880"
+                      className="MuiInputBase-input-956 MuiInput-input-941 MuiInputBase-inputType-959 MuiInput-inputType-944"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -4153,11 +4315,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-758 MuiPaper-elevation1-761 MuiPaper-rounded-759 MuiExpansionPanel-root-754 MuiExpansionPanel-rounded-755"
+      className="MuiPaper-root-822 MuiPaper-elevation1-825 MuiPaper-rounded-823 MuiExpansionPanel-root-818 MuiExpansionPanel-rounded-819"
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-751 MuiExpansionPanelSummary-root-785"
+        className="MuiButtonBase-root-815 MuiExpansionPanelSummary-root-849"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -4174,10 +4336,10 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-789"
+          className="MuiExpansionPanelSummary-content-853"
         >
           <p
-            className="MuiTypography-root-791 MuiTypography-body1-800"
+            className="MuiTypography-root-855 MuiTypography-body1-864"
           >
             Click on a key to edit it here
           </p>
@@ -4185,7 +4347,7 @@ Array [
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-842"
+        className="MuiCollapse-container-891"
         style={
           Object {
             "minHeight": "0px",
@@ -4193,13 +4355,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-844"
+          className="MuiCollapse-wrapper-893"
         >
           <div
-            className="MuiCollapse-wrapperInner-845"
+            className="MuiCollapse-wrapperInner-894"
           >
             <div
-              className="MuiExpansionPanelDetails-root-846"
+              className="MuiExpansionPanelDetails-root-910"
             >
               <p>
                 Click on a Key in the Keyboard to edit it
@@ -4210,20 +4372,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-758 MuiPaper-elevation1-761 MuiPaper-rounded-759 MuiExpansionPanel-root-754 MuiExpansionPanel-rounded-755"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragEnter={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      tabIndex={0}
+      className="MuiPaper-root-822 MuiPaper-elevation1-825 MuiPaper-rounded-823 MuiExpansionPanel-root-818 MuiExpansionPanel-expanded-820 MuiExpansionPanel-rounded-819"
     >
       <div
-        aria-expanded={false}
-        className="MuiButtonBase-root-751 MuiExpansionPanelSummary-root-785"
+        aria-expanded={true}
+        className="MuiButtonBase-root-815 MuiExpansionPanelSummary-root-849 MuiExpansionPanelSummary-expanded-850"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -4240,36 +4393,17 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-789"
+          className="MuiExpansionPanelSummary-content-853 MuiExpansionPanelSummary-expanded-850"
         >
-          <input
-            autoComplete="off"
-            multiple={true}
-            onChange={[Function]}
-            onClick={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            tabIndex={-1}
-            type="file"
-          />
           <p
-            className="MuiTypography-root-791 MuiTypography-body1-800"
+            className="MuiTypography-root-855 MuiTypography-body1-864"
           >
-            Upload
-          </p>
-          <p
-            className="MuiTypography-root-791 MuiTypography-body1-800"
-          >
-            Drag 'n' drop some files here, or click to select files
+            About
           </p>
         </div>
       </div>
       <div
-        aria-hidden="true"
-        className="MuiCollapse-container-842"
+        className="MuiCollapse-container-891 MuiCollapse-entered-892"
         style={
           Object {
             "minHeight": "0px",
@@ -4277,11 +4411,45 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-844"
+          className="MuiCollapse-wrapper-893"
         >
           <div
-            className="MuiCollapse-wrapperInner-845"
-          />
+            className="MuiCollapse-wrapperInner-894"
+          >
+            <div
+              className="MuiExpansionPanelDetails-root-910"
+            >
+              <p
+                className="MuiTypography-root-855 MuiTypography-body1-864"
+              >
+                Written with ❤️ by 
+                <a>
+                  hizoul
+                </a>
+                <br />
+                Special thanks to 
+                <a
+                  href="https://github.com/JuliusSweetland"
+                >
+                  Julius Sweetland
+                </a>
+                 for writing 
+                <a
+                  href="https://github.com/OptiKey/OptiKey"
+                >
+                  OptiKey
+                </a>
+                 and 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  all other authors of open source libraries
+                </a>
+                 that make this small tool possible
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -4808,7 +4976,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        \\
+      </div>
       <div
         className="key center   "
         draggable={true}
@@ -5973,10 +6143,10 @@ Array [
     className="rightPanel"
   >
     <div
-      className="center"
+      className=" row"
     >
       <button
-        className="MuiButtonBase-root-570 MuiButton-root-544 MuiButton-outlined-552 MuiButton-outlinedPrimary-553 MuiButton-fullWidth-569"
+        className="MuiButtonBase-root-618 MuiButton-root-592 MuiButton-outlined-600 MuiButton-outlinedPrimary-601 MuiButton-fullWidth-617"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -5994,16 +6164,16 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-545"
+          className="MuiButton-label-593"
         >
           download xml
         </span>
         <span
-          className="MuiTouchRipple-root-718"
+          className="MuiTouchRipple-root-782"
         />
       </button>
       <button
-        className="MuiButtonBase-root-570 MuiButton-root-544 MuiButton-outlined-552 MuiButton-outlinedPrimary-553 MuiButton-fullWidth-569"
+        className="MuiButtonBase-root-618 MuiButton-root-592 MuiButton-outlined-600 MuiButton-outlinedPrimary-601 MuiButton-fullWidth-617"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -6021,21 +6191,30 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-545"
+          className="MuiButton-label-593"
         >
           copy xml to clipboard
         </span>
         <span
-          className="MuiTouchRipple-root-718"
+          className="MuiTouchRipple-root-782"
         />
       </button>
     </div>
     <div
-      className="MuiPaper-root-577 MuiPaper-elevation1-580 MuiPaper-rounded-578 MuiExpansionPanel-root-573 MuiExpansionPanel-rounded-574"
+      className="MuiPaper-root-625 MuiPaper-elevation1-628 MuiPaper-rounded-626 MuiExpansionPanel-root-621 MuiExpansionPanel-rounded-622"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-570 MuiExpansionPanelSummary-root-604"
+        className="MuiButtonBase-root-618 MuiExpansionPanelSummary-root-652"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -6052,17 +6231,84 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-608"
+          className="MuiExpansionPanelSummary-content-656"
+        >
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p
+            className="MuiTypography-root-658 MuiTypography-body1-667"
+          >
+            Upload
+          </p>
+          <p
+            className="MuiTypography-root-658 MuiTypography-body1-667"
+          >
+            Drag "n" drop some files here, or click to select files
+          </p>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-694"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-696"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-697"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiPaper-root-625 MuiPaper-elevation1-628 MuiPaper-rounded-626 MuiExpansionPanel-root-621 MuiExpansionPanel-rounded-622"
+    >
+      <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-618 MuiExpansionPanelSummary-root-652"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-656"
         >
           <p
-            className="MuiTypography-root-610 MuiTypography-body1-619"
+            className="MuiTypography-root-658 MuiTypography-body1-667"
           >
             Global Settings
           </p>
         </div>
         <div
           aria-hidden="true"
-          className="MuiButtonBase-root-570 MuiIconButton-root-646 MuiExpansionPanelSummary-expandIcon-609"
+          className="MuiButtonBase-root-618 MuiIconButton-root-698 MuiExpansionPanelSummary-expandIcon-657"
           onBlur={[Function]}
           onContextMenu={[Function]}
           onFocus={[Function]}
@@ -6078,11 +6324,11 @@ Array [
           tabIndex={-1}
         >
           <span
-            className="MuiIconButton-label-651"
+            className="MuiIconButton-label-703"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-652"
+              className="MuiSvgIcon-root-704"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -6097,13 +6343,13 @@ Array [
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-718"
+            className="MuiTouchRipple-root-782"
           />
         </div>
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-661"
+        className="MuiCollapse-container-694"
         style={
           Object {
             "minHeight": "0px",
@@ -6111,13 +6357,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-663"
+          className="MuiCollapse-wrapper-696"
         >
           <div
-            className="MuiCollapse-wrapperInner-664"
+            className="MuiCollapse-wrapperInner-697"
           >
             <div
-              className="MuiExpansionPanelDetails-root-665"
+              className="MuiExpansionPanelDetails-root-713"
             >
               <div
                 className="center"
@@ -6129,21 +6375,21 @@ Array [
                 }
               >
                 <div
-                  className="MuiFormControl-root-666 MuiFormControl-fullWidth-669"
+                  className="MuiFormControl-root-714 MuiFormControl-fullWidth-717"
                 >
                   <label
-                    className="MuiFormLabel-root-681 MuiFormLabel-filled-685 MuiInputLabel-root-670 MuiInputLabel-formControl-675 MuiInputLabel-animated-678 MuiInputLabel-shrink-677"
+                    className="MuiFormLabel-root-729 MuiFormLabel-filled-733 MuiInputLabel-root-718 MuiInputLabel-formControl-723 MuiInputLabel-animated-726 MuiInputLabel-shrink-725"
                     data-shrink={true}
                   >
                     Name
                   </label>
                   <div
-                    className="MuiInputBase-root-701 MuiInput-root-688 MuiInput-underline-692 MuiInputBase-fullWidth-710 MuiInput-fullWidth-695 MuiInputBase-formControl-702 MuiInput-formControl-689"
+                    className="MuiInputBase-root-749 MuiInput-root-736 MuiInput-underline-740 MuiInputBase-fullWidth-758 MuiInput-fullWidth-743 MuiInputBase-formControl-750 MuiInput-formControl-737"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-711 MuiInput-input-696"
+                      className="MuiInputBase-input-759 MuiInput-input-744"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -6155,21 +6401,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-666 MuiFormControl-fullWidth-669"
+                  className="MuiFormControl-root-714 MuiFormControl-fullWidth-717"
                 >
                   <label
-                    className="MuiFormLabel-root-681 MuiFormLabel-filled-685 MuiInputLabel-root-670 MuiInputLabel-formControl-675 MuiInputLabel-animated-678 MuiInputLabel-shrink-677"
+                    className="MuiFormLabel-root-729 MuiFormLabel-filled-733 MuiInputLabel-root-718 MuiInputLabel-formControl-723 MuiInputLabel-animated-726 MuiInputLabel-shrink-725"
                     data-shrink={true}
                   >
                     Height
                   </label>
                   <div
-                    className="MuiInputBase-root-701 MuiInput-root-688 MuiInput-underline-692 MuiInputBase-fullWidth-710 MuiInput-fullWidth-695 MuiInputBase-formControl-702 MuiInput-formControl-689"
+                    className="MuiInputBase-root-749 MuiInput-root-736 MuiInput-underline-740 MuiInputBase-fullWidth-758 MuiInput-fullWidth-743 MuiInputBase-formControl-750 MuiInput-formControl-737"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-711 MuiInput-input-696 MuiInputBase-inputType-714 MuiInput-inputType-699"
+                      className="MuiInputBase-input-759 MuiInput-input-744 MuiInputBase-inputType-762 MuiInput-inputType-747"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -6181,21 +6427,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-666 MuiFormControl-fullWidth-669"
+                  className="MuiFormControl-root-714 MuiFormControl-fullWidth-717"
                 >
                   <label
-                    className="MuiFormLabel-root-681 MuiFormLabel-filled-685 MuiInputLabel-root-670 MuiInputLabel-formControl-675 MuiInputLabel-animated-678 MuiInputLabel-shrink-677"
+                    className="MuiFormLabel-root-729 MuiFormLabel-filled-733 MuiInputLabel-root-718 MuiInputLabel-formControl-723 MuiInputLabel-animated-726 MuiInputLabel-shrink-725"
                     data-shrink={true}
                   >
                     BorderThickness
                   </label>
                   <div
-                    className="MuiInputBase-root-701 MuiInput-root-688 MuiInput-underline-692 MuiInputBase-fullWidth-710 MuiInput-fullWidth-695 MuiInputBase-formControl-702 MuiInput-formControl-689"
+                    className="MuiInputBase-root-749 MuiInput-root-736 MuiInput-underline-740 MuiInputBase-fullWidth-758 MuiInput-fullWidth-743 MuiInputBase-formControl-750 MuiInput-formControl-737"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-711 MuiInput-input-696"
+                      className="MuiInputBase-input-759 MuiInput-input-744"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -6207,21 +6453,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-666 MuiFormControl-fullWidth-669"
+                  className="MuiFormControl-root-714 MuiFormControl-fullWidth-717"
                 >
                   <label
-                    className="MuiFormLabel-root-681 MuiFormLabel-filled-685 MuiInputLabel-root-670 MuiInputLabel-formControl-675 MuiInputLabel-animated-678 MuiInputLabel-shrink-677"
+                    className="MuiFormLabel-root-729 MuiFormLabel-filled-733 MuiInputLabel-root-718 MuiInputLabel-formControl-723 MuiInputLabel-animated-726 MuiInputLabel-shrink-725"
                     data-shrink={true}
                   >
                     Grid.Rows
                   </label>
                   <div
-                    className="MuiInputBase-root-701 MuiInput-root-688 MuiInput-underline-692 MuiInputBase-fullWidth-710 MuiInput-fullWidth-695 MuiInputBase-formControl-702 MuiInput-formControl-689"
+                    className="MuiInputBase-root-749 MuiInput-root-736 MuiInput-underline-740 MuiInputBase-fullWidth-758 MuiInput-fullWidth-743 MuiInputBase-formControl-750 MuiInput-formControl-737"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-711 MuiInput-input-696 MuiInputBase-inputType-714 MuiInput-inputType-699"
+                      className="MuiInputBase-input-759 MuiInput-input-744 MuiInputBase-inputType-762 MuiInput-inputType-747"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -6233,21 +6479,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-666 MuiFormControl-fullWidth-669"
+                  className="MuiFormControl-root-714 MuiFormControl-fullWidth-717"
                 >
                   <label
-                    className="MuiFormLabel-root-681 MuiFormLabel-filled-685 MuiInputLabel-root-670 MuiInputLabel-formControl-675 MuiInputLabel-animated-678 MuiInputLabel-shrink-677"
+                    className="MuiFormLabel-root-729 MuiFormLabel-filled-733 MuiInputLabel-root-718 MuiInputLabel-formControl-723 MuiInputLabel-animated-726 MuiInputLabel-shrink-725"
                     data-shrink={true}
                   >
                     Grid.Cols
                   </label>
                   <div
-                    className="MuiInputBase-root-701 MuiInput-root-688 MuiInput-underline-692 MuiInputBase-fullWidth-710 MuiInput-fullWidth-695 MuiInputBase-formControl-702 MuiInput-formControl-689"
+                    className="MuiInputBase-root-749 MuiInput-root-736 MuiInput-underline-740 MuiInputBase-fullWidth-758 MuiInput-fullWidth-743 MuiInputBase-formControl-750 MuiInput-formControl-737"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-711 MuiInput-input-696 MuiInputBase-inputType-714 MuiInput-inputType-699"
+                      className="MuiInputBase-input-759 MuiInput-input-744 MuiInputBase-inputType-762 MuiInput-inputType-747"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -6259,21 +6505,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-666 MuiFormControl-fullWidth-669"
+                  className="MuiFormControl-root-714 MuiFormControl-fullWidth-717"
                 >
                   <label
-                    className="MuiFormLabel-root-681 MuiFormLabel-filled-685 MuiInputLabel-root-670 MuiInputLabel-formControl-675 MuiInputLabel-animated-678 MuiInputLabel-shrink-677"
+                    className="MuiFormLabel-root-729 MuiFormLabel-filled-733 MuiInputLabel-root-718 MuiInputLabel-formControl-723 MuiInputLabel-animated-726 MuiInputLabel-shrink-725"
                     data-shrink={true}
                   >
                     SymbolMargin
                   </label>
                   <div
-                    className="MuiInputBase-root-701 MuiInput-root-688 MuiInput-underline-692 MuiInputBase-fullWidth-710 MuiInput-fullWidth-695 MuiInputBase-formControl-702 MuiInput-formControl-689"
+                    className="MuiInputBase-root-749 MuiInput-root-736 MuiInput-underline-740 MuiInputBase-fullWidth-758 MuiInput-fullWidth-743 MuiInputBase-formControl-750 MuiInput-formControl-737"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-711 MuiInput-input-696 MuiInputBase-inputType-714 MuiInput-inputType-699"
+                      className="MuiInputBase-input-759 MuiInput-input-744 MuiInputBase-inputType-762 MuiInput-inputType-747"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -6291,11 +6537,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-577 MuiPaper-elevation1-580 MuiPaper-rounded-578 MuiExpansionPanel-root-573 MuiExpansionPanel-rounded-574"
+      className="MuiPaper-root-625 MuiPaper-elevation1-628 MuiPaper-rounded-626 MuiExpansionPanel-root-621 MuiExpansionPanel-rounded-622"
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-570 MuiExpansionPanelSummary-root-604"
+        className="MuiButtonBase-root-618 MuiExpansionPanelSummary-root-652"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -6312,10 +6558,10 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-608"
+          className="MuiExpansionPanelSummary-content-656"
         >
           <p
-            className="MuiTypography-root-610 MuiTypography-body1-619"
+            className="MuiTypography-root-658 MuiTypography-body1-667"
           >
             Click on a key to edit it here
           </p>
@@ -6323,7 +6569,7 @@ Array [
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-661"
+        className="MuiCollapse-container-694"
         style={
           Object {
             "minHeight": "0px",
@@ -6331,13 +6577,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-663"
+          className="MuiCollapse-wrapper-696"
         >
           <div
-            className="MuiCollapse-wrapperInner-664"
+            className="MuiCollapse-wrapperInner-697"
           >
             <div
-              className="MuiExpansionPanelDetails-root-665"
+              className="MuiExpansionPanelDetails-root-713"
             >
               <p>
                 Click on a Key in the Keyboard to edit it
@@ -6348,20 +6594,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-577 MuiPaper-elevation1-580 MuiPaper-rounded-578 MuiExpansionPanel-root-573 MuiExpansionPanel-rounded-574"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragEnter={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      tabIndex={0}
+      className="MuiPaper-root-625 MuiPaper-elevation1-628 MuiPaper-rounded-626 MuiExpansionPanel-root-621 MuiExpansionPanel-expanded-623 MuiExpansionPanel-rounded-622"
     >
       <div
-        aria-expanded={false}
-        className="MuiButtonBase-root-570 MuiExpansionPanelSummary-root-604"
+        aria-expanded={true}
+        className="MuiButtonBase-root-618 MuiExpansionPanelSummary-root-652 MuiExpansionPanelSummary-expanded-653"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -6378,36 +6615,17 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-608"
+          className="MuiExpansionPanelSummary-content-656 MuiExpansionPanelSummary-expanded-653"
         >
-          <input
-            autoComplete="off"
-            multiple={true}
-            onChange={[Function]}
-            onClick={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            tabIndex={-1}
-            type="file"
-          />
           <p
-            className="MuiTypography-root-610 MuiTypography-body1-619"
+            className="MuiTypography-root-658 MuiTypography-body1-667"
           >
-            Upload
-          </p>
-          <p
-            className="MuiTypography-root-610 MuiTypography-body1-619"
-          >
-            Drag 'n' drop some files here, or click to select files
+            About
           </p>
         </div>
       </div>
       <div
-        aria-hidden="true"
-        className="MuiCollapse-container-661"
+        className="MuiCollapse-container-694 MuiCollapse-entered-695"
         style={
           Object {
             "minHeight": "0px",
@@ -6415,11 +6633,45 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-663"
+          className="MuiCollapse-wrapper-696"
         >
           <div
-            className="MuiCollapse-wrapperInner-664"
-          />
+            className="MuiCollapse-wrapperInner-697"
+          >
+            <div
+              className="MuiExpansionPanelDetails-root-713"
+            >
+              <p
+                className="MuiTypography-root-658 MuiTypography-body1-667"
+              >
+                Written with ❤️ by 
+                <a>
+                  hizoul
+                </a>
+                <br />
+                Special thanks to 
+                <a
+                  href="https://github.com/JuliusSweetland"
+                >
+                  Julius Sweetland
+                </a>
+                 for writing 
+                <a
+                  href="https://github.com/OptiKey/OptiKey"
+                >
+                  OptiKey
+                </a>
+                 and 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  all other authors of open source libraries
+                </a>
+                 that make this small tool possible
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -6946,7 +7198,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        \\
+      </div>
       <div
         className="key center   "
         draggable={true}
@@ -8111,10 +8365,10 @@ Array [
     className="rightPanel"
   >
     <div
-      className="center"
+      className=" row"
     >
       <button
-        className="MuiButtonBase-root-389 MuiButton-root-363 MuiButton-outlined-371 MuiButton-outlinedPrimary-372 MuiButton-fullWidth-388"
+        className="MuiButtonBase-root-421 MuiButton-root-395 MuiButton-outlined-403 MuiButton-outlinedPrimary-404 MuiButton-fullWidth-420"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -8132,16 +8386,16 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-364"
+          className="MuiButton-label-396"
         >
           download xml
         </span>
         <span
-          className="MuiTouchRipple-root-537"
+          className="MuiTouchRipple-root-585"
         />
       </button>
       <button
-        className="MuiButtonBase-root-389 MuiButton-root-363 MuiButton-outlined-371 MuiButton-outlinedPrimary-372 MuiButton-fullWidth-388"
+        className="MuiButtonBase-root-421 MuiButton-root-395 MuiButton-outlined-403 MuiButton-outlinedPrimary-404 MuiButton-fullWidth-420"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -8159,21 +8413,30 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-364"
+          className="MuiButton-label-396"
         >
           copy xml to clipboard
         </span>
         <span
-          className="MuiTouchRipple-root-537"
+          className="MuiTouchRipple-root-585"
         />
       </button>
     </div>
     <div
-      className="MuiPaper-root-396 MuiPaper-elevation1-399 MuiPaper-rounded-397 MuiExpansionPanel-root-392 MuiExpansionPanel-rounded-393"
+      className="MuiPaper-root-428 MuiPaper-elevation1-431 MuiPaper-rounded-429 MuiExpansionPanel-root-424 MuiExpansionPanel-rounded-425"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-389 MuiExpansionPanelSummary-root-423"
+        className="MuiButtonBase-root-421 MuiExpansionPanelSummary-root-455"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -8190,17 +8453,84 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-427"
+          className="MuiExpansionPanelSummary-content-459"
+        >
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p
+            className="MuiTypography-root-461 MuiTypography-body1-470"
+          >
+            Upload
+          </p>
+          <p
+            className="MuiTypography-root-461 MuiTypography-body1-470"
+          >
+            Drag "n" drop some files here, or click to select files
+          </p>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-497"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-499"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-500"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiPaper-root-428 MuiPaper-elevation1-431 MuiPaper-rounded-429 MuiExpansionPanel-root-424 MuiExpansionPanel-rounded-425"
+    >
+      <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-421 MuiExpansionPanelSummary-root-455"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-459"
         >
           <p
-            className="MuiTypography-root-429 MuiTypography-body1-438"
+            className="MuiTypography-root-461 MuiTypography-body1-470"
           >
             Global Settings
           </p>
         </div>
         <div
           aria-hidden="true"
-          className="MuiButtonBase-root-389 MuiIconButton-root-465 MuiExpansionPanelSummary-expandIcon-428"
+          className="MuiButtonBase-root-421 MuiIconButton-root-501 MuiExpansionPanelSummary-expandIcon-460"
           onBlur={[Function]}
           onContextMenu={[Function]}
           onFocus={[Function]}
@@ -8216,11 +8546,11 @@ Array [
           tabIndex={-1}
         >
           <span
-            className="MuiIconButton-label-470"
+            className="MuiIconButton-label-506"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-471"
+              className="MuiSvgIcon-root-507"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -8235,13 +8565,13 @@ Array [
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-537"
+            className="MuiTouchRipple-root-585"
           />
         </div>
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-480"
+        className="MuiCollapse-container-497"
         style={
           Object {
             "minHeight": "0px",
@@ -8249,13 +8579,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-482"
+          className="MuiCollapse-wrapper-499"
         >
           <div
-            className="MuiCollapse-wrapperInner-483"
+            className="MuiCollapse-wrapperInner-500"
           >
             <div
-              className="MuiExpansionPanelDetails-root-484"
+              className="MuiExpansionPanelDetails-root-516"
             >
               <div
                 className="center"
@@ -8267,21 +8597,21 @@ Array [
                 }
               >
                 <div
-                  className="MuiFormControl-root-485 MuiFormControl-fullWidth-488"
+                  className="MuiFormControl-root-517 MuiFormControl-fullWidth-520"
                 >
                   <label
-                    className="MuiFormLabel-root-500 MuiFormLabel-filled-504 MuiInputLabel-root-489 MuiInputLabel-formControl-494 MuiInputLabel-animated-497 MuiInputLabel-shrink-496"
+                    className="MuiFormLabel-root-532 MuiFormLabel-filled-536 MuiInputLabel-root-521 MuiInputLabel-formControl-526 MuiInputLabel-animated-529 MuiInputLabel-shrink-528"
                     data-shrink={true}
                   >
                     Name
                   </label>
                   <div
-                    className="MuiInputBase-root-520 MuiInput-root-507 MuiInput-underline-511 MuiInputBase-fullWidth-529 MuiInput-fullWidth-514 MuiInputBase-formControl-521 MuiInput-formControl-508"
+                    className="MuiInputBase-root-552 MuiInput-root-539 MuiInput-underline-543 MuiInputBase-fullWidth-561 MuiInput-fullWidth-546 MuiInputBase-formControl-553 MuiInput-formControl-540"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-530 MuiInput-input-515"
+                      className="MuiInputBase-input-562 MuiInput-input-547"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -8293,21 +8623,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-485 MuiFormControl-fullWidth-488"
+                  className="MuiFormControl-root-517 MuiFormControl-fullWidth-520"
                 >
                   <label
-                    className="MuiFormLabel-root-500 MuiFormLabel-filled-504 MuiInputLabel-root-489 MuiInputLabel-formControl-494 MuiInputLabel-animated-497 MuiInputLabel-shrink-496"
+                    className="MuiFormLabel-root-532 MuiFormLabel-filled-536 MuiInputLabel-root-521 MuiInputLabel-formControl-526 MuiInputLabel-animated-529 MuiInputLabel-shrink-528"
                     data-shrink={true}
                   >
                     Height
                   </label>
                   <div
-                    className="MuiInputBase-root-520 MuiInput-root-507 MuiInput-underline-511 MuiInputBase-fullWidth-529 MuiInput-fullWidth-514 MuiInputBase-formControl-521 MuiInput-formControl-508"
+                    className="MuiInputBase-root-552 MuiInput-root-539 MuiInput-underline-543 MuiInputBase-fullWidth-561 MuiInput-fullWidth-546 MuiInputBase-formControl-553 MuiInput-formControl-540"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-530 MuiInput-input-515 MuiInputBase-inputType-533 MuiInput-inputType-518"
+                      className="MuiInputBase-input-562 MuiInput-input-547 MuiInputBase-inputType-565 MuiInput-inputType-550"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -8319,21 +8649,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-485 MuiFormControl-fullWidth-488"
+                  className="MuiFormControl-root-517 MuiFormControl-fullWidth-520"
                 >
                   <label
-                    className="MuiFormLabel-root-500 MuiFormLabel-filled-504 MuiInputLabel-root-489 MuiInputLabel-formControl-494 MuiInputLabel-animated-497 MuiInputLabel-shrink-496"
+                    className="MuiFormLabel-root-532 MuiFormLabel-filled-536 MuiInputLabel-root-521 MuiInputLabel-formControl-526 MuiInputLabel-animated-529 MuiInputLabel-shrink-528"
                     data-shrink={true}
                   >
                     BorderThickness
                   </label>
                   <div
-                    className="MuiInputBase-root-520 MuiInput-root-507 MuiInput-underline-511 MuiInputBase-fullWidth-529 MuiInput-fullWidth-514 MuiInputBase-formControl-521 MuiInput-formControl-508"
+                    className="MuiInputBase-root-552 MuiInput-root-539 MuiInput-underline-543 MuiInputBase-fullWidth-561 MuiInput-fullWidth-546 MuiInputBase-formControl-553 MuiInput-formControl-540"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-530 MuiInput-input-515"
+                      className="MuiInputBase-input-562 MuiInput-input-547"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -8345,21 +8675,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-485 MuiFormControl-fullWidth-488"
+                  className="MuiFormControl-root-517 MuiFormControl-fullWidth-520"
                 >
                   <label
-                    className="MuiFormLabel-root-500 MuiFormLabel-filled-504 MuiInputLabel-root-489 MuiInputLabel-formControl-494 MuiInputLabel-animated-497 MuiInputLabel-shrink-496"
+                    className="MuiFormLabel-root-532 MuiFormLabel-filled-536 MuiInputLabel-root-521 MuiInputLabel-formControl-526 MuiInputLabel-animated-529 MuiInputLabel-shrink-528"
                     data-shrink={true}
                   >
                     Grid.Rows
                   </label>
                   <div
-                    className="MuiInputBase-root-520 MuiInput-root-507 MuiInput-underline-511 MuiInputBase-fullWidth-529 MuiInput-fullWidth-514 MuiInputBase-formControl-521 MuiInput-formControl-508"
+                    className="MuiInputBase-root-552 MuiInput-root-539 MuiInput-underline-543 MuiInputBase-fullWidth-561 MuiInput-fullWidth-546 MuiInputBase-formControl-553 MuiInput-formControl-540"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-530 MuiInput-input-515 MuiInputBase-inputType-533 MuiInput-inputType-518"
+                      className="MuiInputBase-input-562 MuiInput-input-547 MuiInputBase-inputType-565 MuiInput-inputType-550"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -8371,21 +8701,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-485 MuiFormControl-fullWidth-488"
+                  className="MuiFormControl-root-517 MuiFormControl-fullWidth-520"
                 >
                   <label
-                    className="MuiFormLabel-root-500 MuiFormLabel-filled-504 MuiInputLabel-root-489 MuiInputLabel-formControl-494 MuiInputLabel-animated-497 MuiInputLabel-shrink-496"
+                    className="MuiFormLabel-root-532 MuiFormLabel-filled-536 MuiInputLabel-root-521 MuiInputLabel-formControl-526 MuiInputLabel-animated-529 MuiInputLabel-shrink-528"
                     data-shrink={true}
                   >
                     Grid.Cols
                   </label>
                   <div
-                    className="MuiInputBase-root-520 MuiInput-root-507 MuiInput-underline-511 MuiInputBase-fullWidth-529 MuiInput-fullWidth-514 MuiInputBase-formControl-521 MuiInput-formControl-508"
+                    className="MuiInputBase-root-552 MuiInput-root-539 MuiInput-underline-543 MuiInputBase-fullWidth-561 MuiInput-fullWidth-546 MuiInputBase-formControl-553 MuiInput-formControl-540"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-530 MuiInput-input-515 MuiInputBase-inputType-533 MuiInput-inputType-518"
+                      className="MuiInputBase-input-562 MuiInput-input-547 MuiInputBase-inputType-565 MuiInput-inputType-550"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -8397,21 +8727,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-485 MuiFormControl-fullWidth-488"
+                  className="MuiFormControl-root-517 MuiFormControl-fullWidth-520"
                 >
                   <label
-                    className="MuiFormLabel-root-500 MuiFormLabel-filled-504 MuiInputLabel-root-489 MuiInputLabel-formControl-494 MuiInputLabel-animated-497 MuiInputLabel-shrink-496"
+                    className="MuiFormLabel-root-532 MuiFormLabel-filled-536 MuiInputLabel-root-521 MuiInputLabel-formControl-526 MuiInputLabel-animated-529 MuiInputLabel-shrink-528"
                     data-shrink={true}
                   >
                     SymbolMargin
                   </label>
                   <div
-                    className="MuiInputBase-root-520 MuiInput-root-507 MuiInput-underline-511 MuiInputBase-fullWidth-529 MuiInput-fullWidth-514 MuiInputBase-formControl-521 MuiInput-formControl-508"
+                    className="MuiInputBase-root-552 MuiInput-root-539 MuiInput-underline-543 MuiInputBase-fullWidth-561 MuiInput-fullWidth-546 MuiInputBase-formControl-553 MuiInput-formControl-540"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-530 MuiInput-input-515 MuiInputBase-inputType-533 MuiInput-inputType-518"
+                      className="MuiInputBase-input-562 MuiInput-input-547 MuiInputBase-inputType-565 MuiInput-inputType-550"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -8429,11 +8759,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-396 MuiPaper-elevation1-399 MuiPaper-rounded-397 MuiExpansionPanel-root-392 MuiExpansionPanel-rounded-393"
+      className="MuiPaper-root-428 MuiPaper-elevation1-431 MuiPaper-rounded-429 MuiExpansionPanel-root-424 MuiExpansionPanel-rounded-425"
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-389 MuiExpansionPanelSummary-root-423"
+        className="MuiButtonBase-root-421 MuiExpansionPanelSummary-root-455"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -8450,10 +8780,10 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-427"
+          className="MuiExpansionPanelSummary-content-459"
         >
           <p
-            className="MuiTypography-root-429 MuiTypography-body1-438"
+            className="MuiTypography-root-461 MuiTypography-body1-470"
           >
             Click on a key to edit it here
           </p>
@@ -8461,7 +8791,7 @@ Array [
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-480"
+        className="MuiCollapse-container-497"
         style={
           Object {
             "minHeight": "0px",
@@ -8469,13 +8799,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-482"
+          className="MuiCollapse-wrapper-499"
         >
           <div
-            className="MuiCollapse-wrapperInner-483"
+            className="MuiCollapse-wrapperInner-500"
           >
             <div
-              className="MuiExpansionPanelDetails-root-484"
+              className="MuiExpansionPanelDetails-root-516"
             >
               <p>
                 Click on a Key in the Keyboard to edit it
@@ -8486,20 +8816,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-396 MuiPaper-elevation1-399 MuiPaper-rounded-397 MuiExpansionPanel-root-392 MuiExpansionPanel-rounded-393"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragEnter={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      tabIndex={0}
+      className="MuiPaper-root-428 MuiPaper-elevation1-431 MuiPaper-rounded-429 MuiExpansionPanel-root-424 MuiExpansionPanel-expanded-426 MuiExpansionPanel-rounded-425"
     >
       <div
-        aria-expanded={false}
-        className="MuiButtonBase-root-389 MuiExpansionPanelSummary-root-423"
+        aria-expanded={true}
+        className="MuiButtonBase-root-421 MuiExpansionPanelSummary-root-455 MuiExpansionPanelSummary-expanded-456"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -8516,36 +8837,17 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-427"
+          className="MuiExpansionPanelSummary-content-459 MuiExpansionPanelSummary-expanded-456"
         >
-          <input
-            autoComplete="off"
-            multiple={true}
-            onChange={[Function]}
-            onClick={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            tabIndex={-1}
-            type="file"
-          />
           <p
-            className="MuiTypography-root-429 MuiTypography-body1-438"
+            className="MuiTypography-root-461 MuiTypography-body1-470"
           >
-            Upload
-          </p>
-          <p
-            className="MuiTypography-root-429 MuiTypography-body1-438"
-          >
-            Drag 'n' drop some files here, or click to select files
+            About
           </p>
         </div>
       </div>
       <div
-        aria-hidden="true"
-        className="MuiCollapse-container-480"
+        className="MuiCollapse-container-497 MuiCollapse-entered-498"
         style={
           Object {
             "minHeight": "0px",
@@ -8553,11 +8855,45 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-482"
+          className="MuiCollapse-wrapper-499"
         >
           <div
-            className="MuiCollapse-wrapperInner-483"
-          />
+            className="MuiCollapse-wrapperInner-500"
+          >
+            <div
+              className="MuiExpansionPanelDetails-root-516"
+            >
+              <p
+                className="MuiTypography-root-461 MuiTypography-body1-470"
+              >
+                Written with ❤️ by 
+                <a>
+                  hizoul
+                </a>
+                <br />
+                Special thanks to 
+                <a
+                  href="https://github.com/JuliusSweetland"
+                >
+                  Julius Sweetland
+                </a>
+                 for writing 
+                <a
+                  href="https://github.com/OptiKey/OptiKey"
+                >
+                  OptiKey
+                </a>
+                 and 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  all other authors of open source libraries
+                </a>
+                 that make this small tool possible
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -9084,7 +9420,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        \\
+      </div>
       <div
         className="key center   "
         draggable={true}
@@ -10249,10 +10587,10 @@ Array [
     className="rightPanel"
   >
     <div
-      className="center"
+      className=" row"
     >
       <button
-        className="MuiButtonBase-root-1113 MuiButton-root-1087 MuiButton-outlined-1095 MuiButton-outlinedPrimary-1096 MuiButton-fullWidth-1112"
+        className="MuiButtonBase-root-1209 MuiButton-root-1183 MuiButton-outlined-1191 MuiButton-outlinedPrimary-1192 MuiButton-fullWidth-1208"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -10270,16 +10608,16 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-1088"
+          className="MuiButton-label-1184"
         >
           download xml
         </span>
         <span
-          className="MuiTouchRipple-root-1261"
+          className="MuiTouchRipple-root-1373"
         />
       </button>
       <button
-        className="MuiButtonBase-root-1113 MuiButton-root-1087 MuiButton-outlined-1095 MuiButton-outlinedPrimary-1096 MuiButton-fullWidth-1112"
+        className="MuiButtonBase-root-1209 MuiButton-root-1183 MuiButton-outlined-1191 MuiButton-outlinedPrimary-1192 MuiButton-fullWidth-1208"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -10297,21 +10635,30 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-1088"
+          className="MuiButton-label-1184"
         >
           copy xml to clipboard
         </span>
         <span
-          className="MuiTouchRipple-root-1261"
+          className="MuiTouchRipple-root-1373"
         />
       </button>
     </div>
     <div
-      className="MuiPaper-root-1120 MuiPaper-elevation1-1123 MuiPaper-rounded-1121 MuiExpansionPanel-root-1116 MuiExpansionPanel-rounded-1117"
+      className="MuiPaper-root-1216 MuiPaper-elevation1-1219 MuiPaper-rounded-1217 MuiExpansionPanel-root-1212 MuiExpansionPanel-rounded-1213"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-1113 MuiExpansionPanelSummary-root-1147"
+        className="MuiButtonBase-root-1209 MuiExpansionPanelSummary-root-1243"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -10328,17 +10675,84 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-1151"
+          className="MuiExpansionPanelSummary-content-1247"
+        >
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p
+            className="MuiTypography-root-1249 MuiTypography-body1-1258"
+          >
+            Upload
+          </p>
+          <p
+            className="MuiTypography-root-1249 MuiTypography-body1-1258"
+          >
+            Drag "n" drop some files here, or click to select files
+          </p>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-1285"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-1287"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-1288"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiPaper-root-1216 MuiPaper-elevation1-1219 MuiPaper-rounded-1217 MuiExpansionPanel-root-1212 MuiExpansionPanel-rounded-1213"
+    >
+      <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-1209 MuiExpansionPanelSummary-root-1243"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-1247"
         >
           <p
-            className="MuiTypography-root-1153 MuiTypography-body1-1162"
+            className="MuiTypography-root-1249 MuiTypography-body1-1258"
           >
             Global Settings
           </p>
         </div>
         <div
           aria-hidden="true"
-          className="MuiButtonBase-root-1113 MuiIconButton-root-1189 MuiExpansionPanelSummary-expandIcon-1152"
+          className="MuiButtonBase-root-1209 MuiIconButton-root-1289 MuiExpansionPanelSummary-expandIcon-1248"
           onBlur={[Function]}
           onContextMenu={[Function]}
           onFocus={[Function]}
@@ -10354,11 +10768,11 @@ Array [
           tabIndex={-1}
         >
           <span
-            className="MuiIconButton-label-1194"
+            className="MuiIconButton-label-1294"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-1195"
+              className="MuiSvgIcon-root-1295"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -10373,13 +10787,13 @@ Array [
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-1261"
+            className="MuiTouchRipple-root-1373"
           />
         </div>
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-1204"
+        className="MuiCollapse-container-1285"
         style={
           Object {
             "minHeight": "0px",
@@ -10387,13 +10801,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-1206"
+          className="MuiCollapse-wrapper-1287"
         >
           <div
-            className="MuiCollapse-wrapperInner-1207"
+            className="MuiCollapse-wrapperInner-1288"
           >
             <div
-              className="MuiExpansionPanelDetails-root-1208"
+              className="MuiExpansionPanelDetails-root-1304"
             >
               <div
                 className="center"
@@ -10405,21 +10819,21 @@ Array [
                 }
               >
                 <div
-                  className="MuiFormControl-root-1209 MuiFormControl-fullWidth-1212"
+                  className="MuiFormControl-root-1305 MuiFormControl-fullWidth-1308"
                 >
                   <label
-                    className="MuiFormLabel-root-1224 MuiFormLabel-filled-1228 MuiInputLabel-root-1213 MuiInputLabel-formControl-1218 MuiInputLabel-animated-1221 MuiInputLabel-shrink-1220"
+                    className="MuiFormLabel-root-1320 MuiFormLabel-filled-1324 MuiInputLabel-root-1309 MuiInputLabel-formControl-1314 MuiInputLabel-animated-1317 MuiInputLabel-shrink-1316"
                     data-shrink={true}
                   >
                     Name
                   </label>
                   <div
-                    className="MuiInputBase-root-1244 MuiInput-root-1231 MuiInput-underline-1235 MuiInputBase-fullWidth-1253 MuiInput-fullWidth-1238 MuiInputBase-formControl-1245 MuiInput-formControl-1232"
+                    className="MuiInputBase-root-1340 MuiInput-root-1327 MuiInput-underline-1331 MuiInputBase-fullWidth-1349 MuiInput-fullWidth-1334 MuiInputBase-formControl-1341 MuiInput-formControl-1328"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1254 MuiInput-input-1239"
+                      className="MuiInputBase-input-1350 MuiInput-input-1335"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -10431,21 +10845,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1209 MuiFormControl-fullWidth-1212"
+                  className="MuiFormControl-root-1305 MuiFormControl-fullWidth-1308"
                 >
                   <label
-                    className="MuiFormLabel-root-1224 MuiFormLabel-filled-1228 MuiInputLabel-root-1213 MuiInputLabel-formControl-1218 MuiInputLabel-animated-1221 MuiInputLabel-shrink-1220"
+                    className="MuiFormLabel-root-1320 MuiFormLabel-filled-1324 MuiInputLabel-root-1309 MuiInputLabel-formControl-1314 MuiInputLabel-animated-1317 MuiInputLabel-shrink-1316"
                     data-shrink={true}
                   >
                     Height
                   </label>
                   <div
-                    className="MuiInputBase-root-1244 MuiInput-root-1231 MuiInput-underline-1235 MuiInputBase-fullWidth-1253 MuiInput-fullWidth-1238 MuiInputBase-formControl-1245 MuiInput-formControl-1232"
+                    className="MuiInputBase-root-1340 MuiInput-root-1327 MuiInput-underline-1331 MuiInputBase-fullWidth-1349 MuiInput-fullWidth-1334 MuiInputBase-formControl-1341 MuiInput-formControl-1328"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1254 MuiInput-input-1239 MuiInputBase-inputType-1257 MuiInput-inputType-1242"
+                      className="MuiInputBase-input-1350 MuiInput-input-1335 MuiInputBase-inputType-1353 MuiInput-inputType-1338"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -10457,21 +10871,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1209 MuiFormControl-fullWidth-1212"
+                  className="MuiFormControl-root-1305 MuiFormControl-fullWidth-1308"
                 >
                   <label
-                    className="MuiFormLabel-root-1224 MuiFormLabel-filled-1228 MuiInputLabel-root-1213 MuiInputLabel-formControl-1218 MuiInputLabel-animated-1221 MuiInputLabel-shrink-1220"
+                    className="MuiFormLabel-root-1320 MuiFormLabel-filled-1324 MuiInputLabel-root-1309 MuiInputLabel-formControl-1314 MuiInputLabel-animated-1317 MuiInputLabel-shrink-1316"
                     data-shrink={true}
                   >
                     BorderThickness
                   </label>
                   <div
-                    className="MuiInputBase-root-1244 MuiInput-root-1231 MuiInput-underline-1235 MuiInputBase-fullWidth-1253 MuiInput-fullWidth-1238 MuiInputBase-formControl-1245 MuiInput-formControl-1232"
+                    className="MuiInputBase-root-1340 MuiInput-root-1327 MuiInput-underline-1331 MuiInputBase-fullWidth-1349 MuiInput-fullWidth-1334 MuiInputBase-formControl-1341 MuiInput-formControl-1328"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1254 MuiInput-input-1239"
+                      className="MuiInputBase-input-1350 MuiInput-input-1335"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -10483,21 +10897,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1209 MuiFormControl-fullWidth-1212"
+                  className="MuiFormControl-root-1305 MuiFormControl-fullWidth-1308"
                 >
                   <label
-                    className="MuiFormLabel-root-1224 MuiFormLabel-filled-1228 MuiInputLabel-root-1213 MuiInputLabel-formControl-1218 MuiInputLabel-animated-1221 MuiInputLabel-shrink-1220"
+                    className="MuiFormLabel-root-1320 MuiFormLabel-filled-1324 MuiInputLabel-root-1309 MuiInputLabel-formControl-1314 MuiInputLabel-animated-1317 MuiInputLabel-shrink-1316"
                     data-shrink={true}
                   >
                     Grid.Rows
                   </label>
                   <div
-                    className="MuiInputBase-root-1244 MuiInput-root-1231 MuiInput-underline-1235 MuiInputBase-fullWidth-1253 MuiInput-fullWidth-1238 MuiInputBase-formControl-1245 MuiInput-formControl-1232"
+                    className="MuiInputBase-root-1340 MuiInput-root-1327 MuiInput-underline-1331 MuiInputBase-fullWidth-1349 MuiInput-fullWidth-1334 MuiInputBase-formControl-1341 MuiInput-formControl-1328"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1254 MuiInput-input-1239 MuiInputBase-inputType-1257 MuiInput-inputType-1242"
+                      className="MuiInputBase-input-1350 MuiInput-input-1335 MuiInputBase-inputType-1353 MuiInput-inputType-1338"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -10509,21 +10923,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1209 MuiFormControl-fullWidth-1212"
+                  className="MuiFormControl-root-1305 MuiFormControl-fullWidth-1308"
                 >
                   <label
-                    className="MuiFormLabel-root-1224 MuiFormLabel-filled-1228 MuiInputLabel-root-1213 MuiInputLabel-formControl-1218 MuiInputLabel-animated-1221 MuiInputLabel-shrink-1220"
+                    className="MuiFormLabel-root-1320 MuiFormLabel-filled-1324 MuiInputLabel-root-1309 MuiInputLabel-formControl-1314 MuiInputLabel-animated-1317 MuiInputLabel-shrink-1316"
                     data-shrink={true}
                   >
                     Grid.Cols
                   </label>
                   <div
-                    className="MuiInputBase-root-1244 MuiInput-root-1231 MuiInput-underline-1235 MuiInputBase-fullWidth-1253 MuiInput-fullWidth-1238 MuiInputBase-formControl-1245 MuiInput-formControl-1232"
+                    className="MuiInputBase-root-1340 MuiInput-root-1327 MuiInput-underline-1331 MuiInputBase-fullWidth-1349 MuiInput-fullWidth-1334 MuiInputBase-formControl-1341 MuiInput-formControl-1328"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1254 MuiInput-input-1239 MuiInputBase-inputType-1257 MuiInput-inputType-1242"
+                      className="MuiInputBase-input-1350 MuiInput-input-1335 MuiInputBase-inputType-1353 MuiInput-inputType-1338"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -10535,21 +10949,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-1209 MuiFormControl-fullWidth-1212"
+                  className="MuiFormControl-root-1305 MuiFormControl-fullWidth-1308"
                 >
                   <label
-                    className="MuiFormLabel-root-1224 MuiFormLabel-filled-1228 MuiInputLabel-root-1213 MuiInputLabel-formControl-1218 MuiInputLabel-animated-1221 MuiInputLabel-shrink-1220"
+                    className="MuiFormLabel-root-1320 MuiFormLabel-filled-1324 MuiInputLabel-root-1309 MuiInputLabel-formControl-1314 MuiInputLabel-animated-1317 MuiInputLabel-shrink-1316"
                     data-shrink={true}
                   >
                     SymbolMargin
                   </label>
                   <div
-                    className="MuiInputBase-root-1244 MuiInput-root-1231 MuiInput-underline-1235 MuiInputBase-fullWidth-1253 MuiInput-fullWidth-1238 MuiInputBase-formControl-1245 MuiInput-formControl-1232"
+                    className="MuiInputBase-root-1340 MuiInput-root-1327 MuiInput-underline-1331 MuiInputBase-fullWidth-1349 MuiInput-fullWidth-1334 MuiInputBase-formControl-1341 MuiInput-formControl-1328"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-1254 MuiInput-input-1239 MuiInputBase-inputType-1257 MuiInput-inputType-1242"
+                      className="MuiInputBase-input-1350 MuiInput-input-1335 MuiInputBase-inputType-1353 MuiInput-inputType-1338"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -10567,11 +10981,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-1120 MuiPaper-elevation1-1123 MuiPaper-rounded-1121 MuiExpansionPanel-root-1116 MuiExpansionPanel-rounded-1117"
+      className="MuiPaper-root-1216 MuiPaper-elevation1-1219 MuiPaper-rounded-1217 MuiExpansionPanel-root-1212 MuiExpansionPanel-rounded-1213"
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-1113 MuiExpansionPanelSummary-root-1147"
+        className="MuiButtonBase-root-1209 MuiExpansionPanelSummary-root-1243"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -10588,10 +11002,10 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-1151"
+          className="MuiExpansionPanelSummary-content-1247"
         >
           <p
-            className="MuiTypography-root-1153 MuiTypography-body1-1162"
+            className="MuiTypography-root-1249 MuiTypography-body1-1258"
           >
             Click on a key to edit it here
           </p>
@@ -10599,7 +11013,7 @@ Array [
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-1204"
+        className="MuiCollapse-container-1285"
         style={
           Object {
             "minHeight": "0px",
@@ -10607,13 +11021,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-1206"
+          className="MuiCollapse-wrapper-1287"
         >
           <div
-            className="MuiCollapse-wrapperInner-1207"
+            className="MuiCollapse-wrapperInner-1288"
           >
             <div
-              className="MuiExpansionPanelDetails-root-1208"
+              className="MuiExpansionPanelDetails-root-1304"
             >
               <p>
                 Click on a Key in the Keyboard to edit it
@@ -10624,20 +11038,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-1120 MuiPaper-elevation1-1123 MuiPaper-rounded-1121 MuiExpansionPanel-root-1116 MuiExpansionPanel-rounded-1117"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragEnter={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      tabIndex={0}
+      className="MuiPaper-root-1216 MuiPaper-elevation1-1219 MuiPaper-rounded-1217 MuiExpansionPanel-root-1212 MuiExpansionPanel-expanded-1214 MuiExpansionPanel-rounded-1213"
     >
       <div
-        aria-expanded={false}
-        className="MuiButtonBase-root-1113 MuiExpansionPanelSummary-root-1147"
+        aria-expanded={true}
+        className="MuiButtonBase-root-1209 MuiExpansionPanelSummary-root-1243 MuiExpansionPanelSummary-expanded-1244"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -10654,36 +11059,17 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-1151"
+          className="MuiExpansionPanelSummary-content-1247 MuiExpansionPanelSummary-expanded-1244"
         >
-          <input
-            autoComplete="off"
-            multiple={true}
-            onChange={[Function]}
-            onClick={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            tabIndex={-1}
-            type="file"
-          />
           <p
-            className="MuiTypography-root-1153 MuiTypography-body1-1162"
+            className="MuiTypography-root-1249 MuiTypography-body1-1258"
           >
-            Upload
-          </p>
-          <p
-            className="MuiTypography-root-1153 MuiTypography-body1-1162"
-          >
-            Drag 'n' drop some files here, or click to select files
+            About
           </p>
         </div>
       </div>
       <div
-        aria-hidden="true"
-        className="MuiCollapse-container-1204"
+        className="MuiCollapse-container-1285 MuiCollapse-entered-1286"
         style={
           Object {
             "minHeight": "0px",
@@ -10691,11 +11077,45 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-1206"
+          className="MuiCollapse-wrapper-1287"
         >
           <div
-            className="MuiCollapse-wrapperInner-1207"
-          />
+            className="MuiCollapse-wrapperInner-1288"
+          >
+            <div
+              className="MuiExpansionPanelDetails-root-1304"
+            >
+              <p
+                className="MuiTypography-root-1249 MuiTypography-body1-1258"
+              >
+                Written with ❤️ by 
+                <a>
+                  hizoul
+                </a>
+                <br />
+                Special thanks to 
+                <a
+                  href="https://github.com/JuliusSweetland"
+                >
+                  Julius Sweetland
+                </a>
+                 for writing 
+                <a
+                  href="https://github.com/OptiKey/OptiKey"
+                >
+                  OptiKey
+                </a>
+                 and 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  all other authors of open source libraries
+                </a>
+                 that make this small tool possible
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -11222,7 +11642,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        \\
+      </div>
       <div
         className="key center   "
         draggable={true}
@@ -12387,7 +12809,7 @@ Array [
     className="rightPanel"
   >
     <div
-      className="center"
+      className=" row"
     >
       <button
         className="MuiButtonBase-root-27 MuiButton-root-1 MuiButton-outlined-9 MuiButton-outlinedPrimary-10 MuiButton-fullWidth-26"
@@ -12413,7 +12835,7 @@ Array [
           download xml
         </span>
         <span
-          className="MuiTouchRipple-root-175"
+          className="MuiTouchRipple-root-191"
         />
       </button>
       <button
@@ -12440,9 +12862,85 @@ Array [
           copy xml to clipboard
         </span>
         <span
-          className="MuiTouchRipple-root-175"
+          className="MuiTouchRipple-root-191"
         />
       </button>
+    </div>
+    <div
+      className="MuiPaper-root-34 MuiPaper-elevation1-37 MuiPaper-rounded-35 MuiExpansionPanel-root-30 MuiExpansionPanel-rounded-31"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+    >
+      <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-27 MuiExpansionPanelSummary-root-61"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-65"
+        >
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p
+            className="MuiTypography-root-67 MuiTypography-body1-76"
+          >
+            Upload
+          </p>
+          <p
+            className="MuiTypography-root-67 MuiTypography-body1-76"
+          >
+            Drag "n" drop some files here, or click to select files
+          </p>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-103"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-105"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-106"
+          />
+        </div>
+      </div>
     </div>
     <div
       className="MuiPaper-root-34 MuiPaper-elevation1-37 MuiPaper-rounded-35 MuiExpansionPanel-root-30 MuiExpansionPanel-rounded-31"
@@ -12476,7 +12974,7 @@ Array [
         </div>
         <div
           aria-hidden="true"
-          className="MuiButtonBase-root-27 MuiIconButton-root-103 MuiExpansionPanelSummary-expandIcon-66"
+          className="MuiButtonBase-root-27 MuiIconButton-root-107 MuiExpansionPanelSummary-expandIcon-66"
           onBlur={[Function]}
           onContextMenu={[Function]}
           onFocus={[Function]}
@@ -12492,11 +12990,11 @@ Array [
           tabIndex={-1}
         >
           <span
-            className="MuiIconButton-label-108"
+            className="MuiIconButton-label-112"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-109"
+              className="MuiSvgIcon-root-113"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -12511,13 +13009,13 @@ Array [
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-175"
+            className="MuiTouchRipple-root-191"
           />
         </div>
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-118"
+        className="MuiCollapse-container-103"
         style={
           Object {
             "minHeight": "0px",
@@ -12525,10 +13023,10 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-120"
+          className="MuiCollapse-wrapper-105"
         >
           <div
-            className="MuiCollapse-wrapperInner-121"
+            className="MuiCollapse-wrapperInner-106"
           >
             <div
               className="MuiExpansionPanelDetails-root-122"
@@ -12737,7 +13235,7 @@ Array [
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-118"
+        className="MuiCollapse-container-103"
         style={
           Object {
             "minHeight": "0px",
@@ -12745,10 +13243,10 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-120"
+          className="MuiCollapse-wrapper-105"
         >
           <div
-            className="MuiCollapse-wrapperInner-121"
+            className="MuiCollapse-wrapperInner-106"
           >
             <div
               className="MuiExpansionPanelDetails-root-122"
@@ -12762,20 +13260,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-34 MuiPaper-elevation1-37 MuiPaper-rounded-35 MuiExpansionPanel-root-30 MuiExpansionPanel-rounded-31"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragEnter={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      tabIndex={0}
+      className="MuiPaper-root-34 MuiPaper-elevation1-37 MuiPaper-rounded-35 MuiExpansionPanel-root-30 MuiExpansionPanel-expanded-32 MuiExpansionPanel-rounded-31"
     >
       <div
-        aria-expanded={false}
-        className="MuiButtonBase-root-27 MuiExpansionPanelSummary-root-61"
+        aria-expanded={true}
+        className="MuiButtonBase-root-27 MuiExpansionPanelSummary-root-61 MuiExpansionPanelSummary-expanded-62"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -12792,36 +13281,17 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-65"
+          className="MuiExpansionPanelSummary-content-65 MuiExpansionPanelSummary-expanded-62"
         >
-          <input
-            autoComplete="off"
-            multiple={true}
-            onChange={[Function]}
-            onClick={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            tabIndex={-1}
-            type="file"
-          />
           <p
             className="MuiTypography-root-67 MuiTypography-body1-76"
           >
-            Upload
-          </p>
-          <p
-            className="MuiTypography-root-67 MuiTypography-body1-76"
-          >
-            Drag 'n' drop some files here, or click to select files
+            About
           </p>
         </div>
       </div>
       <div
-        aria-hidden="true"
-        className="MuiCollapse-container-118"
+        className="MuiCollapse-container-103 MuiCollapse-entered-104"
         style={
           Object {
             "minHeight": "0px",
@@ -12829,11 +13299,45 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-120"
+          className="MuiCollapse-wrapper-105"
         >
           <div
-            className="MuiCollapse-wrapperInner-121"
-          />
+            className="MuiCollapse-wrapperInner-106"
+          >
+            <div
+              className="MuiExpansionPanelDetails-root-122"
+            >
+              <p
+                className="MuiTypography-root-67 MuiTypography-body1-76"
+              >
+                Written with ❤️ by 
+                <a>
+                  hizoul
+                </a>
+                <br />
+                Special thanks to 
+                <a
+                  href="https://github.com/JuliusSweetland"
+                >
+                  Julius Sweetland
+                </a>
+                 for writing 
+                <a
+                  href="https://github.com/OptiKey/OptiKey"
+                >
+                  OptiKey
+                </a>
+                 and 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  all other authors of open source libraries
+                </a>
+                 that make this small tool possible
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -13360,7 +13864,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        \\
+      </div>
       <div
         className="key center   "
         draggable={true}
@@ -14525,10 +15031,10 @@ Array [
     className="rightPanel"
   >
     <div
-      className="center"
+      className=" row"
     >
       <button
-        className="MuiButtonBase-root-208 MuiButton-root-182 MuiButton-outlined-190 MuiButton-outlinedPrimary-191 MuiButton-fullWidth-207"
+        className="MuiButtonBase-root-224 MuiButton-root-198 MuiButton-outlined-206 MuiButton-outlinedPrimary-207 MuiButton-fullWidth-223"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -14546,16 +15052,16 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-183"
+          className="MuiButton-label-199"
         >
           download xml
         </span>
         <span
-          className="MuiTouchRipple-root-356"
+          className="MuiTouchRipple-root-388"
         />
       </button>
       <button
-        className="MuiButtonBase-root-208 MuiButton-root-182 MuiButton-outlined-190 MuiButton-outlinedPrimary-191 MuiButton-fullWidth-207"
+        className="MuiButtonBase-root-224 MuiButton-root-198 MuiButton-outlined-206 MuiButton-outlinedPrimary-207 MuiButton-fullWidth-223"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -14573,21 +15079,30 @@ Array [
         type="button"
       >
         <span
-          className="MuiButton-label-183"
+          className="MuiButton-label-199"
         >
           copy xml to clipboard
         </span>
         <span
-          className="MuiTouchRipple-root-356"
+          className="MuiTouchRipple-root-388"
         />
       </button>
     </div>
     <div
-      className="MuiPaper-root-215 MuiPaper-elevation1-218 MuiPaper-rounded-216 MuiExpansionPanel-root-211 MuiExpansionPanel-rounded-212"
+      className="MuiPaper-root-231 MuiPaper-elevation1-234 MuiPaper-rounded-232 MuiExpansionPanel-root-227 MuiExpansionPanel-rounded-228"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragEnter={[Function]}
+      onDragLeave={[Function]}
+      onDragOver={[Function]}
+      onDrop={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-208 MuiExpansionPanelSummary-root-242"
+        className="MuiButtonBase-root-224 MuiExpansionPanelSummary-root-258"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -14604,17 +15119,84 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-246"
+          className="MuiExpansionPanelSummary-content-262"
+        >
+          <input
+            autoComplete="off"
+            multiple={true}
+            onChange={[Function]}
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            tabIndex={-1}
+            type="file"
+          />
+          <p
+            className="MuiTypography-root-264 MuiTypography-body1-273"
+          >
+            Upload
+          </p>
+          <p
+            className="MuiTypography-root-264 MuiTypography-body1-273"
+          >
+            Drag "n" drop some files here, or click to select files
+          </p>
+        </div>
+      </div>
+      <div
+        aria-hidden="true"
+        className="MuiCollapse-container-300"
+        style={
+          Object {
+            "minHeight": "0px",
+          }
+        }
+      >
+        <div
+          className="MuiCollapse-wrapper-302"
+        >
+          <div
+            className="MuiCollapse-wrapperInner-303"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiPaper-root-231 MuiPaper-elevation1-234 MuiPaper-rounded-232 MuiExpansionPanel-root-227 MuiExpansionPanel-rounded-228"
+    >
+      <div
+        aria-expanded={false}
+        className="MuiButtonBase-root-224 MuiExpansionPanelSummary-root-258"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        role="button"
+        tabIndex="0"
+      >
+        <div
+          className="MuiExpansionPanelSummary-content-262"
         >
           <p
-            className="MuiTypography-root-248 MuiTypography-body1-257"
+            className="MuiTypography-root-264 MuiTypography-body1-273"
           >
             Global Settings
           </p>
         </div>
         <div
           aria-hidden="true"
-          className="MuiButtonBase-root-208 MuiIconButton-root-284 MuiExpansionPanelSummary-expandIcon-247"
+          className="MuiButtonBase-root-224 MuiIconButton-root-304 MuiExpansionPanelSummary-expandIcon-263"
           onBlur={[Function]}
           onContextMenu={[Function]}
           onFocus={[Function]}
@@ -14630,11 +15212,11 @@ Array [
           tabIndex={-1}
         >
           <span
-            className="MuiIconButton-label-289"
+            className="MuiIconButton-label-309"
           >
             <svg
               aria-hidden="true"
-              className="MuiSvgIcon-root-290"
+              className="MuiSvgIcon-root-310"
               focusable="false"
               role="presentation"
               viewBox="0 0 24 24"
@@ -14649,13 +15231,13 @@ Array [
             </svg>
           </span>
           <span
-            className="MuiTouchRipple-root-356"
+            className="MuiTouchRipple-root-388"
           />
         </div>
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-299"
+        className="MuiCollapse-container-300"
         style={
           Object {
             "minHeight": "0px",
@@ -14663,13 +15245,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-301"
+          className="MuiCollapse-wrapper-302"
         >
           <div
-            className="MuiCollapse-wrapperInner-302"
+            className="MuiCollapse-wrapperInner-303"
           >
             <div
-              className="MuiExpansionPanelDetails-root-303"
+              className="MuiExpansionPanelDetails-root-319"
             >
               <div
                 className="center"
@@ -14681,21 +15263,21 @@ Array [
                 }
               >
                 <div
-                  className="MuiFormControl-root-304 MuiFormControl-fullWidth-307"
+                  className="MuiFormControl-root-320 MuiFormControl-fullWidth-323"
                 >
                   <label
-                    className="MuiFormLabel-root-319 MuiFormLabel-filled-323 MuiInputLabel-root-308 MuiInputLabel-formControl-313 MuiInputLabel-animated-316 MuiInputLabel-shrink-315"
+                    className="MuiFormLabel-root-335 MuiFormLabel-filled-339 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332 MuiInputLabel-shrink-331"
                     data-shrink={true}
                   >
                     Name
                   </label>
                   <div
-                    className="MuiInputBase-root-339 MuiInput-root-326 MuiInput-underline-330 MuiInputBase-fullWidth-348 MuiInput-fullWidth-333 MuiInputBase-formControl-340 MuiInput-formControl-327"
+                    className="MuiInputBase-root-355 MuiInput-root-342 MuiInput-underline-346 MuiInputBase-fullWidth-364 MuiInput-fullWidth-349 MuiInputBase-formControl-356 MuiInput-formControl-343"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-349 MuiInput-input-334"
+                      className="MuiInputBase-input-365 MuiInput-input-350"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -14707,21 +15289,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-304 MuiFormControl-fullWidth-307"
+                  className="MuiFormControl-root-320 MuiFormControl-fullWidth-323"
                 >
                   <label
-                    className="MuiFormLabel-root-319 MuiFormLabel-filled-323 MuiInputLabel-root-308 MuiInputLabel-formControl-313 MuiInputLabel-animated-316 MuiInputLabel-shrink-315"
+                    className="MuiFormLabel-root-335 MuiFormLabel-filled-339 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332 MuiInputLabel-shrink-331"
                     data-shrink={true}
                   >
                     Height
                   </label>
                   <div
-                    className="MuiInputBase-root-339 MuiInput-root-326 MuiInput-underline-330 MuiInputBase-fullWidth-348 MuiInput-fullWidth-333 MuiInputBase-formControl-340 MuiInput-formControl-327"
+                    className="MuiInputBase-root-355 MuiInput-root-342 MuiInput-underline-346 MuiInputBase-fullWidth-364 MuiInput-fullWidth-349 MuiInputBase-formControl-356 MuiInput-formControl-343"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-349 MuiInput-input-334 MuiInputBase-inputType-352 MuiInput-inputType-337"
+                      className="MuiInputBase-input-365 MuiInput-input-350 MuiInputBase-inputType-368 MuiInput-inputType-353"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -14733,21 +15315,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-304 MuiFormControl-fullWidth-307"
+                  className="MuiFormControl-root-320 MuiFormControl-fullWidth-323"
                 >
                   <label
-                    className="MuiFormLabel-root-319 MuiFormLabel-filled-323 MuiInputLabel-root-308 MuiInputLabel-formControl-313 MuiInputLabel-animated-316 MuiInputLabel-shrink-315"
+                    className="MuiFormLabel-root-335 MuiFormLabel-filled-339 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332 MuiInputLabel-shrink-331"
                     data-shrink={true}
                   >
                     BorderThickness
                   </label>
                   <div
-                    className="MuiInputBase-root-339 MuiInput-root-326 MuiInput-underline-330 MuiInputBase-fullWidth-348 MuiInput-fullWidth-333 MuiInputBase-formControl-340 MuiInput-formControl-327"
+                    className="MuiInputBase-root-355 MuiInput-root-342 MuiInput-underline-346 MuiInputBase-fullWidth-364 MuiInput-fullWidth-349 MuiInputBase-formControl-356 MuiInput-formControl-343"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-349 MuiInput-input-334"
+                      className="MuiInputBase-input-365 MuiInput-input-350"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -14759,21 +15341,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-304 MuiFormControl-fullWidth-307"
+                  className="MuiFormControl-root-320 MuiFormControl-fullWidth-323"
                 >
                   <label
-                    className="MuiFormLabel-root-319 MuiFormLabel-filled-323 MuiInputLabel-root-308 MuiInputLabel-formControl-313 MuiInputLabel-animated-316 MuiInputLabel-shrink-315"
+                    className="MuiFormLabel-root-335 MuiFormLabel-filled-339 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332 MuiInputLabel-shrink-331"
                     data-shrink={true}
                   >
                     Grid.Rows
                   </label>
                   <div
-                    className="MuiInputBase-root-339 MuiInput-root-326 MuiInput-underline-330 MuiInputBase-fullWidth-348 MuiInput-fullWidth-333 MuiInputBase-formControl-340 MuiInput-formControl-327"
+                    className="MuiInputBase-root-355 MuiInput-root-342 MuiInput-underline-346 MuiInputBase-fullWidth-364 MuiInput-fullWidth-349 MuiInputBase-formControl-356 MuiInput-formControl-343"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-349 MuiInput-input-334 MuiInputBase-inputType-352 MuiInput-inputType-337"
+                      className="MuiInputBase-input-365 MuiInput-input-350 MuiInputBase-inputType-368 MuiInput-inputType-353"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -14785,21 +15367,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-304 MuiFormControl-fullWidth-307"
+                  className="MuiFormControl-root-320 MuiFormControl-fullWidth-323"
                 >
                   <label
-                    className="MuiFormLabel-root-319 MuiFormLabel-filled-323 MuiInputLabel-root-308 MuiInputLabel-formControl-313 MuiInputLabel-animated-316 MuiInputLabel-shrink-315"
+                    className="MuiFormLabel-root-335 MuiFormLabel-filled-339 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332 MuiInputLabel-shrink-331"
                     data-shrink={true}
                   >
                     Grid.Cols
                   </label>
                   <div
-                    className="MuiInputBase-root-339 MuiInput-root-326 MuiInput-underline-330 MuiInputBase-fullWidth-348 MuiInput-fullWidth-333 MuiInputBase-formControl-340 MuiInput-formControl-327"
+                    className="MuiInputBase-root-355 MuiInput-root-342 MuiInput-underline-346 MuiInputBase-fullWidth-364 MuiInput-fullWidth-349 MuiInputBase-formControl-356 MuiInput-formControl-343"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-349 MuiInput-input-334 MuiInputBase-inputType-352 MuiInput-inputType-337"
+                      className="MuiInputBase-input-365 MuiInput-input-350 MuiInputBase-inputType-368 MuiInput-inputType-353"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -14811,21 +15393,21 @@ Array [
                   </div>
                 </div>
                 <div
-                  className="MuiFormControl-root-304 MuiFormControl-fullWidth-307"
+                  className="MuiFormControl-root-320 MuiFormControl-fullWidth-323"
                 >
                   <label
-                    className="MuiFormLabel-root-319 MuiFormLabel-filled-323 MuiInputLabel-root-308 MuiInputLabel-formControl-313 MuiInputLabel-animated-316 MuiInputLabel-shrink-315"
+                    className="MuiFormLabel-root-335 MuiFormLabel-filled-339 MuiInputLabel-root-324 MuiInputLabel-formControl-329 MuiInputLabel-animated-332 MuiInputLabel-shrink-331"
                     data-shrink={true}
                   >
                     SymbolMargin
                   </label>
                   <div
-                    className="MuiInputBase-root-339 MuiInput-root-326 MuiInput-underline-330 MuiInputBase-fullWidth-348 MuiInput-fullWidth-333 MuiInputBase-formControl-340 MuiInput-formControl-327"
+                    className="MuiInputBase-root-355 MuiInput-root-342 MuiInput-underline-346 MuiInputBase-fullWidth-364 MuiInput-fullWidth-349 MuiInputBase-formControl-356 MuiInput-formControl-343"
                     onClick={[Function]}
                   >
                     <input
                       aria-invalid={false}
-                      className="MuiInputBase-input-349 MuiInput-input-334 MuiInputBase-inputType-352 MuiInput-inputType-337"
+                      className="MuiInputBase-input-365 MuiInput-input-350 MuiInputBase-inputType-368 MuiInput-inputType-353"
                       disabled={false}
                       onBlur={[Function]}
                       onChange={[Function]}
@@ -14843,11 +15425,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-215 MuiPaper-elevation1-218 MuiPaper-rounded-216 MuiExpansionPanel-root-211 MuiExpansionPanel-rounded-212"
+      className="MuiPaper-root-231 MuiPaper-elevation1-234 MuiPaper-rounded-232 MuiExpansionPanel-root-227 MuiExpansionPanel-rounded-228"
     >
       <div
         aria-expanded={false}
-        className="MuiButtonBase-root-208 MuiExpansionPanelSummary-root-242"
+        className="MuiButtonBase-root-224 MuiExpansionPanelSummary-root-258"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -14864,10 +15446,10 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-246"
+          className="MuiExpansionPanelSummary-content-262"
         >
           <p
-            className="MuiTypography-root-248 MuiTypography-body1-257"
+            className="MuiTypography-root-264 MuiTypography-body1-273"
           >
             Click on a key to edit it here
           </p>
@@ -14875,7 +15457,7 @@ Array [
       </div>
       <div
         aria-hidden="true"
-        className="MuiCollapse-container-299"
+        className="MuiCollapse-container-300"
         style={
           Object {
             "minHeight": "0px",
@@ -14883,13 +15465,13 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-301"
+          className="MuiCollapse-wrapper-302"
         >
           <div
-            className="MuiCollapse-wrapperInner-302"
+            className="MuiCollapse-wrapperInner-303"
           >
             <div
-              className="MuiExpansionPanelDetails-root-303"
+              className="MuiExpansionPanelDetails-root-319"
             >
               <p>
                 Click on a Key in the Keyboard to edit it
@@ -14900,20 +15482,11 @@ Array [
       </div>
     </div>
     <div
-      className="MuiPaper-root-215 MuiPaper-elevation1-218 MuiPaper-rounded-216 MuiExpansionPanel-root-211 MuiExpansionPanel-rounded-212"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragEnter={[Function]}
-      onDragLeave={[Function]}
-      onDragOver={[Function]}
-      onDrop={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      tabIndex={0}
+      className="MuiPaper-root-231 MuiPaper-elevation1-234 MuiPaper-rounded-232 MuiExpansionPanel-root-227 MuiExpansionPanel-expanded-229 MuiExpansionPanel-rounded-228"
     >
       <div
-        aria-expanded={false}
-        className="MuiButtonBase-root-208 MuiExpansionPanelSummary-root-242"
+        aria-expanded={true}
+        className="MuiButtonBase-root-224 MuiExpansionPanelSummary-root-258 MuiExpansionPanelSummary-expanded-259"
         onBlur={[Function]}
         onClick={[Function]}
         onContextMenu={[Function]}
@@ -14930,36 +15503,17 @@ Array [
         tabIndex="0"
       >
         <div
-          className="MuiExpansionPanelSummary-content-246"
+          className="MuiExpansionPanelSummary-content-262 MuiExpansionPanelSummary-expanded-259"
         >
-          <input
-            autoComplete="off"
-            multiple={true}
-            onChange={[Function]}
-            onClick={[Function]}
-            style={
-              Object {
-                "display": "none",
-              }
-            }
-            tabIndex={-1}
-            type="file"
-          />
           <p
-            className="MuiTypography-root-248 MuiTypography-body1-257"
+            className="MuiTypography-root-264 MuiTypography-body1-273"
           >
-            Upload
-          </p>
-          <p
-            className="MuiTypography-root-248 MuiTypography-body1-257"
-          >
-            Drag 'n' drop some files here, or click to select files
+            About
           </p>
         </div>
       </div>
       <div
-        aria-hidden="true"
-        className="MuiCollapse-container-299"
+        className="MuiCollapse-container-300 MuiCollapse-entered-301"
         style={
           Object {
             "minHeight": "0px",
@@ -14967,11 +15521,45 @@ Array [
         }
       >
         <div
-          className="MuiCollapse-wrapper-301"
+          className="MuiCollapse-wrapper-302"
         >
           <div
-            className="MuiCollapse-wrapperInner-302"
-          />
+            className="MuiCollapse-wrapperInner-303"
+          >
+            <div
+              className="MuiExpansionPanelDetails-root-319"
+            >
+              <p
+                className="MuiTypography-root-264 MuiTypography-body1-273"
+              >
+                Written with ❤️ by 
+                <a>
+                  hizoul
+                </a>
+                <br />
+                Special thanks to 
+                <a
+                  href="https://github.com/JuliusSweetland"
+                >
+                  Julius Sweetland
+                </a>
+                 for writing 
+                <a
+                  href="https://github.com/OptiKey/OptiKey"
+                >
+                  OptiKey
+                </a>
+                 and 
+                <a
+                  href="#"
+                  onClick={[Function]}
+                >
+                  all other authors of open source libraries
+                </a>
+                 that make this small tool possible
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

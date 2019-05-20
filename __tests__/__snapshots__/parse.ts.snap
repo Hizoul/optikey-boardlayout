@@ -32,6 +32,8 @@ exports[`parser: js to xml 1`] = `
     <TextKey>
       <Row>2</Row>
       <Col>1</Col>
+      <Text>\\\\</Text>
+      <Label>\\\\</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
@@ -440,6 +442,7 @@ exports[`parser: js to xml 1`] = `
     <TextKey>
       <Row>6</Row>
       <Col>5</Col>
+      <Width>2</Width>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </TextKey>
@@ -558,8 +561,12 @@ Object {
       },
       Object {
         "Col": 1,
+        "Label": "\\\\",
         "Row": 2,
+        "Text": "\\\\",
+        "caseSensitive": false,
         "type": "TextKey",
+        "useSymbol": false,
       },
       Object {
         "Col": 0,
@@ -1200,6 +1207,7 @@ Object {
         "Row": 6,
         "Symbol": "SpaceIcon",
         "Text": "&#32;",
+        "Width": "2",
         "type": "TextKey",
         "useSymbol": true,
       },
