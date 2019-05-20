@@ -81,6 +81,7 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     }
     return ele
   })
+
   const keyboard: any = {
     Keyboard: {
       Name,
@@ -101,6 +102,10 @@ const toXml = (keyboard: IKeyboard) => {
   }
   for (const key of keyboard.Keyboard.Keys) {
     const newKey = cloneDeep(key)
+    if (newKey.Text === "&") {
+      newKey.Text = "&amp;amp;"
+      newKey.Label = "&amp;amp;"
+    }
     delete newKey.type
     delete newKey.caseSensitive
     delete newKey.useSymbol
