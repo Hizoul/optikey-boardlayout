@@ -7,7 +7,7 @@ export interface IKeyboard {
     Height: number
     BorderThickness: string
     SymbolMargin: number
-    Grid: {rows: number}
+    Grid: {Cols: number, Rows: number}
     Keys: any[]
   }
 }
@@ -109,7 +109,9 @@ const toXml = (keyboard: IKeyboard) => {
     delete newKey.type
     delete newKey.caseSensitive
     delete newKey.useSymbol
-    changedKeys[key.type].push(newKey)
+    if (newKey.Row < keyboard.Keyboard.Grid.Rows && newKey.Col < keyboard.Keyboard.Grid.Cols) {
+      changedKeys[key.type].push(newKey)
+    }
   }
   const res = js2xml({
     Keyboard: {
