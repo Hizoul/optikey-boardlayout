@@ -2,7 +2,7 @@
 
 exports[`parser: js to xml 1`] = `
 "<Keyboard>
-  <Name>MMB2s Keyboard</Name>
+  <Name>OptiKey-BoardMaker</Name>
   <Height>40</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
@@ -13,25 +13,25 @@ exports[`parser: js to xml 1`] = `
   <Keys>
     <TextKey>
       <Row>0</Row>
-      <Col>8</Col>
+      <Col>7</Col>
       <Text>7</Text>
       <Label>7</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>9</Col>
+      <Col>8</Col>
       <Text>8</Text>
       <Label>8</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>10</Col>
+      <Col>9</Col>
       <Text>9</Text>
       <Label>9</Label>
     </TextKey>
     <TextKey>
-      <Row>2</Row>
-      <Col>1</Col>
+      <Row>1</Row>
+      <Col>0</Col>
       <Text>\\\\</Text>
       <Label>\\\\</Label>
     </TextKey>
@@ -43,161 +43,161 @@ exports[`parser: js to xml 1`] = `
     </TextKey>
     <TextKey>
       <Row>1</Row>
-      <Col>2</Col>
+      <Col>10</Col>
       <Text>$</Text>
       <Label>$</Label>
     </TextKey>
     <TextKey>
       <Row>1</Row>
-      <Col>1</Col>
-      <Text>&</Text>
-      <Label>&</Label>
+      <Col>6</Col>
+      <Text>&amp;</Text>
+      <Label>&amp;</Label>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>1</Col>
+      <Col>11</Col>
       <Text>^</Text>
       <Label>^</Label>
     </TextKey>
     <TextKey>
-      <Row>2</Row>
-      <Col>0</Col>
+      <Row>1</Row>
+      <Col>1</Col>
       <Text>!</Text>
       <Label>!</Label>
     </TextKey>
     <TextKey>
-      <Row>3</Row>
+      <Row>1</Row>
       <Col>2</Col>
       <Text>?</Text>
       <Label>?</Label>
     </TextKey>
     <TextKey>
-      <Row>4</Row>
-      <Col>10</Col>
+      <Row>2</Row>
+      <Col>11</Col>
       <Text>|</Text>
       <Label>|</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>5</Col>
+      <Col>4</Col>
       <Text>4</Text>
       <Label>4</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>6</Col>
+      <Col>5</Col>
       <Text>5</Text>
       <Label>5</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>7</Col>
+      <Col>6</Col>
       <Text>6</Text>
       <Label>6</Label>
     </TextKey>
     <TextKey>
-      <Row>1</Row>
-      <Col>3</Col>
+      <Row>2</Row>
+      <Col>0</Col>
       <Text>/</Text>
       <Label>/</Label>
     </TextKey>
     <TextKey>
-      <Row>4</Row>
-      <Col>0</Col>
+      <Row>6</Row>
+      <Col>3</Col>
       <Text>:</Text>
       <Label>:</Label>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>6</Col>
+      <Col>5</Col>
       <Text>f</Text>
       <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>7</Col>
+      <Col>6</Col>
       <Text>g</Text>
       <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>8</Col>
+      <Col>7</Col>
       <Text>h</Text>
       <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>2</Col>
+      <Col>1</Col>
       <Text>q</Text>
       <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>9</Col>
+      <Col>8</Col>
       <Text>j</Text>
       <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>1</Row>
-      <Col>8</Col>
+      <Col>5</Col>
       <Text>%</Text>
       <Label>%</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>2</Col>
+      <Col>1</Col>
       <Text>1</Text>
       <Label>1</Label>
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>3</Col>
+      <Col>2</Col>
       <Text>2</Text>
       <Label>2</Label>
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>9</Col>
+      <Col>8</Col>
       <Text>m</Text>
       <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>8</Col>
+      <Col>7</Col>
       <Text>n</Text>
       <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>11</Col>
+      <Col>10</Col>
       <Text>p</Text>
       <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>7</Col>
+      <Col>6</Col>
       <Text>b</Text>
       <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>10</Col>
+      <Col>9</Col>
       <Text>k</Text>
       <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>6</Col>
+      <Col>5</Col>
       <Text>v</Text>
       <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
@@ -210,13 +210,13 @@ exports[`parser: js to xml 1`] = `
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>4</Col>
+      <Col>3</Col>
       <Text>3</Text>
       <Label>3</Label>
     </TextKey>
     <TextKey>
-      <Row>1</Row>
-      <Col>6</Col>
+      <Row>3</Row>
+      <Col>1</Col>
       <Text>_</Text>
       <Label>_</Label>
     </TextKey>
@@ -227,8 +227,8 @@ exports[`parser: js to xml 1`] = `
       <Label>;</Label>
     </TextKey>
     <TextKey>
-      <Row>1</Row>
-      <Col>0</Col>
+      <Row>4</Row>
+      <Col>9</Col>
       <Text>@</Text>
       <Label>@</Label>
     </TextKey>
@@ -240,7 +240,7 @@ exports[`parser: js to xml 1`] = `
     </TextKey>
     <TextKey>
       <Row>1</Row>
-      <Col>5</Col>
+      <Col>8</Col>
       <Text>'</Text>
       <Label>'</Label>
     </TextKey>
@@ -252,62 +252,62 @@ exports[`parser: js to xml 1`] = `
     </TextKey>
     <TextKey>
       <Row>0</Row>
-      <Col>1</Col>
+      <Col>10</Col>
       <Text>0</Text>
       <Label>0</Label>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>11</Col>
+      <Col>10</Col>
       <Text>l</Text>
       <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>4</Col>
+      <Col>3</Col>
       <Text>s</Text>
       <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>5</Col>
+      <Col>4</Col>
       <Text>r</Text>
       <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>6</Col>
+      <Col>5</Col>
       <Text>t</Text>
       <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>5</Col>
+      <Col>4</Col>
       <Text>c</Text>
       <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>5</Col>
+      <Col>4</Col>
       <Text>d</Text>
       <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>3</Col>
+      <Col>2</Col>
       <Text>w</Text>
       <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>1</Row>
-      <Col>4</Col>
+      <Col>3</Col>
       <Text>+</Text>
       <Label>+</Label>
     </TextKey>
@@ -319,62 +319,62 @@ exports[`parser: js to xml 1`] = `
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>2</Col>
+      <Col>10</Col>
       <Text>=</Text>
       <Label>=</Label>
     </TextKey>
     <TextKey>
       <Row>3</Row>
-      <Col>3</Col>
+      <Col>2</Col>
       <Text>a</Text>
       <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>4</Col>
+      <Col>3</Col>
       <Text>e</Text>
       <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>9</Col>
+      <Col>8</Col>
       <Text>i</Text>
       <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>10</Col>
+      <Col>9</Col>
       <Text>o</Text>
       <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>8</Col>
+      <Col>7</Col>
       <Text>u</Text>
       <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>4</Col>
+      <Col>3</Col>
       <Text>x</Text>
       <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>4</Row>
-      <Col>3</Col>
+      <Col>2</Col>
       <Text>y</Text>
       <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
     </TextKey>
     <TextKey>
       <Row>2</Row>
-      <Col>7</Col>
+      <Col>6</Col>
       <Text>z</Text>
       <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
@@ -434,8 +434,8 @@ exports[`parser: js to xml 1`] = `
       <Label>}</Label>
     </TextKey>
     <TextKey>
-      <Row>6</Row>
-      <Col>4</Col>
+      <Row>4</Row>
+      <Col>0</Col>
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
     </TextKey>
@@ -451,6 +451,18 @@ exports[`parser: js to xml 1`] = `
       <Col>7</Col>
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
+    </TextKey>
+    <TextKey>
+      <Row>1</Row>
+      <Col>9</Col>
+      <Text>\`</Text>
+      <Label>\`</Label>
+    </TextKey>
+    <TextKey>
+      <Row>1</Row>
+      <Col>4</Col>
+      <Text>*</Text>
+      <Label>*</Label>
     </TextKey>
     <ActionKey>
       <Row>0</Row>
@@ -496,7 +508,7 @@ exports[`parser: js to xml 1`] = `
     </ActionKey>
     <ActionKey>
       <Row>6</Row>
-      <Col>3</Col>
+      <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
     </ActionKey>
@@ -533,7 +545,7 @@ Object {
     "Height": 40,
     "Keys": Array [
       Object {
-        "Col": 8,
+        "Col": 7,
         "Label": "7",
         "Row": 0,
         "Text": "7",
@@ -542,7 +554,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 9,
+        "Col": 8,
         "Label": "8",
         "Row": 0,
         "Text": "8",
@@ -551,7 +563,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 10,
+        "Col": 9,
         "Label": "9",
         "Row": 0,
         "Text": "9",
@@ -560,9 +572,9 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 1,
+        "Col": 0,
         "Label": "\\\\",
-        "Row": 2,
+        "Row": 1,
         "Text": "\\\\",
         "caseSensitive": false,
         "type": "TextKey",
@@ -578,7 +590,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 2,
+        "Col": 10,
         "Label": "$",
         "Row": 1,
         "Text": "$",
@@ -587,7 +599,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 1,
+        "Col": 6,
         "Label": "&",
         "Row": 1,
         "Text": "&",
@@ -596,7 +608,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 1,
+        "Col": 11,
         "Label": "^",
         "Row": 3,
         "Text": "^",
@@ -605,9 +617,9 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 0,
+        "Col": 1,
         "Label": "!",
-        "Row": 2,
+        "Row": 1,
         "Text": "!",
         "caseSensitive": false,
         "type": "TextKey",
@@ -616,31 +628,23 @@ Object {
       Object {
         "Col": 2,
         "Label": "?",
-        "Row": 3,
+        "Row": 1,
         "Text": "?",
         "caseSensitive": false,
         "type": "TextKey",
         "useSymbol": false,
       },
       Object {
-        "Col": 10,
+        "Col": 11,
         "Label": "|",
-        "Row": 4,
+        "Row": 2,
         "Text": "|",
         "caseSensitive": false,
         "type": "TextKey",
         "useSymbol": false,
       },
       Object {
-        "Action": "MenuKeyboard",
-        "Col": 11,
-        "Row": 0,
-        "Symbol": "MenuIcon",
-        "type": "ActionKey",
-        "useSymbol": true,
-      },
-      Object {
-        "Col": 5,
+        "Col": 4,
         "Label": "4",
         "Row": 0,
         "Text": "4",
@@ -649,7 +653,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 6,
+        "Col": 5,
         "Label": "5",
         "Row": 0,
         "Text": "5",
@@ -658,7 +662,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 7,
+        "Col": 6,
         "Label": "6",
         "Row": 0,
         "Text": "6",
@@ -667,25 +671,25 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 3,
+        "Col": 0,
         "Label": "/",
-        "Row": 1,
+        "Row": 2,
         "Text": "/",
         "caseSensitive": false,
         "type": "TextKey",
         "useSymbol": false,
       },
       Object {
-        "Col": 0,
+        "Col": 3,
         "Label": ":",
-        "Row": 4,
+        "Row": 6,
         "Text": ":",
         "caseSensitive": false,
         "type": "TextKey",
         "useSymbol": false,
       },
       Object {
-        "Col": 6,
+        "Col": 5,
         "Row": 3,
         "ShiftDownLabel": "F",
         "ShiftUpLabel": "f",
@@ -694,7 +698,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 7,
+        "Col": 6,
         "Row": 3,
         "ShiftDownLabel": "G",
         "ShiftUpLabel": "g",
@@ -703,7 +707,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 8,
+        "Col": 7,
         "Row": 3,
         "ShiftDownLabel": "H",
         "ShiftUpLabel": "h",
@@ -712,7 +716,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 2,
+        "Col": 1,
         "Row": 2,
         "ShiftDownLabel": "Q",
         "ShiftUpLabel": "q",
@@ -721,7 +725,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 9,
+        "Col": 8,
         "Row": 3,
         "ShiftDownLabel": "J",
         "ShiftUpLabel": "j",
@@ -730,7 +734,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 8,
+        "Col": 5,
         "Label": "%",
         "Row": 1,
         "Text": "%",
@@ -739,15 +743,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Action": "BackOne",
-        "Col": 8,
-        "Row": 6,
-        "Symbol": "BackOneIcon",
-        "type": "ActionKey",
-        "useSymbol": true,
-      },
-      Object {
-        "Col": 2,
+        "Col": 1,
         "Label": "1",
         "Row": 0,
         "Text": "1",
@@ -756,7 +752,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 3,
+        "Col": 2,
         "Label": "2",
         "Row": 0,
         "Text": "2",
@@ -765,7 +761,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 9,
+        "Col": 8,
         "Row": 4,
         "ShiftDownLabel": "M",
         "ShiftUpLabel": "m",
@@ -774,7 +770,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 8,
+        "Col": 7,
         "Row": 4,
         "ShiftDownLabel": "N",
         "ShiftUpLabel": "n",
@@ -783,7 +779,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 11,
+        "Col": 10,
         "Row": 2,
         "ShiftDownLabel": "P",
         "ShiftUpLabel": "p",
@@ -792,7 +788,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 7,
+        "Col": 6,
         "Row": 4,
         "ShiftDownLabel": "B",
         "ShiftUpLabel": "b",
@@ -801,7 +797,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 10,
+        "Col": 9,
         "Row": 3,
         "ShiftDownLabel": "K",
         "ShiftUpLabel": "k",
@@ -810,7 +806,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 6,
+        "Col": 5,
         "Row": 4,
         "ShiftDownLabel": "V",
         "ShiftUpLabel": "v",
@@ -828,7 +824,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 4,
+        "Col": 3,
         "Label": "3",
         "Row": 0,
         "Text": "3",
@@ -837,9 +833,9 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 6,
+        "Col": 1,
         "Label": "_",
-        "Row": 1,
+        "Row": 3,
         "Text": "_",
         "caseSensitive": false,
         "type": "TextKey",
@@ -855,9 +851,9 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 0,
+        "Col": 9,
         "Label": "@",
-        "Row": 1,
+        "Row": 4,
         "Text": "@",
         "caseSensitive": false,
         "type": "TextKey",
@@ -873,7 +869,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 5,
+        "Col": 8,
         "Label": "'",
         "Row": 1,
         "Text": "'",
@@ -891,7 +887,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 1,
+        "Col": 10,
         "Label": "0",
         "Row": 0,
         "Text": "0",
@@ -900,7 +896,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 11,
+        "Col": 10,
         "Row": 3,
         "ShiftDownLabel": "L",
         "ShiftUpLabel": "l",
@@ -909,7 +905,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 4,
+        "Col": 3,
         "Row": 3,
         "ShiftDownLabel": "S",
         "ShiftUpLabel": "s",
@@ -918,7 +914,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 5,
+        "Col": 4,
         "Row": 2,
         "ShiftDownLabel": "R",
         "ShiftUpLabel": "r",
@@ -927,7 +923,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 6,
+        "Col": 5,
         "Row": 2,
         "ShiftDownLabel": "T",
         "ShiftUpLabel": "t",
@@ -936,7 +932,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 5,
+        "Col": 4,
         "Row": 4,
         "ShiftDownLabel": "C",
         "ShiftUpLabel": "c",
@@ -945,7 +941,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 5,
+        "Col": 4,
         "Row": 3,
         "ShiftDownLabel": "D",
         "ShiftUpLabel": "d",
@@ -954,7 +950,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 3,
+        "Col": 2,
         "Row": 2,
         "ShiftDownLabel": "W",
         "ShiftUpLabel": "w",
@@ -963,7 +959,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 4,
+        "Col": 3,
         "Label": "+",
         "Row": 1,
         "Text": "+",
@@ -981,7 +977,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 2,
+        "Col": 10,
         "Label": "=",
         "Row": 4,
         "Text": "=",
@@ -990,7 +986,7 @@ Object {
         "useSymbol": false,
       },
       Object {
-        "Col": 3,
+        "Col": 2,
         "Row": 3,
         "ShiftDownLabel": "A",
         "ShiftUpLabel": "a",
@@ -999,7 +995,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 4,
+        "Col": 3,
         "Row": 2,
         "ShiftDownLabel": "E",
         "ShiftUpLabel": "e",
@@ -1008,7 +1004,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 9,
+        "Col": 8,
         "Row": 2,
         "ShiftDownLabel": "I",
         "ShiftUpLabel": "i",
@@ -1017,7 +1013,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 10,
+        "Col": 9,
         "Row": 2,
         "ShiftDownLabel": "O",
         "ShiftUpLabel": "o",
@@ -1026,7 +1022,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 8,
+        "Col": 7,
         "Row": 2,
         "ShiftDownLabel": "U",
         "ShiftUpLabel": "u",
@@ -1035,7 +1031,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 4,
+        "Col": 3,
         "Row": 4,
         "ShiftDownLabel": "X",
         "ShiftUpLabel": "x",
@@ -1044,7 +1040,7 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 3,
+        "Col": 2,
         "Row": 4,
         "ShiftDownLabel": "Y",
         "ShiftUpLabel": "y",
@@ -1053,22 +1049,13 @@ Object {
         "type": "TextKey",
       },
       Object {
-        "Col": 7,
+        "Col": 6,
         "Row": 2,
         "ShiftDownLabel": "Z",
         "ShiftUpLabel": "z",
         "Text": "z",
         "caseSensitive": true,
         "type": "TextKey",
-      },
-      Object {
-        "Action": "LeftWin",
-        "Col": 0,
-        "Label": "Win",
-        "Row": 5,
-        "caseSensitive": false,
-        "type": "ActionKey",
-        "useSymbol": false,
       },
       Object {
         "Col": 1,
@@ -1152,6 +1139,74 @@ Object {
         "useSymbol": false,
       },
       Object {
+        "Col": 0,
+        "Row": 4,
+        "Symbol": "TabIcon",
+        "Text": "&#9;",
+        "type": "TextKey",
+        "useSymbol": true,
+      },
+      Object {
+        "Col": 5,
+        "Row": 6,
+        "Symbol": "SpaceIcon",
+        "Text": "&#32;",
+        "Width": "2",
+        "type": "TextKey",
+        "useSymbol": true,
+      },
+      Object {
+        "Col": 7,
+        "Row": 6,
+        "Symbol": "EnterIcon",
+        "Text": "&#13;",
+        "type": "TextKey",
+        "useSymbol": true,
+      },
+      Object {
+        "Col": 9,
+        "Label": "\`",
+        "Row": 1,
+        "Text": "\`",
+        "caseSensitive": false,
+        "type": "TextKey",
+        "useSymbol": false,
+      },
+      Object {
+        "Col": 4,
+        "Label": "*",
+        "Row": 1,
+        "Text": "*",
+        "caseSensitive": false,
+        "type": "TextKey",
+        "useSymbol": false,
+      },
+      Object {
+        "Action": "MenuKeyboard",
+        "Col": 11,
+        "Row": 0,
+        "Symbol": "MenuIcon",
+        "type": "ActionKey",
+        "useSymbol": true,
+      },
+      Object {
+        "Action": "BackOne",
+        "Col": 8,
+        "Row": 6,
+        "Symbol": "BackOneIcon",
+        "type": "ActionKey",
+        "useSymbol": true,
+      },
+      Object {
+        "Action": "LeftWin",
+        "Col": 0,
+        "Label": "Win",
+        "Row": 5,
+        "caseSensitive": false,
+        "type": "ActionKey",
+        "useSymbol": false,
+      },
+      Object {
         "Action": "ArrowUp",
         "Col": 10,
         "Row": 5,
@@ -1188,35 +1243,10 @@ Object {
       },
       Object {
         "Action": "LeftShift",
-        "Col": 3,
+        "Col": 4,
         "Row": 6,
         "Symbol": "ShiftIcon",
         "type": "ActionKey",
-        "useSymbol": true,
-      },
-      Object {
-        "Col": 4,
-        "Row": 6,
-        "Symbol": "TabIcon",
-        "Text": "&#9;",
-        "type": "TextKey",
-        "useSymbol": true,
-      },
-      Object {
-        "Col": 5,
-        "Row": 6,
-        "Symbol": "SpaceIcon",
-        "Text": "&#32;",
-        "Width": "2",
-        "type": "TextKey",
-        "useSymbol": true,
-      },
-      Object {
-        "Col": 7,
-        "Row": 6,
-        "Symbol": "EnterIcon",
-        "Text": "&#13;",
-        "type": "TextKey",
         "useSymbol": true,
       },
       Object {
@@ -1244,7 +1274,7 @@ Object {
         "useSymbol": true,
       },
     ],
-    "Name": "MMB2s Keyboard",
+    "Name": "OptiKey-BoardMaker",
     "SymbolMargin": 1,
   },
 }

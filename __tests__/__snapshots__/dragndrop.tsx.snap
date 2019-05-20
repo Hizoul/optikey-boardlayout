@@ -46,26 +46,6 @@ Array [
           }
         }
       >
-        0
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
         1
       </div>
       <div
@@ -246,6 +226,26 @@ Array [
           }
         }
       >
+        0
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         MenuIcon
       </div>
       <div
@@ -266,7 +266,7 @@ Array [
           }
         }
       >
-        @
+        \\
       </div>
       <div
         className="key center   "
@@ -286,7 +286,7 @@ Array [
           }
         }
       >
-        &
+        !
       </div>
       <div
         className="key center   "
@@ -306,27 +306,7 @@ Array [
           }
         }
       >
-        $
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        /
+        ?
       </div>
       <div
         className="key center   "
@@ -366,7 +346,7 @@ Array [
           }
         }
       >
-        '
+        *
       </div>
       <div
         className="key center   "
@@ -386,7 +366,27 @@ Array [
           }
         }
       >
-        _
+        %
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        &
       </div>
       <div
         className="key center   "
@@ -426,7 +426,47 @@ Array [
           }
         }
       >
-        %
+        '
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        \`
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        $
       </div>
       <div
         className="key center   "
@@ -463,64 +503,8 @@ Array [
             "width": 30,
           }
         }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
       >
-        !
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        \\
+        /
       </div>
       <div
         className="key center   "
@@ -740,6 +724,26 @@ Array [
           }
         }
       >
+        |
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         -
       </div>
       <div
@@ -760,27 +764,7 @@ Array [
           }
         }
       >
-        ^
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        ?
+        _
       </div>
       <div
         className="key center   "
@@ -980,7 +964,27 @@ Array [
           }
         }
       >
-        :
+        ^
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        TabIcon
       </div>
       <div
         className="key center   "
@@ -1001,26 +1005,6 @@ Array [
         }
       >
         &lt;
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        =
       </div>
       <div
         className="key center   "
@@ -1180,7 +1164,27 @@ Array [
           }
         }
       >
-        |
+        @
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        =
       </div>
       <div
         className="key center   "
@@ -1520,7 +1524,7 @@ Array [
           }
         }
       >
-        ShiftIcon
+        :
       </div>
       <div
         className="key center   "
@@ -1540,7 +1544,7 @@ Array [
           }
         }
       >
-        TabIcon
+        ShiftIcon
       </div>
       <div
         className="key center   "
@@ -1939,7 +1943,7 @@ Array [
                       onFocus={[Function]}
                       required={false}
                       type="text"
-                      value="MMB2s Keyboard"
+                      value="OptiKey-BoardMaker"
                     />
                   </div>
                 </div>
@@ -2281,26 +2285,6 @@ Array [
           }
         }
       >
-        0
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
         1
       </div>
       <div
@@ -2481,6 +2465,26 @@ Array [
           }
         }
       >
+        0
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         MenuIcon
       </div>
       <div
@@ -2501,7 +2505,7 @@ Array [
           }
         }
       >
-        @
+        \\
       </div>
       <div
         className="key center   "
@@ -2521,7 +2525,7 @@ Array [
           }
         }
       >
-        &
+        !
       </div>
       <div
         className="key center   "
@@ -2541,27 +2545,7 @@ Array [
           }
         }
       >
-        $
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        /
+        ?
       </div>
       <div
         className="key center   "
@@ -2601,7 +2585,7 @@ Array [
           }
         }
       >
-        '
+        *
       </div>
       <div
         className="key center   "
@@ -2621,7 +2605,27 @@ Array [
           }
         }
       >
-        _
+        %
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        &
       </div>
       <div
         className="key center   "
@@ -2661,7 +2665,47 @@ Array [
           }
         }
       >
-        %
+        '
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        \`
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        $
       </div>
       <div
         className="key center   "
@@ -2698,64 +2742,8 @@ Array [
             "width": 30,
           }
         }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
       >
-        !
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        \\
+        /
       </div>
       <div
         className="key center   "
@@ -2975,6 +2963,26 @@ Array [
           }
         }
       >
+        |
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         -
       </div>
       <div
@@ -2995,27 +3003,7 @@ Array [
           }
         }
       >
-        ^
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        ?
+        _
       </div>
       <div
         className="key center   "
@@ -3215,7 +3203,27 @@ Array [
           }
         }
       >
-        :
+        ^
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        TabIcon
       </div>
       <div
         className="key center   "
@@ -3236,26 +3244,6 @@ Array [
         }
       >
         &lt;
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        =
       </div>
       <div
         className="key center   "
@@ -3415,7 +3403,27 @@ Array [
           }
         }
       >
-        |
+        @
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        =
       </div>
       <div
         className="key center   "
@@ -3755,7 +3763,7 @@ Array [
           }
         }
       >
-        ShiftIcon
+        :
       </div>
       <div
         className="key center   "
@@ -3775,7 +3783,7 @@ Array [
           }
         }
       >
-        TabIcon
+        ShiftIcon
       </div>
       <div
         className="key center   "
@@ -4174,7 +4182,7 @@ Array [
                       onFocus={[Function]}
                       required={false}
                       type="text"
-                      value="MMB2s Keyboard"
+                      value="OptiKey-BoardMaker"
                     />
                   </div>
                 </div>
@@ -4503,26 +4511,6 @@ Array [
           }
         }
       >
-        0
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
         1
       </div>
       <div
@@ -4703,6 +4691,26 @@ Array [
           }
         }
       >
+        0
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         MenuIcon
       </div>
       <div
@@ -4723,7 +4731,7 @@ Array [
           }
         }
       >
-        @
+        \\
       </div>
       <div
         className="key center   "
@@ -4743,7 +4751,7 @@ Array [
           }
         }
       >
-        &
+        !
       </div>
       <div
         className="key center   "
@@ -4763,27 +4771,7 @@ Array [
           }
         }
       >
-        $
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        /
+        ?
       </div>
       <div
         className="key center   "
@@ -4823,7 +4811,7 @@ Array [
           }
         }
       >
-        '
+        *
       </div>
       <div
         className="key center   "
@@ -4843,7 +4831,27 @@ Array [
           }
         }
       >
-        _
+        %
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        &
       </div>
       <div
         className="key center   "
@@ -4883,7 +4891,47 @@ Array [
           }
         }
       >
-        %
+        '
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        \`
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        $
       </div>
       <div
         className="key center   "
@@ -4920,64 +4968,8 @@ Array [
             "width": 30,
           }
         }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
       >
-        !
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        \\
+        /
       </div>
       <div
         className="key center   "
@@ -5197,6 +5189,26 @@ Array [
           }
         }
       >
+        |
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         -
       </div>
       <div
@@ -5217,27 +5229,7 @@ Array [
           }
         }
       >
-        ^
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        ?
+        _
       </div>
       <div
         className="key center   "
@@ -5437,7 +5429,27 @@ Array [
           }
         }
       >
-        :
+        ^
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        TabIcon
       </div>
       <div
         className="key center   "
@@ -5458,26 +5470,6 @@ Array [
         }
       >
         &lt;
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        =
       </div>
       <div
         className="key center   "
@@ -5637,7 +5629,27 @@ Array [
           }
         }
       >
-        |
+        @
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        =
       </div>
       <div
         className="key center   "
@@ -5977,7 +5989,7 @@ Array [
           }
         }
       >
-        ShiftIcon
+        :
       </div>
       <div
         className="key center   "
@@ -5997,7 +6009,7 @@ Array [
           }
         }
       >
-        TabIcon
+        ShiftIcon
       </div>
       <div
         className="key center   "
@@ -6396,7 +6408,7 @@ Array [
                       onFocus={[Function]}
                       required={false}
                       type="text"
-                      value="MMB2s Keyboard"
+                      value="OptiKey-BoardMaker"
                     />
                   </div>
                 </div>
@@ -6725,26 +6737,6 @@ Array [
           }
         }
       >
-        0
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
         1
       </div>
       <div
@@ -6925,6 +6917,26 @@ Array [
           }
         }
       >
+        0
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         MenuIcon
       </div>
       <div
@@ -6945,7 +6957,7 @@ Array [
           }
         }
       >
-        @
+        \\
       </div>
       <div
         className="key center   "
@@ -6965,7 +6977,7 @@ Array [
           }
         }
       >
-        &
+        !
       </div>
       <div
         className="key center   "
@@ -6985,27 +6997,7 @@ Array [
           }
         }
       >
-        $
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        /
+        ?
       </div>
       <div
         className="key center   "
@@ -7045,7 +7037,7 @@ Array [
           }
         }
       >
-        '
+        *
       </div>
       <div
         className="key center   "
@@ -7065,7 +7057,27 @@ Array [
           }
         }
       >
-        _
+        %
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        &
       </div>
       <div
         className="key center   "
@@ -7105,7 +7117,47 @@ Array [
           }
         }
       >
-        %
+        '
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        \`
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        $
       </div>
       <div
         className="key center   "
@@ -7142,64 +7194,8 @@ Array [
             "width": 30,
           }
         }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
       >
-        !
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        \\
+        /
       </div>
       <div
         className="key center   "
@@ -7419,6 +7415,26 @@ Array [
           }
         }
       >
+        |
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         -
       </div>
       <div
@@ -7439,27 +7455,7 @@ Array [
           }
         }
       >
-        ^
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        ?
+        _
       </div>
       <div
         className="key center   "
@@ -7659,7 +7655,27 @@ Array [
           }
         }
       >
-        :
+        ^
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        TabIcon
       </div>
       <div
         className="key center   "
@@ -7680,26 +7696,6 @@ Array [
         }
       >
         &lt;
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        =
       </div>
       <div
         className="key center   "
@@ -7859,7 +7855,27 @@ Array [
           }
         }
       >
-        |
+        @
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        =
       </div>
       <div
         className="key center   "
@@ -8199,7 +8215,7 @@ Array [
           }
         }
       >
-        ShiftIcon
+        :
       </div>
       <div
         className="key center   "
@@ -8219,7 +8235,7 @@ Array [
           }
         }
       >
-        TabIcon
+        ShiftIcon
       </div>
       <div
         className="key center   "
@@ -8618,7 +8634,7 @@ Array [
                       onFocus={[Function]}
                       required={false}
                       type="text"
-                      value="MMB2s Keyboard"
+                      value="OptiKey-BoardMaker"
                     />
                   </div>
                 </div>
@@ -8947,26 +8963,6 @@ Array [
           }
         }
       >
-        0
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
         1
       </div>
       <div
@@ -9147,6 +9143,26 @@ Array [
           }
         }
       >
+        0
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         MenuIcon
       </div>
       <div
@@ -9167,7 +9183,7 @@ Array [
           }
         }
       >
-        @
+        \\
       </div>
       <div
         className="key center   "
@@ -9187,7 +9203,7 @@ Array [
           }
         }
       >
-        &
+        !
       </div>
       <div
         className="key center   "
@@ -9207,27 +9223,7 @@ Array [
           }
         }
       >
-        $
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        /
+        ?
       </div>
       <div
         className="key center   "
@@ -9267,7 +9263,7 @@ Array [
           }
         }
       >
-        '
+        *
       </div>
       <div
         className="key center   "
@@ -9287,7 +9283,27 @@ Array [
           }
         }
       >
-        _
+        %
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        &
       </div>
       <div
         className="key center   "
@@ -9327,7 +9343,47 @@ Array [
           }
         }
       >
-        %
+        '
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        \`
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        $
       </div>
       <div
         className="key center   "
@@ -9364,64 +9420,8 @@ Array [
             "width": 30,
           }
         }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
       >
-        !
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        \\
+        /
       </div>
       <div
         className="key center   "
@@ -9641,6 +9641,26 @@ Array [
           }
         }
       >
+        |
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         -
       </div>
       <div
@@ -9661,27 +9681,7 @@ Array [
           }
         }
       >
-        ^
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        ?
+        _
       </div>
       <div
         className="key center   "
@@ -9881,7 +9881,27 @@ Array [
           }
         }
       >
-        :
+        ^
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        TabIcon
       </div>
       <div
         className="key center   "
@@ -9902,26 +9922,6 @@ Array [
         }
       >
         &lt;
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        =
       </div>
       <div
         className="key center   "
@@ -10081,7 +10081,27 @@ Array [
           }
         }
       >
-        |
+        @
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        =
       </div>
       <div
         className="key center   "
@@ -10421,7 +10441,7 @@ Array [
           }
         }
       >
-        ShiftIcon
+        :
       </div>
       <div
         className="key center   "
@@ -10441,7 +10461,7 @@ Array [
           }
         }
       >
-        TabIcon
+        ShiftIcon
       </div>
       <div
         className="key center   "
@@ -10840,7 +10860,7 @@ Array [
                       onFocus={[Function]}
                       required={false}
                       type="text"
-                      value="MMB2s Keyboard"
+                      value="OptiKey-BoardMaker"
                     />
                   </div>
                 </div>
@@ -11169,26 +11189,6 @@ Array [
           }
         }
       >
-        0
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
         1
       </div>
       <div
@@ -11369,6 +11369,26 @@ Array [
           }
         }
       >
+        0
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         MenuIcon
       </div>
       <div
@@ -11389,7 +11409,7 @@ Array [
           }
         }
       >
-        @
+        \\
       </div>
       <div
         className="key center   "
@@ -11409,7 +11429,7 @@ Array [
           }
         }
       >
-        &
+        !
       </div>
       <div
         className="key center   "
@@ -11429,27 +11449,7 @@ Array [
           }
         }
       >
-        $
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        /
+        ?
       </div>
       <div
         className="key center   "
@@ -11489,7 +11489,7 @@ Array [
           }
         }
       >
-        '
+        *
       </div>
       <div
         className="key center   "
@@ -11509,7 +11509,27 @@ Array [
           }
         }
       >
-        _
+        %
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        &
       </div>
       <div
         className="key center   "
@@ -11549,7 +11569,47 @@ Array [
           }
         }
       >
-        %
+        '
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        \`
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        $
       </div>
       <div
         className="key center   "
@@ -11586,64 +11646,8 @@ Array [
             "width": 30,
           }
         }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
       >
-        !
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        \\
+        /
       </div>
       <div
         className="key center   "
@@ -11863,6 +11867,26 @@ Array [
           }
         }
       >
+        |
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         -
       </div>
       <div
@@ -11883,27 +11907,7 @@ Array [
           }
         }
       >
-        ^
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        ?
+        _
       </div>
       <div
         className="key center   "
@@ -12103,7 +12107,27 @@ Array [
           }
         }
       >
-        :
+        ^
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        TabIcon
       </div>
       <div
         className="key center   "
@@ -12124,26 +12148,6 @@ Array [
         }
       >
         &lt;
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        =
       </div>
       <div
         className="key center   "
@@ -12303,7 +12307,27 @@ Array [
           }
         }
       >
-        |
+        @
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        =
       </div>
       <div
         className="key center   "
@@ -12643,7 +12667,7 @@ Array [
           }
         }
       >
-        ShiftIcon
+        :
       </div>
       <div
         className="key center   "
@@ -12663,7 +12687,7 @@ Array [
           }
         }
       >
-        TabIcon
+        ShiftIcon
       </div>
       <div
         className="key center   "
@@ -13062,7 +13086,7 @@ Array [
                       onFocus={[Function]}
                       required={false}
                       type="text"
-                      value="MMB2s Keyboard"
+                      value="OptiKey-BoardMaker"
                     />
                   </div>
                 </div>
@@ -13391,26 +13415,6 @@ Array [
           }
         }
       >
-        0
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
         1
       </div>
       <div
@@ -13591,6 +13595,26 @@ Array [
           }
         }
       >
+        0
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         MenuIcon
       </div>
       <div
@@ -13611,7 +13635,7 @@ Array [
           }
         }
       >
-        @
+        \\
       </div>
       <div
         className="key center   "
@@ -13631,7 +13655,7 @@ Array [
           }
         }
       >
-        &
+        !
       </div>
       <div
         className="key center   "
@@ -13651,27 +13675,7 @@ Array [
           }
         }
       >
-        $
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        /
+        ?
       </div>
       <div
         className="key center   "
@@ -13711,7 +13715,7 @@ Array [
           }
         }
       >
-        '
+        *
       </div>
       <div
         className="key center   "
@@ -13731,7 +13735,27 @@ Array [
           }
         }
       >
-        _
+        %
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        &
       </div>
       <div
         className="key center   "
@@ -13771,7 +13795,47 @@ Array [
           }
         }
       >
-        %
+        '
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        \`
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        $
       </div>
       <div
         className="key center   "
@@ -13808,64 +13872,8 @@ Array [
             "width": 30,
           }
         }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      />
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
       >
-        !
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        \\
+        /
       </div>
       <div
         className="key center   "
@@ -14085,6 +14093,26 @@ Array [
           }
         }
       >
+        |
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
         -
       </div>
       <div
@@ -14105,27 +14133,7 @@ Array [
           }
         }
       >
-        ^
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        ?
+        _
       </div>
       <div
         className="key center   "
@@ -14325,7 +14333,27 @@ Array [
           }
         }
       >
-        :
+        ^
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        TabIcon
       </div>
       <div
         className="key center   "
@@ -14346,26 +14374,6 @@ Array [
         }
       >
         &lt;
-      </div>
-      <div
-        className="key center   "
-        draggable={true}
-        onClick={[Function]}
-        onDragEnd={[Function]}
-        onDragLeave={[Function]}
-        onDragOver={[Function]}
-        onDragStart={[Function]}
-        onDrop={[Function]}
-        style={
-          Object {
-            "height": 20,
-            "maxHeight": 20,
-            "maxWidth": 30,
-            "width": 30,
-          }
-        }
-      >
-        =
       </div>
       <div
         className="key center   "
@@ -14525,7 +14533,27 @@ Array [
           }
         }
       >
-        |
+        @
+      </div>
+      <div
+        className="key center   "
+        draggable={true}
+        onClick={[Function]}
+        onDragEnd={[Function]}
+        onDragLeave={[Function]}
+        onDragOver={[Function]}
+        onDragStart={[Function]}
+        onDrop={[Function]}
+        style={
+          Object {
+            "height": 20,
+            "maxHeight": 20,
+            "maxWidth": 30,
+            "width": 30,
+          }
+        }
+      >
+        =
       </div>
       <div
         className="key center   "
@@ -14865,7 +14893,7 @@ Array [
           }
         }
       >
-        ShiftIcon
+        :
       </div>
       <div
         className="key center   "
@@ -14885,7 +14913,7 @@ Array [
           }
         }
       >
-        TabIcon
+        ShiftIcon
       </div>
       <div
         className="key center   "
@@ -15284,7 +15312,7 @@ Array [
                       onFocus={[Function]}
                       required={false}
                       type="text"
-                      value="MMB2s Keyboard"
+                      value="OptiKey-BoardMaker"
                     />
                   </div>
                 </div>
