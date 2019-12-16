@@ -13,7 +13,7 @@ const webpackConfig: webpack.Configuration = {
   ],
   module: {
     rules: [ {
-        test: /\.(jpe?g|png|gif|svg)$/i,
+        test: /\.(jpe?g|png|gif|svg|wasm)$/i,
         use: `file-loader`
       }, {
         test: /\.(css)$/i,
