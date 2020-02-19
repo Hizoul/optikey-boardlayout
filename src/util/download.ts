@@ -30,5 +30,5 @@ const copyToClipboard = () => {
 
 export default downloadKeyboard
 export {
-  copyToClipboard
+  copyToClipboard, getKeyboardAsXml
 }

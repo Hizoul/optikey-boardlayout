@@ -64,8 +64,9 @@
     "testURL": "http://localhost/"
   },
   "dependencies": {
-    "@material-ui/core": "^4.8.0",
+    "@material-ui/core": "^4.9.3",
     "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.43",
     "@xpfw/data": "1.0.0-beta.16",
     "@xpfw/form": "^1.0.0-beta.16",
     "@xpfw/form-web": "^1.0.0-beta.16",
