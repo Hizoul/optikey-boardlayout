@@ -1,5 +1,6 @@
 # Optikey-BoardLayout
 Optikey-Boardlayout is a small tool to visually edit a [custom keyboard layout](https://github.com/OptiKey/OptiKey/wiki/Creating-and-Using-Dynamic-Keyboards) for [OptiKey](http://www.optikey.org/).
+
 You can use it [in your browser here](http://hizoul.github.io/optikey-boardlayout) without installing anything :)
 
 # Credits
