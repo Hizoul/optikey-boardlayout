@@ -71,9 +71,11 @@ const KeyDisplay: React.FunctionComponent<{
   const selected = props.index === keyIndex
   const useSymbol = get(props, "entry.useSymbol", false)
   const caseSensitive = get(props, "entry.caseSensitive", false)
+  const textLabel = get(props, (useSymbol ? "entry.Symbol" : caseSensitive ? "entry.ShiftDownLabel" : "entry.Label"), get(props, "entry.Action"))
+  const useSmall = textLabel == null ? false : textLabel.length > 4
   return (
     <div
-      className={`key center ${selected ? "isSelected" : ""} ${isOver ? "isHovered" : ""} ${isDragged ? "isDragged" : ""}`}
+      className={`key center ${selected ? "isSelected" : ""} ${isOver ? "isHovered" : ""} ${isDragged ? "isDragged" : ""} ${useSmall ? "smallerFont" : ""}`}
       draggable
       onClick={clickHandler(props.index, props.row, props.col)}
       onDragStart={dragStartHandler(props.index, props.row, props.col)}
@@ -83,7 +85,7 @@ const KeyDisplay: React.FunctionComponent<{
       onDragLeave={dragLeaveHandler(props.index, props.row, props.col)}
       style={{maxWidth: props.width, maxHeight: props.height, width: props.width, height: props.height}}
     >
-      {get(props, (useSymbol ? "entry.Symbol" : caseSensitive ? "entry.ShiftDownLabel" : "entry.Label"), get(props, "entry.Action"))}
+      {textLabel}
     </div>
   )
 })

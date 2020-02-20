@@ -14,7 +14,8 @@ import { useDropzone } from "react-dropzone"
 import { keyboardPrefix } from "../form/def"
 import xmlParser from "../xml/parse"
 import downloadKeyboard, { copyToClipboard, getKeyboardAsXml } from "../util/download"
-import { observer } from "mobx-react-lite"
+import { observer, useObservable } from "mobx-react-lite"
+import { observable } from "mobx"
 
 const readFiles = (acceptedFiles: any) => {
   if (acceptedFiles.length > 0) {
@@ -31,8 +32,9 @@ const KeyboardImporter = observer(() => {
   const onDrop = useCallback(readFiles, [])
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
   const rp: any = getRootProps()
+  let isOpen = useObservable(observable.box(false))
   const handleClose = () => {
-
+    isOpen.set(false)
   }
   return (
     <ExpansionPanel defaultExpanded={true} expanded={true}>
@@ -57,10 +59,19 @@ const KeyboardImporter = observer(() => {
             />
             <div className="flex horizontal">
               <Button variant="outlined" color="primary" fullWidth onClick={downloadKeyboard}>download xml</Button>
-              <Button variant="outlined" color="primary" fullWidth onClick={copyToClipboard}>copy xml to clipboard</Button>
-              <Snackbar open={true} autoHideDuration={6000} onClose={handleClose}>
+              <Button
+                variant="outlined"
+                color="primary"
+                fullWidth
+                onClick={() => {
+                  copyToClipboard()
+                  isOpen.set(true)
+                }}>
+                  copy xml to clipboard
+                </Button>
+              <Snackbar anchorOrigin={{horizontal: "right", vertical: "top"}} open={isOpen.get()} autoHideDuration={2000} onClose={handleClose}>
                 <Alert onClose={handleClose} severity="success" variant="standard">
-                  This is a success message!
+                  Successfully copied to clipboard!
                 </Alert>
               </Snackbar>
             </div>

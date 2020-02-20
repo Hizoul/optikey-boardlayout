@@ -78,3 +78,7 @@ span.i {
 .marginTop {
   margin-top: 1.5rem
 }
+
+.smallerFont {
+  font-size: 0.6rem;
+}
