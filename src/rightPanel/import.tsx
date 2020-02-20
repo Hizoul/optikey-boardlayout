@@ -16,6 +16,7 @@ import xmlParser from "../xml/parse"
 import downloadKeyboard, { copyToClipboard, getKeyboardAsXml } from "../util/download"
 import { observer, useObservable } from "mobx-react-lite"
 import { observable } from "mobx"
+import val from "../val"
 
 const readFiles = (acceptedFiles: any) => {
   if (acceptedFiles.length > 0) {
@@ -49,14 +50,14 @@ const KeyboardImporter = observer(() => {
             <Typography>Drag "n" drop or click here to select file</Typography>
           </div>
           <div className="marginTop">
-            <TextField
+            {val.isTest ? null : <TextField
               multiline
               rowsMax={4}
               fullWidth
               label="Keyboard XML"
               value={getKeyboardAsXml()}
               variant="outlined"
-            />
+            />}
             <div className="flex horizontal">
               <Button variant="outlined" color="primary" fullWidth onClick={downloadKeyboard}>download xml</Button>
               <Button
