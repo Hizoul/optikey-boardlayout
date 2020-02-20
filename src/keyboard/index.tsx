@@ -5,6 +5,7 @@ import * as React from "react"
 import { activeKey, colsSchema, keyboardPrefix, rowsSchema } from "../form/def"
 import KeyDisplay from "./key"
 import "./keyboardStyle.css"
+import { observable } from "mobx"
 
 const resizeEventListener = () => {
   const prev = FormStore.getValue(activeKey)
@@ -14,17 +15,18 @@ const resizeEventListener = () => {
 
 window.addEventListener("resize", resizeEventListener)
 
+const keyboardContainerReference: any = observable.box(null)
+
 const KeyboardDisplay = observer(() => {
   const gridLength = FormStore.getValue(rowsSchema.title, keyboardPrefix, 1)
   const gridHeight = FormStore.getValue(colsSchema.title, keyboardPrefix, 1)
   const keys = FormStore.getValue("Keys", keyboardPrefix, [])
   FormStore.getValue(activeKey)
-  const r = React.useState(undefined)
   const toRender = []
   let width = 30
   let height = 20
-  if (r[0] != null) {
-    const ele: any = r[0]
+  if (keyboardContainerReference.get() != null) {
+    const ele: any = keyboardContainerReference.get()
     width = Math.floor((ele.clientWidth - 26)  / (gridHeight))
     height = Math.floor((Math.min(ele.clientHeight, window.innerHeight) - 10) / (gridLength))
   }
@@ -46,7 +48,11 @@ const KeyboardDisplay = observer(() => {
     // toRender.push(<div key={`break${row}`} className="breakPoint" />)
   }
   return (
-    <div ref={(ref: any) => r[1](ref)} className="keyboard">
+    <div ref={(ref: any) => {
+      if (keyboardContainerReference.get() == null) {
+        keyboardContainerReference.set(ref)
+      }
+    }} className="keyboard">
       {toRender}
     </div>
   )
@@ -54,5 +60,5 @@ const KeyboardDisplay = observer(() => {
 
 export default KeyboardDisplay
 export {
-  resizeEventListener
+  resizeEventListener, keyboardContainerReference
 }

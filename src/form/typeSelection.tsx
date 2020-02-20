@@ -6,7 +6,7 @@ import * as React from "react"
 const textKeyVal = "TextKey"
 const actionKeyVal = "ActionKey"
 
-const changeHelper = (mapTo: string, prefix?: string, value?: string) =>
+const changeHelper = (mapTo: string, prefix?: string, value?: any) =>
   memo(() => () => FormStore.setValue(mapTo, value, prefix), ["changeHelper", mapTo, prefix, value])
 
 const SelectButton: React.FunctionComponent<IFieldProps & {value: any, v: string}> = (props) => {

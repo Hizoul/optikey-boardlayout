@@ -434,6 +434,7 @@ const exampleXml =  `<Keyboard>
     <Row>4</Row>
     <Col>0</Col>
     <Symbol>TabIcon</Symbol>
+    <useSymbol>true</useSymbol>
     <Text>&#9;</Text>
   </TextKey>
   <TextKey>

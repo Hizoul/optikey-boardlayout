@@ -1,11 +1,15 @@
 import Checkbox from '@material-ui/core/Checkbox'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
-import FormGroup from '@material-ui/core/FormGroup'
-import CheckBoxIcon from '@material-ui/icons/CheckBox'
-import { getMapToFromProps, IFieldProps, JSONSchemaDefinition, memo, useFieldWithValidation } from "@xpfw/form"
+import { getMapToFromProps, IFieldProps, useFieldWithValidation } from "@xpfw/form"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import getLabel from "./getLabel"
+
+const changeWrapper = (fieldHelper: {setValue: Function, value: any}) => {
+  return (e: any) => {
+    fieldHelper.setValue(!fieldHelper.value)
+  }
+}
 
 const BooleanField: React.FunctionComponent<IFieldProps & {
   className?: string
@@ -13,14 +17,13 @@ const BooleanField: React.FunctionComponent<IFieldProps & {
 }> = observer((props) => {
   const mapTo = getMapToFromProps(props)
   const fieldHelper = useFieldWithValidation(props.schema, mapTo, props.prefix)
+  const setBool = changeWrapper(fieldHelper)
   return (
     <FormControlLabel
         control={
           <Checkbox
             checked={fieldHelper.value}
-            onChange={(e) => {
-              fieldHelper.setValue(!fieldHelper.value)
-            }}
+            onChange={setBool}
             value={fieldHelper.value}
           />
         }
@@ -30,3 +33,6 @@ const BooleanField: React.FunctionComponent<IFieldProps & {
 })
 
 export default BooleanField
+export {
+  changeWrapper
+}

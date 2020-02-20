@@ -10,7 +10,7 @@ import renderSnapshot from "../src/testUtil/renderSnapshot"
 import exampleXml from "../src/xml/example"
 import xmlParser from "../src/xml/parse"
 import { FormStore } from "@xpfw/form"
-import { resizeEventListener } from "../src/keyboard"
+import { resizeEventListener, keyboardContainerReference } from "../src/keyboard"
 
 test("app", () => {
   const Keyboard = xmlParser(exampleXml).Keyboard
@@ -35,7 +35,18 @@ test("app", () => {
   renderSnapshot(<App />, "clicked on 2 and set to text key")
   changeHelper(`Keys[${i2}].type`, keyboardPrefix, actionKeyVal)()
   renderSnapshot(<App />, "clicked on 2 and set to action key")
+  changeHelper(`Keys[${i2}].type`, keyboardPrefix, textKeyVal)()
+  changeHelper(`Keys[${i2}].useSymbol`, keyboardPrefix, true)()
+  changeHelper(`Keys[${i2}].Symbol`, keyboardPrefix, "Menu")()
+  renderSnapshot(<App />, "symbol example")
+  changeHelper(`Keys[${i2}].useSymbol`, keyboardPrefix, false)()
+  changeHelper(`Keys[${i2}].caseSensitive`, keyboardPrefix, true)()
+  renderSnapshot(<App />, "case sensitive example")
   resizeEventListener()
   clickHandler(-1, r1, c1)()
   renderSnapshot(<App />, "set to invalid index again")
+  keyboardContainerReference.set({
+    clientWidth: 1920, clientHeight: 1080
+  })
+  renderSnapshot(<App />, "keyboard with valid container reference")
 })

@@ -11,12 +11,20 @@ import { observer } from "mobx-react-lite"
 import * as React from "react"
 import getLabel from "./getLabel";
 
+const changeWrapperSelect = (fieldHelper: any) => {
+  return (e: any) => {
+    const t: any = get(e, "nativeEvent.target")
+    fieldHelper.setValue(t.getAttribute("data-value"))
+  }
+}
+
 const SelectField: React.FunctionComponent<IFieldProps & {
   className?: string
   placeholder?: string
 }> = observer((props) => {
   const mapTo = getMapToFromProps(props)
   const fieldHelper = useFieldWithValidation(props.schema, mapTo, props.prefix)
+  let changeFunc = changeWrapperSelect(fieldHelper)
   let selOpts = get(props, "schema.selectOptions", [])
   if (isFunction(selOpts)) {
     selOpts = selOpts(fieldHelper.value, props.schema, props)
@@ -32,10 +40,7 @@ const SelectField: React.FunctionComponent<IFieldProps & {
     <FormControl fullWidth>
       <InputLabel>{getLabel(mapTo)}</InputLabel>
         <Select
-          onChange={(e) => {
-            const t: any = get(e, "nativeEvent.target")
-            fieldHelper.setValue(t.getAttribute("data-value"))
-          }}
+          onChange={changeFunc}
           value={fieldHelper.value}
         >
           {options}
@@ -45,3 +50,6 @@ const SelectField: React.FunctionComponent<IFieldProps & {
 })
 
 export default SelectField
+export {
+  changeWrapperSelect
+}

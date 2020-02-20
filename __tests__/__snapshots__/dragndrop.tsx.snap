@@ -1749,9 +1749,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -2380,9 +2377,6 @@ Array [
                         >
                           download xml
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
@@ -2407,9 +2401,6 @@ Array [
                         >
                           copy xml to clipboard
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                     </div>
                   </div>
@@ -2484,9 +2475,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -2734,9 +2722,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -4586,9 +4571,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -5217,9 +5199,6 @@ Array [
                         >
                           download xml
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
@@ -5244,9 +5223,6 @@ Array [
                         >
                           copy xml to clipboard
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                     </div>
                   </div>
@@ -5321,9 +5297,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -5571,9 +5544,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -7410,9 +7380,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -8041,9 +8008,6 @@ Array [
                         >
                           download xml
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
@@ -8068,9 +8032,6 @@ Array [
                         >
                           copy xml to clipboard
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                     </div>
                   </div>
@@ -8145,9 +8106,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -8395,9 +8353,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -10234,9 +10189,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -10865,9 +10817,6 @@ Array [
                         >
                           download xml
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
@@ -10892,9 +10841,6 @@ Array [
                         >
                           copy xml to clipboard
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                     </div>
                   </div>
@@ -10969,9 +10915,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -11219,9 +11162,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -13058,9 +12998,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -13689,9 +13626,6 @@ Array [
                         >
                           download xml
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
@@ -13716,9 +13650,6 @@ Array [
                         >
                           copy xml to clipboard
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                     </div>
                   </div>
@@ -13793,9 +13724,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -14043,9 +13971,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -15882,9 +15807,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -16513,9 +16435,6 @@ Array [
                         >
                           download xml
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
@@ -16540,9 +16459,6 @@ Array [
                         >
                           copy xml to clipboard
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                     </div>
                   </div>
@@ -16617,9 +16533,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -16867,9 +16780,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -18706,9 +18616,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -19337,9 +19244,6 @@ Array [
                         >
                           download xml
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                       <button
                         className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
@@ -19364,9 +19268,6 @@ Array [
                         >
                           copy xml to clipboard
                         </span>
-                        <span
-                          className="MuiTouchRipple-root"
-                        />
                       </button>
                     </div>
                   </div>
@@ -19441,9 +19342,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
@@ -19691,9 +19589,6 @@ Array [
               />
             </svg>
           </span>
-          <span
-            className="MuiTouchRipple-root"
-          />
         </div>
       </div>
       <div
