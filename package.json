@@ -7,7 +7,7 @@
     "start": "npm run dev",
     "build": "./node_modules/.bin/webpack --config ./webpack.config.prod.ts",
     "dev": "cross-env ./node_modules/.bin/webpack-dev-server --config ./webpack.config.ts --port 4201 --content-base webpackDist",
-    "test": "./node_modules/.bin/jest --ci",
+    "test": "./node_modules/.bin/jest --ci --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "update": "ncu -u --packageFile package.json",
     "prepare": "npm run build"
   },
@@ -26,6 +26,7 @@
     "@types/webpack": "^4.41.0",
     "@types/webpack-dev-server": "^3.9.0",
     "awesome-typescript-loader": "^5.2.1",
+    "coveralls": "^3.0.9",
     "css-loader": "^3.4.0",
     "file-loader": "^5.0.2",
     "jest": "^24.9.0",
