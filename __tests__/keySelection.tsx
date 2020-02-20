@@ -9,7 +9,8 @@ import {
 import renderSnapshot from "../src/testUtil/renderSnapshot"
 import exampleXml from "../src/xml/example"
 import xmlParser from "../src/xml/parse"
-import { FormStore } from "@xpfw/form/dist";
+import { FormStore } from "@xpfw/form"
+import { resizeEventListener } from "../src/keyboard"
 
 test("app", () => {
   const Keyboard = xmlParser(exampleXml).Keyboard
@@ -34,4 +35,7 @@ test("app", () => {
   renderSnapshot(<App />, "clicked on 2 and set to text key")
   changeHelper(`Keys[${i2}].type`, keyboardPrefix, actionKeyVal)()
   renderSnapshot(<App />, "clicked on 2 and set to action key")
+  resizeEventListener()
+  clickHandler(-1, r1, c1)()
+  renderSnapshot(<App />, "set to invalid index again")
 })

@@ -6,11 +6,14 @@ import { activeKey, colsSchema, keyboardPrefix, rowsSchema } from "../form/def"
 import KeyDisplay from "./key"
 import "./keyboardStyle.css"
 
-window.addEventListener("resize", () => {
+const resizeEventListener = () => {
   const prev = FormStore.getValue(activeKey)
   FormStore.setValue(activeKey, -2)
   FormStore.setValue(activeKey, prev)
-})
+}
+
+window.addEventListener("resize", resizeEventListener)
+
 const KeyboardDisplay = observer(() => {
   const gridLength = FormStore.getValue(rowsSchema.title, keyboardPrefix, 1)
   const gridHeight = FormStore.getValue(colsSchema.title, keyboardPrefix, 1)
@@ -50,3 +53,6 @@ const KeyboardDisplay = observer(() => {
 })
 
 export default KeyboardDisplay
+export {
+  resizeEventListener
+}

@@ -16,7 +16,6 @@ import xmlParser from "../xml/parse"
 import downloadKeyboard, { copyToClipboard, getKeyboardAsXml } from "../util/download"
 import { observer, useObservable } from "mobx-react-lite"
 import { observable } from "mobx"
-import val from "../val"
 
 const readFiles = (acceptedFiles: any) => {
   if (acceptedFiles.length > 0) {
@@ -29,14 +28,19 @@ const readFiles = (acceptedFiles: any) => {
   }
 }
 
+let isOpen = observable.box(false)
+const handleClose = () => {
+  isOpen.set(false)
+}
+const copyToClipboardUi = () => {
+  copyToClipboard()
+  isOpen.set(true)
+}
+
 const KeyboardImporter = observer(() => {
   const onDrop = useCallback(readFiles, [])
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
   const rp: any = getRootProps()
-  let isOpen = useObservable(observable.box(false))
-  const handleClose = () => {
-    isOpen.set(false)
-  }
   return (
     <ExpansionPanel defaultExpanded={true} expanded={true}>
       <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
@@ -50,24 +54,21 @@ const KeyboardImporter = observer(() => {
             <Typography>Drag "n" drop or click here to select file</Typography>
           </div>
           <div className="marginTop">
-            {val.isTest ? null : <TextField
+            <TextField
               multiline
               rowsMax={4}
               fullWidth
               label="Keyboard XML"
               value={getKeyboardAsXml()}
               variant="outlined"
-            />}
+            />
             <div className="flex horizontal">
               <Button variant="outlined" color="primary" fullWidth onClick={downloadKeyboard}>download xml</Button>
               <Button
                 variant="outlined"
                 color="primary"
                 fullWidth
-                onClick={() => {
-                  copyToClipboard()
-                  isOpen.set(true)
-                }}>
+                onClick={copyToClipboardUi}>
                   copy xml to clipboard
                 </Button>
               <Snackbar anchorOrigin={{horizontal: "right", vertical: "top"}} open={isOpen.get()} autoHideDuration={2000} onClose={handleClose}>
@@ -85,5 +86,5 @@ const KeyboardImporter = observer(() => {
 
 export default KeyboardImporter
 export {
-  readFiles
+  readFiles, handleClose, copyToClipboardUi, isOpen
 }

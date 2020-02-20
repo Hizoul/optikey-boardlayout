@@ -25,7 +25,7 @@ const downloadKeyboard = () => {
 }
 
 const copyToClipboard = () => {
-  navigator.clipboard.writeText(getKeyboardAsXml()).then(() => console.log("WRITTEN TO CLIP")).catch((e) => console.error("CANT WRITE TO CLIP", e))
+  navigator.clipboard.writeText(getKeyboardAsXml())
 }
 
 export default downloadKeyboard

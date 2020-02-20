@@ -18,15 +18,15 @@ const classes: any = {
     flex: 1
   }
 }
-function Transition(props: any) {
+const Transition  = (props: any) => {
   return <Slide direction="up" {...props} />
 }
 
-const isOpen = observable.box(false)
-const handleClose = () => {
-  isOpen.set(false)
+const aboutIsOpen = observable.box(false)
+const handleCloseAbout = () => {
+  aboutIsOpen.set(false)
 }
-const handleOpen = () => isOpen.set(true)
+const handleOpenAbout = () => aboutIsOpen.set(true)
 
 const AboutPanel = observer(() => {
   return (
@@ -44,7 +44,7 @@ const AboutPanel = observer(() => {
             OptiKey
           </Link> and&nbsp;
           <Link
-            onClick={handleOpen}
+            onClick={handleOpenAbout}
             href="#"
           >
             all authors of open source libraries
@@ -55,8 +55,8 @@ const AboutPanel = observer(() => {
       </ExpansionPanelDetails>
       <Dialog
         fullScreen
-        open={isOpen.get()}
-        onClose={handleClose}
+        open={aboutIsOpen.get()}
+        onClose={handleCloseAbout}
         TransitionComponent={Transition}
       >
         <AppBar className={classes.appBar}>
@@ -64,7 +64,7 @@ const AboutPanel = observer(() => {
             <Typography variant="h6" color="inherit" className="flex1">
               Third Party Licenses
             </Typography>
-            <IconButton color="inherit" onClick={handleClose} aria-label="Close">
+            <IconButton color="inherit" onClick={handleCloseAbout} aria-label="Close">
               <CloseIcon />
             </IconButton>
           </Toolbar>
@@ -80,3 +80,4 @@ const AboutPanel = observer(() => {
 })
 
 export default AboutPanel
+export {Transition, handleCloseAbout, handleOpenAbout, aboutIsOpen}
