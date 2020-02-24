@@ -10,6 +10,7 @@ import * as React from "react"
 import { activeKey, keyboardPrefix } from "../form/def"
 import TypeSelectionField, { textKeyVal } from "../form/typeSelection"
 import actionKeyList from "../util/actionKeys"
+import symbolList from "../util/symbols"
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
@@ -36,7 +37,9 @@ const KeyEditor = observer(() => {
   }
   const symbolSchema = {
     title: `Keys[${keyIndex}].Symbol`,
-    type: "string"
+    type: "string",
+    theme: "select",
+    selectOptions: symbolList.map((v) => ({label: v, value: v}))
   }
   const actionSchema = {
     title: `Keys[${keyIndex}].Action`,
