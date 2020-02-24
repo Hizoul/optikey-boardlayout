@@ -10,7 +10,7 @@ import renderSnapshot from "../src/testUtil/renderSnapshot"
 import exampleXml from "../src/xml/example"
 import xmlParser from "../src/xml/parse"
 import { FormStore } from "@xpfw/form"
-import { resizeEventListener, keyboardContainerReference } from "../src/keyboard"
+import { resizeEventListener, keyboardContainerReference, setRegisteredToTrue } from "../src/keyboard"
 
 test("app", () => {
   const Keyboard = xmlParser(exampleXml).Keyboard
@@ -46,7 +46,9 @@ test("app", () => {
   clickHandler(-1, r1, c1)()
   renderSnapshot(<App />, "set to invalid index again")
   keyboardContainerReference.set({
-    clientWidth: 1920, clientHeight: 1080
+    clientWidth: 1920, clientHeight: 1080, addEventListener: () => {}
   })
   renderSnapshot(<App />, "keyboard with valid container reference")
+  setRegisteredToTrue()
+  renderSnapshot(<App />, "keyboard with valid container reference and registered eventlistenr")
 })

@@ -16,21 +16,21 @@ const resizeEventListener = () => {
 window.addEventListener("resize", resizeEventListener)
 
 const keyboardContainerReference: any = observable.box(null)
-
+const registeredListener = observable.box(false)
+const setRegisteredToTrue = () => registeredListener.set(true)
 const KeyboardDisplay = observer(() => {
   const gridLength = FormStore.getValue(rowsSchema.title, keyboardPrefix, 1)
   const gridHeight = FormStore.getValue(colsSchema.title, keyboardPrefix, 1)
   const keys = FormStore.getValue("Keys", keyboardPrefix, [])
-  const registeredListener = React.useState(false)
   FormStore.getValue(activeKey)
   const toRender = []
   let width = 30
   let height = 20
   if (keyboardContainerReference.get() != null) {
     const ele: any = keyboardContainerReference.get()
-    if (registeredListener[0] === false) {
+    if (registeredListener.get() === false) {
       ele.addEventListener("resize", resizeEventListener)
-      setTimeout(() => registeredListener[1](true), 1)
+      setTimeout(setRegisteredToTrue, 1)
     }
     width = Math.floor((ele.clientWidth - 26)  / (gridHeight))
     height = Math.floor((Math.min(ele.clientHeight, window.innerHeight) - 10) / (gridLength))
@@ -65,5 +65,6 @@ const KeyboardDisplay = observer(() => {
 
 export default KeyboardDisplay
 export {
-  resizeEventListener, keyboardContainerReference
+  resizeEventListener, keyboardContainerReference,
+  registeredListener, setRegisteredToTrue
 }
