@@ -1,4 +1,4 @@
-# Optikey-BoardLayout [![Build Status](https://travis-ci.org/Hizoul/resub-persist.svg?branch=master)](https://travis-ci.org/Hizoul/optikey-boardlayout) [![Coverage Status](https://coveralls.io/repos/github/Hizoul/optikey-boardlayout/badge.svg?branch=master)](https://coveralls.io/github/Hizoul/optikey-boardlayout?branch=master)
+# OptiKey-BoardLayout [![Build Status](https://travis-ci.org/Hizoul/resub-persist.svg?branch=master)](https://travis-ci.org/Hizoul/optikey-boardlayout) [![Coverage Status](https://coveralls.io/repos/github/Hizoul/optikey-boardlayout/badge.svg?branch=master)](https://coveralls.io/github/Hizoul/optikey-boardlayout?branch=master)
 Optikey-Boardlayout is a small tool to visually edit a [custom keyboard layout](https://github.com/OptiKey/OptiKey/wiki/Creating-and-Using-Dynamic-Keyboards) for [OptiKey](http://www.optikey.org/).
 
 You can use it [in your browser](https://hizoul.github.io/optikey-boardlayout/) without installing anything :)
