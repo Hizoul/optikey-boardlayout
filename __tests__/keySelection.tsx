@@ -2,15 +2,18 @@ import { findIndex } from "lodash"
 import * as React from "react"
 import App from "../src/app"
 import { keyboardPrefix } from "../src/form/def"
-import { dynamicKeyVal, changeHelper } from "../src/form/typeSelection"
 import {
   clickHandler
 } from "../src/keyboard/key"
+import { keyTypes } from "../src/rightPanel/keyEditor"
 import renderSnapshot from "../src/testUtil/renderSnapshot"
 import exampleXml from "../src/xml/example"
 import xmlParser from "../src/xml/parse"
-import { FormStore } from "@xpfw/form"
+import { FormStore, memo } from "@xpfw/form"
 import { resizeEventListener, keyboardContainerReference, setRegisteredToTrue } from "../src/keyboard"
+const dynamicKeyVal = keyTypes[0].value
+const changeHelper = (mapTo: string, prefix?: string, value?: any) =>
+  memo(() => () => FormStore.setValue(mapTo, value, prefix), ["changeHelper", mapTo, prefix, value])
 
 test("app", () => {
   const Keyboard = xmlParser(exampleXml).Keyboard

@@ -8,16 +8,18 @@ import { SelectField } from "@xpfw/form-web"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, keyboardPrefix } from "../form/def"
-import TypeSelectionField, { dynamicKeyVal } from "../form/typeSelection"
 import actionKeyList from "../util/actionKeys"
 import symbolList from "../util/symbols"
+
+const keyTypes: any[] = ["DynamicKey", "Scratchpad", "SuggestionRow", "SuggestionCol"].map((v) =>{return {value: v, label: v}})
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
   const keysLength = FormStore.getValue("Content.length", keyboardPrefix, 2)
   const typeSchema = {
     title: `Content[${keyIndex}].type`,
-    type: "string"
+    type: "string", theme: "select",
+    selectOptions: keyTypes
   }
   const textSchema = {
     title: `Content[${keyIndex}].Text`,
@@ -66,7 +68,7 @@ const KeyEditor = observer(() => {
   const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
   let editContent
   switch (typeValue) {
-    case dynamicKeyVal: {
+    case keyTypes[0].value: {
       editContent = (
         <>
           <SharedField schema={isActionSchema} prefix={keyboardPrefix} />
@@ -107,7 +109,7 @@ const KeyEditor = observer(() => {
       <ExpansionPanelDetails>
         {keySelected ? (
           <div className="vertical flex1">
-            <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
+            <SharedField schema={typeSchema} prefix={keyboardPrefix} />
             {editContent}
 
           </div>
@@ -120,3 +122,6 @@ const KeyEditor = observer(() => {
 })
 
 export default KeyEditor
+export {
+  keyTypes
+}

@@ -3026,109 +3026,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -6548,109 +6470,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -10047,109 +9891,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -13544,109 +13310,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -17064,109 +16752,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -20564,109 +20174,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -24965,109 +24497,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -28472,109 +27926,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -31977,109 +31353,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -41852,109 +41150,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
@@ -45353,109 +44573,31 @@ Array [
                   className="vertical flex1"
                 >
                   <div
-                    className="flex1 center"
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <p
-                      className="MuiTypography-root MuiTypography-body1"
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
                     >
-                      Type
-                    </p>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      type
+                    </label>
+                    <select>
+                      <option>
                         DynamicKey
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         Scratchpad
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionRow
-                      </span>
-                    </button>
-                    <button
-                      className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-fullWidth"
-                      disabled={false}
-                      onBlur={[Function]}
-                      onClick={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={0}
-                      type="button"
-                    >
-                      <span
-                        className="MuiButton-label"
-                      >
+                      </option>
+                      <option>
                         SuggestionCol
-                      </span>
-                    </button>
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    />
                   </div>
                   <div
                     className="flex horizontal inputMargin"
