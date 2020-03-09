@@ -7,9 +7,11 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import { SharedField } from "@xpfw/form"
 import * as React from "react"
 import {
-  borderSchema, colsSchema, heightSchema, keyboardPrefix, nameSchema, rowsSchema, symbolSchema
+  borderSchema, colsSchema, heightSchema, keyboardPrefix,
+  nameSchema, rowsSchema, symbolSchema, persistNewStateSchema, windowStateSchema,
+  dockSizeSchema, positionSchema, widthSchema, horizontalSchema, verticalSchema,
+  backgroundColorSchema, borderColorSchema, hideFromListSchema
 } from "../form/def"
-import downloadKeyboard, { copyToClipboard } from "../util/download"
 import AboutPanel from "./about"
 import KeyboardImporter from "./import"
 import KeyEditor from "./keyEditor"
@@ -25,11 +27,21 @@ const RightPanel: React.FunctionComponent<any> = () => {
         <ExpansionPanelDetails>
           <div className="center" style={{flexDirection: "column", flex: 1}}>
             <SharedField schema={nameSchema} prefix={keyboardPrefix} />
-            <SharedField schema={heightSchema} prefix={keyboardPrefix} />
-            <SharedField schema={borderSchema} prefix={keyboardPrefix} />
             <SharedField schema={rowsSchema} prefix={keyboardPrefix} />
             <SharedField schema={colsSchema} prefix={keyboardPrefix} />
+            <SharedField schema={heightSchema} prefix={keyboardPrefix} />
+            <SharedField schema={widthSchema} prefix={keyboardPrefix} />
+            <SharedField schema={borderSchema} prefix={keyboardPrefix} />
             <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+            <SharedField schema={positionSchema} prefix={keyboardPrefix} />
+            <SharedField schema={persistNewStateSchema} prefix={keyboardPrefix} />
+            <SharedField schema={windowStateSchema} prefix={keyboardPrefix} />
+            <SharedField schema={dockSizeSchema} prefix={keyboardPrefix} />
+            <SharedField schema={horizontalSchema} prefix={keyboardPrefix} />
+            <SharedField schema={verticalSchema} prefix={keyboardPrefix} />
+            <SharedField schema={backgroundColorSchema} prefix={keyboardPrefix} />
+            <SharedField schema={borderColorSchema} prefix={keyboardPrefix} />
+            <SharedField schema={hideFromListSchema} prefix={keyboardPrefix} />
           </div>
         </ExpansionPanelDetails>
       </ExpansionPanel>
