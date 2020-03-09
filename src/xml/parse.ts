@@ -8,7 +8,7 @@ export interface IKeyboard {
     BorderThickness: string
     SymbolMargin: number
     Grid: {Cols: number, Rows: number}
-    Keys: any[]
+    Content: any[]
   }
 }
 
@@ -24,8 +24,8 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   const grid = get(find(root, ["name", "Grid"]), "elements", [])
   const Rows = Number(getElementText(find(grid, ["name", "Rows"]), "7"))
   const Cols = Number(getElementText(find(grid, ["name", "Cols"]), "3"))
-  const keys = get(find(root, ["name", "Keys"]), "elements", [])
-  const Keys = keys.map((entry: any) => {
+  const keys = get(find(root, ["name", "Content"]), "elements", [])
+  const Content = keys.map((entry: any) => {
     const eles = entry.elements
     const ele: any = {
       type: entry.name,
@@ -89,18 +89,20 @@ const xmlParser: (xml: string) => any = (xml: string) => {
       SymbolMargin,
       BorderThickness,
       Grid: {Rows, Cols},
-      Keys
+      Content
     }
   }
   return keyboard
 }
 
 const toXml = (keyboard: IKeyboard) => {
-  const changedKeys: any = {
-    TextKey: [],
-    ActionKey: []
+  const changedContent: any = {
+    DynamicKey: [],
+    Scratchpad: [],
+    SuggestionRow: [],
+    SuggestionCol: []
   }
-  for (const key of keyboard.Keyboard.Keys) {
+  for (const key of keyboard.Keyboard.Content) {
     const newKey = cloneDeep(key)
     if (newKey.Text === "&") {
       newKey.Text = "&amp;amp;"
@@ -110,13 +112,13 @@ const toXml = (keyboard: IKeyboard) => {
     delete newKey.caseSensitive
     delete newKey.useSymbol
     if (newKey.Row < keyboard.Keyboard.Grid.Rows && newKey.Col < keyboard.Keyboard.Grid.Cols) {
-      changedKeys[key.type].push(newKey)
+      changedContent[key.type].push(newKey)
     }
   }
   const res = js2xml({
     Keyboard: {
       ...keyboard.Keyboard,
-      Keys: changedKeys
+      Content: changedContent
     }
   }, {compact: true, spaces: 2})
   return res.replace(/\&amp;/g, "&")

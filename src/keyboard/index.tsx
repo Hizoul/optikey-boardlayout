@@ -21,7 +21,7 @@ const setRegisteredToTrue = () => registeredListener.set(true)
 const KeyboardDisplay = observer(() => {
   const gridLength = FormStore.getValue(rowsSchema.title, keyboardPrefix, 1)
   const gridHeight = FormStore.getValue(colsSchema.title, keyboardPrefix, 1)
-  const keys = FormStore.getValue("Keys", keyboardPrefix, [])
+  const keys = FormStore.getValue("Content", keyboardPrefix, [])
   FormStore.getValue(activeKey)
   const toRender = []
   let width = 30

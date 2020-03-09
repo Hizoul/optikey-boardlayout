@@ -8,57 +8,97 @@ import { SelectField } from "@xpfw/form-web"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, keyboardPrefix } from "../form/def"
-import TypeSelectionField, { textKeyVal } from "../form/typeSelection"
+import TypeSelectionField, { dynamicKeyVal } from "../form/typeSelection"
 import actionKeyList from "../util/actionKeys"
 import symbolList from "../util/symbols"
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
-  const keysLength = FormStore.getValue("Keys.length", keyboardPrefix, 2)
+  const keysLength = FormStore.getValue("Content.length", keyboardPrefix, 2)
   const typeSchema = {
-    title: `Keys[${keyIndex}].type`,
+    title: `Content[${keyIndex}].type`,
     type: "string"
   }
   const textSchema = {
-    title: `Keys[${keyIndex}].Text`,
+    title: `Content[${keyIndex}].Text`,
     type: "string"
   }
   const labelSchema = {
-    title: `Keys[${keyIndex}].Label`,
+    title: `Content[${keyIndex}].Label`,
     type: "string"
   }
   const shiftUpLabelSchema = {
-    title: `Keys[${keyIndex}].ShiftUpLabel`,
+    title: `Content[${keyIndex}].ShiftUpLabel`,
     type: "string"
   }
   const shiftDownLabelSchema = {
-    title: `Keys[${keyIndex}].ShiftDownLabel`,
+    title: `Content[${keyIndex}].ShiftDownLabel`,
     type: "string"
   }
   const symbolSchema = {
-    title: `Keys[${keyIndex}].Symbol`,
+    title: `Content[${keyIndex}].Symbol`,
     type: "string",
     theme: "select",
     selectOptions: symbolList.map((v) => ({label: v, value: v}))
   }
   const actionSchema = {
-    title: `Keys[${keyIndex}].Action`,
+    title: `Content[${keyIndex}].Action`,
     type: "string",
     theme: "select",
     selectOptions: actionKeyList.map((v) => ({label: v, value: v}))
   }
+  const isActionSchema = {
+    title: `Content[${keyIndex}].isAction`,
+    type: "boolean"
+  }
   const caseSensitiveSchema = {
-    title: `Keys[${keyIndex}].caseSensitive`,
+    title: `Content[${keyIndex}].caseSensitive`,
     type: "boolean"
   }
   const useSymbolSchema = {
-    title: `Keys[${keyIndex}].useSymbol`,
+    title: `Content[${keyIndex}].useSymbol`,
     type: "boolean"
   }
   const caseSensitiveValue = FormStore.getValue(caseSensitiveSchema.title, keyboardPrefix)
   const useSymbol = FormStore.getValue(useSymbolSchema.title, keyboardPrefix)
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
+  const isAction = FormStore.getValue(isActionSchema.title, keyboardPrefix, false)
   const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
+  let editContent
+  switch (typeValue) {
+    case dynamicKeyVal: {
+      editContent = (
+        <>
+          <SharedField schema={isActionSchema} prefix={keyboardPrefix} />
+          {isAction ? (
+            <>
+              <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+              <SharedField schema={actionSchema} prefix={keyboardPrefix} />
+            </>
+          ) : (
+            <>
+              <SharedField schema={textSchema} prefix={keyboardPrefix} />
+              <SharedField schema={useSymbolSchema} prefix={keyboardPrefix} />
+              {useSymbol ?
+                <SharedField schema={symbolSchema} prefix={keyboardPrefix} /> :
+                (<>
+                  <SharedField schema={caseSensitiveSchema} prefix={keyboardPrefix} />
+                  {caseSensitiveValue ? (
+                    <>
+                      <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
+                      <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
+                    </>
+                  ) : <>
+                    <SharedField schema={labelSchema} prefix={keyboardPrefix} />
+                  </>}
+                </>)
+                }
+            </>
+          )}
+        </>)
+      break
+    }
+  }
   return (
     <ExpansionPanel expanded={keySelected ? true : false}>
       <ExpansionPanelSummary>
@@ -68,31 +108,7 @@ const KeyEditor = observer(() => {
         {keySelected ? (
           <div className="vertical flex1">
             <TypeSelectionField schema={typeSchema} prefix={keyboardPrefix} />
-            {typeValue === textKeyVal ? (
-              <>
-                <SharedField schema={textSchema} prefix={keyboardPrefix} />
-                <SharedField schema={useSymbolSchema} prefix={keyboardPrefix} />
-                {useSymbol ?
-                  <SharedField schema={symbolSchema} prefix={keyboardPrefix} /> :
-                  (<>
-                    <SharedField schema={caseSensitiveSchema} prefix={keyboardPrefix} />
-                    {caseSensitiveValue ? (
-                      <>
-                        <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
-                        <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
-                      </>
-                    ) : <>
-                      <SharedField schema={labelSchema} prefix={keyboardPrefix} />
-                    </>}
-                  </>)
-                  }
-              </>
-            ) : (
-              <>
-                <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
-                <SharedField schema={actionSchema} prefix={keyboardPrefix} />
-              </>
-            )}
+            {editContent}
 
           </div>
         ) : (

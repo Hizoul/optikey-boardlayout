@@ -6,7 +6,7 @@ import * as React from "react"
 import { activeKey, dragKey, hoverKey, keyboardPrefix } from "../form/def"
 
 const switchKeys = action((row1: number, col1: number, row2: number, col2: number) => {
-  const keys = FormStore.getValue("Keys", keyboardPrefix, [])
+  const keys = FormStore.getValue("Content", keyboardPrefix, [])
   const v1 = findIndex(keys, {Row: row1, Col: col1})
   const v2 = findIndex(keys, {Row: row2, Col: col2})
   if (v1 === -1) {
@@ -27,11 +27,11 @@ const keyMaker = (index: number, row: number, col: number) => `x${index}X${row}X
 const clickHandler = (index: number, Row: number, Col: number) => memo(() => action(() => {
   let indexToUse = index
   if (indexToUse === -1) {
-    const keys = FormStore.getValue(`${keyboardPrefix}.Keys`)
+    const keys = FormStore.getValue(`${keyboardPrefix}.Content`)
     indexToUse = keys.push({
-      Row, Col, type: "TextKey", Text: "", Label: "", caseSensitive: false, useSymbol: false
+      Row, Col, type: "DynamicKey", Text: "", Label: "", caseSensitive: false, useSymbol: false
     }) - 1
-    FormStore.getValue(`${keyboardPrefix}.Keys`, keys)
+    FormStore.getValue(`${keyboardPrefix}.Content`, keys)
   }
   FormStore.setValue(activeKey, indexToUse)
 }), [activeKey, Row, Col, index])
