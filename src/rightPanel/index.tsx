@@ -25,7 +25,7 @@ const RightPanel: React.FunctionComponent<any> = () => {
           <Typography>Global Settings</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <div className="center" style={{flexDirection: "column", flex: 1}}>
+          <div className="vertical flex1">
             <SharedField schema={nameSchema} prefix={keyboardPrefix} />
             <SharedField schema={rowsSchema} prefix={keyboardPrefix} />
             <SharedField schema={colsSchema} prefix={keyboardPrefix} />

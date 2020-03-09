@@ -2,7 +2,7 @@
 
 exports[`100percent: select field with function args 1`] = `
 <div
-  className="MuiFormControl-root MuiFormControl-fullWidth"
+  className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
 >
   <label
     className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
@@ -16,6 +16,9 @@ exports[`100percent: select field with function args 1`] = `
     <option />
     <option />
   </select>
+  <p
+    className="MuiFormHelperText-root"
+  />
 </div>
 `;
 

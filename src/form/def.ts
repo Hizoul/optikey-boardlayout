@@ -11,7 +11,8 @@ ComponentRegistry.registerComponent("boolean", BooleanField)
 ComponentRegistry.registerComponent("string", SelectField, "select")
 
 const nameSchema: ExtendedJSONSchema = {
-  title: "Name", type: "string"
+  title: "Name", type: "string",
+  description: "The name that will be shown in OptiKey"
 }
 
 const widthSchema: ExtendedJSONSchema = {
@@ -34,19 +35,23 @@ const verticalSchema: ExtendedJSONSchema = {
 }
 
 const symbolSchema: ExtendedJSONSchema = {
-  title: "SymbolMargin", type: "number"
+  title: "SymbolMargin", type: "number",
+  description: "Amount of empty space left for symbols"
 }
 
 const borderSchema: ExtendedJSONSchema = {
-  title: "BorderThickness", type: "string"
+  title: "BorderThickness", type: "string",
+  description: "Controls how thick the lines between individual keys are"
 }
 
 const rowsSchema: ExtendedJSONSchema = {
-  title: "Grid.Rows", type: "number"
+  title: "Grid.Rows", type: "number",
+  description: "Controls the amount of keyboard rows"
 }
 
 const colsSchema: ExtendedJSONSchema = {
-  title: "Grid.Cols", type: "number"
+  title: "Grid.Cols", type: "number",
+  description: "Controls the amount of keyboard columns"
 }
 
 const persistNewStateSchema: ExtendedJSONSchema = {
@@ -55,11 +60,12 @@ const persistNewStateSchema: ExtendedJSONSchema = {
 }
 
 const windowStateSchema: ExtendedJSONSchema = {
-  title: "WindowState", type: "string", format: "select",
+  title: "WindowState", type: "string", theme: "select",
   selectOptions: [
     {label: "Floating", value: "Floating"},
     {label: "Docked", value: "Docked"},
-    {label: "Maximised", value: "Maximised"}]
+    {label: "Maximised", value: "Maximised"}],
+  description: "Controls how the OptiKey window should behave"
 }
 const hideFromListSchema: ExtendedJSONSchema = {
   title: "HideFromKeyboardMenu", type: "boolean",
@@ -67,15 +73,17 @@ const hideFromListSchema: ExtendedJSONSchema = {
 }
 
 const dockSizeSchema: ExtendedJSONSchema = {
-  title: "DockSize", type: "string", format: "select",
+  title: "DockSize", type: "string", theme: "select",
   selectOptions: [
     {label: "Full", value: "Full"},
     {label: "Collapsed", value: "Collapsed"}
-  ]
+  ],
+  description: "Controls the size of the dock"
 }
 
 const positionSchema: ExtendedJSONSchema = {
-  title: "Position", type: "string", format: "select",
+  title: "Position", type: "string", theme: "select",
+  description: "Controls where the Keyboard will be shown",
   selectOptions: [
     {label: "TopLeft", value: "TopLeft"},
     {label: "Top", value: "Top"},
@@ -85,15 +93,17 @@ const positionSchema: ExtendedJSONSchema = {
     {label: "BottomLeft", value: "BottomLeft"},
     {label: "Bottom", value: "Bottom"},
     {label: "BottomRight", value: "BottomRight"}
-  ]
+  ],
 }
 
 const backgroundColorSchema: ExtendedJSONSchema = {
-  title: "BackgroundColor", type: "string", theme: "color"
+  title: "BackgroundColor", type: "string", theme: "color",
+  description: "for valid colors refer to https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color"
 }
 
 const borderColorSchema: ExtendedJSONSchema = {
-  title: "BorderColor", type: "string", theme: "color"
+  title: "BorderColor", type: "string", theme: "color",
+  description: "for valid colors refer to https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color"
 }
 
 const keyboardPrefix = "Keyboard"

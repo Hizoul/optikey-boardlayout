@@ -6,6 +6,14 @@ exports[`parser: js to xml 1`] = `
   <Height>40</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
+  <DockSize>Full</DockSize>
+  <Position>Top</Position>
+  <Width>100</Width>
+  <HorizontalOffset>0</HorizontalOffset>
+  <VerticalOffset>0</VerticalOffset>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <BorderColor>Transparent</BorderColor>
+  <WindowState>Docked</WindowState>
   <Grid>
     <Rows>7</Rows>
     <Cols>12</Cols>
@@ -540,6 +548,14 @@ exports[`parser: reduced cols 1`] = `
   <Height>40</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
+  <DockSize>Full</DockSize>
+  <Position>Top</Position>
+  <Width>100</Width>
+  <HorizontalOffset>0</HorizontalOffset>
+  <VerticalOffset>0</VerticalOffset>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <BorderColor>Transparent</BorderColor>
+  <WindowState>Docked</WindowState>
   <Grid>
     <Rows>5</Rows>
     <Cols>7</Cols>
@@ -778,6 +794,8 @@ exports[`parser: reduced cols 1`] = `
 exports[`parser: xml to js 1`] = `
 Object {
   "Keyboard": Object {
+    "BackgroundColor": "Transparent",
+    "BorderColor": "Transparent",
     "BorderThickness": "0,0,0,0",
     "Content": Array [
       Object {
@@ -1510,13 +1528,19 @@ Object {
         "useSymbol": true,
       },
     ],
+    "DockSize": "Full",
     "Grid": Object {
       "Cols": 12,
       "Rows": 7,
     },
     "Height": 40,
+    "HorizontalOffset": 0,
     "Name": "OptiKey-BoardMaker",
+    "Position": "Top",
     "SymbolMargin": 1,
+    "VerticalOffset": 0,
+    "Width": 100,
+    "WindowState": "Docked",
   },
 }
 `;

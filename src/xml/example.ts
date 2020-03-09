@@ -3,6 +3,14 @@ const exampleXml =  `<Keyboard>
 <Height>40</Height>
 <SymbolMargin>1</SymbolMargin>
 <BorderThickness>0,0,0,0</BorderThickness>
+<Position>Top</Position>
+<DockSize>Full</DockSize>
+<WindowState>Docked</WindowState>
+<Width>100</Width>
+<HorizontalOffset>0</HorizontalOffset>
+<VerticalOffset>0</VerticalOffset>
+<BackgroundColor>Transparent</BackgroundColor>
+<BorderColor>Transparent</BorderColor>
 <Grid>
   <Rows>7</Rows>
   <Cols>12</Cols>

@@ -1,5 +1,4 @@
 import FormControl from '@material-ui/core/FormControl'
-import FormGroup from '@material-ui/core/FormGroup'
 import FormHelperText from '@material-ui/core/FormHelperText'
 import InputLabel from '@material-ui/core/InputLabel'
 import MenuItem from '@material-ui/core/MenuItem'
@@ -37,7 +36,7 @@ const SelectField: React.FunctionComponent<IFieldProps & {
     )
   })
   return (
-    <FormControl fullWidth>
+    <FormControl fullWidth className="inputMargin">
       <InputLabel>{getLabel(mapTo)}</InputLabel>
         <Select
           onChange={changeFunc}
@@ -45,6 +44,7 @@ const SelectField: React.FunctionComponent<IFieldProps & {
         >
           {options}
         </Select>
+        <FormHelperText>{get(props, "schema.description")}</FormHelperText>
      </FormControl>
   )
 })

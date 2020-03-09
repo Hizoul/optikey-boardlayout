@@ -1,4 +1,6 @@
 import TextFiel from '@material-ui/core/TextField'
+import FormControl from '@material-ui/core/FormControl'
+import FormHelperText from '@material-ui/core/FormHelperText'
 import { getMapTo, getMapToFromProps, IFieldProps, JSONSchemaDefinition, memo, useFieldWithValidation } from "@xpfw/form"
 import { get } from "lodash"
 import { observer } from "mobx-react-lite"
@@ -29,17 +31,20 @@ const TextField: React.FunctionComponent<IFieldProps & {
     step = get(props, "schema.step")
   }
   return (
-    <MTextField
-      type={type}
-      label={getLabel(getMapTo(props.schema, props.mapTo))}
-      id={get(props, "id")}
-      className={get(props, "className")}
-      value={value}
-      inputProps={{step, min, max}}
-      onChange={onChange}
-      placeholder={props.placeholder}
-      fullWidth
-    />
+    <FormControl className="inputMargin">
+      <MTextField
+        type={type}
+        label={getLabel(getMapTo(props.schema, props.mapTo))}
+        id={get(props, "id")}
+        className={get(props, "className")}
+        value={value}
+        inputProps={{step, min, max}}
+        onChange={onChange}
+        placeholder={props.placeholder}
+        fullWidth
+      />
+      <FormHelperText>{get(props, "schema.description")}</FormHelperText>
+    </FormControl>
   )
 })
 

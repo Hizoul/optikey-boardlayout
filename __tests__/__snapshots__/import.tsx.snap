@@ -4,6 +4,8 @@ exports[`READ FILES: empty import makes no changes 1`] = `undefined`;
 
 exports[`READ FILES: imported via file 1`] = `
 Object {
+  "BackgroundColor": "Transparent",
+  "BorderColor": "Transparent",
   "BorderThickness": "0,0,0,0",
   "Content": Array [
     Object {
@@ -736,13 +738,19 @@ Object {
       "useSymbol": true,
     },
   ],
+  "DockSize": "Full",
   "Grid": Object {
     "Cols": 12,
     "Rows": 7,
   },
   "Height": 40,
+  "HorizontalOffset": 0,
   "Name": "OptiKey-BoardMaker",
+  "Position": "Top",
   "SymbolMargin": 1,
+  "VerticalOffset": 0,
+  "Width": 100,
+  "WindowState": "Docked",
 }
 `;
 

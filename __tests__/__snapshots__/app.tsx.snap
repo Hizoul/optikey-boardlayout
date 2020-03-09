@@ -1823,6 +1823,14 @@ Array [
   <Height>40</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
+  <DockSize>Full</DockSize>
+  <Position>Top</Position>
+  <Width>100</Width>
+  <HorizontalOffset>0</HorizontalOffset>
+  <VerticalOffset>0</VerticalOffset>
+  <BackgroundColor>Transparent</BackgroundColor>
+  <BorderColor>Transparent</BorderColor>
+  <WindowState>Docked</WindowState>
   <Grid>
     <Rows>7</Rows>
     <Cols>12</Cols>
@@ -2498,304 +2506,463 @@ Array [
                 className="MuiExpansionPanelDetails-root"
               >
                 <div
-                  className="center"
-                  style={
-                    Object {
-                      "flex": 1,
-                      "flexDirection": "column",
-                    }
-                  }
+                  className="vertical flex1"
                 >
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="Name"
-                    onChange={[Function]}
-                    type="text"
-                    value="OptiKey-BoardMaker"
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="Grid.Rows"
-                    onChange={[Function]}
-                    type="number"
-                    value={7}
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="Grid.Cols"
-                    onChange={[Function]}
-                    type="number"
-                    value={12}
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="Height"
-                    onChange={[Function]}
-                    type="number"
-                    value={40}
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="Width"
-                    onChange={[Function]}
-                    type="number"
-                    value=""
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="BorderThickness"
-                    onChange={[Function]}
-                    type="text"
-                    value="0,0,0,0"
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="SymbolMargin"
-                    onChange={[Function]}
-                    type="number"
-                    value={1}
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="Position"
-                    onChange={[Function]}
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    className="MuiFormControlLabel-root"
+                  <div
+                    className="MuiFormControl-root inputMargin"
                   >
-                    <span
-                      aria-disabled={false}
-                      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-144 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
-                      onBlur={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={null}
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Name"
+                      onChange={[Function]}
+                      type="text"
+                      value="OptiKey-BoardMaker"
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      The name that will be shown in OptiKey
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Grid.Rows"
+                      onChange={[Function]}
+                      type="number"
+                      value={7}
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Controls the amount of keyboard rows
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Grid.Cols"
+                      onChange={[Function]}
+                      type="number"
+                      value={12}
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Controls the amount of keyboard columns
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Height"
+                      onChange={[Function]}
+                      type="number"
+                      value={40}
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Percent of screen. if negative then use the sum of the value and the screen's dimension
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Width"
+                      onChange={[Function]}
+                      type="number"
+                      value={100}
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Percent of screen. if negative then use the sum of the value and the screen's dimension
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="BorderThickness"
+                      onChange={[Function]}
+                      type="text"
+                      value="0,0,0,0"
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Controls how thick the lines between individual keys are
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="SymbolMargin"
+                      onChange={[Function]}
+                      type="number"
+                      value={1}
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Amount of empty space left for symbols
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
+                  >
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
+                    >
+                      Position
+                    </label>
+                    <select>
+                      <option>
+                        TopLeft
+                      </option>
+                      <option>
+                        Top
+                      </option>
+                      <option>
+                        TopRight
+                      </option>
+                      <option>
+                        Left
+                      </option>
+                      <option>
+                        Right
+                      </option>
+                      <option>
+                        BottomLeft
+                      </option>
+                      <option>
+                        Bottom
+                      </option>
+                      <option>
+                        BottomRight
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Controls where the Keyboard will be shown
+                    </p>
+                  </div>
+                  <div
+                    className="flex horizontal inputMargin"
+                  >
+                    <label
+                      className="MuiFormControlLabel-root"
                     >
                       <span
-                        className="MuiIconButton-label"
+                        aria-disabled={false}
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        onBlur={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={null}
                       >
-                        <input
-                          className="PrivateSwitchBase-input-147"
-                          data-indeterminate={false}
-                          onChange={[Function]}
-                          type="checkbox"
-                        />
-                        <svg
-                          aria-hidden="true"
-                          className="MuiSvgIcon-root"
-                          focusable="false"
-                          role="presentation"
-                          viewBox="0 0 24 24"
+                        <span
+                          className="MuiIconButton-label"
                         >
-                          <path
-                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          <input
+                            className="PrivateSwitchBase-input-179"
+                            data-indeterminate={false}
+                            onChange={[Function]}
+                            type="checkbox"
                           />
-                        </svg>
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                            />
+                          </svg>
+                        </span>
                       </span>
-                    </span>
-                    <span
-                      className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                      <span
+                        className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                      >
+                        PersistNewState
+                      </span>
+                    </label>
+                    <p
+                      className="MuiFormHelperText-root center"
                     >
-                      PersistNewState
-                    </span>
-                  </label>
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="WindowState"
-                    onChange={[Function]}
-                    type="text"
-                    value=""
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="DockSize"
-                    onChange={[Function]}
-                    type="text"
-                    value=""
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="HorizontalOffset"
-                    onChange={[Function]}
-                    type="number"
-                    value=""
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="VerticalOffset"
-                    onChange={[Function]}
-                    type="number"
-                    value=""
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="BackgroundColor"
-                    onChange={[Function]}
-                    type="text"
-                    value=""
-                  />
-                  <input
-                    fullWidth={true}
-                    inputProps={
-                      Object {
-                        "max": undefined,
-                        "min": undefined,
-                        "step": undefined,
-                      }
-                    }
-                    label="BorderColor"
-                    onChange={[Function]}
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    className="MuiFormControlLabel-root"
+                      Indiates whether the size and position of this keyboard will be saved
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
                   >
-                    <span
-                      aria-disabled={false}
-                      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-144 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
-                      onBlur={[Function]}
-                      onDragLeave={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onKeyUp={[Function]}
-                      onMouseDown={[Function]}
-                      onMouseLeave={[Function]}
-                      onMouseUp={[Function]}
-                      onTouchEnd={[Function]}
-                      onTouchMove={[Function]}
-                      onTouchStart={[Function]}
-                      tabIndex={null}
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
+                    >
+                      WindowState
+                    </label>
+                    <select>
+                      <option>
+                        Floating
+                      </option>
+                      <option>
+                        Docked
+                      </option>
+                      <option>
+                        Maximised
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Controls how the OptiKey window should behave
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin MuiFormControl-fullWidth"
+                  >
+                    <label
+                      className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
+                      data-shrink={false}
+                    >
+                      DockSize
+                    </label>
+                    <select>
+                      <option>
+                        Full
+                      </option>
+                      <option>
+                        Collapsed
+                      </option>
+                    </select>
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Controls the size of the dock
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="HorizontalOffset"
+                      onChange={[Function]}
+                      type="number"
+                      value=""
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Percent of screen. if negative then use the sum of the value and the screen's dimension
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="VerticalOffset"
+                      onChange={[Function]}
+                      type="number"
+                      value=""
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      Percent of screen. if negative then use the sum of the value and the screen's dimension
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="BackgroundColor"
+                      onChange={[Function]}
+                      type="text"
+                      value="Transparent"
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      for valid colors refer to https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color
+                    </p>
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="BorderColor"
+                      onChange={[Function]}
+                      type="text"
+                      value="Transparent"
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
+                    >
+                      for valid colors refer to https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color
+                    </p>
+                  </div>
+                  <div
+                    className="flex horizontal inputMargin"
+                  >
+                    <label
+                      className="MuiFormControlLabel-root"
                     >
                       <span
-                        className="MuiIconButton-label"
+                        aria-disabled={false}
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        onBlur={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={null}
                       >
-                        <input
-                          className="PrivateSwitchBase-input-147"
-                          data-indeterminate={false}
-                          onChange={[Function]}
-                          type="checkbox"
-                        />
-                        <svg
-                          aria-hidden="true"
-                          className="MuiSvgIcon-root"
-                          focusable="false"
-                          role="presentation"
-                          viewBox="0 0 24 24"
+                        <span
+                          className="MuiIconButton-label"
                         >
-                          <path
-                            d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                          <input
+                            className="PrivateSwitchBase-input-179"
+                            data-indeterminate={false}
+                            onChange={[Function]}
+                            type="checkbox"
                           />
-                        </svg>
+                          <svg
+                            aria-hidden="true"
+                            className="MuiSvgIcon-root"
+                            focusable="false"
+                            role="presentation"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+                            />
+                          </svg>
+                        </span>
                       </span>
-                    </span>
-                    <span
-                      className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                      <span
+                        className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
+                      >
+                        HideFromKeyboardMenu
+                      </span>
+                    </label>
+                    <p
+                      className="MuiFormHelperText-root center"
                     >
-                      HideFromKeyboardMenu
-                    </span>
-                  </label>
+                      controls whether or not this keyboard will be listed in the dynamic keyboard selection menu. You may wish to set this equal to False for smaller utility-type keyboards.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

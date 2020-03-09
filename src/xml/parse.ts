@@ -24,6 +24,14 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   const grid = get(find(root, ["name", "Grid"]), "elements", [])
   const Rows = Number(getElementText(find(grid, ["name", "Rows"]), "7"))
   const Cols = Number(getElementText(find(grid, ["name", "Cols"]), "3"))
+  const Position = getElementText(find(root, ["name", "Position"]), "Top")
+  const DockSize = getElementText(find(root, ["name", "DockSize"]), "Full")
+  const Width = Number(getElementText(find(root, ["name", "Width"]), "100"))
+  const HorizontalOffset = Number(getElementText(find(root, ["name", "HorizontalOffset"]), "1"))
+  const VerticalOffset = Number(getElementText(find(root, ["name", "VerticalOffset"]), "1"))
+  const BackgroundColor = getElementText(find(root, ["name", "BackgroundColor"]), "White")
+  const BorderColor = getElementText(find(root, ["name", "BorderColor"]), "Black")
+  const WindowState = getElementText(find(root, ["name", "WindowState"]), "Docked")
   const keys = get(find(root, ["name", "Content"]), "elements", [])
   const Content = keys.map((entry: any) => {
     const eles = entry.elements
@@ -88,6 +96,14 @@ const xmlParser: (xml: string) => any = (xml: string) => {
       Height,
       SymbolMargin,
       BorderThickness,
+      DockSize,
+      Position,
+      Width,
+      HorizontalOffset,
+      VerticalOffset,
+      BackgroundColor,
+      BorderColor,
+      WindowState,
       Grid: {Rows, Cols},
       Content
     }

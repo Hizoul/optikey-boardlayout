@@ -78,6 +78,10 @@ span.i {
 .marginTop {
   margin-top: 1.5rem
 }
+.inputMargin {
+  margin-top: 0.7rem !important;
+  margin-bottom: 0.7rem !important;
+}
 
 .smallerFont {
   font-size: 0.6rem;
