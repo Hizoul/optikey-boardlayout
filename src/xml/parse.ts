@@ -156,6 +156,12 @@ const toXml = (keyboard: IKeyboard) => {
       changedContent[key.type].push(newKey)
     }
   }
+  const width = keyboard.Keyboard.Grid.Rows
+  const sorter = (objA: any, objB: any) => (objA.Row * width + objA.Col) - (objB.Row * width + objB.Col)
+  changedContent.DynamicKey = changedContent.DynamicKey.sort(sorter)
+  changedContent.Scratchpad = changedContent.Scratchpad.sort(sorter)
+  changedContent.SuggestionRow = changedContent.SuggestionRow.sort(sorter)
+  changedContent.SuggestionCol = changedContent.SuggestionCol.sort(sorter)
   const res = js2xml({
     Keyboard: {
       ...keyboard.Keyboard,
