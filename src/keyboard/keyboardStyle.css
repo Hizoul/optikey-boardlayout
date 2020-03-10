@@ -86,3 +86,13 @@ span.i {
 .smallerFont {
   font-size: 0.6rem;
 }
+.simplePanel {
+  margin: 0pt !important;
+  padding: 0pt !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.simplePanel::before {
+  opacity: 0 !important;
+}

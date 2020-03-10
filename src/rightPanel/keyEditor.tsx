@@ -5,11 +5,13 @@ import Typography from "@material-ui/core/Typography"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import { FormStore, SharedField } from "@xpfw/form"
 import { SelectField } from "@xpfw/form-web"
+import { cloneDeep, keys, get } from "lodash"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, keyboardPrefix } from "../form/def"
 import actionKeyList from "../util/actionKeys"
 import symbolList from "../util/symbols"
+import { keyGroupSchema } from "../form/defKeyGroup"
 
 const keyTypes: any[] = ["DynamicKey", "Scratchpad", "SuggestionRow", "SuggestionCol"].map((v) =>{return {value: v, label: v}})
 
@@ -61,6 +63,8 @@ const KeyEditor = observer(() => {
     title: `Content[${keyIndex}].useSymbol`,
     type: "boolean"
   }
+  const thisKeysGroupSchema = cloneDeep(keyGroupSchema)
+  thisKeysGroupSchema.title = `Content[${keyIndex}]`
   const caseSensitiveValue = FormStore.getValue(caseSensitiveSchema.title, keyboardPrefix)
   const useSymbol = FormStore.getValue(useSymbolSchema.title, keyboardPrefix)
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
@@ -101,6 +105,22 @@ const KeyEditor = observer(() => {
       break
     }
   }
+  const keyGroupPrefix = `${keyboardPrefix}.Content[${keyIndex}]`
+  const keyGroupEditor = (
+    <ExpansionPanel className="simplePanel">
+      <ExpansionPanelSummary className="simplePanel" expandIcon={<ExpandMoreIcon />}>
+        <Typography>Override Keygroup Settings</Typography>
+      </ExpansionPanelSummary>
+      <ExpansionPanelDetails className="simplePanel">
+        <div className="flex1 vertical">
+
+        {keys(thisKeysGroupSchema.properties).map((key) =>
+        <SharedField schema={get(thisKeysGroupSchema, `properties.${key}`)} prefix={keyGroupPrefix} />)}
+
+        </div>
+      </ExpansionPanelDetails>
+    </ExpansionPanel>
+  )
   return (
     <ExpansionPanel expanded={keySelected ? true : false}>
       <ExpansionPanelSummary>
@@ -111,7 +131,7 @@ const KeyEditor = observer(() => {
           <div className="vertical flex1">
             <SharedField schema={typeSchema} prefix={keyboardPrefix} />
             {editContent}
-
+            {keyGroupEditor}
           </div>
         ) : (
           <p>Click on a Key in the Keyboard to edit it</p>

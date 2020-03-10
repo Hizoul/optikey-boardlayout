@@ -7,7 +7,7 @@ import {
 } from "../src/keyboard/key"
 import { keyTypes } from "../src/rightPanel/keyEditor"
 import renderSnapshot from "../src/testUtil/renderSnapshot"
-import exampleXml from "../src/xml/example"
+import exampleXml, { exampleKeyGroupOverrideXml } from "../src/xml/example"
 import xmlParser from "../src/xml/parse"
 import { FormStore, memo } from "@xpfw/form"
 import { resizeEventListener, keyboardContainerReference, setRegisteredToTrue } from "../src/keyboard"
@@ -55,4 +55,8 @@ test("app", () => {
   renderSnapshot(<App />, "keyboard with valid container reference")
   setRegisteredToTrue()
   renderSnapshot(<App />, "keyboard with valid container reference and registered eventlistenr")
+
+  FormStore.setValue("Keyboard", xmlParser(exampleKeyGroupOverrideXml).Keyboard)
+  renderSnapshot(<App />, "test keygroup override parameters parsed successfully")
+
 })

@@ -1,5 +1,7 @@
 import { cloneDeep, find, get } from "lodash"
 import { js2xml, xml2js } from "xml-js"
+import { ExtendedJSONSchema, iterateSubFields } from "@xpfw/form/dist"
+import { keyGroupSchema } from "../form/defKeyGroup"
 
 export interface IKeyboard {
   Keyboard: {
@@ -13,6 +15,22 @@ export interface IKeyboard {
 }
 
 const getElementText = (ele: any, def?: any) => get(ele, "elements[0].text", def)
+
+const getViaSchema = (schema: ExtendedJSONSchema, xmlEle: any) => {
+  const object: any = {}
+  iterateSubFields(schema, (key, subSchema) => {
+    let value = getElementText(find(xmlEle, ["name", key]))
+    if (subSchema.type === "number") {
+      value = Number(value)
+      if (!isNaN(value)) {
+        object[key] = value
+      }
+    } else if (value != null) {
+      object[key] = value
+    }
+  })
+  return object
+}
 
 const xmlParser: (xml: string) => any = (xml: string) => {
   const data = xml2js(xml)
@@ -35,10 +53,12 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   const keys = get(find(root, ["name", "Content"]), "elements", [])
   const Content = keys.map((entry: any) => {
     const eles = entry.elements
+    const keyGroupProperties = getViaSchema(keyGroupSchema, eles)
     const ele: any = {
       type: entry.name,
       Row: Number(getElementText(find(eles, ["name", "Row"]), "7")),
-      Col: Number(getElementText(find(eles, ["name", "Col"]), "7"))
+      Col: Number(getElementText(find(eles, ["name", "Col"]), "7")),
+      ...keyGroupProperties
     }
     const Text = getElementText(find(eles, ["name", "Text"]))
     if (Text != null) {
