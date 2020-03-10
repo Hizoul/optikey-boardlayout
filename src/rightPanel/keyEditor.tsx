@@ -12,6 +12,7 @@ import { activeKey, keyboardPrefix } from "../form/def"
 import actionKeyList from "../util/actionKeys"
 import symbolList from "../util/symbols"
 import { keyGroupSchema } from "../form/defKeyGroup"
+import { resizeTriggerer } from "./index"
 
 const keyTypes: any[] = ["DynamicKey", "Scratchpad", "SuggestionRow", "SuggestionCol"].map((v) =>{return {value: v, label: v}})
 
@@ -38,6 +39,14 @@ const KeyEditor = observer(() => {
   const shiftDownLabelSchema = {
     title: `Content[${keyIndex}].ShiftDownLabel`,
     type: "string"
+  }
+  const widthSchema = {
+    title: `Content[${keyIndex}].Width`,
+    type: "number"
+  }
+  const heightSchema = {
+    title: `Content[${keyIndex}].Height`,
+    type: "number"
   }
   const symbolSchema = {
     title: `Content[${keyIndex}].Symbol`,
@@ -113,16 +122,17 @@ const KeyEditor = observer(() => {
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className="simplePanel">
         <div className="flex1 vertical">
-
-        {keys(thisKeysGroupSchema.properties).map((key) =>
-        <SharedField schema={get(thisKeysGroupSchema, `properties.${key}`)} prefix={keyGroupPrefix} />)}
+          <SharedField schema={widthSchema} prefix={keyboardPrefix} />
+          <SharedField schema={heightSchema} prefix={keyboardPrefix} />
+          {keys(thisKeysGroupSchema.properties).map((key) =>
+          <SharedField schema={get(thisKeysGroupSchema, `properties.${key}`)} prefix={keyGroupPrefix} />)}
 
         </div>
       </ExpansionPanelDetails>
     </ExpansionPanel>
   )
   return (
-    <ExpansionPanel expanded={keySelected ? true : false}>
+    <ExpansionPanel expanded={keySelected ? true : false} onChange={resizeTriggerer}>
       <ExpansionPanelSummary>
         <Typography>{keySelected ? "Key Settings" : "Click on a key to edit it here"}</Typography>
       </ExpansionPanelSummary>

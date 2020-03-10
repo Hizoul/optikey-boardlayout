@@ -4,6 +4,7 @@ import { action } from "mobx"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, dragKey, hoverKey, keyboardPrefix } from "../form/def"
+import { resizeEventListener } from "./index"
 
 const switchKeys = action((row1: number, col1: number, row2: number, col2: number) => {
   const keys = FormStore.getValue("Content", keyboardPrefix, [])
@@ -34,6 +35,7 @@ const clickHandler = (index: number, Row: number, Col: number) => memo(() => act
     FormStore.getValue(`${keyboardPrefix}.Content`, keys)
   }
   FormStore.setValue(activeKey, indexToUse)
+  setTimeout(resizeEventListener, 1100)
 }), [activeKey, Row, Col, index])
 
 const dragStartHandler = (index: number, row: number, col: number) => memo(() => (e: any) => {

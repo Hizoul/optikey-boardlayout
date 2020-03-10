@@ -1,5 +1,5 @@
 import { FormStore } from "@xpfw/form"
-import { findIndex } from "lodash"
+import { findIndex, get, find } from "lodash"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import { activeKey, colsSchema, keyboardPrefix, rowsSchema } from "../form/def"
@@ -9,7 +9,8 @@ import { observable } from "mobx"
 
 const resizeEventListener = () => {
   const prev = FormStore.getValue(activeKey)
-  FormStore.setValue(activeKey, -2)
+  const temp = Math.max(0, prev-1)
+  FormStore.setValue(activeKey, temp)
   FormStore.setValue(activeKey, prev)
 }
 
@@ -38,6 +39,9 @@ const KeyboardDisplay = observer(() => {
   for (let row = 0; row < gridLength; row++) {
     for (let col = 0; col < gridHeight; col++) {
       const keyboardIndex: any = findIndex(keys,  {Row: row, Col: col})
+      // const keyboardEntry: any = find(keys,  {Row: row, Col: col})
+      let widthToUse = width// * get(keyboardEntry, "Width", 1)
+      let heightToUse = height// * get(keyboardEntry, "Height", 1)
       toRender.push(
         <KeyDisplay
           key={`${row}.${col}`}
@@ -45,8 +49,8 @@ const KeyboardDisplay = observer(() => {
           col={col}
           index={keyboardIndex}
           entry={keys[keyboardIndex]}
-          height={height}
-          width={width}
+          height={heightToUse}
+          width={widthToUse}
         />
       )
     }

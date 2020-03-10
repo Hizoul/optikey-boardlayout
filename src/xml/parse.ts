@@ -68,6 +68,10 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     if (Width != null) {
       ele.Width = Width
     }
+    const Height = getElementText(find(eles, ["name", "Width"]))
+    if (Height != null) {
+      ele.Height = Height
+    }
     const ShiftUpLabel = getElementText(find(eles, ["name", "ShiftUpLabel"]))
     if (ShiftUpLabel != null) {
       ele.ShiftUpLabel = ShiftUpLabel
