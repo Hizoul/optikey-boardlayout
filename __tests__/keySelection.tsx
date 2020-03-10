@@ -11,6 +11,7 @@ import exampleXml, { exampleKeyGroupOverrideXml } from "../src/xml/example"
 import xmlParser from "../src/xml/parse"
 import { FormStore, memo } from "@xpfw/form"
 import { resizeEventListener, keyboardContainerReference, setRegisteredToTrue } from "../src/keyboard"
+import { resizeTriggerer } from "../src/rightPanel"
 const dynamicKeyVal = keyTypes[0].value
 const changeHelper = (mapTo: string, prefix?: string, value?: any) =>
   memo(() => () => FormStore.setValue(mapTo, value, prefix), ["changeHelper", mapTo, prefix, value])
@@ -47,6 +48,7 @@ test("app", () => {
   changeHelper(`Content[${i2}].caseSensitive`, keyboardPrefix, true)()
   renderSnapshot(<App />, "case sensitive example")
   resizeEventListener()
+  resizeTriggerer()
   clickHandler(-1, r1, c1)()
   renderSnapshot(<App />, "set to invalid index again")
   keyboardContainerReference.set({

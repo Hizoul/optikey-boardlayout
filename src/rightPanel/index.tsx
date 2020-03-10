@@ -15,12 +15,15 @@ import {
 import AboutPanel from "./about"
 import KeyboardImporter from "./import"
 import KeyEditor from "./keyEditor"
+import { resizeEventListener } from "../keyboard"
+
+const resizeTriggerer = () => setTimeout(resizeEventListener, 1000)
 
 const RightPanel: React.FunctionComponent<any> = () => {
   return (
     <div className="rightPanel">
       <KeyboardImporter />
-      <ExpansionPanel defaultExpanded={false}>
+      <ExpansionPanel defaultExpanded={false} onChange={resizeTriggerer}>
         <ExpansionPanelSummary  expandIcon={<ExpandMoreIcon />}>
           <Typography>Global Settings</Typography>
         </ExpansionPanelSummary>
@@ -52,3 +55,6 @@ const RightPanel: React.FunctionComponent<any> = () => {
 }
 
 export default RightPanel
+export {
+  resizeTriggerer
+}
