@@ -110,6 +110,7 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     const Action = getElementText(find(eles, ["name", "Action"]))
     if (Action != null) {
       ele.Action = Action
+      ele.isAction = true
     }
     return ele
   })

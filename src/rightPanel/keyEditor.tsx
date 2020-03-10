@@ -92,11 +92,11 @@ const KeyEditor = observer(() => {
             </>
           ) : (
             <>
-              <SharedField schema={textSchema} prefix={keyboardPrefix} />
               <SharedField schema={useSymbolSchema} prefix={keyboardPrefix} />
               {useSymbol ?
                 <SharedField schema={symbolSchema} prefix={keyboardPrefix} /> :
                 (<>
+                  <SharedField schema={textSchema} prefix={keyboardPrefix} />
                   <SharedField schema={caseSensitiveSchema} prefix={keyboardPrefix} />
                   {caseSensitiveValue ? (
                     <>

@@ -2268,6 +2268,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -2294,66 +2295,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -3109,27 +3121,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value="6"
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -3183,6 +3174,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value="6"
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -3372,6 +3384,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -6431,6 +6485,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -6457,66 +6512,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -7270,27 +7336,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value="."
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -7344,6 +7389,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value="."
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -7512,6 +7578,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -10571,6 +10679,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -10597,66 +10706,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -11410,27 +11530,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value="."
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -11484,6 +11583,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value="."
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -11652,6 +11772,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -14709,6 +14871,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -14735,66 +14898,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -15548,27 +15722,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value="."
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -15622,6 +15775,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value="."
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -15811,6 +15985,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -18870,6 +19086,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -18896,66 +19113,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -19709,27 +19937,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value="6"
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -19783,6 +19990,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value="6"
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -19951,6 +20179,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -23011,6 +23281,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -23037,66 +23308,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -24993,6 +25275,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -28053,6 +28377,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -28079,66 +28404,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -28894,27 +29230,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value="6"
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -28968,6 +29283,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value="6"
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -29136,6 +29472,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -32195,6 +32573,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -32221,66 +32600,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
@@ -33040,27 +33430,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value=""
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -33114,6 +33483,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -33282,6 +33672,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -36341,6 +36773,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -36367,66 +36800,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
@@ -37186,27 +37630,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value=""
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -37260,6 +37683,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -37428,6 +37872,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -40487,6 +40973,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -40513,66 +41000,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -43672,6 +44170,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -43698,66 +44197,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -46857,6 +47367,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -46883,66 +47394,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
@@ -47702,27 +48224,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value=""
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -47776,6 +48277,27 @@ Array [
                     </label>
                     <p
                       className="MuiFormHelperText-root center"
+                    />
+                  </div>
+                  <div
+                    className="MuiFormControl-root inputMargin"
+                  >
+                    <input
+                      fullWidth={true}
+                      inputProps={
+                        Object {
+                          "max": undefined,
+                          "min": undefined,
+                          "step": undefined,
+                        }
+                      }
+                      label="Text"
+                      onChange={[Function]}
+                      type="text"
+                      value=""
+                    />
+                    <p
+                      className="MuiFormHelperText-root"
                     />
                   </div>
                   <div
@@ -47944,6 +48466,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -51005,6 +51569,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -51031,66 +51596,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -51846,27 +52422,6 @@ Array [
                     />
                   </div>
                   <div
-                    className="MuiFormControl-root inputMargin"
-                  >
-                    <input
-                      fullWidth={true}
-                      inputProps={
-                        Object {
-                          "max": undefined,
-                          "min": undefined,
-                          "step": undefined,
-                        }
-                      }
-                      label="Text"
-                      onChange={[Function]}
-                      type="text"
-                      value="6"
-                    />
-                    <p
-                      className="MuiFormHelperText-root"
-                    />
-                  </div>
-                  <div
                     className="flex horizontal inputMargin"
                   >
                     <label
@@ -52347,6 +52902,48 @@ Array [
                               <div
                                 className="flex1 vertical"
                               >
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Width"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
+                                <div
+                                  className="MuiFormControl-root inputMargin"
+                                >
+                                  <input
+                                    fullWidth={true}
+                                    inputProps={
+                                      Object {
+                                        "max": undefined,
+                                        "min": undefined,
+                                        "step": undefined,
+                                      }
+                                    }
+                                    label="Height"
+                                    onChange={[Function]}
+                                    type="number"
+                                    value=""
+                                  />
+                                  <p
+                                    className="MuiFormHelperText-root"
+                                  />
+                                </div>
                                 <div
                                   className="MuiFormControl-root inputMargin"
                                 >
@@ -55421,6 +56018,7 @@ Array [
       <Row>6</Row>
       <Col>5</Col>
       <Width>2</Width>
+      <Height>2</Height>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
     </DynamicKey>
@@ -55447,66 +56045,77 @@ Array [
       <Col>11</Col>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>8</Col>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>0</Col>
       <Label>Win</Label>
       <Action>LeftWin</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>10</Col>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>5</Row>
       <Col>11</Col>
       <Label>Esc</Label>
       <Action>Escape</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>0</Col>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>1</Col>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>4</Col>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>9</Col>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>10</Col>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
+      <isAction>true</isAction>
     </DynamicKey>
     <DynamicKey>
       <Row>6</Row>
       <Col>11</Col>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
+      <isAction>true</isAction>
     </DynamicKey>
   </Content>
 </Keyboard>"
