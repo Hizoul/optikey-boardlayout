@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`parser: js to xml 1`] = `
+exports[`parser: advanced js to xml 1`] = `
 "<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
   <Height>40</Height>
@@ -19,780 +19,374 @@ exports[`parser: js to xml 1`] = `
     <Cols>12</Cols>
   </Grid>
   <Content>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>0</Col>
-      <Text>~</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
+      <Text>~</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>1</Col>
-      <Text>1</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"1\\">
       <Label>1</Label>
+      <Text>1</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>2</Col>
-      <Text>2</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"2\\">
       <Label>2</Label>
+      <Text>2</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>3</Col>
-      <Text>3</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"3\\">
       <Label>3</Label>
+      <Text>3</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>4</Col>
-      <Text>4</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"4\\">
       <Label>4</Label>
+      <Text>4</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>5</Col>
-      <Text>5</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"5\\">
       <Label>5</Label>
+      <Text>5</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>6</Col>
-      <Text>6</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"6\\">
       <Label>6</Label>
+      <Text>6</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>7</Col>
-      <Text>7</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"7\\">
       <Label>7</Label>
+      <Text>7</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>0</Col>
-      <Text>\\\\</Text>
-      <Label>\\\\</Label>
+    <DynamicKey Row=\\"1\\" Col=\\"0\\">
+      <Text>undefined</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>8</Col>
-      <Text>8</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"8\\">
       <Label>8</Label>
+      <Text>8</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>1</Col>
-      <Text>!</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"1\\">
       <Label>!</Label>
+      <Text>!</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>9</Col>
-      <Text>9</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"9\\">
       <Label>9</Label>
+      <Text>9</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>2</Col>
-      <Text>?</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"2\\">
       <Label>?</Label>
+      <Text>?</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>10</Col>
-      <Text>0</Text>
+    <DynamicKey Row=\\"0\\" Col=\\"10\\">
       <Label>0</Label>
+      <Text>0</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>3</Col>
-      <Text>+</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"3\\">
       <Label>+</Label>
+      <Text>+</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>4</Col>
-      <Text>*</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"4\\">
       <Label>*</Label>
+      <Text>*</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>11</Col>
+    <DynamicKey Row=\\"0\\" Col=\\"11\\">
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>5</Col>
-      <Text>%</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"5\\">
       <Label>%</Label>
+      <Text>%</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>6</Col>
-      <Text>&amp;</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"6\\">
       <Label>&amp;</Label>
+      <Text>&amp;</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>0</Col>
-      <Text>/</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"0\\">
       <Label>/</Label>
+      <Text>/</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>7</Col>
-      <Text>\\"</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"7\\">
       <Label>\\"</Label>
+      <Text>\\"</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>1</Col>
-      <Text>q</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"1\\">
       <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Text>q</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>8</Col>
-      <Text>'</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"8\\">
       <Label>'</Label>
+      <Text>'</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>2</Col>
-      <Text>w</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"2\\">
       <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Text>w</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>9</Col>
-      <Text>\`</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"9\\">
       <Label>\`</Label>
+      <Text>\`</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>10</Col>
-      <Text>$</Text>
+    <DynamicKey Row=\\"1\\" Col=\\"10\\">
       <Label>$</Label>
+      <Text>$</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>3</Col>
-      <Text>e</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"3\\">
       <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Text>e</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>4</Col>
-      <Text>r</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"4\\">
       <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Text>r</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>5</Col>
-      <Text>t</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"5\\">
       <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Text>t</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>6</Col>
-      <Text>z</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"6\\">
       <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Text>z</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>0</Col>
-      <Text>-</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"0\\">
       <Label>-</Label>
+      <Text>-</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>7</Col>
-      <Text>u</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"7\\">
       <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Text>u</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>1</Col>
-      <Text>_</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"1\\">
       <Label>_</Label>
+      <Text>_</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>8</Col>
-      <Text>i</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"8\\">
       <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Text>i</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>2</Col>
-      <Text>a</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"2\\">
       <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Text>a</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>9</Col>
-      <Text>o</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"9\\">
       <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Text>o</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>10</Col>
-      <Text>p</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"10\\">
       <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Text>p</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>3</Col>
-      <Text>s</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"3\\">
       <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Text>s</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>11</Col>
-      <Text>|</Text>
+    <DynamicKey Row=\\"2\\" Col=\\"11\\">
       <Label>|</Label>
+      <Text>|</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>4</Col>
-      <Text>d</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"4\\">
       <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Text>d</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>5</Col>
-      <Text>f</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"5\\">
       <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Text>f</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>6</Col>
-      <Text>g</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"6\\">
       <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Text>g</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>7</Col>
-      <Text>h</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"7\\">
       <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Text>h</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>0</Col>
+    <DynamicKey Row=\\"4\\" Col=\\"0\\">
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
+      <Text>undefined</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>8</Col>
-      <Text>j</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"8\\">
       <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Text>j</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>1</Col>
-      <Text>&lt;</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"1\\">
       <Label>&lt;</Label>
+      <Text>&lt;</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>9</Col>
-      <Text>k</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"9\\">
       <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Text>k</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>2</Col>
-      <Text>y</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"2\\">
       <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Text>y</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>10</Col>
-      <Text>l</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"10\\">
       <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Text>l</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>3</Col>
-      <Text>x</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"3\\">
       <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Text>x</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>11</Col>
-      <Text>^</Text>
+    <DynamicKey Row=\\"3\\" Col=\\"11\\">
       <Label>^</Label>
+      <Text>^</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>4</Col>
-      <Text>c</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"4\\">
       <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Text>c</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>5</Col>
-      <Text>v</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"4\\">
+      <Label>A burst with text</Label>
+      <Loop Count=\\"3\\">
+        <KeyDown>a</KeyDown>
+        <Wait>100</Wait>
+        <KeyUp>a</KeyUp>
+      </Loop>
+      <Text>b</Text>
+    </DynamicKey>
+    <DynamicKey Row=\\"4\\" Col=\\"5\\">
       <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Text>v</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>6</Col>
-      <Text>b</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"5\\">
+      <Label>BackWithReturnFalse</Label>
+      <ChangeKeyboard BackReturnsHere=\\"False\\">HackerKeyboardSymbols2</ChangeKeyboard>
+    </DynamicKey>
+    <DynamicKey Row=\\"4\\" Col=\\"6\\">
       <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Text>b</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>7</Col>
-      <Text>n</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"6\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\">
+      <Label>BackWithReturnTrue</Label>
+      <ChangeKeyboard BackReturnsHere=\\"True\\">HackerKeyboardSymbols2</ChangeKeyboard>
+    </DynamicKey>
+    <DynamicKey Row=\\"4\\" Col=\\"7\\">
       <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Text>n</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>0</Col>
+    <DynamicKey Row=\\"5\\" Col=\\"0\\">
       <Label>Win</Label>
       <Action>LeftWin</Action>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>8</Col>
-      <Text>m</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"8\\">
       <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Text>m</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>1</Col>
-      <Text>&gt;</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"1\\">
       <Label>&gt;</Label>
+      <Text>&gt;</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>9</Col>
-      <Text>@</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"9\\">
       <Label>@</Label>
+      <Text>@</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>2</Col>
-      <Text>,</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"2\\">
       <Label>,</Label>
+      <Text>,</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>10</Col>
-      <Text>=</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"10\\">
       <Label>=</Label>
+      <Text>=</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>3</Col>
-      <Text>.</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"3\\">
       <Label>.</Label>
+      <Text>.</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>11</Col>
-      <Text>#</Text>
+    <DynamicKey Row=\\"4\\" Col=\\"11\\">
       <Label>#</Label>
+      <Text>#</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>4</Col>
-      <Text>(</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"4\\">
       <Label>(</Label>
+      <Text>(</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>5</Col>
-      <Text>)</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"5\\">
       <Label>)</Label>
+      <Text>)</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>6</Col>
-      <Text>[</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"6\\">
       <Label>[</Label>
+      <Text>[</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>7</Col>
-      <Text>]</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"7\\">
       <Label>]</Label>
+      <Text>]</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>0</Col>
+    <DynamicKey Row=\\"6\\" Col=\\"0\\">
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>8</Col>
-      <Text>{</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"8\\">
       <Label>{</Label>
+      <Text>{</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>1</Col>
+    <DynamicKey Row=\\"6\\" Col=\\"1\\">
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>2</Col>
-      <Text>;</Text>
+    <DynamicKey Row=\\"6\\" Col=\\"2\\">
       <Label>;</Label>
+      <Text>;</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>9</Col>
-      <Text>}</Text>
+    <DynamicKey Row=\\"5\\" Col=\\"9\\">
       <Label>}</Label>
+      <Text>}</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>3</Col>
-      <Text>:</Text>
+    <DynamicKey Row=\\"6\\" Col=\\"3\\">
       <Label>:</Label>
+      <Text>:</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>10</Col>
+    <DynamicKey Row=\\"5\\" Col=\\"10\\">
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
     </DynamicKey>
-    <DynamicKey>
-      <Row>5</Row>
-      <Col>11</Col>
+    <DynamicKey Row=\\"5\\" Col=\\"11\\">
       <Label>Esc</Label>
       <Action>Escape</Action>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>4</Col>
+    <DynamicKey Row=\\"6\\" Col=\\"4\\">
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>5</Col>
-      <Width>2</Width>
-      <Height>2</Height>
+    <DynamicKey Row=\\"6\\" Col=\\"5\\" Width=\\"2\\" Height=\\"2\\">
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
+      <Text>undefined</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>7</Col>
+    <DynamicKey Row=\\"6\\" Col=\\"7\\">
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
+      <Text>undefined</Text>
     </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>8</Col>
+    <DynamicKey Row=\\"6\\" Col=\\"8\\">
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>9</Col>
-      <Symbol>LeftArrowKeyIcon</Symbol>
-      <Action>ArrowLeft</Action>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>10</Col>
-      <Symbol>DownArrowKeyIcon</Symbol>
-      <Action>ArrowDown</Action>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>6</Row>
-      <Col>11</Col>
-      <Symbol>RightArrowKeyIcon</Symbol>
-      <Action>ArrowRight</Action>
+      <Text>Multi</Text>
+      <Action>BackOne</Action>
     </DynamicKey>
   </Content>
 </Keyboard>"
 `;
 
-exports[`parser: reduced cols 1`] = `
-"<Keyboard>
-  <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
-  <SymbolMargin>1</SymbolMargin>
-  <BorderThickness>0,0,0,0</BorderThickness>
-  <DockSize>Full</DockSize>
-  <Position>Top</Position>
-  <Width>100</Width>
-  <HorizontalOffset>0</HorizontalOffset>
-  <VerticalOffset>0</VerticalOffset>
-  <BackgroundColor>Transparent</BackgroundColor>
-  <BorderColor>Transparent</BorderColor>
-  <WindowState>Docked</WindowState>
-  <Grid>
-    <Rows>5</Rows>
-    <Cols>7</Cols>
-  </Grid>
-  <Content>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>0</Col>
-      <Text>~</Text>
-      <Label>~</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>1</Col>
-      <Text>1</Text>
-      <Label>1</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>2</Col>
-      <Text>2</Text>
-      <Label>2</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>3</Col>
-      <Text>3</Text>
-      <Label>3</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>4</Col>
-      <Text>4</Text>
-      <Label>4</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>0</Col>
-      <Text>\\\\</Text>
-      <Label>\\\\</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>5</Col>
-      <Text>5</Text>
-      <Label>5</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>1</Col>
-      <Text>!</Text>
-      <Label>!</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>0</Row>
-      <Col>6</Col>
-      <Text>6</Text>
-      <Label>6</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>2</Col>
-      <Text>?</Text>
-      <Label>?</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>3</Col>
-      <Text>+</Text>
-      <Label>+</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>4</Col>
-      <Text>*</Text>
-      <Label>*</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>0</Col>
-      <Text>/</Text>
-      <Label>/</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>5</Col>
-      <Text>%</Text>
-      <Label>%</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>1</Row>
-      <Col>6</Col>
-      <Text>&amp;</Text>
-      <Label>&amp;</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>1</Col>
-      <Text>q</Text>
-      <ShiftUpLabel>q</ShiftUpLabel>
-      <ShiftDownLabel>Q</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>2</Col>
-      <Text>w</Text>
-      <ShiftUpLabel>w</ShiftUpLabel>
-      <ShiftDownLabel>W</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>3</Col>
-      <Text>e</Text>
-      <ShiftUpLabel>e</ShiftUpLabel>
-      <ShiftDownLabel>E</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>4</Col>
-      <Text>r</Text>
-      <ShiftUpLabel>r</ShiftUpLabel>
-      <ShiftDownLabel>R</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>0</Col>
-      <Text>-</Text>
-      <Label>-</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>5</Col>
-      <Text>t</Text>
-      <ShiftUpLabel>t</ShiftUpLabel>
-      <ShiftDownLabel>T</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>1</Col>
-      <Text>_</Text>
-      <Label>_</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>2</Row>
-      <Col>6</Col>
-      <Text>z</Text>
-      <ShiftUpLabel>z</ShiftUpLabel>
-      <ShiftDownLabel>Z</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>2</Col>
-      <Text>a</Text>
-      <ShiftUpLabel>a</ShiftUpLabel>
-      <ShiftDownLabel>A</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>3</Col>
-      <Text>s</Text>
-      <ShiftUpLabel>s</ShiftUpLabel>
-      <ShiftDownLabel>S</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>4</Col>
-      <Text>d</Text>
-      <ShiftUpLabel>d</ShiftUpLabel>
-      <ShiftDownLabel>D</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>5</Col>
-      <Text>f</Text>
-      <ShiftUpLabel>f</ShiftUpLabel>
-      <ShiftDownLabel>F</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>0</Col>
-      <Symbol>TabIcon</Symbol>
-      <Text>&#9;</Text>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>3</Row>
-      <Col>6</Col>
-      <Text>g</Text>
-      <ShiftUpLabel>g</ShiftUpLabel>
-      <ShiftDownLabel>G</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>1</Col>
-      <Text>&lt;</Text>
-      <Label>&lt;</Label>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>2</Col>
-      <Text>y</Text>
-      <ShiftUpLabel>y</ShiftUpLabel>
-      <ShiftDownLabel>Y</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>3</Col>
-      <Text>x</Text>
-      <ShiftUpLabel>x</ShiftUpLabel>
-      <ShiftDownLabel>X</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>4</Col>
-      <Text>c</Text>
-      <ShiftUpLabel>c</ShiftUpLabel>
-      <ShiftDownLabel>C</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>5</Col>
-      <Text>v</Text>
-      <ShiftUpLabel>v</ShiftUpLabel>
-      <ShiftDownLabel>V</ShiftDownLabel>
-    </DynamicKey>
-    <DynamicKey>
-      <Row>4</Row>
-      <Col>6</Col>
-      <Text>b</Text>
-      <ShiftUpLabel>b</ShiftUpLabel>
-      <ShiftDownLabel>B</ShiftDownLabel>
-    </DynamicKey>
-  </Content>
-</Keyboard>"
-`;
-
-exports[`parser: xml to js 1`] = `
+exports[`parser: advanced xml to js 1`] = `
 Object {
   "Keyboard": Object {
     "BackgroundColor": "Transparent",
@@ -800,183 +394,15 @@ Object {
     "BorderThickness": "0,0,0,0",
     "Content": Array [
       Object {
-        "Col": 7,
-        "Label": "7",
-        "Row": 0,
-        "Text": "7",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 8,
-        "Label": "8",
-        "Row": 0,
-        "Text": "8",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 9,
-        "Label": "9",
-        "Row": 0,
-        "Text": "9",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 0,
-        "Label": "\\\\",
-        "Row": 1,
-        "Text": "\\\\",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
         "Col": 0,
         "Label": "~",
         "Row": 0,
-        "Text": "~",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 10,
-        "Label": "$",
-        "Row": 1,
-        "Text": "$",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 6,
-        "Label": "&",
-        "Row": 1,
-        "Text": "&",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 11,
-        "Label": "^",
-        "Row": 3,
-        "Text": "^",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 1,
-        "Label": "!",
-        "Row": 1,
-        "Text": "!",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 2,
-        "Label": "?",
-        "Row": 1,
-        "Text": "?",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 11,
-        "Label": "|",
-        "Row": 2,
-        "Text": "|",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 4,
-        "Label": "4",
-        "Row": 0,
-        "Text": "4",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 5,
-        "Label": "5",
-        "Row": 0,
-        "Text": "5",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 6,
-        "Label": "6",
-        "Row": 0,
-        "Text": "6",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 0,
-        "Label": "/",
-        "Row": 2,
-        "Text": "/",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 3,
-        "Label": ":",
-        "Row": 6,
-        "Text": ":",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 5,
-        "Row": 3,
-        "ShiftDownLabel": "F",
-        "ShiftUpLabel": "f",
-        "Text": "f",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 6,
-        "Row": 3,
-        "ShiftDownLabel": "G",
-        "ShiftUpLabel": "g",
-        "Text": "g",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 7,
-        "Row": 3,
-        "ShiftDownLabel": "H",
-        "ShiftUpLabel": "h",
-        "Text": "h",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 1,
-        "Row": 2,
-        "ShiftDownLabel": "Q",
-        "ShiftUpLabel": "q",
-        "Text": "q",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 8,
-        "Row": 3,
-        "ShiftDownLabel": "J",
-        "ShiftUpLabel": "j",
-        "Text": "j",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 5,
-        "Label": "%",
-        "Row": 1,
-        "Text": "%",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "~",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
@@ -984,7 +410,12 @@ Object {
         "Col": 1,
         "Label": "1",
         "Row": 0,
-        "Text": "1",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "1",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
@@ -992,69 +423,12 @@ Object {
         "Col": 2,
         "Label": "2",
         "Row": 0,
-        "Text": "2",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 8,
-        "Row": 4,
-        "ShiftDownLabel": "M",
-        "ShiftUpLabel": "m",
-        "Text": "m",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 7,
-        "Row": 4,
-        "ShiftDownLabel": "N",
-        "ShiftUpLabel": "n",
-        "Text": "n",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 10,
-        "Row": 2,
-        "ShiftDownLabel": "P",
-        "ShiftUpLabel": "p",
-        "Text": "p",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 6,
-        "Row": 4,
-        "ShiftDownLabel": "B",
-        "ShiftUpLabel": "b",
-        "Text": "b",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 9,
-        "Row": 3,
-        "ShiftDownLabel": "K",
-        "ShiftUpLabel": "k",
-        "Text": "k",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 5,
-        "Row": 4,
-        "ShiftDownLabel": "V",
-        "ShiftUpLabel": "v",
-        "Text": "v",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 0,
-        "Label": "-",
-        "Row": 3,
-        "Text": "-",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "2",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
@@ -1062,55 +436,127 @@ Object {
         "Col": 3,
         "Label": "3",
         "Row": 0,
-        "Text": "3",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "3",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
-        "Col": 1,
-        "Label": "_",
-        "Row": 3,
-        "Text": "_",
+        "Col": 4,
+        "Label": "4",
+        "Row": 0,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "4",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
-        "Col": 2,
-        "Label": ";",
-        "Row": 6,
-        "Text": ";",
+        "Col": 5,
+        "Label": "5",
+        "Row": 0,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "5",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
-        "Col": 9,
-        "Label": "@",
-        "Row": 4,
-        "Text": "@",
+        "Col": 6,
+        "Label": "6",
+        "Row": 0,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "6",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
         "Col": 7,
-        "Label": "\\"",
-        "Row": 1,
-        "Text": "\\"",
+        "Label": "7",
+        "Row": 0,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "7",
+          },
+        ],
         "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 0,
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": undefined,
+          },
+        ],
         "name": "DynamicKey",
       },
       Object {
         "Col": 8,
-        "Label": "'",
-        "Row": 1,
-        "Text": "'",
+        "Label": "8",
+        "Row": 0,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "8",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
-        "Col": 11,
-        "Label": "#",
-        "Row": 4,
-        "Text": "#",
+        "Col": 1,
+        "Label": "!",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "!",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 9,
+        "Label": "9",
+        "Row": 0,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "9",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 2,
+        "Label": "?",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "?",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
@@ -1118,25 +564,184 @@ Object {
         "Col": 10,
         "Label": "0",
         "Row": 0,
-        "Text": "0",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "0",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 3,
+        "Label": "+",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "+",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 4,
+        "Label": "*",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "*",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 11,
+        "Row": 0,
+        "Symbol": "MenuIcon",
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "MenuKeyboard",
+          },
+        ],
+        "labelType": "Symbol",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 5,
+        "Label": "%",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "%",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 6,
+        "Label": "&",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "&",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 0,
+        "Label": "/",
+        "Row": 2,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "/",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 7,
+        "Label": "\\"",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "\\"",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 1,
+        "Row": 2,
+        "ShiftDownLabel": "Q",
+        "ShiftUpLabel": "q",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "q",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 8,
+        "Label": "'",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "'",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 2,
+        "Row": 2,
+        "ShiftDownLabel": "W",
+        "ShiftUpLabel": "w",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "w",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 9,
+        "Label": "\`",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "\`",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
         "Col": 10,
-        "Row": 3,
-        "ShiftDownLabel": "L",
-        "ShiftUpLabel": "l",
-        "Text": "l",
-        "labelType": "Case Sensitive Text",
+        "Label": "$",
+        "Row": 1,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "$",
+          },
+        ],
+        "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
         "Col": 3,
-        "Row": 3,
-        "ShiftDownLabel": "S",
-        "ShiftUpLabel": "s",
-        "Text": "s",
+        "Row": 2,
+        "ShiftDownLabel": "E",
+        "ShiftUpLabel": "e",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "e",
+          },
+        ],
         "labelType": "Case Sensitive Text",
         "name": "DynamicKey",
       },
@@ -1145,7 +750,12 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "R",
         "ShiftUpLabel": "r",
-        "Text": "r",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "r",
+          },
+        ],
         "labelType": "Case Sensitive Text",
         "name": "DynamicKey",
       },
@@ -1154,121 +764,12 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "T",
         "ShiftUpLabel": "t",
-        "Text": "t",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 4,
-        "Row": 4,
-        "ShiftDownLabel": "C",
-        "ShiftUpLabel": "c",
-        "Text": "c",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 4,
-        "Row": 3,
-        "ShiftDownLabel": "D",
-        "ShiftUpLabel": "d",
-        "Text": "d",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 2,
-        "Row": 2,
-        "ShiftDownLabel": "W",
-        "ShiftUpLabel": "w",
-        "Text": "w",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 3,
-        "Label": "+",
-        "Row": 1,
-        "Text": "+",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 1,
-        "Label": "<",
-        "Row": 4,
-        "Text": "<",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 10,
-        "Label": "=",
-        "Row": 4,
-        "Text": "=",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 2,
-        "Row": 3,
-        "ShiftDownLabel": "A",
-        "ShiftUpLabel": "a",
-        "Text": "a",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 3,
-        "Row": 2,
-        "ShiftDownLabel": "E",
-        "ShiftUpLabel": "e",
-        "Text": "e",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 8,
-        "Row": 2,
-        "ShiftDownLabel": "I",
-        "ShiftUpLabel": "i",
-        "Text": "i",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 9,
-        "Row": 2,
-        "ShiftDownLabel": "O",
-        "ShiftUpLabel": "o",
-        "Text": "o",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 7,
-        "Row": 2,
-        "ShiftDownLabel": "U",
-        "ShiftUpLabel": "u",
-        "Text": "u",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 3,
-        "Row": 4,
-        "ShiftDownLabel": "X",
-        "ShiftUpLabel": "x",
-        "Text": "x",
-        "labelType": "Case Sensitive Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 2,
-        "Row": 4,
-        "ShiftDownLabel": "Y",
-        "ShiftUpLabel": "y",
-        "Text": "y",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "t",
+          },
+        ],
         "labelType": "Case Sensitive Text",
         "name": "DynamicKey",
       },
@@ -1277,80 +778,192 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "Z",
         "ShiftUpLabel": "z",
-        "Text": "z",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "z",
+          },
+        ],
         "labelType": "Case Sensitive Text",
         "name": "DynamicKey",
       },
       Object {
-        "Col": 1,
-        "Label": ">",
-        "Row": 5,
-        "Text": ">",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 2,
-        "Label": ",",
-        "Row": 5,
-        "Text": ",",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 3,
-        "Label": ".",
-        "Row": 5,
-        "Text": ".",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 4,
-        "Label": "(",
-        "Row": 5,
-        "Text": "(",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 5,
-        "Label": ")",
-        "Row": 5,
-        "Text": ")",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 6,
-        "Label": "[",
-        "Row": 5,
-        "Text": "[",
+        "Col": 0,
+        "Label": "-",
+        "Row": 3,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "-",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
         "Col": 7,
-        "Label": "]",
-        "Row": 5,
-        "Text": "]",
+        "Row": 2,
+        "ShiftDownLabel": "U",
+        "ShiftUpLabel": "u",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "u",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 1,
+        "Label": "_",
+        "Row": 3,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "_",
+          },
+        ],
         "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
         "Col": 8,
-        "Label": "{",
-        "Row": 5,
-        "Text": "{",
-        "labelType": "Text",
+        "Row": 2,
+        "ShiftDownLabel": "I",
+        "ShiftUpLabel": "i",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "i",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 2,
+        "Row": 3,
+        "ShiftDownLabel": "A",
+        "ShiftUpLabel": "a",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "a",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
         "name": "DynamicKey",
       },
       Object {
         "Col": 9,
-        "Label": "}",
-        "Row": 5,
-        "Text": "}",
+        "Row": 2,
+        "ShiftDownLabel": "O",
+        "ShiftUpLabel": "o",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "o",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 10,
+        "Row": 2,
+        "ShiftDownLabel": "P",
+        "ShiftUpLabel": "p",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "p",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 3,
+        "Row": 3,
+        "ShiftDownLabel": "S",
+        "ShiftUpLabel": "s",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "s",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 11,
+        "Label": "|",
+        "Row": 2,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "|",
+          },
+        ],
         "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 4,
+        "Row": 3,
+        "ShiftDownLabel": "D",
+        "ShiftUpLabel": "d",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "d",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 5,
+        "Row": 3,
+        "ShiftDownLabel": "F",
+        "ShiftUpLabel": "f",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "f",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 6,
+        "Row": 3,
+        "ShiftDownLabel": "G",
+        "ShiftUpLabel": "g",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "g",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 7,
+        "Row": 3,
+        "ShiftDownLabel": "H",
+        "ShiftUpLabel": "h",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "h",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
         "name": "DynamicKey",
       },
       Object {
@@ -1358,6 +971,438 @@ Object {
         "Row": 4,
         "Symbol": "TabIcon",
         "Text": "&#9;",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": undefined,
+          },
+        ],
+        "labelType": "Symbol",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 8,
+        "Row": 3,
+        "ShiftDownLabel": "J",
+        "ShiftUpLabel": "j",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "j",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 1,
+        "Label": "<",
+        "Row": 4,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "<",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 9,
+        "Row": 3,
+        "ShiftDownLabel": "K",
+        "ShiftUpLabel": "k",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "k",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 2,
+        "Row": 4,
+        "ShiftDownLabel": "Y",
+        "ShiftUpLabel": "y",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "y",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 10,
+        "Row": 3,
+        "ShiftDownLabel": "L",
+        "ShiftUpLabel": "l",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "l",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 3,
+        "Row": 4,
+        "ShiftDownLabel": "X",
+        "ShiftUpLabel": "x",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "x",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 11,
+        "Label": "^",
+        "Row": 3,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "^",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 4,
+        "Row": 4,
+        "ShiftDownLabel": "C",
+        "ShiftUpLabel": "c",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "c",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 5,
+        "Row": 4,
+        "ShiftDownLabel": "V",
+        "ShiftUpLabel": "v",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "v",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 6,
+        "Row": 4,
+        "ShiftDownLabel": "B",
+        "ShiftUpLabel": "b",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "b",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 7,
+        "Row": 4,
+        "ShiftDownLabel": "N",
+        "ShiftUpLabel": "n",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "n",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 0,
+        "Label": "Win",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "LeftWin",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 8,
+        "Row": 4,
+        "ShiftDownLabel": "M",
+        "ShiftUpLabel": "m",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "m",
+          },
+        ],
+        "labelType": "Case Sensitive Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 1,
+        "Label": ">",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": ">",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 9,
+        "Label": "@",
+        "Row": 4,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "@",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 2,
+        "Label": ",",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": ",",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 10,
+        "Label": "=",
+        "Row": 4,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "=",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 3,
+        "Label": ".",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": ".",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 11,
+        "Label": "#",
+        "Row": 4,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "#",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 4,
+        "Label": "(",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "(",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 5,
+        "Label": ")",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": ")",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 6,
+        "Label": "[",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "[",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 7,
+        "Label": "]",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "]",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 0,
+        "Label": "Ctrl",
+        "Row": 6,
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "LeftCtrl",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 8,
+        "Label": "{",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "{",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 1,
+        "Label": "Alt",
+        "Row": 6,
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "LeftAlt",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 2,
+        "Label": ";",
+        "Row": 6,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": ";",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 9,
+        "Label": "}",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "}",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 3,
+        "Label": ":",
+        "Row": 6,
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": ":",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 10,
+        "Row": 5,
+        "Symbol": "UpArrowKeyIcon",
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "ArrowUp",
+          },
+        ],
+        "labelType": "Symbol",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 11,
+        "Label": "Esc",
+        "Row": 5,
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "Escape",
+          },
+        ],
+        "labelType": "Text",
+        "name": "DynamicKey",
+      },
+      Object {
+        "Col": 4,
+        "Row": 6,
+        "Symbol": "ShiftIcon",
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "LeftShift",
+          },
+        ],
         "labelType": "Symbol",
         "name": "DynamicKey",
       },
@@ -1368,6 +1413,12 @@ Object {
         "Symbol": "SpaceIcon",
         "Text": "&#32;",
         "Width": "2",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": undefined,
+          },
+        ],
         "labelType": "Symbol",
         "name": "DynamicKey",
       },
@@ -1376,111 +1427,109 @@ Object {
         "Row": 6,
         "Symbol": "EnterIcon",
         "Text": "&#13;",
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": undefined,
+          },
+        ],
         "labelType": "Symbol",
         "name": "DynamicKey",
       },
       Object {
-        "Col": 9,
-        "Label": "\`",
-        "Row": 1,
-        "Text": "\`",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Col": 4,
-        "Label": "*",
-        "Row": 1,
-        "Text": "*",
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "MenuKeyboard",
-        "Col": 11,
-        "Row": 0,
-        "Symbol": "MenuIcon",
-        "labelType": "Symbol",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "BackOne",
         "Col": 8,
         "Row": 6,
         "Symbol": "BackOneIcon",
+        "keyActions": Array [
+          Object {
+            "actionType": "Action",
+            "value": "BackOne",
+          },
+          Object {
+            "actionType": "Text",
+            "value": "Multi",
+          },
+          Object {
+            "actionType": "Action",
+            "value": "BackOne",
+          },
+        ],
         "labelType": "Symbol",
         "name": "DynamicKey",
       },
       Object {
-        "Action": "LeftWin",
-        "Col": 0,
-        "Label": "Win",
-        "Row": 5,
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "ArrowUp",
-        "Col": 10,
-        "Row": 5,
-        "Symbol": "UpArrowKeyIcon",
-        "labelType": "Symbol",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "Escape",
-        "Col": 11,
-        "Label": "Esc",
-        "Row": 5,
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "LeftCtrl",
-        "Col": 0,
-        "Label": "Ctrl",
-        "Row": 6,
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "LeftAlt",
-        "Col": 1,
-        "Label": "Alt",
-        "Row": 6,
-        "labelType": "Text",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "LeftShift",
         "Col": 4,
-        "Row": 6,
-        "Symbol": "ShiftIcon",
-        "labelType": "Symbol",
+        "Label": "A burst with text",
+        "Row": 4,
+        "keyActions": Array [
+          Object {
+            "Count": "3",
+            "Wait": undefined,
+            "actionType": "Loop",
+            "keyActions": Array [
+              Object {
+                "actionType": "KeyDown",
+                "value": "a",
+              },
+              Object {
+                "actionType": "Wait",
+                "value": "100",
+              },
+              Object {
+                "actionType": "KeyUp",
+                "value": "a",
+              },
+            ],
+            "value": undefined,
+          },
+          Object {
+            "actionType": "Text",
+            "value": "b",
+          },
+        ],
+        "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
-        "Action": "ArrowLeft",
-        "Col": 9,
-        "Row": 6,
-        "Symbol": "LeftArrowKeyIcon",
-        "labelType": "Symbol",
+        "Col": 5,
+        "Label": "BackWithReturnFalse",
+        "Row": 4,
+        "keyActions": Array [
+          Object {
+            "BackReturnsHere": "False",
+            "actionType": "ChangeKeyboard",
+            "value": "HackerKeyboardSymbols2",
+          },
+        ],
+        "labelType": "Text",
         "name": "DynamicKey",
       },
       Object {
-        "Action": "ArrowDown",
-        "Col": 10,
-        "Row": 6,
-        "Symbol": "DownArrowKeyIcon",
-        "labelType": "Symbol",
-        "name": "DynamicKey",
-      },
-      Object {
-        "Action": "ArrowRight",
-        "Col": 11,
-        "Row": 6,
-        "Symbol": "RightArrowKeyIcon",
-        "labelType": "Symbol",
+        "AutoScaleToOneKeyHeight": "true",
+        "AutoScaleToOneKeyWidth": "true",
+        "BackgroundColor": "Blue",
+        "Col": 6,
+        "ForegroundColor": "Blue",
+        "KeyDisabledForeground": "Blue",
+        "KeyDisabledOpacity": 1,
+        "KeyDownBackground": "Blue",
+        "KeyDownForeground": "Blue",
+        "KeyDownOpacity": 1,
+        "Label": "BackWithReturnTrue",
+        "LockOnTime": 500,
+        "Opacity": 1,
+        "Row": 4,
+        "UsePersianCompatibilityFont": "true",
+        "UseUnicodeCompatibilityFont": "true",
+        "UseUrduCompatibilityFont": "true",
+        "keyActions": Array [
+          Object {
+            "BackReturnsHere": "True",
+            "actionType": "ChangeKeyboard",
+            "value": "HackerKeyboardSymbols2",
+          },
+        ],
+        "labelType": "Text",
         "name": "DynamicKey",
       },
     ],

@@ -73,15 +73,6 @@ const completionTimeSchema: ExtendedJSONSchema = {
   title: "CompletionTime", type: "number",
   description: "milliseconds from the start of the progress animation to the key being triggered"
 }
-const repeatDelaySchema: ExtendedJSONSchema = {
-  title: "RepeatDelay", type: "number",
-  description: "milleseconds between the initial keystroke and a second consecutive keystroke of the same key"
-}
-const repeatRateSchema: ExtendedJSONSchema = {
-  title: "RepeatRate", type: "number",
-  description: "milliseconds between additional consecutive keystrokes of the same keymilliseconds from when gaze is detected on key to the start of the progress animation"
-}
-
 
 const keyGroupSchema: ExtendedJSONSchema = {
   type: "object",
@@ -103,9 +94,7 @@ const keyGroupSchema: ExtendedJSONSchema = {
     [String(useUnicodeSchema.title)]: useUnicodeSchema,
     [String(useUrduSchema.title)]: useUrduSchema,
     [String(lockOnSchema.title)]: lockOnSchema,
-    [String(completionTimeSchema.title)]: completionTimeSchema,
-    [String(repeatDelaySchema.title)]: repeatDelaySchema,
-    [String(repeatRateSchema.title)]: repeatRateSchema
+    [String(completionTimeSchema.title)]: completionTimeSchema
   }
 }
 

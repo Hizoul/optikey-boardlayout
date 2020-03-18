@@ -1,8 +1,8 @@
 import { cloneDeep, find, get } from "lodash"
 import { js2xml, xml2js } from "xml-js"
-import { ExtendedJSONSchema, iterateSubFields } from "@xpfw/form/dist"
+import { ExtendedJSONSchema, iterateSubFields } from "@xpfw/form"
 import { keyGroupSchema } from "../form/defKeyGroup"
-import { isObject } from "mobx/lib/internal"
+import { actionNames } from "../form/def"
 
 export interface IKeyboard {
   Keyboard: {
@@ -17,10 +17,11 @@ export interface IKeyboard {
 
 const getElementText = (ele: any, def?: any) => get(ele, "elements[0].text", def)
 
-const getViaSchema = (schema: ExtendedJSONSchema, xmlEle: any) => {
+const getViaSchema = (schema: ExtendedJSONSchema, xmlEle: any, isAttribute?: boolean) => {
   const object: any = {}
   iterateSubFields(schema, (key, subSchema) => {
-    let value = getElementText(find(xmlEle, ["name", key]))
+    let value = isAttribute ? get(xmlEle, `attributes.${key}`)
+    : getElementText(find(xmlEle, ["name", key]))
     if (subSchema.type === "number") {
       value = Number(value)
       if (!isNaN(value)) {
@@ -52,24 +53,20 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   const BorderColor = getElementText(find(root, ["name", "BorderColor"]), "Black")
   const WindowState = getElementText(find(root, ["name", "WindowState"]), "Docked")
   const keys = get(find(root, ["name", "Content"]), "elements", [])
-  const Content = keys.map((entry: any) => {
+  const parseEntry = (entry: any) => {
     const eles = entry.elements
-    const keyGroupProperties = getViaSchema(keyGroupSchema, eles)
+    const keyGroupProperties = getViaSchema(keyGroupSchema, entry, true)
     const ele: any = {
       name: entry.name,
-      Row: Number(getElementText(find(eles, ["name", "Row"]), "7")),
-      Col: Number(getElementText(find(eles, ["name", "Col"]), "7")),
+      Row: Number(get(entry, "attributes.Row", 7)),
+      Col: Number(get(entry, "attributes.Col", 7)),
       ...keyGroupProperties
     }
-    const Text = getElementText(find(eles, ["name", "Text"]))
-    if (Text != null) {
-      ele.Text = Text
-    }
-    const Width = getElementText(find(eles, ["name", "Width"]))
+    const Width = get(entry, "attributes.Width")
     if (Width != null) {
       ele.Width = Width
     }
-    const Height = getElementText(find(eles, ["name", "Width"]))
+    const Height = get(entry, "attributes.Height")
     if (Height != null) {
       ele.Height = Height
     }
@@ -107,12 +104,36 @@ const xmlParser: (xml: string) => any = (xml: string) => {
         }
       }
     }
-    const Action = getElementText(find(eles, ["name", "Action"]))
-    if (Action != null) {
-      ele.Action = Action
+    const keyActions: any[] = []
+    const parseEle = (element: any) => {
+      const objToPush: any = {
+        actionType: element.name, value: getElementText(element)
+      }
+      if (element.name === "ChangeKeyboard") {
+        objToPush.BackReturnsHere = get(element, "attributes.BackReturnsHere", true)
+      }
+      if (element.name === "Loop") {
+        objToPush.Count = get(element, "attributes.Count")
+        objToPush.Wait = get(element, "attributes.Wait")
+        const subKeyActions: any[] = []
+        for (const subElement of element.elements) {
+          if (actionNames.indexOf(subElement.name) !== -1) {
+            subKeyActions.push(parseEle(subElement))
+          }
+        }
+        objToPush.keyActions = subKeyActions
+      }
+      return objToPush
     }
+    for (const element of eles) {
+      if (actionNames.indexOf(element.name) !== -1) {
+        keyActions.push(parseEle(element))
+      }
+    }
+    ele.keyActions = keyActions
     return ele
-  })
+  }
+  const Content = keys.map(parseEntry)
 
   const keyboard: any = {
     Keyboard: {
@@ -149,23 +170,58 @@ const objToNonCompactElements = (obj: any, toSkip: string[] = []) => {
   return nonCompact
 }
 
+const needsToBeAttribute = ["Row", "Col", "Width", "Height"].concat(Object.keys(keyGroupSchema.properties != null ? keyGroupSchema.properties : {}))
+
 const toXml = (keyboard: IKeyboard) => {
   let changedContent = []
   for (const key of keyboard.Keyboard.Content) {
-    let newKey = cloneDeep(key)
-    console.log("LOOKING AT ", newKey)
-    if (newKey.Text === "&") {
-      newKey.Text = "&amp;amp;"
-      newKey.Label = "&amp;amp;"
-    }
-    delete newKey.labelType
-    let name = newKey.name
-    delete newKey.name
-    let r = newKey.Row
-    let c = newKey.Col
-    newKey = objToNonCompactElements(newKey)
-    if (r < keyboard.Keyboard.Grid.Rows && c < keyboard.Keyboard.Grid.Cols) {
-      changedContent.push({type: "element", name, r, c, elements: newKey})
+    if (key != null) {
+      let newKey = cloneDeep(key)
+      if (newKey.Label === "&") {
+        newKey.Label = "&amp;amp;"
+      }
+      delete newKey.labelType
+      let name = newKey.name
+      delete newKey.name
+      let r = newKey.Row
+      let c = newKey.Col
+      const keyActions = newKey.keyActions
+      delete newKey.keyActions
+      const attributes: any = {}
+      for (const attribute of needsToBeAttribute) {
+        if (newKey[attribute] != null) {
+          attributes[attribute] = newKey[attribute]
+          delete newKey[attribute]
+        }
+      }
+      newKey = objToNonCompactElements(newKey)
+      const convertAction = (action: any) => {
+        let value = action.value
+        if (value === "&") {
+          value = "&amp;amp;"
+        }
+        const objToPush: any = {
+          type: "element", name: action.actionType, elements: [{type: "text", text: value}]
+        }
+        if (action.actionType === "ChangeKeyboard") {
+          objToPush.attributes = {BackReturnsHere: action.BackReturnsHere}
+        }
+        if (action.actionType === "Loop") {
+          objToPush.attributes = {Count: action.Count, Wait: action.Wait}
+          objToPush.elements = action.keyActions != null ? action.keyActions.map(convertAction) : []
+        }
+        return objToPush
+      }
+      if (keyActions != null) {
+        for (const action of keyActions) {
+          if (action != null) {
+            newKey.push(convertAction(action))
+          }
+        }
+      }
+      if (r < keyboard.Keyboard.Grid.Rows && c < keyboard.Keyboard.Grid.Cols) {
+        changedContent.push({type: "element", name, r, c, elements: newKey, attributes})
+      }
     }
   }
   const width = keyboard.Keyboard.Grid.Rows
@@ -181,7 +237,6 @@ const toXml = (keyboard: IKeyboard) => {
       ]}
     ]
   }, {compact: false, spaces: 2})
-  console.log("RES IS", res)
   return res.replace(/\&amp;/g, "&")
 }
 

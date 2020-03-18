@@ -9,7 +9,6 @@ const ArrayField: React.FunctionComponent<IFieldProps> = observer((props) => {
   let mapTo = getMapToFromProps(props)
   const arrayHelper = useArray(props.schema, mapTo, props.prefix)
   let hideArrayType = mapTo.indexOf("keyActions") !== -1 && arrayHelper.length < 2
-  console.log("ARRAY ", hideArrayType, mapTo, mapTo.indexOf("keyActions") !== -1, arrayHelper.length)
   return (
     <div>
       {arrayHelper.fields.map((field) => {

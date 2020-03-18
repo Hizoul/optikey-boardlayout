@@ -2,7 +2,7 @@ import { getMapToFromProps, IFieldProps, SharedField, useObject, FormStore } fro
 import { observer } from "mobx-react-lite"
 import * as React from "react"
 import actionKeyList from "../util/actionKeys"
-import { keyActionObjectSchema } from "./def"
+import { keyActionObjectSchema, actionNames} from "./def"
 
 const ObjectField: React.FunctionComponent<IFieldProps> = observer((props) => {
   const mapTo = getMapToFromProps(props)
@@ -11,9 +11,7 @@ const ObjectField: React.FunctionComponent<IFieldProps> = observer((props) => {
   if (props.schema != null && props.schema.title != null && props.schema.title.indexOf("keyActionObject") !== -1) {
     const currentSubType = FormStore.getValue(mapTo, props.prefix)
     if (currentSubType != null) {
-      if (currentSubType.actionType == "Action" || currentSubType.actionType == "Text" || currentSubType.actionType == "Loop"
-      || currentSubType.actionType == "ChangeKeyboard" || currentSubType.actionType == "Wait" || currentSubType.actionType == "KeyDown"
-      || currentSubType.actionType == "KeyToggle" || currentSubType.actionType == "KeyUp") {
+      if (actionNames.indexOf(currentSubType.actionType) !== -1) {
         let type = "string"
         let theme = "default"
         let selectOptions: any = null

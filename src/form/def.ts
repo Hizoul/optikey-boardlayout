@@ -13,7 +13,8 @@ ComponentRegistry.registerComponent("boolean", BooleanField)
 ComponentRegistry.registerComponent("object", ObjectField)
 ComponentRegistry.registerComponent("array", ArrayField)
 ComponentRegistry.registerComponent("string", SelectField, "select")
-const keyActionTypes: any[] = ["Action", "ChangeKeyboard", "KeyDown", "KeyUp", "Loop", "Text", "Wait"].map((v) =>{return {value: v, label: v}})
+const actionNames = ["Action", "ChangeKeyboard", "KeyDown", "KeyUp", "Loop", "Text", "Wait"]
+const keyActionTypes: any[] = actionNames.map((v) =>{return {value: v, label: v}})
 const keyActionObjectSchema = {
   type: "object",
   title: "keyActionObject",
@@ -129,5 +130,5 @@ export {
   nameSchema, heightSchema, borderSchema, symbolSchema, rowsSchema, colsSchema, keyboardPrefix,
   activeKey, dragKey, hoverKey, persistNewStateSchema, windowStateSchema,
   dockSizeSchema, positionSchema, widthSchema, horizontalSchema, verticalSchema,
-  backgroundColorSchema, borderColorSchema, hideFromListSchema, keyActionObjectSchema
+  backgroundColorSchema, borderColorSchema, hideFromListSchema, keyActionObjectSchema, actionNames
 }
