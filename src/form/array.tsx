@@ -23,15 +23,14 @@ const ArrayField: React.FunctionComponent<IFieldProps> = observer((props) => {
           </IconButton>}
         </div>
       )})}
-      {hideArrayType ? null : 
-        <Button
-          onClick={arrayHelper.increaseSize}
-          variant="contained"
-          fullWidth
-          endIcon={<AddIcon />}
-        >
-          Add
-        </Button>}
+      <Button
+        onClick={arrayHelper.increaseSize}
+        variant="contained"
+        fullWidth
+        endIcon={<AddIcon />}
+      >
+        Add
+      </Button>
     </div >
   )
 })

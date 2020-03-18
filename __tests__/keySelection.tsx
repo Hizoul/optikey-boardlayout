@@ -62,7 +62,6 @@ test("app", () => {
   const i4 = findIndex(Keyboard2.Content, {Row: 6, Col: 10})
   const i5 = findIndex(Keyboard2.Content, {Row: 6, Col: 9})
   const i6 = findIndex(Keyboard2.Content, {Row: 6, Col: 8})
-  console.log("GOT INDEX", i3, i4, i5, i6)
   FormStore.setValue("Keyboard", xmlParser(exampleKeyGroupOverrideXml).Keyboard)
   renderSnapshot(<App />, "test keygroup override parameters parsed successfully")
   clickHandler(i3, 6, 11)()

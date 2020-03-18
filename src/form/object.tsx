@@ -12,7 +12,6 @@ const ObjectField: React.FunctionComponent<IFieldProps> = observer((props) => {
     const currentSubType = FormStore.getValue(mapTo, props.prefix)
     if (currentSubType != null) {
       if (actionNames.indexOf(currentSubType.actionType) !== -1) {
-        console.log("LLOKING AT", currentSubType.actionType)
         let type = "string"
         let theme = "default"
         let selectOptions: any = null

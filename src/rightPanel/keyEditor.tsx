@@ -66,7 +66,6 @@ const KeyEditor = observer(() => {
   }
   const thisKeysGroupSchema = cloneDeep(keyGroupSchema)
   thisKeysGroupSchema.title = `Content[${keyIndex}]`
-  console.log("GOT VALUE", toJS(FormStore.getValue(keyboardPrefix), {recurseEverything: true}))
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
   const labelType = FormStore.getValue(labelTypeSchema.title, keyboardPrefix)
   const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
