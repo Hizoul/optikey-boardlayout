@@ -1,5 +1,6 @@
 import example from "../src/xml/example"
 import xmlParser, { toXml } from "../src/xml/parse"
+import { js2xml, xml2js } from "xml-js"
 
 test("parser", () => {
   const keyboard = xmlParser(example)

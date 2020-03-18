@@ -2,6 +2,7 @@ import { cloneDeep, find, get } from "lodash"
 import { js2xml, xml2js } from "xml-js"
 import { ExtendedJSONSchema, iterateSubFields } from "@xpfw/form/dist"
 import { keyGroupSchema } from "../form/defKeyGroup"
+import { isObject } from "mobx/lib/internal"
 
 export interface IKeyboard {
   Keyboard: {
@@ -33,7 +34,7 @@ const getViaSchema = (schema: ExtendedJSONSchema, xmlEle: any) => {
 }
 
 const xmlParser: (xml: string) => any = (xml: string) => {
-  const data = xml2js(xml)
+  const data = xml2js(xml, {compact: false})
   const root = data.elements[0].elements
   const Name = getElementText(find(root, ["name", "Name"]))
   const BorderThickness = getElementText(find(root, ["name", "BorderThickness"]))
@@ -55,7 +56,7 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     const eles = entry.elements
     const keyGroupProperties = getViaSchema(keyGroupSchema, eles)
     const ele: any = {
-      type: entry.name,
+      name: entry.name,
       Row: Number(getElementText(find(eles, ["name", "Row"]), "7")),
       Col: Number(getElementText(find(eles, ["name", "Col"]), "7")),
       ...keyGroupProperties
@@ -134,38 +135,53 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   return keyboard
 }
 
-const toXml = (keyboard: IKeyboard) => {
-  const changedContent: any = {
-    DynamicKey: [],
-    Scratchpad: [],
-    SuggestionRow: [],
-    SuggestionCol: []
+const objToNonCompactElements = (obj: any, toSkip: string[] = []) => {
+  const nonCompact: any[] = []
+  for (const k of Object.keys(obj)) {
+    if (toSkip.indexOf(k) === -1) {
+      nonCompact.push({
+        name: k, type: "element",
+        elements: 
+        (typeof obj[k] === "object") ? objToNonCompactElements(obj[k]) : [{type: "text", text: obj[k]}]
+      })
+    }
   }
+  return nonCompact
+}
+
+const toXml = (keyboard: IKeyboard) => {
+  let changedContent = []
   for (const key of keyboard.Keyboard.Content) {
-    const newKey = cloneDeep(key)
+    let newKey = cloneDeep(key)
+    console.log("LOOKING AT ", newKey)
     if (newKey.Text === "&") {
       newKey.Text = "&amp;amp;"
       newKey.Label = "&amp;amp;"
     }
-    delete newKey.type
-    delete newKey.caseSensitive
-    delete newKey.useSymbol
-    if (newKey.Row < keyboard.Keyboard.Grid.Rows && newKey.Col < keyboard.Keyboard.Grid.Cols) {
-      changedContent[key.type].push(newKey)
+    delete newKey.labelType
+    let name = newKey.name
+    delete newKey.name
+    let r = newKey.Row
+    let c = newKey.Col
+    newKey = objToNonCompactElements(newKey)
+    if (r < keyboard.Keyboard.Grid.Rows && c < keyboard.Keyboard.Grid.Cols) {
+      changedContent.push({type: "element", name, r, c, elements: newKey})
     }
   }
   const width = keyboard.Keyboard.Grid.Rows
-  const sorter = (objA: any, objB: any) => (objA.Row * width + objA.Col) - (objB.Row * width + objB.Col)
-  changedContent.DynamicKey = changedContent.DynamicKey.sort(sorter)
-  changedContent.Scratchpad = changedContent.Scratchpad.sort(sorter)
-  changedContent.SuggestionRow = changedContent.SuggestionRow.sort(sorter)
-  changedContent.SuggestionCol = changedContent.SuggestionCol.sort(sorter)
+  const sorter = (objA: any, objB: any) => {
+    return (objA.r * width + objA.c) - (objB.r * width + objB.c)
+  }
+  changedContent = changedContent.sort(sorter)
   const res = js2xml({
-    Keyboard: {
-      ...keyboard.Keyboard,
-      Content: changedContent
-    }
-  }, {compact: true, spaces: 2})
+    elements: [
+      {type: "element", name: "Keyboard", elements: [
+        ...objToNonCompactElements(keyboard.Keyboard, ["Content"]),
+        {type: "element", name: "Content", elements: changedContent}
+      ]}
+    ]
+  }, {compact: false, spaces: 2})
+  console.log("RES IS", res)
   return res.replace(/\&amp;/g, "&")
 }
 
