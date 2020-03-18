@@ -736,25 +736,25 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
     <Text>Multi</Text>
     <Action>BackOne</Action>
   </DynamicKey>
-  <DynamicKey Row="4" Col="4">
-  <Label>A burst with text</Label>
-  <Loop Count="3">
-    <KeyDown>a</KeyDown>
-    <Wait>100</Wait>
-    <KeyUp>a</KeyUp>
-  </Loop>
-  <Text>b</Text>
-</DynamicKey>
-<DynamicKey Row="4" Col="5">
-<ChangeKeyboard BackReturnsHere="False">HackerKeyboardSymbols2</ChangeKeyboard>
-<Label>BackWithReturnFalse</Label>
-</DynamicKey>
-<DynamicKey Row="4" Col="6" BackgroundColor="Blue" ForegroundColor="Blue" KeyDisabledBackgroud="Blue" KeyDisabledForeground="Blue"
-KeyDisabledOpacity="1" KeyDownBackground="Blue" KeyDownForeground="Blue" KeyDownOpacity="1" Opacity="1" UsePersianCompatibilityFont="true"
-UseUnicodeCompatibilityFont="true" UseUrduCompatibilityFont="true" SHaredSizeGroup="true" AutoScaleToOneKeyHeight="true" AutoScaleToOneKeyWidth="true" LockOnTime="500" CompletionTime="500,500,500">
-  <ChangeKeyboard BackReturnsHere="True">HackerKeyboardSymbols2</ChangeKeyboard>
-  <Label>BackWithReturnTrue</Label>
-</DynamicKey>
+  <DynamicKey Row="6" Col="9">
+    <Label>A burst with text</Label>
+    <Loop Count="3">
+      <KeyDown>a</KeyDown>
+      <Wait>100</Wait>
+      <KeyUp>a</KeyUp>
+    </Loop>
+    <Text>b</Text>
+  </DynamicKey>
+  <DynamicKey Row="6" Col="10">
+    <Label>BackWithReturnFalse</Label>
+    <ChangeKeyboard BackReturnsHere="false">HackerKeyboardSymbols2</ChangeKeyboard>
+  </DynamicKey>
+  <DynamicKey Row="6" Col="11"  Row="4" Col="6" BackgroundColor="Blue" ForegroundColor="Blue" KeyDisabledBackgroud="Blue" KeyDisabledForeground="Blue"
+  KeyDisabledOpacity="1" KeyDownBackground="Blue" KeyDownForeground="Blue" KeyDownOpacity="1" Opacity="1" UsePersianCompatibilityFont="true"
+  UseUnicodeCompatibilityFont="true" UseUrduCompatibilityFont="true" SHaredSizeGroup="true" AutoScaleToOneKeyHeight="true" AutoScaleToOneKeyWidth="true" LockOnTime="500" CompletionTime="500,500,500">
+    <Label>BackWithReturnTrue</Label>
+    <ChangeKeyboard BackReturnsHere="true">HackerKeyboardSymbols2</ChangeKeyboard>
+  </DynamicKey>
 </Content>
 </Keyboard>`
 

@@ -58,6 +58,7 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     const keyGroupProperties = getViaSchema(keyGroupSchema, entry, true)
     const ele: any = {
       name: entry.name,
+      type: entry.name,
       Row: Number(get(entry, "attributes.Row", 7)),
       Col: Number(get(entry, "attributes.Col", 7)),
       ...keyGroupProperties
@@ -110,7 +111,7 @@ const xmlParser: (xml: string) => any = (xml: string) => {
         actionType: element.name, value: getElementText(element)
       }
       if (element.name === "ChangeKeyboard") {
-        objToPush.BackReturnsHere = get(element, "attributes.BackReturnsHere", true)
+        objToPush.BackReturnsHere = get(element, "attributes.BackReturnsHere", "true") === "true"
       }
       if (element.name === "Loop") {
         objToPush.Count = get(element, "attributes.Count")
@@ -226,7 +227,11 @@ const toXml = (keyboard: IKeyboard) => {
   }
   const width = keyboard.Keyboard.Grid.Rows
   const sorter = (objA: any, objB: any) => {
-    return (objA.r * width + objA.c) - (objB.r * width + objB.c)
+    let initial = objA.r * width - objB.r * width
+    if (initial == 0) {
+      return objA.c - objB.c
+    }
+    return initial
   }
   changedContent = changedContent.sort(sorter)
   const res = js2xml({

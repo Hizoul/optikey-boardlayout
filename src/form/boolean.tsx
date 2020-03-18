@@ -22,6 +22,7 @@ const BooleanField: React.FunctionComponent<IFieldProps & {
   const mapTo = getMapToFromProps(props)
   const fieldHelper = useFieldWithValidation(props.schema, mapTo, props.prefix)
   const setBool = changeWrapper(fieldHelper)
+  console.log("VALUE IS", typeof(fieldHelper.value), fieldHelper.value)
   return (
     <div className="flex horizontal inputMargin">
       <FormControlLabel

@@ -28,11 +28,11 @@ const keyMaker = (index: number, row: number, col: number) => `x${index}X${row}X
 const clickHandler = (index: number, Row: number, Col: number) => memo(() => action(() => {
   let indexToUse = index
   if (indexToUse === -1) {
-    const keys = FormStore.getValue(`${keyboardPrefix}.Content`)
-    indexToUse = keys.push({
-      Row, Col, type: "DynamicKey", Text: "", Label: "", caseSensitive: false, useSymbol: false
-    }) - 1
-    FormStore.getValue(`${keyboardPrefix}.Content`, keys)
+    // const keys = FormStore.getValue(`${keyboardPrefix}.Content`)
+    // indexToUse = keys.push({
+    //   Row, Col, type: "DynamicKey", Text: "", Label: ""
+    // }) - 1
+    // FormStore.getValue(`${keyboardPrefix}.Content`, keys)
   }
   FormStore.setValue(activeKey, indexToUse)
   setTimeout(resizeEventListener, 1100)
