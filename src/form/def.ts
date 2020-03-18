@@ -3,12 +3,26 @@ import { registerComponents } from "@xpfw/form-web"
 import BooleanField from "./boolean"
 import SelectField from "./select"
 import TextField from "./text"
+import ObjectField from "./object"
+import ArrayField from "./array"
 
 registerComponents()
 ComponentRegistry.registerComponent("number", TextField)
 ComponentRegistry.registerComponent("string", TextField)
 ComponentRegistry.registerComponent("boolean", BooleanField)
+ComponentRegistry.registerComponent("object", ObjectField)
+ComponentRegistry.registerComponent("array", ArrayField)
 ComponentRegistry.registerComponent("string", SelectField, "select")
+const keyActionTypes: any[] = ["Action", "ChangeKeyboard", "KeyDown", "KeyUp", "Loop", "Text", "Wait"].map((v) =>{return {value: v, label: v}})
+const keyActionObjectSchema = {
+  type: "object",
+  title: "keyActionObject",
+  properties: {
+    actionType: {
+      type: "string", theme: "select", selectOptions: keyActionTypes,
+      description: "The action type determines what kind of input is sent to the OS on key press."}
+  }
+}
 
 const nameSchema: ExtendedJSONSchema = {
   title: "Name", type: "string",
@@ -115,5 +129,5 @@ export {
   nameSchema, heightSchema, borderSchema, symbolSchema, rowsSchema, colsSchema, keyboardPrefix,
   activeKey, dragKey, hoverKey, persistNewStateSchema, windowStateSchema,
   dockSizeSchema, positionSchema, widthSchema, horizontalSchema, verticalSchema,
-  backgroundColorSchema, borderColorSchema, hideFromListSchema
+  backgroundColorSchema, borderColorSchema, hideFromListSchema, keyActionObjectSchema
 }

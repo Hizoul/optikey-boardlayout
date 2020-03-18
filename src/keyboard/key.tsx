@@ -71,8 +71,9 @@ const KeyDisplay: React.FunctionComponent<{
   const isDragged = FormStore.getValue(k, dragKey, false)
   const keyIndex = FormStore.getValue(activeKey, undefined)
   const selected = props.index === keyIndex
-  const useSymbol = get(props, "entry.useSymbol", false)
-  const caseSensitive = get(props, "entry.caseSensitive", false)
+  const labelType = get(props, "entry.labelType", "Text")
+  const useSymbol = labelType === "Symbol"
+  const caseSensitive = labelType === "Case Sensitive Text"
   const textLabel = get(props, (useSymbol ? "entry.Symbol" : caseSensitive ? "entry.ShiftDownLabel" : "entry.Label"), get(props, "entry.Action"))
   const useSmall = textLabel == null ? false : textLabel.length > 4
   return (

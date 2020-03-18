@@ -75,23 +75,22 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     const ShiftUpLabel = getElementText(find(eles, ["name", "ShiftUpLabel"]))
     if (ShiftUpLabel != null) {
       ele.ShiftUpLabel = ShiftUpLabel
-      ele.caseSensitive = true
+      ele.labelType = "Case Sensitive Text"
     }
     const ShiftDownLabel = getElementText(find(eles, ["name", "ShiftDownLabel"]))
     if (ShiftDownLabel != null) {
       ele.ShiftDownLabel = ShiftDownLabel
-      ele.caseSensitive = true
+      ele.labelType = "Case Sensitive Text"
     }
     const Label = getElementText(find(eles, ["name", "Label"]))
     if (ele.caseSensitive == null && Label != null) {
       ele.Label = Label
-      ele.caseSensitive = false
-      ele.useSymbol = false
+      ele.labelType = "Text"
     }
     const sym = getElementText(find(eles, ["name", "Symbol"]))
     if (sym != null) {
       ele.Symbol = sym
-      ele.useSymbol = true
+      ele.labelType = "Symbol"
       switch (ele.Symbol) {
         case "SpaceIcon": {
           ele.Text = "&#32;"
@@ -110,7 +109,6 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     const Action = getElementText(find(eles, ["name", "Action"]))
     if (Action != null) {
       ele.Action = Action
-      ele.isAction = true
     }
     return ele
   })

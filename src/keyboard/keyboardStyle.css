@@ -96,3 +96,12 @@ span.i {
 .simplePanel::before {
   opacity: 0 !important;
 }
+
+.objectMargin {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.negateMarginBot {
+  margin-bottom: -20px !important
+}

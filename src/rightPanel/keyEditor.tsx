@@ -8,7 +8,7 @@ import { SelectField } from "@xpfw/form-web"
 import { cloneDeep, keys, get } from "lodash"
 import { observer } from "mobx-react-lite"
 import * as React from "react"
-import { activeKey, keyboardPrefix } from "../form/def"
+import { activeKey, keyboardPrefix, keyActionObjectSchema } from "../form/def"
 import actionKeyList from "../util/actionKeys"
 import symbolList from "../util/symbols"
 import { keyGroupSchema } from "../form/defKeyGroup"
@@ -16,17 +16,15 @@ import { resizeTriggerer } from "./index"
 
 const keyTypes: any[] = ["DynamicKey", "Scratchpad", "SuggestionRow", "SuggestionCol"].map((v) =>{return {value: v, label: v}})
 
+
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
   const keysLength = FormStore.getValue("Content.length", keyboardPrefix, 2)
   const typeSchema = {
     title: `Content[${keyIndex}].type`,
     type: "string", theme: "select",
-    selectOptions: keyTypes
-  }
-  const textSchema = {
-    title: `Content[${keyIndex}].Text`,
-    type: "string"
+    selectOptions: keyTypes,
+    description: "Determines what kind of action happens when a key is pressed."
   }
   const labelSchema = {
     title: `Content[${keyIndex}].Label`,
@@ -54,70 +52,55 @@ const KeyEditor = observer(() => {
     theme: "select",
     selectOptions: symbolList.map((v) => ({label: v, value: v}))
   }
-  const actionSchema = {
-    title: `Content[${keyIndex}].Action`,
+  const keyActionSchema = {
+    title: `Content[${keyIndex}].keyActions`,
+    type: "array",
+    items: keyActionObjectSchema
+  }
+  const labelTypeSchema = {
+    title: `Content[${keyIndex}].labelType`,
     type: "string",
-    theme: "select",
-    selectOptions: actionKeyList.map((v) => ({label: v, value: v}))
-  }
-  const isActionSchema = {
-    title: `Content[${keyIndex}].isAction`,
-    type: "boolean"
-  }
-  const caseSensitiveSchema = {
-    title: `Content[${keyIndex}].caseSensitive`,
-    type: "boolean"
-  }
-  const useSymbolSchema = {
-    title: `Content[${keyIndex}].useSymbol`,
-    type: "boolean"
+    theme: "select", selectOptions: ["Text", "Case Sensitive Text", "Symbol"].map((v) => ({label: v, value: v})),
+    description: "Determines what is shown on the key"
   }
   const thisKeysGroupSchema = cloneDeep(keyGroupSchema)
   thisKeysGroupSchema.title = `Content[${keyIndex}]`
-  const caseSensitiveValue = FormStore.getValue(caseSensitiveSchema.title, keyboardPrefix)
-  const useSymbol = FormStore.getValue(useSymbolSchema.title, keyboardPrefix)
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
-  const isAction = FormStore.getValue(isActionSchema.title, keyboardPrefix, false)
+  const labelType = FormStore.getValue(labelTypeSchema.title, keyboardPrefix)
   const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
   let editContent
   switch (typeValue) {
     case keyTypes[0].value: {
       editContent = (
-        <>
-          <SharedField schema={isActionSchema} prefix={keyboardPrefix} />
-          {isAction ? (
-            <>
-              <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
-              <SharedField schema={actionSchema} prefix={keyboardPrefix} />
-            </>
-          ) : (
-            <>
-              <SharedField schema={useSymbolSchema} prefix={keyboardPrefix} />
-              {useSymbol ?
-                <SharedField schema={symbolSchema} prefix={keyboardPrefix} /> :
-                (<>
-                  <SharedField schema={textSchema} prefix={keyboardPrefix} />
-                  <SharedField schema={caseSensitiveSchema} prefix={keyboardPrefix} />
-                  {caseSensitiveValue ? (
-                    <>
-                      <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
-                      <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
-                    </>
-                  ) : <>
-                    <SharedField schema={labelSchema} prefix={keyboardPrefix} />
-                  </>}
-                </>)
-                }
-            </>
-          )}
-        </>)
+        <ExpansionPanel className="simplePanel">
+          <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
+            <Typography>Label</Typography>
+          </ExpansionPanelSummary>
+          <ExpansionPanelDetails className="simplePanel">
+            <div className="flex1 vertical">
+              <SharedField schema={labelTypeSchema} prefix={keyboardPrefix} />
+              {labelType === "Symbol" ? (
+                <>
+                  <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+                </>
+              ) : labelType === "Text" ? (
+                <SharedField schema={labelSchema} prefix={keyboardPrefix} />
+              ) : (
+                <>
+                  <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
+                  <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
+                </>
+              )}
+            </div>
+          </ExpansionPanelDetails>
+        </ExpansionPanel>)
       break
     }
   }
   const keyGroupPrefix = `${keyboardPrefix}.Content[${keyIndex}]`
   const keyGroupEditor = (
     <ExpansionPanel className="simplePanel">
-      <ExpansionPanelSummary className="simplePanel" expandIcon={<ExpandMoreIcon />}>
+      <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
         <Typography>Override Keygroup Settings</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails className="simplePanel">
@@ -133,7 +116,7 @@ const KeyEditor = observer(() => {
   )
   return (
     <ExpansionPanel expanded={keySelected ? true : false} onChange={resizeTriggerer}>
-      <ExpansionPanelSummary>
+      <ExpansionPanelSummary className={keySelected ? "negateMarginBot" : ""}>
         <Typography>{keySelected ? "Key Settings" : "Click on a key to edit it here"}</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
@@ -141,6 +124,17 @@ const KeyEditor = observer(() => {
           <div className="vertical flex1">
             <SharedField schema={typeSchema} prefix={keyboardPrefix} />
             {editContent}
+
+            <ExpansionPanel className="simplePanel">
+              <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
+                <Typography>Actions</Typography>
+              </ExpansionPanelSummary>
+              <ExpansionPanelDetails className="simplePanel">
+                <div className="flex1 vertical">
+                  <SharedField schema={keyActionSchema} prefix={keyboardPrefix} />
+                </div>
+              </ExpansionPanelDetails>
+            </ExpansionPanel>
             {keyGroupEditor}
           </div>
         ) : (
