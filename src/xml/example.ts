@@ -391,6 +391,8 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   <Rows>7</Rows>
   <Cols>12</Cols>
 </Grid>
+<KeyGroup Name="Blue Keys" BackgroundColor="Blue" />
+<KeyGroup Name="Red Keys" BackgroundColor="Red" />
 <Content>
   <DynamicKey Row="0" Col="0">
     <Text>~</Text>
@@ -749,9 +751,9 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
     <Label>BackWithReturnFalse</Label>
     <ChangeKeyboard BackReturnsHere="false">HackerKeyboardSymbols2</ChangeKeyboard>
   </DynamicKey>
-  <DynamicKey Row="6" Col="11"  Row="4" Col="6" BackgroundColor="Blue" ForegroundColor="Blue" KeyDisabledBackgroud="Blue" KeyDisabledForeground="Blue"
+  <DynamicKey Row="6" Col="11" Width="1" Height="1" BackgroundColor="Blue" ForegroundColor="Blue" KeyDisabledBackgroud="Blue" KeyDisabledForeground="Blue"
   KeyDisabledOpacity="1" KeyDownBackground="Blue" KeyDownForeground="Blue" KeyDownOpacity="1" Opacity="1" UsePersianCompatibilityFont="true"
-  UseUnicodeCompatibilityFont="true" UseUrduCompatibilityFont="true" SHaredSizeGroup="true" AutoScaleToOneKeyHeight="true" AutoScaleToOneKeyWidth="true" LockOnTime="500" CompletionTime="500,500,500">
+  UseUnicodeCompatibilityFont="true" UseUrduCompatibilityFont="true" SharedSizeGroup="true" AutoScaleToOneKeyHeight="true" AutoScaleToOneKeyWidth="true" LockOnTime="500" CompletionTime="500,500,500">
     <Label>BackWithReturnTrue</Label>
     <ChangeKeyboard BackReturnsHere="true">HackerKeyboardSymbols2</ChangeKeyboard>
   </DynamicKey>

@@ -17,23 +17,6 @@ export interface IKeyboard {
 
 const getElementText = (ele: any, def?: any) => get(ele, "elements[0].text", def)
 
-const getViaSchema = (schema: ExtendedJSONSchema, xmlEle: any, isAttribute?: boolean) => {
-  const object: any = {}
-  iterateSubFields(schema, (key, subSchema) => {
-    let value = isAttribute ? get(xmlEle, `attributes.${key}`)
-    : getElementText(find(xmlEle, ["name", key]))
-    if (subSchema.type === "number") {
-      value = Number(value)
-      if (!isNaN(value)) {
-        object[key] = value
-      }
-    } else if (value != null) {
-      object[key] = value
-    }
-  })
-  return object
-}
-
 const xmlParser: (xml: string) => any = (xml: string) => {
   const data = xml2js(xml, {compact: false})
   const root = data.elements[0].elements
@@ -53,15 +36,20 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   const BorderColor = getElementText(find(root, ["name", "BorderColor"]), "Black")
   const WindowState = getElementText(find(root, ["name", "WindowState"]), "Docked")
   const keys = get(find(root, ["name", "Content"]), "elements", [])
+  const keyGroups: any[] = []
+  for (const entryInRoot of root) {
+    if (entryInRoot.name === "KeyGroup") {
+      keyGroups.push(entryInRoot.attributes)
+    }
+  }
   const parseEntry = (entry: any) => {
     const eles = entry.elements
-    const keyGroupProperties = getViaSchema(keyGroupSchema, entry, true)
     const ele: any = {
+      ...entry.attributes,
       name: entry.name,
       type: entry.name,
       Row: Number(get(entry, "attributes.Row", 7)),
       Col: Number(get(entry, "attributes.Col", 7)),
-      ...keyGroupProperties
     }
     const Width = get(entry, "attributes.Width")
     if (Width != null) {
@@ -151,6 +139,7 @@ const xmlParser: (xml: string) => any = (xml: string) => {
       BorderColor,
       WindowState,
       Grid: {Rows, Cols},
+      keyGroups,
       Content
     }
   }
@@ -234,10 +223,15 @@ const toXml = (keyboard: IKeyboard) => {
     return initial
   }
   changedContent = changedContent.sort(sorter)
+  const keyGroupElements = get(keyboard, "Keyboard.keyGroups", []).map((group: any) => {
+    const groupProps = {...group}
+    return {type: "element", name: "KeyGroup", attributes: groupProps}
+  })
   const res = js2xml({
     elements: [
       {type: "element", name: "Keyboard", elements: [
-        ...objToNonCompactElements(keyboard.Keyboard, ["Content"]),
+        ...objToNonCompactElements(keyboard.Keyboard, ["Content", "keyGroups"]),
+        ...keyGroupElements,
         {type: "element", name: "Content", elements: changedContent}
       ]}
     ]

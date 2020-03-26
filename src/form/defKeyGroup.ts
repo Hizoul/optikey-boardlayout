@@ -73,6 +73,10 @@ const completionTimeSchema: ExtendedJSONSchema = {
   title: "CompletionTime", type: "number",
   description: "milliseconds from the start of the progress animation to the key being triggered"
 }
+const groupNameSchema: ExtendedJSONSchema = {
+  title: "Name", type: "string",
+  description: "The name of the keygroup"
+}
 
 const keyGroupSchema: ExtendedJSONSchema = {
   type: "object",
@@ -98,6 +102,18 @@ const keyGroupSchema: ExtendedJSONSchema = {
   }
 }
 
+const keyGroupArraySchema: ExtendedJSONSchema = {
+  type: "array",
+  title: "keyGroups",
+  items: {
+    type: "object",
+    properties: {
+      [String(groupNameSchema.title)]: groupNameSchema,
+      ...keyGroupSchema.properties
+    }
+  }
+}
+
 export {
-  keyGroupSchema
+  keyGroupSchema, keyGroupArraySchema
 }

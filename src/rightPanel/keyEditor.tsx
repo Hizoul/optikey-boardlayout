@@ -73,7 +73,7 @@ const KeyEditor = observer(() => {
   switch (typeValue) {
     case keyTypes[0].value: {
       editContent = (
-        <ExpansionPanel className="simplePanel">
+        <ExpansionPanel key="editLabel" className="simplePanel">
           <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
             <Typography>Label</Typography>
           </ExpansionPanelSummary>
@@ -109,7 +109,7 @@ const KeyEditor = observer(() => {
           <SharedField schema={widthSchema} prefix={keyboardPrefix} />
           <SharedField schema={heightSchema} prefix={keyboardPrefix} />
           {keys(thisKeysGroupSchema.properties).map((key) =>
-          <SharedField schema={get(thisKeysGroupSchema, `properties.${key}`)} prefix={keyGroupPrefix} />)}
+          <SharedField key={key} schema={get(thisKeysGroupSchema, `properties.${key}`)} prefix={keyGroupPrefix} />)}
 
         </div>
       </ExpansionPanelDetails>

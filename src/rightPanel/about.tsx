@@ -53,7 +53,7 @@ const AboutPanel = observer(() => {
             all authors of open source libraries
           </Link>
           &nbsp;enabling the existence of this tool.<br />
-          Look at the <Link href="https://github.com/OptiKey/OptiKey/wiki/Creating-and-Using-Dynamic-Keyboards">custom keyboard documentation</Link> for explanations on what the settings mean.
+          Refer to the <Link href="https://github.com/OptiKey/OptiKey/wiki/Creating-and-Using-Dynamic-Keyboards">custom keyboard documentation</Link> for explanations on what the settings mean.
         </Typography>
       </ExpansionPanelDetails>
       <Dialog

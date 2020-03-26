@@ -1199,6 +1199,7 @@ Object {
   "VerticalOffset": 0,
   "Width": 100,
   "WindowState": "Docked",
+  "keyGroups": Array [],
 }
 `;
 

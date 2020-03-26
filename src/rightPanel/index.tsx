@@ -15,6 +15,7 @@ import AboutPanel from "./about"
 import KeyboardImporter from "./import"
 import KeyEditor from "./keyEditor"
 import { resizeEventListener } from "../keyboard"
+import KeyGroupsComponent from "./keyGroups"
 
 const resizeTriggerer = () => setTimeout(resizeEventListener, 1000)
 
@@ -48,6 +49,7 @@ const RightPanel: React.FunctionComponent<any> = () => {
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <KeyEditor />
+      <KeyGroupsComponent />
       <AboutPanel />
     </div>
   )

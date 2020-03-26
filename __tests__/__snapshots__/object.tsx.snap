@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app: with invalid actionType specified 1`] = `
+<div
+  className="flex1 vertical"
+>
+  <div
+    className="MuiFormControl-root inputMargin"
+  >
+    <input
+      fullWidth={true}
+      inputProps={
+        Object {
+          "max": undefined,
+          "min": undefined,
+          "step": undefined,
+        }
+      }
+      label="keyActionObject.bla"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <p
+      className="MuiFormHelperText-root"
+    />
+  </div>
+  <div
+    className="MuiFormControl-root inputMargin"
+  >
+    <input
+      fullWidth={true}
+      inputProps={
+        Object {
+          "max": undefined,
+          "min": undefined,
+          "step": undefined,
+        }
+      }
+      label="keyActionObject.blu"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <p
+      className="MuiFormHelperText-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`app: without actionType specified 1`] = `
+<div
+  className="flex1 vertical"
+>
+  <div
+    className="MuiFormControl-root inputMargin"
+  >
+    <input
+      fullWidth={true}
+      inputProps={
+        Object {
+          "max": undefined,
+          "min": undefined,
+          "step": undefined,
+        }
+      }
+      label="keyActionObject.bla"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <p
+      className="MuiFormHelperText-root"
+    />
+  </div>
+  <div
+    className="MuiFormControl-root inputMargin"
+  >
+    <input
+      fullWidth={true}
+      inputProps={
+        Object {
+          "max": undefined,
+          "min": undefined,
+          "step": undefined,
+        }
+      }
+      label="keyActionObject.blu"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <p
+      className="MuiFormHelperText-root"
+    />
+  </div>
+</div>
+`;

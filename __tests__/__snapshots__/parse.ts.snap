@@ -18,6 +18,8 @@ exports[`parser: advanced js to xml 1`] = `
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
+  <KeyGroup Name=\\"Blue Keys\\" BackgroundColor=\\"Blue\\"/>
+  <KeyGroup Name=\\"Red Keys\\" BackgroundColor=\\"Red\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <type>DynamicKey</type>
@@ -459,7 +461,8 @@ exports[`parser: advanced js to xml 1`] = `
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+      <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <type>DynamicKey</type>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -1672,19 +1675,24 @@ Object {
         "AutoScaleToOneKeyWidth": "true",
         "BackgroundColor": "Blue",
         "Col": 11,
+        "CompletionTime": "500,500,500",
         "ForegroundColor": "Blue",
+        "Height": "1",
+        "KeyDisabledBackgroud": "Blue",
         "KeyDisabledForeground": "Blue",
-        "KeyDisabledOpacity": 1,
+        "KeyDisabledOpacity": "1",
         "KeyDownBackground": "Blue",
         "KeyDownForeground": "Blue",
-        "KeyDownOpacity": 1,
+        "KeyDownOpacity": "1",
         "Label": "BackWithReturnTrue",
-        "LockOnTime": 500,
-        "Opacity": 1,
+        "LockOnTime": "500",
+        "Opacity": "1",
         "Row": 6,
+        "SharedSizeGroup": "true",
         "UsePersianCompatibilityFont": "true",
         "UseUnicodeCompatibilityFont": "true",
         "UseUrduCompatibilityFont": "true",
+        "Width": "1",
         "keyActions": Array [
           Object {
             "BackReturnsHere": true,
@@ -1710,6 +1718,16 @@ Object {
     "VerticalOffset": 0,
     "Width": 100,
     "WindowState": "Docked",
+    "keyGroups": Array [
+      Object {
+        "BackgroundColor": "Blue",
+        "Name": "Blue Keys",
+      },
+      Object {
+        "BackgroundColor": "Red",
+        "Name": "Red Keys",
+      },
+    ],
   },
 }
 `;
@@ -3587,6 +3605,7 @@ Object {
     "VerticalOffset": 0,
     "Width": 100,
     "WindowState": "Docked",
+    "keyGroups": Array [],
   },
 }
 `;
