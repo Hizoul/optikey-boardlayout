@@ -8,7 +8,7 @@ exports[`100percent: select field with function args 1`] = `
     className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
     data-shrink={false}
   >
-    my select with func
+    My select with func
   </label>
   <select>
     <option />

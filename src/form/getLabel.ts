@@ -1,6 +1,12 @@
 const getLabel = (label: string) => {
-  const i = label.indexOf("]")
-  return i === -1 ? label : label.substring(i + 2)
+  let shortened = label
+  const i = label.lastIndexOf("]")
+  if (i !== -1) {
+    shortened = shortened.substring(i + 2)
+  }
+  shortened = shortened.replace(/([A-Z])/g, ' $1')
+  shortened = shortened.charAt(0).toUpperCase() + shortened.slice(1)
+  return shortened
 }
 
 export default getLabel

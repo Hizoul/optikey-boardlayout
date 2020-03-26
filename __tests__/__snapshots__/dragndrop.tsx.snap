@@ -2369,7 +2369,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Name"
+                      label=" Name"
                       onChange={[Function]}
                       type="text"
                       value="OptiKey-BoardMaker"
@@ -2392,7 +2392,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Rows"
+                      label=" Grid. Rows"
                       onChange={[Function]}
                       type="number"
                       value={7}
@@ -2415,7 +2415,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Cols"
+                      label=" Grid. Cols"
                       onChange={[Function]}
                       type="number"
                       value={12}
@@ -2438,7 +2438,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Height"
+                      label=" Height"
                       onChange={[Function]}
                       type="number"
                       value={40}
@@ -2461,7 +2461,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Width"
+                      label=" Width"
                       onChange={[Function]}
                       type="number"
                       value={100}
@@ -2484,7 +2484,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderThickness"
+                      label=" Border Thickness"
                       onChange={[Function]}
                       type="text"
                       value="0,0,0,0"
@@ -2507,7 +2507,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="SymbolMargin"
+                      label=" Symbol Margin"
                       onChange={[Function]}
                       type="number"
                       value={1}
@@ -2525,7 +2525,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      Position
+                       Position
                     </label>
                     <select>
                       <option>
@@ -2606,7 +2606,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        PersistNewState
+                         Persist New State
                       </span>
                     </label>
                     <p
@@ -2622,7 +2622,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      WindowState
+                       Window State
                     </label>
                     <select>
                       <option>
@@ -2648,7 +2648,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      DockSize
+                       Dock Size
                     </label>
                     <select>
                       <option>
@@ -2676,7 +2676,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="HorizontalOffset"
+                      label=" Horizontal Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -2699,7 +2699,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="VerticalOffset"
+                      label=" Vertical Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -2722,7 +2722,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BackgroundColor"
+                      label=" Background Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -2745,7 +2745,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderColor"
+                      label=" Border Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -2803,7 +2803,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        HideFromKeyboardMenu
+                         Hide From Keyboard Menu
                       </span>
                     </label>
                     <p
@@ -3120,7 +3120,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue Keys"
@@ -3143,7 +3143,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue"
@@ -3166,7 +3166,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3189,7 +3189,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3212,7 +3212,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3235,7 +3235,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -3256,7 +3256,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3279,7 +3279,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3302,7 +3302,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -3323,7 +3323,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -3379,7 +3379,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -3435,7 +3435,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -3491,7 +3491,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -3547,7 +3547,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -3601,7 +3601,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -3655,7 +3655,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -3674,7 +3674,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -3697,7 +3697,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -3863,7 +3863,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red Keys"
@@ -3886,7 +3886,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red"
@@ -3909,7 +3909,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3932,7 +3932,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3955,7 +3955,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -3978,7 +3978,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -3999,7 +3999,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -4022,7 +4022,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -4045,7 +4045,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -4066,7 +4066,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -4122,7 +4122,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -4178,7 +4178,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -4234,7 +4234,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -4290,7 +4290,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -4344,7 +4344,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -4398,7 +4398,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -4417,7 +4417,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -4440,7 +4440,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -7042,7 +7042,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Name"
+                      label=" Name"
                       onChange={[Function]}
                       type="text"
                       value="OptiKey-BoardMaker"
@@ -7065,7 +7065,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Rows"
+                      label=" Grid. Rows"
                       onChange={[Function]}
                       type="number"
                       value={7}
@@ -7088,7 +7088,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Cols"
+                      label=" Grid. Cols"
                       onChange={[Function]}
                       type="number"
                       value={12}
@@ -7111,7 +7111,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Height"
+                      label=" Height"
                       onChange={[Function]}
                       type="number"
                       value={40}
@@ -7134,7 +7134,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Width"
+                      label=" Width"
                       onChange={[Function]}
                       type="number"
                       value={100}
@@ -7157,7 +7157,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderThickness"
+                      label=" Border Thickness"
                       onChange={[Function]}
                       type="text"
                       value="0,0,0,0"
@@ -7180,7 +7180,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="SymbolMargin"
+                      label=" Symbol Margin"
                       onChange={[Function]}
                       type="number"
                       value={1}
@@ -7198,7 +7198,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      Position
+                       Position
                     </label>
                     <select>
                       <option>
@@ -7279,7 +7279,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        PersistNewState
+                         Persist New State
                       </span>
                     </label>
                     <p
@@ -7295,7 +7295,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      WindowState
+                       Window State
                     </label>
                     <select>
                       <option>
@@ -7321,7 +7321,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      DockSize
+                       Dock Size
                     </label>
                     <select>
                       <option>
@@ -7349,7 +7349,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="HorizontalOffset"
+                      label=" Horizontal Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -7372,7 +7372,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="VerticalOffset"
+                      label=" Vertical Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -7395,7 +7395,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BackgroundColor"
+                      label=" Background Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -7418,7 +7418,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderColor"
+                      label=" Border Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -7476,7 +7476,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        HideFromKeyboardMenu
+                         Hide From Keyboard Menu
                       </span>
                     </label>
                     <p
@@ -7793,7 +7793,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue Keys"
@@ -7816,7 +7816,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue"
@@ -7839,7 +7839,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -7862,7 +7862,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -7885,7 +7885,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -7908,7 +7908,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -7929,7 +7929,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -7952,7 +7952,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -7975,7 +7975,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -7996,7 +7996,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -8052,7 +8052,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -8108,7 +8108,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -8164,7 +8164,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -8220,7 +8220,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -8274,7 +8274,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -8328,7 +8328,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -8347,7 +8347,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -8370,7 +8370,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -8536,7 +8536,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red Keys"
@@ -8559,7 +8559,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red"
@@ -8582,7 +8582,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -8605,7 +8605,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -8628,7 +8628,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -8651,7 +8651,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -8672,7 +8672,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -8695,7 +8695,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -8718,7 +8718,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -8739,7 +8739,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -8795,7 +8795,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -8851,7 +8851,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -8907,7 +8907,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -8963,7 +8963,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -9017,7 +9017,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -9071,7 +9071,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -9090,7 +9090,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -9113,7 +9113,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -11702,7 +11702,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Name"
+                      label=" Name"
                       onChange={[Function]}
                       type="text"
                       value="OptiKey-BoardMaker"
@@ -11725,7 +11725,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Rows"
+                      label=" Grid. Rows"
                       onChange={[Function]}
                       type="number"
                       value={7}
@@ -11748,7 +11748,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Cols"
+                      label=" Grid. Cols"
                       onChange={[Function]}
                       type="number"
                       value={12}
@@ -11771,7 +11771,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Height"
+                      label=" Height"
                       onChange={[Function]}
                       type="number"
                       value={40}
@@ -11794,7 +11794,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Width"
+                      label=" Width"
                       onChange={[Function]}
                       type="number"
                       value={100}
@@ -11817,7 +11817,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderThickness"
+                      label=" Border Thickness"
                       onChange={[Function]}
                       type="text"
                       value="0,0,0,0"
@@ -11840,7 +11840,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="SymbolMargin"
+                      label=" Symbol Margin"
                       onChange={[Function]}
                       type="number"
                       value={1}
@@ -11858,7 +11858,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      Position
+                       Position
                     </label>
                     <select>
                       <option>
@@ -11939,7 +11939,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        PersistNewState
+                         Persist New State
                       </span>
                     </label>
                     <p
@@ -11955,7 +11955,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      WindowState
+                       Window State
                     </label>
                     <select>
                       <option>
@@ -11981,7 +11981,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      DockSize
+                       Dock Size
                     </label>
                     <select>
                       <option>
@@ -12009,7 +12009,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="HorizontalOffset"
+                      label=" Horizontal Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -12032,7 +12032,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="VerticalOffset"
+                      label=" Vertical Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -12055,7 +12055,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BackgroundColor"
+                      label=" Background Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -12078,7 +12078,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderColor"
+                      label=" Border Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -12136,7 +12136,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        HideFromKeyboardMenu
+                         Hide From Keyboard Menu
                       </span>
                     </label>
                     <p
@@ -12453,7 +12453,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue Keys"
@@ -12476,7 +12476,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue"
@@ -12499,7 +12499,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -12522,7 +12522,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -12545,7 +12545,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -12568,7 +12568,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -12589,7 +12589,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -12612,7 +12612,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -12635,7 +12635,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -12656,7 +12656,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -12712,7 +12712,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -12768,7 +12768,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -12824,7 +12824,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -12880,7 +12880,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -12934,7 +12934,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -12988,7 +12988,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -13007,7 +13007,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -13030,7 +13030,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -13196,7 +13196,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red Keys"
@@ -13219,7 +13219,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red"
@@ -13242,7 +13242,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -13265,7 +13265,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -13288,7 +13288,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -13311,7 +13311,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -13332,7 +13332,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -13355,7 +13355,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -13378,7 +13378,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -13399,7 +13399,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -13455,7 +13455,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -13511,7 +13511,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -13567,7 +13567,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -13623,7 +13623,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -13677,7 +13677,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -13731,7 +13731,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -13750,7 +13750,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -13773,7 +13773,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -16362,7 +16362,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Name"
+                      label=" Name"
                       onChange={[Function]}
                       type="text"
                       value="OptiKey-BoardMaker"
@@ -16385,7 +16385,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Rows"
+                      label=" Grid. Rows"
                       onChange={[Function]}
                       type="number"
                       value={7}
@@ -16408,7 +16408,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Cols"
+                      label=" Grid. Cols"
                       onChange={[Function]}
                       type="number"
                       value={12}
@@ -16431,7 +16431,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Height"
+                      label=" Height"
                       onChange={[Function]}
                       type="number"
                       value={40}
@@ -16454,7 +16454,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Width"
+                      label=" Width"
                       onChange={[Function]}
                       type="number"
                       value={100}
@@ -16477,7 +16477,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderThickness"
+                      label=" Border Thickness"
                       onChange={[Function]}
                       type="text"
                       value="0,0,0,0"
@@ -16500,7 +16500,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="SymbolMargin"
+                      label=" Symbol Margin"
                       onChange={[Function]}
                       type="number"
                       value={1}
@@ -16518,7 +16518,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      Position
+                       Position
                     </label>
                     <select>
                       <option>
@@ -16599,7 +16599,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        PersistNewState
+                         Persist New State
                       </span>
                     </label>
                     <p
@@ -16615,7 +16615,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      WindowState
+                       Window State
                     </label>
                     <select>
                       <option>
@@ -16641,7 +16641,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      DockSize
+                       Dock Size
                     </label>
                     <select>
                       <option>
@@ -16669,7 +16669,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="HorizontalOffset"
+                      label=" Horizontal Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -16692,7 +16692,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="VerticalOffset"
+                      label=" Vertical Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -16715,7 +16715,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BackgroundColor"
+                      label=" Background Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -16738,7 +16738,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderColor"
+                      label=" Border Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -16796,7 +16796,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        HideFromKeyboardMenu
+                         Hide From Keyboard Menu
                       </span>
                     </label>
                     <p
@@ -17113,7 +17113,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue Keys"
@@ -17136,7 +17136,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue"
@@ -17159,7 +17159,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17182,7 +17182,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17205,7 +17205,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17228,7 +17228,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -17249,7 +17249,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17272,7 +17272,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17295,7 +17295,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -17316,7 +17316,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -17372,7 +17372,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -17428,7 +17428,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -17484,7 +17484,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -17540,7 +17540,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -17594,7 +17594,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -17648,7 +17648,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -17667,7 +17667,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -17690,7 +17690,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -17856,7 +17856,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red Keys"
@@ -17879,7 +17879,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red"
@@ -17902,7 +17902,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17925,7 +17925,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17948,7 +17948,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -17971,7 +17971,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -17992,7 +17992,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -18015,7 +18015,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -18038,7 +18038,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -18059,7 +18059,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -18115,7 +18115,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -18171,7 +18171,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -18227,7 +18227,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -18283,7 +18283,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -18337,7 +18337,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -18391,7 +18391,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -18410,7 +18410,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -18433,7 +18433,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -21022,7 +21022,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Name"
+                      label=" Name"
                       onChange={[Function]}
                       type="text"
                       value="OptiKey-BoardMaker"
@@ -21045,7 +21045,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Rows"
+                      label=" Grid. Rows"
                       onChange={[Function]}
                       type="number"
                       value={7}
@@ -21068,7 +21068,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Cols"
+                      label=" Grid. Cols"
                       onChange={[Function]}
                       type="number"
                       value={12}
@@ -21091,7 +21091,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Height"
+                      label=" Height"
                       onChange={[Function]}
                       type="number"
                       value={40}
@@ -21114,7 +21114,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Width"
+                      label=" Width"
                       onChange={[Function]}
                       type="number"
                       value={100}
@@ -21137,7 +21137,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderThickness"
+                      label=" Border Thickness"
                       onChange={[Function]}
                       type="text"
                       value="0,0,0,0"
@@ -21160,7 +21160,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="SymbolMargin"
+                      label=" Symbol Margin"
                       onChange={[Function]}
                       type="number"
                       value={1}
@@ -21178,7 +21178,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      Position
+                       Position
                     </label>
                     <select>
                       <option>
@@ -21259,7 +21259,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        PersistNewState
+                         Persist New State
                       </span>
                     </label>
                     <p
@@ -21275,7 +21275,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      WindowState
+                       Window State
                     </label>
                     <select>
                       <option>
@@ -21301,7 +21301,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      DockSize
+                       Dock Size
                     </label>
                     <select>
                       <option>
@@ -21329,7 +21329,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="HorizontalOffset"
+                      label=" Horizontal Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -21352,7 +21352,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="VerticalOffset"
+                      label=" Vertical Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -21375,7 +21375,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BackgroundColor"
+                      label=" Background Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -21398,7 +21398,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderColor"
+                      label=" Border Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -21456,7 +21456,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        HideFromKeyboardMenu
+                         Hide From Keyboard Menu
                       </span>
                     </label>
                     <p
@@ -21773,7 +21773,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue Keys"
@@ -21796,7 +21796,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue"
@@ -21819,7 +21819,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -21842,7 +21842,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -21865,7 +21865,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -21888,7 +21888,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -21909,7 +21909,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -21932,7 +21932,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -21955,7 +21955,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -21976,7 +21976,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -22032,7 +22032,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -22088,7 +22088,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -22144,7 +22144,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -22200,7 +22200,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -22254,7 +22254,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -22308,7 +22308,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -22327,7 +22327,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -22350,7 +22350,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -22516,7 +22516,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red Keys"
@@ -22539,7 +22539,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red"
@@ -22562,7 +22562,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -22585,7 +22585,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -22608,7 +22608,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -22631,7 +22631,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -22652,7 +22652,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -22675,7 +22675,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -22698,7 +22698,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -22719,7 +22719,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -22775,7 +22775,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -22831,7 +22831,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -22887,7 +22887,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -22943,7 +22943,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -22997,7 +22997,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -23051,7 +23051,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -23070,7 +23070,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -23093,7 +23093,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -25682,7 +25682,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Name"
+                      label=" Name"
                       onChange={[Function]}
                       type="text"
                       value="OptiKey-BoardMaker"
@@ -25705,7 +25705,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Rows"
+                      label=" Grid. Rows"
                       onChange={[Function]}
                       type="number"
                       value={7}
@@ -25728,7 +25728,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Cols"
+                      label=" Grid. Cols"
                       onChange={[Function]}
                       type="number"
                       value={12}
@@ -25751,7 +25751,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Height"
+                      label=" Height"
                       onChange={[Function]}
                       type="number"
                       value={40}
@@ -25774,7 +25774,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Width"
+                      label=" Width"
                       onChange={[Function]}
                       type="number"
                       value={100}
@@ -25797,7 +25797,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderThickness"
+                      label=" Border Thickness"
                       onChange={[Function]}
                       type="text"
                       value="0,0,0,0"
@@ -25820,7 +25820,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="SymbolMargin"
+                      label=" Symbol Margin"
                       onChange={[Function]}
                       type="number"
                       value={1}
@@ -25838,7 +25838,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      Position
+                       Position
                     </label>
                     <select>
                       <option>
@@ -25919,7 +25919,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        PersistNewState
+                         Persist New State
                       </span>
                     </label>
                     <p
@@ -25935,7 +25935,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      WindowState
+                       Window State
                     </label>
                     <select>
                       <option>
@@ -25961,7 +25961,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      DockSize
+                       Dock Size
                     </label>
                     <select>
                       <option>
@@ -25989,7 +25989,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="HorizontalOffset"
+                      label=" Horizontal Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -26012,7 +26012,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="VerticalOffset"
+                      label=" Vertical Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -26035,7 +26035,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BackgroundColor"
+                      label=" Background Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -26058,7 +26058,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderColor"
+                      label=" Border Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -26116,7 +26116,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        HideFromKeyboardMenu
+                         Hide From Keyboard Menu
                       </span>
                     </label>
                     <p
@@ -26433,7 +26433,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue Keys"
@@ -26456,7 +26456,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue"
@@ -26479,7 +26479,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -26502,7 +26502,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -26525,7 +26525,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -26548,7 +26548,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -26569,7 +26569,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -26592,7 +26592,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -26615,7 +26615,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -26636,7 +26636,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -26692,7 +26692,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -26748,7 +26748,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -26804,7 +26804,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -26860,7 +26860,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -26914,7 +26914,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -26968,7 +26968,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -26987,7 +26987,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -27010,7 +27010,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -27176,7 +27176,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red Keys"
@@ -27199,7 +27199,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red"
@@ -27222,7 +27222,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -27245,7 +27245,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -27268,7 +27268,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -27291,7 +27291,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -27312,7 +27312,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -27335,7 +27335,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -27358,7 +27358,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -27379,7 +27379,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -27435,7 +27435,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -27491,7 +27491,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -27547,7 +27547,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -27603,7 +27603,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -27657,7 +27657,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -27711,7 +27711,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -27730,7 +27730,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -27753,7 +27753,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -30342,7 +30342,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Name"
+                      label=" Name"
                       onChange={[Function]}
                       type="text"
                       value="OptiKey-BoardMaker"
@@ -30365,7 +30365,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Rows"
+                      label=" Grid. Rows"
                       onChange={[Function]}
                       type="number"
                       value={7}
@@ -30388,7 +30388,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Grid.Cols"
+                      label=" Grid. Cols"
                       onChange={[Function]}
                       type="number"
                       value={12}
@@ -30411,7 +30411,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Height"
+                      label=" Height"
                       onChange={[Function]}
                       type="number"
                       value={40}
@@ -30434,7 +30434,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="Width"
+                      label=" Width"
                       onChange={[Function]}
                       type="number"
                       value={100}
@@ -30457,7 +30457,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderThickness"
+                      label=" Border Thickness"
                       onChange={[Function]}
                       type="text"
                       value="0,0,0,0"
@@ -30480,7 +30480,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="SymbolMargin"
+                      label=" Symbol Margin"
                       onChange={[Function]}
                       type="number"
                       value={1}
@@ -30498,7 +30498,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      Position
+                       Position
                     </label>
                     <select>
                       <option>
@@ -30579,7 +30579,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        PersistNewState
+                         Persist New State
                       </span>
                     </label>
                     <p
@@ -30595,7 +30595,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      WindowState
+                       Window State
                     </label>
                     <select>
                       <option>
@@ -30621,7 +30621,7 @@ Array [
                       className="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated"
                       data-shrink={false}
                     >
-                      DockSize
+                       Dock Size
                     </label>
                     <select>
                       <option>
@@ -30649,7 +30649,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="HorizontalOffset"
+                      label=" Horizontal Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -30672,7 +30672,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="VerticalOffset"
+                      label=" Vertical Offset"
                       onChange={[Function]}
                       type="number"
                       value=""
@@ -30695,7 +30695,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BackgroundColor"
+                      label=" Background Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -30718,7 +30718,7 @@ Array [
                           "step": undefined,
                         }
                       }
-                      label="BorderColor"
+                      label=" Border Color"
                       onChange={[Function]}
                       type="text"
                       value="Transparent"
@@ -30776,7 +30776,7 @@ Array [
                       <span
                         className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                       >
-                        HideFromKeyboardMenu
+                         Hide From Keyboard Menu
                       </span>
                     </label>
                     <p
@@ -31093,7 +31093,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue Keys"
@@ -31116,7 +31116,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Blue"
@@ -31139,7 +31139,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31162,7 +31162,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31185,7 +31185,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31208,7 +31208,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -31229,7 +31229,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31252,7 +31252,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31275,7 +31275,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -31296,7 +31296,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -31352,7 +31352,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -31408,7 +31408,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -31464,7 +31464,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -31520,7 +31520,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -31574,7 +31574,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -31628,7 +31628,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -31647,7 +31647,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -31670,7 +31670,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -31836,7 +31836,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Name"
+                                        label=" Name"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red Keys"
@@ -31859,7 +31859,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="BackgroundColor"
+                                        label=" Background Color"
                                         onChange={[Function]}
                                         type="text"
                                         value="Red"
@@ -31882,7 +31882,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="ForegroundColor"
+                                        label=" Foreground Color"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31905,7 +31905,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledBackground"
+                                        label=" Key Disabled Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31928,7 +31928,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledForeground"
+                                        label=" Key Disabled Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31951,7 +31951,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDisabledOpacity"
+                                        label=" Key Disabled Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -31972,7 +31972,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownBackground"
+                                        label=" Key Down Background"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -31995,7 +31995,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownForeground"
+                                        label=" Key Down Foreground"
                                         onChange={[Function]}
                                         type="text"
                                         value=""
@@ -32018,7 +32018,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="KeyDownOpacity"
+                                        label=" Key Down Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -32039,7 +32039,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="Opacity"
+                                        label=" Opacity"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -32095,7 +32095,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyWidth
+                                           Auto Scale To One Key Width
                                         </span>
                                       </label>
                                       <p
@@ -32151,7 +32151,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          AutoScaleToOneKeyHeight
+                                           Auto Scale To One Key Height
                                         </span>
                                       </label>
                                       <p
@@ -32207,7 +32207,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          SharedSizeGroup
+                                           Shared Size Group
                                         </span>
                                       </label>
                                       <p
@@ -32263,7 +32263,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UsePersianCompatibilityFont
+                                           Use Persian Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -32317,7 +32317,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUnicodeCompatibilityFont
+                                           Use Unicode Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -32371,7 +32371,7 @@ Array [
                                         <span
                                           className="MuiTypography-root MuiFormControlLabel-label MuiTypography-body1"
                                         >
-                                          UseUrduCompatibilityFont
+                                           Use Urdu Compatibility Font
                                         </span>
                                       </label>
                                       <p
@@ -32390,7 +32390,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="LockOnTime"
+                                        label=" Lock On Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -32413,7 +32413,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label="CompletionTime"
+                                        label=" Completion Time"
                                         onChange={[Function]}
                                         type="number"
                                         value=""

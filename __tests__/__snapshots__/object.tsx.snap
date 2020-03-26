@@ -16,7 +16,7 @@ exports[`app: with invalid actionType specified 1`] = `
           "step": undefined,
         }
       }
-      label="keyActionObject.bla"
+      label="Key Action Object.bla"
       onChange={[Function]}
       type="text"
       value=""
@@ -37,7 +37,7 @@ exports[`app: with invalid actionType specified 1`] = `
           "step": undefined,
         }
       }
-      label="keyActionObject.blu"
+      label="Key Action Object.blu"
       onChange={[Function]}
       type="text"
       value=""
@@ -65,7 +65,7 @@ exports[`app: without actionType specified 1`] = `
           "step": undefined,
         }
       }
-      label="keyActionObject.bla"
+      label="Key Action Object.bla"
       onChange={[Function]}
       type="text"
       value=""
@@ -86,7 +86,7 @@ exports[`app: without actionType specified 1`] = `
           "step": undefined,
         }
       }
-      label="keyActionObject.blu"
+      label="Key Action Object.blu"
       onChange={[Function]}
       type="text"
       value=""
