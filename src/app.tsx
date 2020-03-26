@@ -12,7 +12,7 @@ const doParsing = (keyboardXml: string) => {
     FormStore.setValue("Keyboard.keyGroups", [{}])
   }
 }
-doParsing(exampleXml)
+doParsing(exampleKeyGroupOverrideXml)
 
 
 const App: React.FunctionComponent<any> = () => (

@@ -120,6 +120,13 @@ const xmlParser: (xml: string) => any = (xml: string) => {
       }
     }
     ele.keyActions = keyActions
+    const associatedKeyGroups: any[] = []
+    for (const subElement of eles) {
+      if (subElement.name === "KeyGroup" && subElement.attributes != null) {
+        associatedKeyGroups.push(subElement.attributes.Name)
+      }
+    }
+    ele.associatedKeyGroups = associatedKeyGroups
     return ele
   }
   const Content = keys.map(parseEntry)
@@ -184,6 +191,9 @@ const toXml = (keyboard: IKeyboard) => {
           delete newKey[attribute]
         }
       }
+      delete newKey.type
+      const associatedKeyGroups = newKey.associatedKeyGroups
+      delete newKey.associatedKeyGroups
       newKey = objToNonCompactElements(newKey)
       const convertAction = (action: any) => {
         let value = action.value
@@ -208,6 +218,9 @@ const toXml = (keyboard: IKeyboard) => {
             newKey.push(convertAction(action))
           }
         }
+      }
+      for (const associatedGroup of associatedKeyGroups) {
+        newKey.push({type: "element", name: "KeyGroup", attributes: {Name: associatedGroup}})
       }
       if (r < keyboard.Keyboard.Grid.Rows && c < keyboard.Keyboard.Grid.Cols) {
         changedContent.push({type: "element", name, r, c, elements: newKey, attributes})

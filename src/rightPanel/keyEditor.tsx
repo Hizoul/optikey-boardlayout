@@ -11,7 +11,7 @@ import * as React from "react"
 import { activeKey, keyboardPrefix, keyActionObjectSchema } from "../form/def"
 import actionKeyList from "../util/actionKeys"
 import symbolList from "../util/symbols"
-import { keyGroupSchema } from "../form/defKeyGroup"
+import { keyGroupSchema, keyGroupArraySchema } from "../form/defKeyGroup"
 import { resizeTriggerer } from "./index"
 import { toJS } from "mobx"
 
@@ -58,6 +58,15 @@ const KeyEditor = observer(() => {
     type: "array",
     items: keyActionObjectSchema
   }
+  const selectableKeyGroups = FormStore.getValue(keyGroupArraySchema.title, keyboardPrefix, []).map((v: any) => ({label: v.Name, value: v.Name}))
+  const keyGroupAssociationsSchema = {
+    title: `Content[${keyIndex}].associatedKeyGroups`,
+    type: "array",
+    items: {
+      type: "string", description: "Select a KeyGroup this Key should belong to",
+      theme: "select", selectOptions: selectableKeyGroups
+    }
+  }
   const labelTypeSchema = {
     title: `Content[${keyIndex}].labelType`,
     type: "string",
@@ -100,20 +109,33 @@ const KeyEditor = observer(() => {
   }
   const keyGroupPrefix = `${keyboardPrefix}.Content[${keyIndex}]`
   const keyGroupEditor = (
-    <ExpansionPanel className="simplePanel">
-      <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
-        <Typography>Override Keygroup Settings</Typography>
-      </ExpansionPanelSummary>
-      <ExpansionPanelDetails className="simplePanel">
-        <div className="flex1 vertical">
-          <SharedField schema={widthSchema} prefix={keyboardPrefix} />
-          <SharedField schema={heightSchema} prefix={keyboardPrefix} />
-          {keys(thisKeysGroupSchema.properties).map((key) =>
-          <SharedField key={key} schema={get(thisKeysGroupSchema, `properties.${key}`)} prefix={keyGroupPrefix} />)}
+    <>
+      <ExpansionPanel className="simplePanel">
+        <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
+          <Typography>Associated Keygroups</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="simplePanel">
+          <div className="flex1 vertical">
+            <SharedField schema={keyGroupAssociationsSchema} prefix={keyboardPrefix} />
 
-        </div>
-      </ExpansionPanelDetails>
-    </ExpansionPanel>
+          </div>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel className="simplePanel">
+        <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
+          <Typography>Override Keygroup Settings</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className="simplePanel">
+          <div className="flex1 vertical">
+            <SharedField schema={widthSchema} prefix={keyboardPrefix} />
+            <SharedField schema={heightSchema} prefix={keyboardPrefix} />
+            {keys(thisKeysGroupSchema.properties).map((key) =>
+            <SharedField key={key} schema={get(thisKeysGroupSchema, `properties.${key}`)} prefix={keyGroupPrefix} />)}
+
+          </div>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+    </>
   )
   return (
     <ExpansionPanel expanded={keySelected ? true : false} onChange={resizeTriggerer}>

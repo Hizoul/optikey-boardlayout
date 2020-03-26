@@ -12,6 +12,7 @@ Object {
       "Col": 0,
       "Label": "~",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -26,6 +27,7 @@ Object {
       "Col": 1,
       "Label": "1",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -40,6 +42,7 @@ Object {
       "Col": 2,
       "Label": "2",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -54,6 +57,7 @@ Object {
       "Col": 3,
       "Label": "3",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -68,6 +72,7 @@ Object {
       "Col": 4,
       "Label": "4",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -82,6 +87,7 @@ Object {
       "Col": 5,
       "Label": "5",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -96,6 +102,7 @@ Object {
       "Col": 6,
       "Label": "6",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -110,6 +117,7 @@ Object {
       "Col": 7,
       "Label": "7",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -123,6 +131,7 @@ Object {
     Object {
       "Col": 0,
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -136,6 +145,7 @@ Object {
       "Col": 8,
       "Label": "8",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -150,6 +160,7 @@ Object {
       "Col": 1,
       "Label": "!",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -164,6 +175,7 @@ Object {
       "Col": 9,
       "Label": "9",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -178,6 +190,7 @@ Object {
       "Col": 2,
       "Label": "?",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -192,6 +205,7 @@ Object {
       "Col": 10,
       "Label": "0",
       "Row": 0,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -206,6 +220,7 @@ Object {
       "Col": 3,
       "Label": "+",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -220,6 +235,7 @@ Object {
       "Col": 4,
       "Label": "*",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -234,6 +250,7 @@ Object {
       "Col": 11,
       "Row": 0,
       "Symbol": "MenuIcon",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -248,6 +265,7 @@ Object {
       "Col": 5,
       "Label": "%",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -262,6 +280,7 @@ Object {
       "Col": 6,
       "Label": "&",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -276,6 +295,7 @@ Object {
       "Col": 0,
       "Label": "/",
       "Row": 2,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -290,6 +310,7 @@ Object {
       "Col": 7,
       "Label": "\\"",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -305,6 +326,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "Q",
       "ShiftUpLabel": "q",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -319,6 +341,7 @@ Object {
       "Col": 8,
       "Label": "'",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -334,6 +357,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "W",
       "ShiftUpLabel": "w",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -348,6 +372,7 @@ Object {
       "Col": 9,
       "Label": "\`",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -362,6 +387,7 @@ Object {
       "Col": 10,
       "Label": "$",
       "Row": 1,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -377,6 +403,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "E",
       "ShiftUpLabel": "e",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -392,6 +419,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "R",
       "ShiftUpLabel": "r",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -407,6 +435,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "T",
       "ShiftUpLabel": "t",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -422,6 +451,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "Z",
       "ShiftUpLabel": "z",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -436,6 +466,7 @@ Object {
       "Col": 0,
       "Label": "-",
       "Row": 3,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -451,6 +482,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "U",
       "ShiftUpLabel": "u",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -465,6 +497,7 @@ Object {
       "Col": 1,
       "Label": "_",
       "Row": 3,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -480,6 +513,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "I",
       "ShiftUpLabel": "i",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -495,6 +529,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "A",
       "ShiftUpLabel": "a",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -510,6 +545,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "O",
       "ShiftUpLabel": "o",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -525,6 +561,7 @@ Object {
       "Row": 2,
       "ShiftDownLabel": "P",
       "ShiftUpLabel": "p",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -540,6 +577,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "S",
       "ShiftUpLabel": "s",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -554,6 +592,7 @@ Object {
       "Col": 11,
       "Label": "|",
       "Row": 2,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -569,6 +608,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "D",
       "ShiftUpLabel": "d",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -584,6 +624,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "F",
       "ShiftUpLabel": "f",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -599,6 +640,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "G",
       "ShiftUpLabel": "g",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -614,6 +656,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "H",
       "ShiftUpLabel": "h",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -629,6 +672,7 @@ Object {
       "Row": 4,
       "Symbol": "TabIcon",
       "Text": "&#9;",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -644,6 +688,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "J",
       "ShiftUpLabel": "j",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -658,6 +703,7 @@ Object {
       "Col": 1,
       "Label": "<",
       "Row": 4,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -673,6 +719,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "K",
       "ShiftUpLabel": "k",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -688,6 +735,7 @@ Object {
       "Row": 4,
       "ShiftDownLabel": "Y",
       "ShiftUpLabel": "y",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -703,6 +751,7 @@ Object {
       "Row": 3,
       "ShiftDownLabel": "L",
       "ShiftUpLabel": "l",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -718,6 +767,7 @@ Object {
       "Row": 4,
       "ShiftDownLabel": "X",
       "ShiftUpLabel": "x",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -732,6 +782,7 @@ Object {
       "Col": 11,
       "Label": "^",
       "Row": 3,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -747,6 +798,7 @@ Object {
       "Row": 4,
       "ShiftDownLabel": "C",
       "ShiftUpLabel": "c",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -762,6 +814,7 @@ Object {
       "Row": 4,
       "ShiftDownLabel": "V",
       "ShiftUpLabel": "v",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -777,6 +830,7 @@ Object {
       "Row": 4,
       "ShiftDownLabel": "B",
       "ShiftUpLabel": "b",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -792,6 +846,7 @@ Object {
       "Row": 4,
       "ShiftDownLabel": "N",
       "ShiftUpLabel": "n",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -806,6 +861,7 @@ Object {
       "Col": 0,
       "Label": "Win",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -821,6 +877,7 @@ Object {
       "Row": 4,
       "ShiftDownLabel": "M",
       "ShiftUpLabel": "m",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -835,6 +892,7 @@ Object {
       "Col": 1,
       "Label": ">",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -849,6 +907,7 @@ Object {
       "Col": 9,
       "Label": "@",
       "Row": 4,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -863,6 +922,7 @@ Object {
       "Col": 2,
       "Label": ",",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -877,6 +937,7 @@ Object {
       "Col": 10,
       "Label": "=",
       "Row": 4,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -891,6 +952,7 @@ Object {
       "Col": 3,
       "Label": ".",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -905,6 +967,7 @@ Object {
       "Col": 11,
       "Label": "#",
       "Row": 4,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -919,6 +982,7 @@ Object {
       "Col": 4,
       "Label": "(",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -933,6 +997,7 @@ Object {
       "Col": 5,
       "Label": ")",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -947,6 +1012,7 @@ Object {
       "Col": 6,
       "Label": "[",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -961,6 +1027,7 @@ Object {
       "Col": 7,
       "Label": "]",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -975,6 +1042,7 @@ Object {
       "Col": 0,
       "Label": "Ctrl",
       "Row": 6,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -989,6 +1057,7 @@ Object {
       "Col": 8,
       "Label": "{",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -1003,6 +1072,7 @@ Object {
       "Col": 1,
       "Label": "Alt",
       "Row": 6,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -1017,6 +1087,7 @@ Object {
       "Col": 2,
       "Label": ";",
       "Row": 6,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -1031,6 +1102,7 @@ Object {
       "Col": 9,
       "Label": "}",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -1045,6 +1117,7 @@ Object {
       "Col": 3,
       "Label": ":",
       "Row": 6,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -1059,6 +1132,7 @@ Object {
       "Col": 10,
       "Row": 5,
       "Symbol": "UpArrowKeyIcon",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -1073,6 +1147,7 @@ Object {
       "Col": 11,
       "Label": "Esc",
       "Row": 5,
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -1087,6 +1162,7 @@ Object {
       "Col": 4,
       "Row": 6,
       "Symbol": "ShiftIcon",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -1104,6 +1180,7 @@ Object {
       "Symbol": "SpaceIcon",
       "Text": "&#32;",
       "Width": "2",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -1119,6 +1196,7 @@ Object {
       "Row": 6,
       "Symbol": "EnterIcon",
       "Text": "&#13;",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Text",
@@ -1133,6 +1211,7 @@ Object {
       "Col": 8,
       "Row": 6,
       "Symbol": "BackOneIcon",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -1147,6 +1226,7 @@ Object {
       "Col": 9,
       "Row": 6,
       "Symbol": "LeftArrowKeyIcon",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -1161,6 +1241,7 @@ Object {
       "Col": 10,
       "Row": 6,
       "Symbol": "DownArrowKeyIcon",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",
@@ -1175,6 +1256,7 @@ Object {
       "Col": 11,
       "Row": 6,
       "Symbol": "RightArrowKeyIcon",
+      "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
           "actionType": "Action",

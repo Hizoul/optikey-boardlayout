@@ -746,16 +746,20 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
       <KeyUp>a</KeyUp>
     </Loop>
     <Text>b</Text>
+    <KeyGroup Name="Blue Keys" />
   </DynamicKey>
   <DynamicKey Row="6" Col="10">
     <Label>BackWithReturnFalse</Label>
     <ChangeKeyboard BackReturnsHere="false">HackerKeyboardSymbols2</ChangeKeyboard>
+    <KeyGroup Name="Red Keys" />
   </DynamicKey>
   <DynamicKey Row="6" Col="11" Width="1" Height="1" BackgroundColor="Blue" ForegroundColor="Blue" KeyDisabledBackgroud="Blue" KeyDisabledForeground="Blue"
   KeyDisabledOpacity="1" KeyDownBackground="Blue" KeyDownForeground="Blue" KeyDownOpacity="1" Opacity="1" UsePersianCompatibilityFont="true"
   UseUnicodeCompatibilityFont="true" UseUrduCompatibilityFont="true" SharedSizeGroup="true" AutoScaleToOneKeyHeight="true" AutoScaleToOneKeyWidth="true" LockOnTime="500" CompletionTime="500,500,500">
     <Label>BackWithReturnTrue</Label>
     <ChangeKeyboard BackReturnsHere="true">HackerKeyboardSymbols2</ChangeKeyboard>
+    <KeyGroup Name="Blue Keys" />
+    <KeyGroup Name="Red Keys" />
   </DynamicKey>
 </Content>
 </Keyboard>`

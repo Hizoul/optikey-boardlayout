@@ -22,432 +22,352 @@ exports[`parser: advanced js to xml 1`] = `
   <KeyGroup Name=\\"Red Keys\\" BackgroundColor=\\"Red\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>~</Label>
       <Text>~</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>1</Label>
       <Text>1</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>2</Label>
       <Text>2</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>3</Label>
       <Text>3</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>4</Label>
       <Text>4</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>5</Label>
       <Text>5</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>6</Label>
       <Text>6</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>7</Label>
       <Text>7</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>8</Label>
       <Text>8</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>9</Label>
       <Text>9</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>0</Label>
       <Text>0</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>!</Label>
       <Text>!</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>?</Label>
       <Text>?</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>+</Label>
       <Text>+</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>*</Label>
       <Text>*</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>%</Label>
       <Text>%</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>&amp;</Label>
       <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>\\"</Label>
       <Text>\\"</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>'</Label>
       <Text>'</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>\`</Label>
       <Text>\`</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>$</Label>
       <Text>$</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>/</Label>
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>|</Label>
       <Text>|</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>-</Label>
       <Text>-</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>_</Label>
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>^</Label>
       <Text>^</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&lt;</Label>
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>@</Label>
       <Text>@</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>=</Label>
       <Text>=</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>#</Label>
       <Text>#</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Win</Label>
       <Action>LeftWin</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&gt;</Label>
       <Text>&gt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>,</Label>
       <Text>,</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>.</Label>
       <Text>.</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>(</Label>
       <Text>(</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>)</Label>
       <Text>)</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>[</Label>
       <Text>[</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>]</Label>
       <Text>]</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>{</Label>
       <Text>{</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>}</Label>
       <Text>}</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>Esc</Label>
       <Action>Escape</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>;</Label>
       <Text>;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>:</Label>
       <Text>:</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"5\\" Width=\\"2\\" Height=\\"2\\">
-      <type>DynamicKey</type>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
       <Text>Multi</Text>
       <Action>BackOne</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>A burst with text</Label>
       <Loop Count=\\"3\\">
         <KeyDown>a</KeyDown>
@@ -455,17 +375,19 @@ exports[`parser: advanced js to xml 1`] = `
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
+      <KeyGroup Name=\\"Blue Keys\\"/>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
+      <KeyGroup Name=\\"Red Keys\\"/>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
-      <type>DynamicKey</type>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
+      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup Name=\\"Red Keys\\"/>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -482,6 +404,7 @@ Object {
         "Col": 0,
         "Label": "~",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -496,6 +419,7 @@ Object {
         "Col": 1,
         "Label": "1",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -510,6 +434,7 @@ Object {
         "Col": 2,
         "Label": "2",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -524,6 +449,7 @@ Object {
         "Col": 3,
         "Label": "3",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -538,6 +464,7 @@ Object {
         "Col": 4,
         "Label": "4",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -552,6 +479,7 @@ Object {
         "Col": 5,
         "Label": "5",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -566,6 +494,7 @@ Object {
         "Col": 6,
         "Label": "6",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -580,6 +509,7 @@ Object {
         "Col": 7,
         "Label": "7",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -593,6 +523,7 @@ Object {
       Object {
         "Col": 0,
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -606,6 +537,7 @@ Object {
         "Col": 8,
         "Label": "8",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -620,6 +552,7 @@ Object {
         "Col": 1,
         "Label": "!",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -634,6 +567,7 @@ Object {
         "Col": 9,
         "Label": "9",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -648,6 +582,7 @@ Object {
         "Col": 2,
         "Label": "?",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -662,6 +597,7 @@ Object {
         "Col": 10,
         "Label": "0",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -676,6 +612,7 @@ Object {
         "Col": 3,
         "Label": "+",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -690,6 +627,7 @@ Object {
         "Col": 4,
         "Label": "*",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -704,6 +642,7 @@ Object {
         "Col": 11,
         "Row": 0,
         "Symbol": "MenuIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -718,6 +657,7 @@ Object {
         "Col": 5,
         "Label": "%",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -732,6 +672,7 @@ Object {
         "Col": 6,
         "Label": "&",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -746,6 +687,7 @@ Object {
         "Col": 0,
         "Label": "/",
         "Row": 2,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -760,6 +702,7 @@ Object {
         "Col": 7,
         "Label": "\\"",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -775,6 +718,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "Q",
         "ShiftUpLabel": "q",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -789,6 +733,7 @@ Object {
         "Col": 8,
         "Label": "'",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -804,6 +749,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "W",
         "ShiftUpLabel": "w",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -818,6 +764,7 @@ Object {
         "Col": 9,
         "Label": "\`",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -832,6 +779,7 @@ Object {
         "Col": 10,
         "Label": "$",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -847,6 +795,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "E",
         "ShiftUpLabel": "e",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -862,6 +811,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "R",
         "ShiftUpLabel": "r",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -877,6 +827,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "T",
         "ShiftUpLabel": "t",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -892,6 +843,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "Z",
         "ShiftUpLabel": "z",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -906,6 +858,7 @@ Object {
         "Col": 0,
         "Label": "-",
         "Row": 3,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -921,6 +874,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "U",
         "ShiftUpLabel": "u",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -935,6 +889,7 @@ Object {
         "Col": 1,
         "Label": "_",
         "Row": 3,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -950,6 +905,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "I",
         "ShiftUpLabel": "i",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -965,6 +921,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "A",
         "ShiftUpLabel": "a",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -980,6 +937,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "O",
         "ShiftUpLabel": "o",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -995,6 +953,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "P",
         "ShiftUpLabel": "p",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1010,6 +969,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "S",
         "ShiftUpLabel": "s",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1024,6 +984,7 @@ Object {
         "Col": 11,
         "Label": "|",
         "Row": 2,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1039,6 +1000,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "D",
         "ShiftUpLabel": "d",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1054,6 +1016,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "F",
         "ShiftUpLabel": "f",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1069,6 +1032,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "G",
         "ShiftUpLabel": "g",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1084,6 +1048,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "H",
         "ShiftUpLabel": "h",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1099,6 +1064,7 @@ Object {
         "Row": 4,
         "Symbol": "TabIcon",
         "Text": "&#9;",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1114,6 +1080,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "J",
         "ShiftUpLabel": "j",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1128,6 +1095,7 @@ Object {
         "Col": 1,
         "Label": "<",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1143,6 +1111,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "K",
         "ShiftUpLabel": "k",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1158,6 +1127,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "Y",
         "ShiftUpLabel": "y",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1173,6 +1143,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "L",
         "ShiftUpLabel": "l",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1188,6 +1159,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "X",
         "ShiftUpLabel": "x",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1202,6 +1174,7 @@ Object {
         "Col": 11,
         "Label": "^",
         "Row": 3,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1217,6 +1190,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "C",
         "ShiftUpLabel": "c",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1232,6 +1206,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "V",
         "ShiftUpLabel": "v",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1247,6 +1222,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "B",
         "ShiftUpLabel": "b",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1262,6 +1238,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "N",
         "ShiftUpLabel": "n",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1276,6 +1253,7 @@ Object {
         "Col": 0,
         "Label": "Win",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -1291,6 +1269,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "M",
         "ShiftUpLabel": "m",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1305,6 +1284,7 @@ Object {
         "Col": 1,
         "Label": ">",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1319,6 +1299,7 @@ Object {
         "Col": 9,
         "Label": "@",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1333,6 +1314,7 @@ Object {
         "Col": 2,
         "Label": ",",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1347,6 +1329,7 @@ Object {
         "Col": 10,
         "Label": "=",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1361,6 +1344,7 @@ Object {
         "Col": 3,
         "Label": ".",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1375,6 +1359,7 @@ Object {
         "Col": 11,
         "Label": "#",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1389,6 +1374,7 @@ Object {
         "Col": 4,
         "Label": "(",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1403,6 +1389,7 @@ Object {
         "Col": 5,
         "Label": ")",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1417,6 +1404,7 @@ Object {
         "Col": 6,
         "Label": "[",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1431,6 +1419,7 @@ Object {
         "Col": 7,
         "Label": "]",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1445,6 +1434,7 @@ Object {
         "Col": 0,
         "Label": "Ctrl",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -1459,6 +1449,7 @@ Object {
         "Col": 8,
         "Label": "{",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1473,6 +1464,7 @@ Object {
         "Col": 1,
         "Label": "Alt",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -1487,6 +1479,7 @@ Object {
         "Col": 2,
         "Label": ";",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1501,6 +1494,7 @@ Object {
         "Col": 9,
         "Label": "}",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1515,6 +1509,7 @@ Object {
         "Col": 3,
         "Label": ":",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1529,6 +1524,7 @@ Object {
         "Col": 10,
         "Row": 5,
         "Symbol": "UpArrowKeyIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -1543,6 +1539,7 @@ Object {
         "Col": 11,
         "Label": "Esc",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -1557,6 +1554,7 @@ Object {
         "Col": 4,
         "Row": 6,
         "Symbol": "ShiftIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -1574,6 +1572,7 @@ Object {
         "Symbol": "SpaceIcon",
         "Text": "&#32;",
         "Width": "2",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1589,6 +1588,7 @@ Object {
         "Row": 6,
         "Symbol": "EnterIcon",
         "Text": "&#13;",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -1603,6 +1603,7 @@ Object {
         "Col": 8,
         "Row": 6,
         "Symbol": "BackOneIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -1625,6 +1626,9 @@ Object {
         "Col": 9,
         "Label": "A burst with text",
         "Row": 6,
+        "associatedKeyGroups": Array [
+          "Blue Keys",
+        ],
         "keyActions": Array [
           Object {
             "Count": "3",
@@ -1659,6 +1663,9 @@ Object {
         "Col": 10,
         "Label": "BackWithReturnFalse",
         "Row": 6,
+        "associatedKeyGroups": Array [
+          "Red Keys",
+        ],
         "keyActions": Array [
           Object {
             "BackReturnsHere": false,
@@ -1693,6 +1700,10 @@ Object {
         "UseUnicodeCompatibilityFont": "true",
         "UseUrduCompatibilityFont": "true",
         "Width": "1",
+        "associatedKeyGroups": Array [
+          "Blue Keys",
+          "Red Keys",
+        ],
         "keyActions": Array [
           Object {
             "BackReturnsHere": true,
@@ -1752,440 +1763,358 @@ exports[`parser: js to xml 1`] = `
   </Grid>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>~</Label>
       <Text>~</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>1</Label>
       <Text>1</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>2</Label>
       <Text>2</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>3</Label>
       <Text>3</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>4</Label>
       <Text>4</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>5</Label>
       <Text>5</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>6</Label>
       <Text>6</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>7</Label>
       <Text>7</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>8</Label>
       <Text>8</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>9</Label>
       <Text>9</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>0</Label>
       <Text>0</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>!</Label>
       <Text>!</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>?</Label>
       <Text>?</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>+</Label>
       <Text>+</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>*</Label>
       <Text>*</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>%</Label>
       <Text>%</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>&amp;</Label>
       <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>\\"</Label>
       <Text>\\"</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>'</Label>
       <Text>'</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>\`</Label>
       <Text>\`</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>$</Label>
       <Text>$</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>/</Label>
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>|</Label>
       <Text>|</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>-</Label>
       <Text>-</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>_</Label>
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>^</Label>
       <Text>^</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&lt;</Label>
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>@</Label>
       <Text>@</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>=</Label>
       <Text>=</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>#</Label>
       <Text>#</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Win</Label>
       <Action>LeftWin</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&gt;</Label>
       <Text>&gt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>,</Label>
       <Text>,</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>.</Label>
       <Text>.</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>(</Label>
       <Text>(</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>)</Label>
       <Text>)</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>[</Label>
       <Text>[</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>]</Label>
       <Text>]</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>{</Label>
       <Text>{</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>}</Label>
       <Text>}</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>Esc</Label>
       <Action>Escape</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>;</Label>
       <Text>;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>:</Label>
       <Text>:</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"5\\" Width=\\"2\\" Height=\\"2\\">
-      <type>DynamicKey</type>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
     </DynamicKey>
@@ -2213,192 +2142,157 @@ exports[`parser: reduced cols 1`] = `
   </Grid>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>~</Label>
       <Text>~</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>1</Label>
       <Text>1</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>2</Label>
       <Text>2</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>3</Label>
       <Text>3</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>4</Label>
       <Text>4</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>5</Label>
       <Text>5</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>6</Label>
       <Text>6</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>!</Label>
       <Text>!</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>?</Label>
       <Text>?</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>+</Label>
       <Text>+</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>*</Label>
       <Text>*</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>%</Label>
       <Text>%</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>&amp;</Label>
       <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>/</Label>
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>-</Label>
       <Text>-</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>_</Label>
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&lt;</Label>
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
       <Text>b</Text>
@@ -2418,6 +2312,7 @@ Object {
         "Col": 0,
         "Label": "~",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2432,6 +2327,7 @@ Object {
         "Col": 1,
         "Label": "1",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2446,6 +2342,7 @@ Object {
         "Col": 2,
         "Label": "2",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2460,6 +2357,7 @@ Object {
         "Col": 3,
         "Label": "3",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2474,6 +2372,7 @@ Object {
         "Col": 4,
         "Label": "4",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2488,6 +2387,7 @@ Object {
         "Col": 5,
         "Label": "5",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2502,6 +2402,7 @@ Object {
         "Col": 6,
         "Label": "6",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2516,6 +2417,7 @@ Object {
         "Col": 7,
         "Label": "7",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2529,6 +2431,7 @@ Object {
       Object {
         "Col": 0,
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2542,6 +2445,7 @@ Object {
         "Col": 8,
         "Label": "8",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2556,6 +2460,7 @@ Object {
         "Col": 1,
         "Label": "!",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2570,6 +2475,7 @@ Object {
         "Col": 9,
         "Label": "9",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2584,6 +2490,7 @@ Object {
         "Col": 2,
         "Label": "?",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2598,6 +2505,7 @@ Object {
         "Col": 10,
         "Label": "0",
         "Row": 0,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2612,6 +2520,7 @@ Object {
         "Col": 3,
         "Label": "+",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2626,6 +2535,7 @@ Object {
         "Col": 4,
         "Label": "*",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2640,6 +2550,7 @@ Object {
         "Col": 11,
         "Row": 0,
         "Symbol": "MenuIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -2654,6 +2565,7 @@ Object {
         "Col": 5,
         "Label": "%",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2668,6 +2580,7 @@ Object {
         "Col": 6,
         "Label": "&",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2682,6 +2595,7 @@ Object {
         "Col": 0,
         "Label": "/",
         "Row": 2,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2696,6 +2610,7 @@ Object {
         "Col": 7,
         "Label": "\\"",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2711,6 +2626,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "Q",
         "ShiftUpLabel": "q",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2725,6 +2641,7 @@ Object {
         "Col": 8,
         "Label": "'",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2740,6 +2657,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "W",
         "ShiftUpLabel": "w",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2754,6 +2672,7 @@ Object {
         "Col": 9,
         "Label": "\`",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2768,6 +2687,7 @@ Object {
         "Col": 10,
         "Label": "$",
         "Row": 1,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2783,6 +2703,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "E",
         "ShiftUpLabel": "e",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2798,6 +2719,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "R",
         "ShiftUpLabel": "r",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2813,6 +2735,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "T",
         "ShiftUpLabel": "t",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2828,6 +2751,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "Z",
         "ShiftUpLabel": "z",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2842,6 +2766,7 @@ Object {
         "Col": 0,
         "Label": "-",
         "Row": 3,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2857,6 +2782,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "U",
         "ShiftUpLabel": "u",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2871,6 +2797,7 @@ Object {
         "Col": 1,
         "Label": "_",
         "Row": 3,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2886,6 +2813,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "I",
         "ShiftUpLabel": "i",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2901,6 +2829,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "A",
         "ShiftUpLabel": "a",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2916,6 +2845,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "O",
         "ShiftUpLabel": "o",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2931,6 +2861,7 @@ Object {
         "Row": 2,
         "ShiftDownLabel": "P",
         "ShiftUpLabel": "p",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2946,6 +2877,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "S",
         "ShiftUpLabel": "s",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2960,6 +2892,7 @@ Object {
         "Col": 11,
         "Label": "|",
         "Row": 2,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2975,6 +2908,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "D",
         "ShiftUpLabel": "d",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -2990,6 +2924,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "F",
         "ShiftUpLabel": "f",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3005,6 +2940,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "G",
         "ShiftUpLabel": "g",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3020,6 +2956,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "H",
         "ShiftUpLabel": "h",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3035,6 +2972,7 @@ Object {
         "Row": 4,
         "Symbol": "TabIcon",
         "Text": "&#9;",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3050,6 +2988,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "J",
         "ShiftUpLabel": "j",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3064,6 +3003,7 @@ Object {
         "Col": 1,
         "Label": "<",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3079,6 +3019,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "K",
         "ShiftUpLabel": "k",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3094,6 +3035,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "Y",
         "ShiftUpLabel": "y",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3109,6 +3051,7 @@ Object {
         "Row": 3,
         "ShiftDownLabel": "L",
         "ShiftUpLabel": "l",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3124,6 +3067,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "X",
         "ShiftUpLabel": "x",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3138,6 +3082,7 @@ Object {
         "Col": 11,
         "Label": "^",
         "Row": 3,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3153,6 +3098,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "C",
         "ShiftUpLabel": "c",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3168,6 +3114,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "V",
         "ShiftUpLabel": "v",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3183,6 +3130,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "B",
         "ShiftUpLabel": "b",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3198,6 +3146,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "N",
         "ShiftUpLabel": "n",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3212,6 +3161,7 @@ Object {
         "Col": 0,
         "Label": "Win",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3227,6 +3177,7 @@ Object {
         "Row": 4,
         "ShiftDownLabel": "M",
         "ShiftUpLabel": "m",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3241,6 +3192,7 @@ Object {
         "Col": 1,
         "Label": ">",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3255,6 +3207,7 @@ Object {
         "Col": 9,
         "Label": "@",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3269,6 +3222,7 @@ Object {
         "Col": 2,
         "Label": ",",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3283,6 +3237,7 @@ Object {
         "Col": 10,
         "Label": "=",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3297,6 +3252,7 @@ Object {
         "Col": 3,
         "Label": ".",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3311,6 +3267,7 @@ Object {
         "Col": 11,
         "Label": "#",
         "Row": 4,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3325,6 +3282,7 @@ Object {
         "Col": 4,
         "Label": "(",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3339,6 +3297,7 @@ Object {
         "Col": 5,
         "Label": ")",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3353,6 +3312,7 @@ Object {
         "Col": 6,
         "Label": "[",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3367,6 +3327,7 @@ Object {
         "Col": 7,
         "Label": "]",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3381,6 +3342,7 @@ Object {
         "Col": 0,
         "Label": "Ctrl",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3395,6 +3357,7 @@ Object {
         "Col": 8,
         "Label": "{",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3409,6 +3372,7 @@ Object {
         "Col": 1,
         "Label": "Alt",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3423,6 +3387,7 @@ Object {
         "Col": 2,
         "Label": ";",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3437,6 +3402,7 @@ Object {
         "Col": 9,
         "Label": "}",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3451,6 +3417,7 @@ Object {
         "Col": 3,
         "Label": ":",
         "Row": 6,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3465,6 +3432,7 @@ Object {
         "Col": 10,
         "Row": 5,
         "Symbol": "UpArrowKeyIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3479,6 +3447,7 @@ Object {
         "Col": 11,
         "Label": "Esc",
         "Row": 5,
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3493,6 +3462,7 @@ Object {
         "Col": 4,
         "Row": 6,
         "Symbol": "ShiftIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3510,6 +3480,7 @@ Object {
         "Symbol": "SpaceIcon",
         "Text": "&#32;",
         "Width": "2",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3525,6 +3496,7 @@ Object {
         "Row": 6,
         "Symbol": "EnterIcon",
         "Text": "&#13;",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
@@ -3539,6 +3511,7 @@ Object {
         "Col": 8,
         "Row": 6,
         "Symbol": "BackOneIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3553,6 +3526,7 @@ Object {
         "Col": 9,
         "Row": 6,
         "Symbol": "LeftArrowKeyIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3567,6 +3541,7 @@ Object {
         "Col": 10,
         "Row": 6,
         "Symbol": "DownArrowKeyIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",
@@ -3581,6 +3556,7 @@ Object {
         "Col": 11,
         "Row": 6,
         "Symbol": "RightArrowKeyIcon",
+        "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Action",

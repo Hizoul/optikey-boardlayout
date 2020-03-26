@@ -1837,432 +1837,352 @@ Array [
   <KeyGroup Name=\\"Red Keys\\" BackgroundColor=\\"Red\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>~</Label>
       <Text>~</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>1</Label>
       <Text>1</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>2</Label>
       <Text>2</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>3</Label>
       <Text>3</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>4</Label>
       <Text>4</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>5</Label>
       <Text>5</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>6</Label>
       <Text>6</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>7</Label>
       <Text>7</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>8</Label>
       <Text>8</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>9</Label>
       <Text>9</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>0</Label>
       <Text>0</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>!</Label>
       <Text>!</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>?</Label>
       <Text>?</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>+</Label>
       <Text>+</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>*</Label>
       <Text>*</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>%</Label>
       <Text>%</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>&amp;</Label>
       <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>\\"</Label>
       <Text>\\"</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>'</Label>
       <Text>'</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>\`</Label>
       <Text>\`</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>$</Label>
       <Text>$</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>/</Label>
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>|</Label>
       <Text>|</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>-</Label>
       <Text>-</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>_</Label>
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>^</Label>
       <Text>^</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&lt;</Label>
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>@</Label>
       <Text>@</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>=</Label>
       <Text>=</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>#</Label>
       <Text>#</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Win</Label>
       <Action>LeftWin</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&gt;</Label>
       <Text>&gt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>,</Label>
       <Text>,</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>.</Label>
       <Text>.</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>(</Label>
       <Text>(</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>)</Label>
       <Text>)</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>[</Label>
       <Text>[</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>]</Label>
       <Text>]</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>{</Label>
       <Text>{</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>}</Label>
       <Text>}</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>Esc</Label>
       <Action>Escape</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>;</Label>
       <Text>;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>:</Label>
       <Text>:</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"5\\" Width=\\"2\\" Height=\\"2\\">
-      <type>DynamicKey</type>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
       <Text>Multi</Text>
       <Action>BackOne</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>A burst with text</Label>
       <Loop Count=\\"3\\">
         <KeyDown>a</KeyDown>
@@ -2270,17 +2190,19 @@ Array [
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
+      <KeyGroup Name=\\"Blue Keys\\"/>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
+      <KeyGroup Name=\\"Red Keys\\"/>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
-      <type>DynamicKey</type>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
+      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup Name=\\"Red Keys\\"/>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -6574,440 +6496,358 @@ Array [
   <KeyGroup/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>~</Label>
       <Text>~</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>1</Label>
       <Text>1</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>2</Label>
       <Text>2</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>3</Label>
       <Text>3</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>4</Label>
       <Text>4</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>5</Label>
       <Text>5</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>6</Label>
       <Text>6</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>7</Label>
       <Text>7</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>8</Label>
       <Text>8</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>9</Label>
       <Text>9</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>0</Label>
       <Text>0</Text>
     </DynamicKey>
     <DynamicKey Row=\\"0\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>!</Label>
       <Text>!</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>?</Label>
       <Text>?</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>+</Label>
       <Text>+</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>*</Label>
       <Text>*</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>%</Label>
       <Text>%</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>&amp;</Label>
       <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>\\"</Label>
       <Text>\\"</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>'</Label>
       <Text>'</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>\`</Label>
       <Text>\`</Text>
     </DynamicKey>
     <DynamicKey Row=\\"1\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>$</Label>
       <Text>$</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>/</Label>
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>|</Label>
       <Text>|</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>-</Label>
       <Text>-</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>_</Label>
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>^</Label>
       <Text>^</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&lt;</Label>
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>@</Label>
       <Text>@</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Label>=</Label>
       <Text>=</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>#</Label>
       <Text>#</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Win</Label>
       <Action>LeftWin</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>&gt;</Label>
       <Text>&gt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>,</Label>
       <Text>,</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>.</Label>
       <Text>.</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Label>(</Label>
       <Text>(</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"5\\">
-      <type>DynamicKey</type>
       <Label>)</Label>
       <Text>)</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"6\\">
-      <type>DynamicKey</type>
       <Label>[</Label>
       <Text>[</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Label>]</Label>
       <Text>]</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Label>{</Label>
       <Text>{</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Label>}</Label>
       <Text>}</Text>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Symbol>UpArrowKeyIcon</Symbol>
       <Action>ArrowUp</Action>
     </DynamicKey>
     <DynamicKey Row=\\"5\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Label>Esc</Label>
       <Action>Escape</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"0\\">
-      <type>DynamicKey</type>
       <Label>Ctrl</Label>
       <Action>LeftCtrl</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"1\\">
-      <type>DynamicKey</type>
       <Label>Alt</Label>
       <Action>LeftAlt</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"2\\">
-      <type>DynamicKey</type>
       <Label>;</Label>
       <Text>;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"3\\">
-      <type>DynamicKey</type>
       <Label>:</Label>
       <Text>:</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"4\\">
-      <type>DynamicKey</type>
       <Symbol>ShiftIcon</Symbol>
       <Action>LeftShift</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"5\\" Width=\\"2\\" Height=\\"2\\">
-      <type>DynamicKey</type>
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"7\\">
-      <type>DynamicKey</type>
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
       <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"8\\">
-      <type>DynamicKey</type>
       <Symbol>BackOneIcon</Symbol>
       <Action>BackOne</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"9\\">
-      <type>DynamicKey</type>
       <Symbol>LeftArrowKeyIcon</Symbol>
       <Action>ArrowLeft</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
-      <type>DynamicKey</type>
       <Symbol>DownArrowKeyIcon</Symbol>
       <Action>ArrowDown</Action>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\">
-      <type>DynamicKey</type>
       <Symbol>RightArrowKeyIcon</Symbol>
       <Action>ArrowRight</Action>
     </DynamicKey>
