@@ -6,7 +6,7 @@ import Select from '@material-ui/core/Select'
 import CheckBoxIcon from '@material-ui/icons/CheckBox'
 import { getMapToFromProps, IFieldProps, JSONSchemaDefinition, memo, useFieldWithValidation } from "@xpfw/form"
 import { get, isFunction } from "lodash"
-import { observer } from "mobx-react-lite"
+import { observer } from "mobx-react"
 import * as React from "react"
 import getLabel from "./getLabel";
 

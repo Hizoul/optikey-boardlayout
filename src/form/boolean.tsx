@@ -4,7 +4,7 @@ import FormHelperText from '@material-ui/core/FormHelperText'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import { getMapToFromProps, IFieldProps, useFieldWithValidation } from "@xpfw/form"
 import { get } from "lodash"
-import { observer } from "mobx-react-lite"
+import { observer } from "mobx-react"
 import * as React from "react"
 import getLabel from "./getLabel"
 import { InputLabel } from '@material-ui/core'

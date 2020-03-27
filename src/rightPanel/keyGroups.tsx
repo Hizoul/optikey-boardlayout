@@ -12,7 +12,7 @@ import { keyboardPrefix } from "../form/def"
 import { Button, IconButton } from "@material-ui/core"
 import DeleteIcon from "@material-ui/icons/Delete"
 import AddIcon from "@material-ui/icons/Add"
-import { observer } from "mobx-react-lite"
+import { observer } from "mobx-react"
 
 
 const KeyGroupArray: React.FunctionComponent<IFieldProps> = observer((props) => {

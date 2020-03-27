@@ -1,6 +1,6 @@
 import { FormStore } from "@xpfw/form"
 import { findIndex, get, find } from "lodash"
-import { observer } from "mobx-react-lite"
+import { observer } from "mobx-react"
 import * as React from "react"
 import { activeKey, colsSchema, keyboardPrefix, rowsSchema } from "../form/def"
 import KeyDisplay from "./key"

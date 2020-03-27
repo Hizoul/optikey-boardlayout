@@ -10,6 +10,7 @@
     "jsx": "react",
     "moduleResolution": "node",
     "noImplicitReturns": true,
+    "esModuleInterop": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
     "strictNullChecks": true,

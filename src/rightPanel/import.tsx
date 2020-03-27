@@ -14,7 +14,7 @@ import { useDropzone } from "react-dropzone"
 import { keyboardPrefix } from "../form/def"
 import xmlParser from "../xml/parse"
 import downloadKeyboard, { copyToClipboard, getKeyboardAsXml } from "../util/download"
-import { observer, useObservable } from "mobx-react-lite"
+import { observer } from "mobx-react"
 import { observable } from "mobx"
 
 const readFiles = (acceptedFiles: any) => {

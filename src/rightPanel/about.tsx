@@ -9,7 +9,7 @@ import Typography from "@material-ui/core/Typography"
 import CloseIcon from "@material-ui/icons/Close"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import { observable } from "mobx"
-import { observer } from "mobx-react-lite"
+import { observer } from "mobx-react"
 import * as React from "react"
 import licenses from "../util/licenses"
 

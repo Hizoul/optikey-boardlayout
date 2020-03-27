@@ -1,7 +1,7 @@
 import { FormStore, memo } from "@xpfw/form"
 import { findIndex, get } from "lodash"
 import { action } from "mobx"
-import { observer } from "mobx-react-lite"
+import { observer } from "mobx-react"
 import * as React from "react"
 import { activeKey, dragKey, hoverKey, keyboardPrefix } from "../form/def"
 import { resizeEventListener } from "./index"

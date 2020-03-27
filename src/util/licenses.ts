@@ -402,7 +402,7 @@ mississippi licensed under BSD-2-Clause. Repository: git+https://github.com/maxo
 mixin-deep licensed under MIT. Repository: jonschlinkert/mixin-deep
 mkdirp licensed under MIT. Repository: https://github.com/substack/node-mkdirp.git
 mobx licensed under MIT. Repository: https://github.com/mobxjs/mobx.git
-mobx-react-lite licensed under MIT. Repository: https://github.com/mobxjs/mobx-react-lite.git
+mobx-react licensed under MIT. Repository: https://github.com/mobxjs/mobx-react.git
 moment licensed under MIT. Repository: https://github.com/moment/moment.git
 move-concurrently licensed under ISC. Repository: git+https://github.com/npm/move-concurrently.git
 ms licensed under MIT. Repository: zeit/ms

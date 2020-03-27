@@ -1,5 +1,5 @@
 import { getMapToFromProps, IFieldProps, SharedField, useObject, FormStore } from "@xpfw/form"
-import { observer } from "mobx-react-lite"
+import { observer } from "mobx-react"
 import * as React from "react"
 import actionKeyList from "../util/actionKeys"
 import { keyActionObjectSchema, actionNames} from "./def"
