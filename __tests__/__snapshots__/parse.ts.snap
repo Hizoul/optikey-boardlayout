@@ -3,7 +3,7 @@
 exports[`parser: advanced js to xml 1`] = `
 "<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -1721,7 +1721,7 @@ Object {
       "Cols": 12,
       "Rows": 7,
     },
-    "Height": "40",
+    "Height": "40%",
     "HorizontalOffset": "0",
     "Name": "OptiKey-BoardMaker",
     "Position": "Top",
@@ -1746,7 +1746,7 @@ Object {
 exports[`parser: js to xml 1`] = `
 "<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -2125,7 +2125,7 @@ exports[`parser: js to xml 1`] = `
 exports[`parser: reduced cols 1`] = `
 "<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -3573,7 +3573,7 @@ Object {
       "Cols": 12,
       "Rows": 7,
     },
-    "Height": "40",
+    "Height": "40%",
     "HorizontalOffset": "0",
     "Name": "OptiKey-BoardMaker",
     "Position": "Top",

@@ -1,6 +1,6 @@
 const exampleXml =  `<Keyboard>
 <Name>OptiKey-BoardMaker</Name>
-<Height>40</Height>
+<Height>40%</Height>
 <SymbolMargin>1</SymbolMargin>
 <BorderThickness>0,0,0,0</BorderThickness>
 <DockSize>Full</DockSize>
@@ -376,7 +376,7 @@ const exampleXml =  `<Keyboard>
 
 const exampleKeyGroupOverrideXml = `<Keyboard>
 <Name>OptiKey-BoardMaker</Name>
-<Height>40</Height>
+<Height>40%</Height>
 <SymbolMargin>1</SymbolMargin>
 <BorderThickness>0,0,0,0</BorderThickness>
 <DockSize>Full</DockSize>

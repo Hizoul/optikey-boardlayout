@@ -1273,7 +1273,7 @@ Object {
     "Cols": 12,
     "Rows": 7,
   },
-  "Height": "40",
+  "Height": "40%",
   "HorizontalOffset": "0",
   "Name": "OptiKey-BoardMaker",
   "Position": "Top",

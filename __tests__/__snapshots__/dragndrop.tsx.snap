@@ -1818,7 +1818,7 @@ Array [
                       rowsMax={4}
                       value="<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -2428,7 +2428,7 @@ Array [
                       label=" Height"
                       onChange={[Function]}
                       type="text"
-                      value="40"
+                      value="40%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -5735,7 +5735,7 @@ Array [
                       rowsMax={4}
                       value="<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -6345,7 +6345,7 @@ Array [
                       label=" Height"
                       onChange={[Function]}
                       type="text"
-                      value="40"
+                      value="40%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -9639,7 +9639,7 @@ Array [
                       rowsMax={4}
                       value="<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -10249,7 +10249,7 @@ Array [
                       label=" Height"
                       onChange={[Function]}
                       type="text"
-                      value="40"
+                      value="40%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -13543,7 +13543,7 @@ Array [
                       rowsMax={4}
                       value="<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -14153,7 +14153,7 @@ Array [
                       label=" Height"
                       onChange={[Function]}
                       type="text"
-                      value="40"
+                      value="40%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -17447,7 +17447,7 @@ Array [
                       rowsMax={4}
                       value="<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -18057,7 +18057,7 @@ Array [
                       label=" Height"
                       onChange={[Function]}
                       type="text"
-                      value="40"
+                      value="40%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -21351,7 +21351,7 @@ Array [
                       rowsMax={4}
                       value="<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -21961,7 +21961,7 @@ Array [
                       label=" Height"
                       onChange={[Function]}
                       type="text"
-                      value="40"
+                      value="40%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -25255,7 +25255,7 @@ Array [
                       rowsMax={4}
                       value="<Keyboard>
   <Name>OptiKey-BoardMaker</Name>
-  <Height>40</Height>
+  <Height>40%</Height>
   <SymbolMargin>1</SymbolMargin>
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
@@ -25865,7 +25865,7 @@ Array [
                       label=" Height"
                       onChange={[Function]}
                       type="text"
-                      value="40"
+                      value="40%"
                     />
                     <p
                       className="MuiFormHelperText-root"
