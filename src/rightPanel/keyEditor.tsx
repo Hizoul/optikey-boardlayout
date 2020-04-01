@@ -4,23 +4,19 @@ import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary"
 import Typography from "@material-ui/core/Typography"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import { FormStore, SharedField } from "@xpfw/form"
-import { SelectField } from "@xpfw/form-web"
 import { cloneDeep, keys, get } from "lodash"
 import { observer } from "mobx-react"
 import * as React from "react"
 import { activeKey, keyboardPrefix, keyActionObjectSchema } from "../form/def"
-import actionKeyList from "../util/actionKeys"
 import symbolList from "../util/symbols"
 import { keyGroupSchema, keyGroupArraySchema } from "../form/defKeyGroup"
 import { resizeTriggerer } from "./index"
-import { toJS } from "mobx"
 
 const keyTypes: any[] = ["DynamicKey", "Scratchpad", "SuggestionRow", "SuggestionCol"].map((v) =>{return {value: v, label: v}})
 
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
-  console.log("ACTIVE KEY INDEX IS", keyIndex, toJS(FormStore.getValue(`Content[${keyIndex}]`, keyboardPrefix)))
   const keysLength = FormStore.getValue("Content.length", keyboardPrefix, 2)
   const typeSchema = {
     title: `Content[${keyIndex}].type`,

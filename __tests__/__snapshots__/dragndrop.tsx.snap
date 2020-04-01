@@ -1823,7 +1823,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -2427,8 +2427,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -2450,8 +2450,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -2665,8 +2665,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -2688,8 +2688,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -5740,7 +5740,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -6344,8 +6344,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -6367,8 +6367,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -6582,8 +6582,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -6605,8 +6605,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -9644,7 +9644,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -10248,8 +10248,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -10271,8 +10271,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -10486,8 +10486,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -10509,8 +10509,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -13548,7 +13548,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -14152,8 +14152,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -14175,8 +14175,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -14390,8 +14390,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -14413,8 +14413,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -17452,7 +17452,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -18056,8 +18056,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -18079,8 +18079,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -18294,8 +18294,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -18317,8 +18317,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -21356,7 +21356,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -21960,8 +21960,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -21983,8 +21983,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -22198,8 +22198,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -22221,8 +22221,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -25260,7 +25260,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -25864,8 +25864,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -25887,8 +25887,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -26102,8 +26102,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -26125,8 +26125,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"

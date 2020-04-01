@@ -8,7 +8,7 @@ exports[`parser: advanced js to xml 1`] = `
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -375,19 +375,19 @@ exports[`parser: advanced js to xml 1`] = `
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
-      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Blue Keys\\"/>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -1721,13 +1721,13 @@ Object {
       "Cols": 12,
       "Rows": 7,
     },
-    "Height": 40,
-    "HorizontalOffset": 0,
+    "Height": "40",
+    "HorizontalOffset": "0",
     "Name": "OptiKey-BoardMaker",
     "Position": "Top",
     "SymbolMargin": 1,
-    "VerticalOffset": 0,
-    "Width": 100,
+    "VerticalOffset": "0",
+    "Width": "100%",
     "WindowState": "Docked",
     "keyGroups": Array [
       Object {
@@ -1751,7 +1751,7 @@ exports[`parser: js to xml 1`] = `
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -2130,7 +2130,7 @@ exports[`parser: reduced cols 1`] = `
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -3573,13 +3573,13 @@ Object {
       "Cols": 12,
       "Rows": 7,
     },
-    "Height": 40,
-    "HorizontalOffset": 0,
+    "Height": "40",
+    "HorizontalOffset": "0",
     "Name": "OptiKey-BoardMaker",
     "Position": "Top",
     "SymbolMargin": 1,
-    "VerticalOffset": 0,
-    "Width": 100,
+    "VerticalOffset": "0",
+    "Width": "100%",
     "WindowState": "Docked",
     "keyGroups": Array [],
   },

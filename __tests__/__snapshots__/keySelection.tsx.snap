@@ -1821,7 +1821,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -2427,8 +2427,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -2450,8 +2450,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -2665,8 +2665,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -2688,8 +2688,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -3808,7 +3808,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -3829,7 +3829,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -7287,7 +7287,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -7891,8 +7891,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -7914,8 +7914,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -8129,8 +8129,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -8152,8 +8152,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -9272,7 +9272,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -9293,7 +9293,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -12751,7 +12751,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -13355,8 +13355,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -13378,8 +13378,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -13593,8 +13593,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -13616,8 +13616,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -14736,7 +14736,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -14757,7 +14757,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -18213,7 +18213,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -18817,8 +18817,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -18840,8 +18840,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -19055,8 +19055,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -19078,8 +19078,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -20198,7 +20198,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -20219,7 +20219,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -23677,7 +23677,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -24281,8 +24281,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -24304,8 +24304,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -24519,8 +24519,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -24542,8 +24542,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -25662,7 +25662,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -25683,7 +25683,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -29141,7 +29141,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -29746,8 +29746,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -29769,8 +29769,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -29984,8 +29984,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -30007,8 +30007,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -31127,7 +31127,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -31148,7 +31148,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -34606,7 +34606,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -35211,8 +35211,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -35234,8 +35234,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -35449,8 +35449,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -35472,8 +35472,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -36592,7 +36592,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -36613,7 +36613,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -40069,7 +40069,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -40675,8 +40675,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -40698,8 +40698,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -40913,8 +40913,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -40936,8 +40936,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -43973,7 +43973,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -44579,8 +44579,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -44602,8 +44602,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -44817,8 +44817,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -44840,8 +44840,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -47879,7 +47879,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -48483,8 +48483,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -48506,8 +48506,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -48721,8 +48721,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -48744,8 +48744,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -51783,7 +51783,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -52387,8 +52387,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -52410,8 +52410,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -52625,8 +52625,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -52648,8 +52648,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -55685,7 +55685,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -56291,8 +56291,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -56314,8 +56314,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -56529,8 +56529,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -56552,8 +56552,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -59591,7 +59591,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -60197,8 +60197,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -60220,8 +60220,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -60435,8 +60435,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -60458,8 +60458,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -61578,7 +61578,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -61599,7 +61599,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -65057,7 +65057,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -65424,19 +65424,19 @@ Array [
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
-      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Blue Keys\\"/>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -65674,8 +65674,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -65697,8 +65697,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -65912,8 +65912,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -65935,8 +65935,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -67172,7 +67172,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -67193,7 +67193,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -71394,7 +71394,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -71761,19 +71761,19 @@ Array [
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
-      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Blue Keys\\"/>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -72011,8 +72011,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -72034,8 +72034,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -72249,8 +72249,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -72272,8 +72272,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -73570,7 +73570,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value="1"
                                   />
                                   <p
@@ -73591,7 +73591,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value="1"
                                   />
                                   <p
@@ -77804,7 +77804,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -78171,19 +78171,19 @@ Array [
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
-      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Blue Keys\\"/>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -78421,8 +78421,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -78444,8 +78444,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -78659,8 +78659,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -78682,8 +78682,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -82464,7 +82464,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -82831,19 +82831,19 @@ Array [
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
-      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Blue Keys\\"/>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -83081,8 +83081,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -83104,8 +83104,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -83319,8 +83319,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -83342,8 +83342,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -85023,7 +85023,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -85044,7 +85044,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -89245,7 +89245,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -89612,19 +89612,19 @@ Array [
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
-      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Blue Keys\\"/>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -89862,8 +89862,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -89885,8 +89885,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -90100,8 +90100,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -90123,8 +90123,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -92871,7 +92871,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -92892,7 +92892,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -97093,7 +97093,7 @@ Array [
   <BorderThickness>0,0,0,0</BorderThickness>
   <DockSize>Full</DockSize>
   <Position>Top</Position>
-  <Width>100</Width>
+  <Width>100%</Width>
   <HorizontalOffset>0</HorizontalOffset>
   <VerticalOffset>0</VerticalOffset>
   <BackgroundColor>Transparent</BackgroundColor>
@@ -97459,19 +97459,19 @@ Array [
         <KeyUp>a</KeyUp>
       </Loop>
       <Text>b</Text>
-      <KeyGroup Name=\\"Blue Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"10\\">
       <Label>BackWithReturnFalse</Label>
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
-      <KeyGroup Name=\\"Blue Keys\\"/>
-      <KeyGroup Name=\\"Red Keys\\"/>
+      <KeyGroup>Blue Keys</KeyGroup>
+      <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
   </Content>
 </Keyboard>"
@@ -97709,8 +97709,8 @@ Array [
                       }
                       label=" Height"
                       onChange={[Function]}
-                      type="number"
-                      value={40}
+                      type="text"
+                      value="40"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -97732,8 +97732,8 @@ Array [
                       }
                       label=" Width"
                       onChange={[Function]}
-                      type="number"
-                      value={100}
+                      type="text"
+                      value="100%"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -97947,8 +97947,8 @@ Array [
                       }
                       label=" Horizontal Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -97970,8 +97970,8 @@ Array [
                       }
                       label=" Vertical Offset"
                       onChange={[Function]}
-                      type="number"
-                      value=""
+                      type="text"
+                      value="0"
                     />
                     <p
                       className="MuiFormHelperText-root"
@@ -100718,7 +100718,7 @@ Array [
                                     }
                                     label=" Width"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p
@@ -100739,7 +100739,7 @@ Array [
                                     }
                                     label=" Height"
                                     onChange={[Function]}
-                                    type="number"
+                                    type="text"
                                     value=""
                                   />
                                   <p

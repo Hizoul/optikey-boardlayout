@@ -22,16 +22,16 @@ const xmlParser: (xml: string) => any = (xml: string) => {
   const root = data.elements[0].elements
   const Name = getElementText(find(root, ["name", "Name"]))
   const BorderThickness = getElementText(find(root, ["name", "BorderThickness"]))
-  const Height = Number(getElementText(find(root, ["name", "Height"]), "30"))
+  const Height = getElementText(find(root, ["name", "Height"]), "30")
   const SymbolMargin = Number(getElementText(find(root, ["name", "SymbolMargin"]), "10"))
   const grid = get(find(root, ["name", "Grid"]), "elements", [])
   const Rows = Number(getElementText(find(grid, ["name", "Rows"]), "7"))
   const Cols = Number(getElementText(find(grid, ["name", "Cols"]), "3"))
   const Position = getElementText(find(root, ["name", "Position"]), "Top")
   const DockSize = getElementText(find(root, ["name", "DockSize"]), "Full")
-  const Width = Number(getElementText(find(root, ["name", "Width"]), "100"))
-  const HorizontalOffset = Number(getElementText(find(root, ["name", "HorizontalOffset"]), "1"))
-  const VerticalOffset = Number(getElementText(find(root, ["name", "VerticalOffset"]), "1"))
+  const Width = getElementText(find(root, ["name", "Width"]), "100")
+  const HorizontalOffset = getElementText(find(root, ["name", "HorizontalOffset"]), "1")
+  const VerticalOffset = getElementText(find(root, ["name", "VerticalOffset"]), "1")
   const BackgroundColor = getElementText(find(root, ["name", "BackgroundColor"]), "White")
   const BorderColor = getElementText(find(root, ["name", "BorderColor"]), "Black")
   const WindowState = getElementText(find(root, ["name", "WindowState"]), "Docked")
@@ -215,7 +215,7 @@ const toXml = (keyboard: IKeyboard) => {
         }
       }
       for (const associatedGroup of associatedKeyGroups) {
-        newKey.push({type: "element", name: "KeyGroup", attributes: {Name: associatedGroup}})
+        newKey.push({type: "element", name: "KeyGroup", elements: [{type: "text", text: associatedGroup}]})
       }
       if (r < keyboard.Keyboard.Grid.Rows && c < keyboard.Keyboard.Grid.Cols) {
         changedContent.push({type: "element", name, r, c, elements: newKey, attributes})
