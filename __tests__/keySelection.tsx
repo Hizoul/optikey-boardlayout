@@ -12,6 +12,7 @@ import xmlParser from "../src/xml/parse"
 import { FormStore, memo } from "@xpfw/form"
 import { resizeEventListener, keyboardContainerReference, setRegisteredToTrue } from "../src/keyboard"
 import { resizeTriggerer } from "../src/rightPanel"
+import { keyGroupArraySchema } from "../src/form/defKeyGroup"
 const dynamicKeyVal = keyTypes[0].value
 const changeHelper = (mapTo: string, prefix?: string, value?: any) =>
   memo(() => () => FormStore.setValue(mapTo, value, prefix), ["changeHelper", mapTo, prefix, value])
@@ -72,5 +73,7 @@ test("app", () => {
   renderSnapshot(<App />, "test loop")
   clickHandler(i6, 6, 8)()
   renderSnapshot(<App />, "test multi key actions")
+  FormStore.setValue("Keyboard."+String(keyGroupArraySchema.title), [undefined])
+  renderSnapshot(<App />, "undefined value in keygroups")
 
 })

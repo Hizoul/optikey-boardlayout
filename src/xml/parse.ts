@@ -59,11 +59,6 @@ const xmlParser: (xml: string) => any = (xml: string) => {
     if (Height != null) {
       ele.Height = Height
     }
-    const ShiftUpLabel = getElementText(find(eles, ["name", "ShiftUpLabel"]))
-    if (ShiftUpLabel != null) {
-      ele.ShiftUpLabel = ShiftUpLabel
-      ele.labelType = "Case Sensitive Text"
-    }
     const ShiftDownLabel = getElementText(find(eles, ["name", "ShiftDownLabel"]))
     if (ShiftDownLabel != null) {
       ele.ShiftDownLabel = ShiftDownLabel

@@ -102,7 +102,7 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="1">
     <Text>q</Text>
-    <ShiftUpLabel>q</ShiftUpLabel>
+    <Label>q</Label>
     <ShiftDownLabel>Q</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="1" Col="8">
@@ -111,7 +111,7 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="2">
     <Text>w</Text>
-    <ShiftUpLabel>w</ShiftUpLabel>
+    <Label>w</Label>
     <ShiftDownLabel>W</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="1" Col="9">
@@ -124,22 +124,22 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="3">
     <Text>e</Text>
-    <ShiftUpLabel>e</ShiftUpLabel>
+    <Label>e</Label>
     <ShiftDownLabel>E</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="4">
     <Text>r</Text>
-    <ShiftUpLabel>r</ShiftUpLabel>
+    <Label>r</Label>
     <ShiftDownLabel>R</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="5">
     <Text>t</Text>
-    <ShiftUpLabel>t</ShiftUpLabel>
+    <Label>t</Label>
     <ShiftDownLabel>T</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="6">
     <Text>z</Text>
-    <ShiftUpLabel>z</ShiftUpLabel>
+    <Label>z</Label>
     <ShiftDownLabel>Z</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="0">
@@ -148,7 +148,7 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="7">
     <Text>u</Text>
-    <ShiftUpLabel>u</ShiftUpLabel>
+    <Label>u</Label>
     <ShiftDownLabel>U</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="1">
@@ -157,27 +157,27 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="8">
     <Text>i</Text>
-    <ShiftUpLabel>i</ShiftUpLabel>
+    <Label>i</Label>
     <ShiftDownLabel>I</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="2">
     <Text>a</Text>
-    <ShiftUpLabel>a</ShiftUpLabel>
+    <Label>a</Label>
     <ShiftDownLabel>A</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="9">
     <Text>o</Text>
-    <ShiftUpLabel>o</ShiftUpLabel>
+    <Label>o</Label>
     <ShiftDownLabel>O</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="10">
     <Text>p</Text>
-    <ShiftUpLabel>p</ShiftUpLabel>
+    <Label>p</Label>
     <ShiftDownLabel>P</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="3">
     <Text>s</Text>
-    <ShiftUpLabel>s</ShiftUpLabel>
+    <Label>s</Label>
     <ShiftDownLabel>S</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="11">
@@ -186,22 +186,22 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="3" Col="4">
     <Text>d</Text>
-    <ShiftUpLabel>d</ShiftUpLabel>
+    <Label>d</Label>
     <ShiftDownLabel>D</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="5">
     <Text>f</Text>
-    <ShiftUpLabel>f</ShiftUpLabel>
+    <Label>f</Label>
     <ShiftDownLabel>F</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="6">
     <Text>g</Text>
-    <ShiftUpLabel>g</ShiftUpLabel>
+    <Label>g</Label>
     <ShiftDownLabel>G</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="7">
     <Text>h</Text>
-    <ShiftUpLabel>h</ShiftUpLabel>
+    <Label>h</Label>
     <ShiftDownLabel>H</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="0">
@@ -210,7 +210,7 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="3" Col="8">
     <Text>j</Text>
-    <ShiftUpLabel>j</ShiftUpLabel>
+    <Label>j</Label>
     <ShiftDownLabel>J</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="1">
@@ -219,22 +219,22 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="3" Col="9">
     <Text>k</Text>
-    <ShiftUpLabel>k</ShiftUpLabel>
+    <Label>k</Label>
     <ShiftDownLabel>K</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="2">
     <Text>y</Text>
-    <ShiftUpLabel>y</ShiftUpLabel>
+    <Label>y</Label>
     <ShiftDownLabel>Y</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="10">
     <Text>l</Text>
-    <ShiftUpLabel>l</ShiftUpLabel>
+    <Label>l</Label>
     <ShiftDownLabel>L</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="3">
     <Text>x</Text>
-    <ShiftUpLabel>x</ShiftUpLabel>
+    <Label>x</Label>
     <ShiftDownLabel>X</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="11">
@@ -243,22 +243,22 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="4" Col="4">
     <Text>c</Text>
-    <ShiftUpLabel>c</ShiftUpLabel>
+    <Label>c</Label>
     <ShiftDownLabel>C</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="5">
     <Text>v</Text>
-    <ShiftUpLabel>v</ShiftUpLabel>
+    <Label>v</Label>
     <ShiftDownLabel>V</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="6">
     <Text>b</Text>
-    <ShiftUpLabel>b</ShiftUpLabel>
+    <Label>b</Label>
     <ShiftDownLabel>B</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="7">
     <Text>n</Text>
-    <ShiftUpLabel>n</ShiftUpLabel>
+    <Label>n</Label>
     <ShiftDownLabel>N</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="5" Col="0">
@@ -267,7 +267,7 @@ const exampleXml =  `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="4" Col="8">
     <Text>m</Text>
-    <ShiftUpLabel>m</ShiftUpLabel>
+    <Label>m</Label>
     <ShiftDownLabel>M</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="5" Col="1">
@@ -480,7 +480,7 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="1">
     <Text>q</Text>
-    <ShiftUpLabel>q</ShiftUpLabel>
+    <Label>q</Label>
     <ShiftDownLabel>Q</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="1" Col="8">
@@ -489,7 +489,7 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="2">
     <Text>w</Text>
-    <ShiftUpLabel>w</ShiftUpLabel>
+    <Label>w</Label>
     <ShiftDownLabel>W</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="1" Col="9">
@@ -502,22 +502,22 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="3">
     <Text>e</Text>
-    <ShiftUpLabel>e</ShiftUpLabel>
+    <Label>e</Label>
     <ShiftDownLabel>E</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="4">
     <Text>r</Text>
-    <ShiftUpLabel>r</ShiftUpLabel>
+    <Label>r</Label>
     <ShiftDownLabel>R</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="5">
     <Text>t</Text>
-    <ShiftUpLabel>t</ShiftUpLabel>
+    <Label>t</Label>
     <ShiftDownLabel>T</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="6">
     <Text>z</Text>
-    <ShiftUpLabel>z</ShiftUpLabel>
+    <Label>z</Label>
     <ShiftDownLabel>Z</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="0">
@@ -526,7 +526,7 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="7">
     <Text>u</Text>
-    <ShiftUpLabel>u</ShiftUpLabel>
+    <Label>u</Label>
     <ShiftDownLabel>U</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="1">
@@ -535,27 +535,27 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="2" Col="8">
     <Text>i</Text>
-    <ShiftUpLabel>i</ShiftUpLabel>
+    <Label>i</Label>
     <ShiftDownLabel>I</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="2">
     <Text>a</Text>
-    <ShiftUpLabel>a</ShiftUpLabel>
+    <Label>a</Label>
     <ShiftDownLabel>A</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="9">
     <Text>o</Text>
-    <ShiftUpLabel>o</ShiftUpLabel>
+    <Label>o</Label>
     <ShiftDownLabel>O</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="10">
     <Text>p</Text>
-    <ShiftUpLabel>p</ShiftUpLabel>
+    <Label>p</Label>
     <ShiftDownLabel>P</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="3">
     <Text>s</Text>
-    <ShiftUpLabel>s</ShiftUpLabel>
+    <Label>s</Label>
     <ShiftDownLabel>S</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="2" Col="11">
@@ -564,22 +564,22 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="3" Col="4">
     <Text>d</Text>
-    <ShiftUpLabel>d</ShiftUpLabel>
+    <Label>d</Label>
     <ShiftDownLabel>D</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="5">
     <Text>f</Text>
-    <ShiftUpLabel>f</ShiftUpLabel>
+    <Label>f</Label>
     <ShiftDownLabel>F</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="6">
     <Text>g</Text>
-    <ShiftUpLabel>g</ShiftUpLabel>
+    <Label>g</Label>
     <ShiftDownLabel>G</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="7">
     <Text>h</Text>
-    <ShiftUpLabel>h</ShiftUpLabel>
+    <Label>h</Label>
     <ShiftDownLabel>H</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="0">
@@ -588,7 +588,7 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="3" Col="8">
     <Text>j</Text>
-    <ShiftUpLabel>j</ShiftUpLabel>
+    <Label>j</Label>
     <ShiftDownLabel>J</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="1">
@@ -597,22 +597,22 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="3" Col="9">
     <Text>k</Text>
-    <ShiftUpLabel>k</ShiftUpLabel>
+    <Label>k</Label>
     <ShiftDownLabel>K</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="2">
     <Text>y</Text>
-    <ShiftUpLabel>y</ShiftUpLabel>
+    <Label>y</Label>
     <ShiftDownLabel>Y</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="10">
     <Text>l</Text>
-    <ShiftUpLabel>l</ShiftUpLabel>
+    <Label>l</Label>
     <ShiftDownLabel>L</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="3">
     <Text>x</Text>
-    <ShiftUpLabel>x</ShiftUpLabel>
+    <Label>x</Label>
     <ShiftDownLabel>X</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="11">
@@ -621,22 +621,22 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="4" Col="4">
     <Text>c</Text>
-    <ShiftUpLabel>c</ShiftUpLabel>
+    <Label>c</Label>
     <ShiftDownLabel>C</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="5">
     <Text>v</Text>
-    <ShiftUpLabel>v</ShiftUpLabel>
+    <Label>v</Label>
     <ShiftDownLabel>V</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="6">
     <Text>b</Text>
-    <ShiftUpLabel>b</ShiftUpLabel>
+    <Label>b</Label>
     <ShiftDownLabel>B</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="4" Col="7">
     <Text>n</Text>
-    <ShiftUpLabel>n</ShiftUpLabel>
+    <Label>n</Label>
     <ShiftDownLabel>N</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="5" Col="0">
@@ -645,7 +645,7 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
   </DynamicKey>
   <DynamicKey Row="4" Col="8">
     <Text>m</Text>
-    <ShiftUpLabel>m</ShiftUpLabel>
+    <Label>m</Label>
     <ShiftDownLabel>M</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="5" Col="1">

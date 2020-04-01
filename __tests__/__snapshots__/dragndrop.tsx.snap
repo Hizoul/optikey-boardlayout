@@ -522,7 +522,7 @@ Array [
           }
         }
       >
-        Q
+        q
       </div>
       <div
         className="key center    "
@@ -542,7 +542,7 @@ Array [
           }
         }
       >
-        W
+        w
       </div>
       <div
         className="key center    "
@@ -562,7 +562,7 @@ Array [
           }
         }
       >
-        E
+        e
       </div>
       <div
         className="key center    "
@@ -582,7 +582,7 @@ Array [
           }
         }
       >
-        R
+        r
       </div>
       <div
         className="key center    "
@@ -602,7 +602,7 @@ Array [
           }
         }
       >
-        T
+        t
       </div>
       <div
         className="key center    "
@@ -622,7 +622,7 @@ Array [
           }
         }
       >
-        Z
+        z
       </div>
       <div
         className="key center    "
@@ -642,7 +642,7 @@ Array [
           }
         }
       >
-        U
+        u
       </div>
       <div
         className="key center    "
@@ -662,7 +662,7 @@ Array [
           }
         }
       >
-        I
+        i
       </div>
       <div
         className="key center    "
@@ -682,7 +682,7 @@ Array [
           }
         }
       >
-        O
+        o
       </div>
       <div
         className="key center    "
@@ -702,7 +702,7 @@ Array [
           }
         }
       >
-        P
+        p
       </div>
       <div
         className="key center    "
@@ -782,7 +782,7 @@ Array [
           }
         }
       >
-        A
+        a
       </div>
       <div
         className="key center    "
@@ -802,7 +802,7 @@ Array [
           }
         }
       >
-        S
+        s
       </div>
       <div
         className="key center    "
@@ -822,7 +822,7 @@ Array [
           }
         }
       >
-        D
+        d
       </div>
       <div
         className="key center    "
@@ -842,7 +842,7 @@ Array [
           }
         }
       >
-        F
+        f
       </div>
       <div
         className="key center    "
@@ -862,7 +862,7 @@ Array [
           }
         }
       >
-        G
+        g
       </div>
       <div
         className="key center    "
@@ -882,7 +882,7 @@ Array [
           }
         }
       >
-        H
+        h
       </div>
       <div
         className="key center    "
@@ -902,7 +902,7 @@ Array [
           }
         }
       >
-        J
+        j
       </div>
       <div
         className="key center    "
@@ -922,7 +922,7 @@ Array [
           }
         }
       >
-        K
+        k
       </div>
       <div
         className="key center    "
@@ -942,7 +942,7 @@ Array [
           }
         }
       >
-        L
+        l
       </div>
       <div
         className="key center    "
@@ -1022,7 +1022,7 @@ Array [
           }
         }
       >
-        Y
+        y
       </div>
       <div
         className="key center    "
@@ -1042,7 +1042,7 @@ Array [
           }
         }
       >
-        X
+        x
       </div>
       <div
         className="key center    "
@@ -1062,7 +1062,7 @@ Array [
           }
         }
       >
-        C
+        c
       </div>
       <div
         className="key center    "
@@ -1082,7 +1082,7 @@ Array [
           }
         }
       >
-        V
+        v
       </div>
       <div
         className="key center    "
@@ -1102,7 +1102,7 @@ Array [
           }
         }
       >
-        B
+        b
       </div>
       <div
         className="key center    "
@@ -1122,7 +1122,7 @@ Array [
           }
         }
       >
-        N
+        n
       </div>
       <div
         className="key center    "
@@ -1142,7 +1142,7 @@ Array [
           }
         }
       >
-        M
+        m
       </div>
       <div
         className="key center    "
@@ -1931,53 +1931,53 @@ Array [
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Label>q</Label>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Label>w</Label>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Label>e</Label>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Label>r</Label>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Label>t</Label>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Label>z</Label>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Label>u</Label>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Label>i</Label>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Label>o</Label>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Label>p</Label>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
@@ -1993,48 +1993,48 @@ Array [
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Label>a</Label>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Label>s</Label>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Label>d</Label>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Label>f</Label>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Label>g</Label>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Label>h</Label>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Label>j</Label>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Label>k</Label>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Label>l</Label>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
@@ -2051,38 +2051,38 @@ Array [
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Label>y</Label>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Label>x</Label>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Label>c</Label>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Label>v</Label>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Label>b</Label>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Label>n</Label>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Label>m</Label>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
@@ -4439,7 +4439,7 @@ Array [
           }
         }
       >
-        Q
+        q
       </div>
       <div
         className="key center    "
@@ -4459,7 +4459,7 @@ Array [
           }
         }
       >
-        W
+        w
       </div>
       <div
         className="key center    "
@@ -4479,7 +4479,7 @@ Array [
           }
         }
       >
-        E
+        e
       </div>
       <div
         className="key center    "
@@ -4499,7 +4499,7 @@ Array [
           }
         }
       >
-        R
+        r
       </div>
       <div
         className="key center    "
@@ -4519,7 +4519,7 @@ Array [
           }
         }
       >
-        T
+        t
       </div>
       <div
         className="key center    "
@@ -4539,7 +4539,7 @@ Array [
           }
         }
       >
-        Z
+        z
       </div>
       <div
         className="key center    "
@@ -4559,7 +4559,7 @@ Array [
           }
         }
       >
-        U
+        u
       </div>
       <div
         className="key center    "
@@ -4579,7 +4579,7 @@ Array [
           }
         }
       >
-        I
+        i
       </div>
       <div
         className="key center    "
@@ -4599,7 +4599,7 @@ Array [
           }
         }
       >
-        O
+        o
       </div>
       <div
         className="key center    "
@@ -4619,7 +4619,7 @@ Array [
           }
         }
       >
-        P
+        p
       </div>
       <div
         className="key center    "
@@ -4699,7 +4699,7 @@ Array [
           }
         }
       >
-        A
+        a
       </div>
       <div
         className="key center    "
@@ -4719,7 +4719,7 @@ Array [
           }
         }
       >
-        S
+        s
       </div>
       <div
         className="key center    "
@@ -4739,7 +4739,7 @@ Array [
           }
         }
       >
-        D
+        d
       </div>
       <div
         className="key center    "
@@ -4759,7 +4759,7 @@ Array [
           }
         }
       >
-        F
+        f
       </div>
       <div
         className="key center    "
@@ -4779,7 +4779,7 @@ Array [
           }
         }
       >
-        G
+        g
       </div>
       <div
         className="key center    "
@@ -4799,7 +4799,7 @@ Array [
           }
         }
       >
-        H
+        h
       </div>
       <div
         className="key center    "
@@ -4819,7 +4819,7 @@ Array [
           }
         }
       >
-        J
+        j
       </div>
       <div
         className="key center    "
@@ -4839,7 +4839,7 @@ Array [
           }
         }
       >
-        K
+        k
       </div>
       <div
         className="key center    "
@@ -4859,7 +4859,7 @@ Array [
           }
         }
       >
-        L
+        l
       </div>
       <div
         className="key center    "
@@ -4939,7 +4939,7 @@ Array [
           }
         }
       >
-        Y
+        y
       </div>
       <div
         className="key center    "
@@ -4959,7 +4959,7 @@ Array [
           }
         }
       >
-        X
+        x
       </div>
       <div
         className="key center    "
@@ -4979,7 +4979,7 @@ Array [
           }
         }
       >
-        C
+        c
       </div>
       <div
         className="key center    "
@@ -4999,7 +4999,7 @@ Array [
           }
         }
       >
-        V
+        v
       </div>
       <div
         className="key center    "
@@ -5019,7 +5019,7 @@ Array [
           }
         }
       >
-        B
+        b
       </div>
       <div
         className="key center    "
@@ -5039,7 +5039,7 @@ Array [
           }
         }
       >
-        N
+        n
       </div>
       <div
         className="key center    "
@@ -5059,7 +5059,7 @@ Array [
           }
         }
       >
-        M
+        m
       </div>
       <div
         className="key center    "
@@ -5848,53 +5848,53 @@ Array [
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Label>q</Label>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Label>w</Label>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Label>e</Label>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Label>r</Label>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Label>t</Label>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Label>z</Label>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Label>u</Label>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Label>i</Label>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Label>o</Label>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Label>p</Label>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
@@ -5910,48 +5910,48 @@ Array [
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Label>a</Label>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Label>s</Label>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Label>d</Label>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Label>f</Label>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Label>g</Label>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Label>h</Label>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Label>j</Label>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Label>k</Label>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Label>l</Label>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
@@ -5968,38 +5968,38 @@ Array [
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Label>y</Label>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Label>x</Label>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Label>c</Label>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Label>v</Label>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Label>b</Label>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Label>n</Label>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Label>m</Label>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
@@ -8343,7 +8343,7 @@ Array [
           }
         }
       >
-        Q
+        q
       </div>
       <div
         className="key center    "
@@ -8363,7 +8363,7 @@ Array [
           }
         }
       >
-        W
+        w
       </div>
       <div
         className="key center    "
@@ -8383,7 +8383,7 @@ Array [
           }
         }
       >
-        E
+        e
       </div>
       <div
         className="key center    "
@@ -8403,7 +8403,7 @@ Array [
           }
         }
       >
-        R
+        r
       </div>
       <div
         className="key center    "
@@ -8423,7 +8423,7 @@ Array [
           }
         }
       >
-        T
+        t
       </div>
       <div
         className="key center    "
@@ -8443,7 +8443,7 @@ Array [
           }
         }
       >
-        Z
+        z
       </div>
       <div
         className="key center    "
@@ -8463,7 +8463,7 @@ Array [
           }
         }
       >
-        U
+        u
       </div>
       <div
         className="key center    "
@@ -8483,7 +8483,7 @@ Array [
           }
         }
       >
-        I
+        i
       </div>
       <div
         className="key center    "
@@ -8503,7 +8503,7 @@ Array [
           }
         }
       >
-        O
+        o
       </div>
       <div
         className="key center    "
@@ -8523,7 +8523,7 @@ Array [
           }
         }
       >
-        P
+        p
       </div>
       <div
         className="key center    "
@@ -8603,7 +8603,7 @@ Array [
           }
         }
       >
-        A
+        a
       </div>
       <div
         className="key center    "
@@ -8623,7 +8623,7 @@ Array [
           }
         }
       >
-        S
+        s
       </div>
       <div
         className="key center    "
@@ -8643,7 +8643,7 @@ Array [
           }
         }
       >
-        D
+        d
       </div>
       <div
         className="key center    "
@@ -8663,7 +8663,7 @@ Array [
           }
         }
       >
-        F
+        f
       </div>
       <div
         className="key center    "
@@ -8683,7 +8683,7 @@ Array [
           }
         }
       >
-        G
+        g
       </div>
       <div
         className="key center    "
@@ -8703,7 +8703,7 @@ Array [
           }
         }
       >
-        H
+        h
       </div>
       <div
         className="key center    "
@@ -8723,7 +8723,7 @@ Array [
           }
         }
       >
-        J
+        j
       </div>
       <div
         className="key center    "
@@ -8743,7 +8743,7 @@ Array [
           }
         }
       >
-        K
+        k
       </div>
       <div
         className="key center    "
@@ -8763,7 +8763,7 @@ Array [
           }
         }
       >
-        L
+        l
       </div>
       <div
         className="key center    "
@@ -8843,7 +8843,7 @@ Array [
           }
         }
       >
-        Y
+        y
       </div>
       <div
         className="key center    "
@@ -8863,7 +8863,7 @@ Array [
           }
         }
       >
-        X
+        x
       </div>
       <div
         className="key center    "
@@ -8883,7 +8883,7 @@ Array [
           }
         }
       >
-        C
+        c
       </div>
       <div
         className="key center    "
@@ -8903,7 +8903,7 @@ Array [
           }
         }
       >
-        V
+        v
       </div>
       <div
         className="key center    "
@@ -8923,7 +8923,7 @@ Array [
           }
         }
       >
-        B
+        b
       </div>
       <div
         className="key center    "
@@ -8943,7 +8943,7 @@ Array [
           }
         }
       >
-        N
+        n
       </div>
       <div
         className="key center    "
@@ -8963,7 +8963,7 @@ Array [
           }
         }
       >
-        M
+        m
       </div>
       <div
         className="key center    "
@@ -9752,53 +9752,53 @@ Array [
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Label>q</Label>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Label>w</Label>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Label>e</Label>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Label>r</Label>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Label>t</Label>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Label>z</Label>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Label>u</Label>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Label>i</Label>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Label>o</Label>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Label>p</Label>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
@@ -9814,48 +9814,48 @@ Array [
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Label>a</Label>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Label>s</Label>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Label>d</Label>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Label>f</Label>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Label>g</Label>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Label>h</Label>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Label>j</Label>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Label>k</Label>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Label>l</Label>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
@@ -9872,38 +9872,38 @@ Array [
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Label>y</Label>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Label>x</Label>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Label>c</Label>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Label>v</Label>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Label>b</Label>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Label>n</Label>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Label>m</Label>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
@@ -12247,7 +12247,7 @@ Array [
           }
         }
       >
-        Q
+        q
       </div>
       <div
         className="key center    "
@@ -12267,7 +12267,7 @@ Array [
           }
         }
       >
-        W
+        w
       </div>
       <div
         className="key center    "
@@ -12287,7 +12287,7 @@ Array [
           }
         }
       >
-        E
+        e
       </div>
       <div
         className="key center    "
@@ -12307,7 +12307,7 @@ Array [
           }
         }
       >
-        R
+        r
       </div>
       <div
         className="key center    "
@@ -12327,7 +12327,7 @@ Array [
           }
         }
       >
-        T
+        t
       </div>
       <div
         className="key center    "
@@ -12347,7 +12347,7 @@ Array [
           }
         }
       >
-        Z
+        z
       </div>
       <div
         className="key center    "
@@ -12367,7 +12367,7 @@ Array [
           }
         }
       >
-        U
+        u
       </div>
       <div
         className="key center    "
@@ -12387,7 +12387,7 @@ Array [
           }
         }
       >
-        I
+        i
       </div>
       <div
         className="key center    "
@@ -12407,7 +12407,7 @@ Array [
           }
         }
       >
-        O
+        o
       </div>
       <div
         className="key center    "
@@ -12427,7 +12427,7 @@ Array [
           }
         }
       >
-        P
+        p
       </div>
       <div
         className="key center    "
@@ -12507,7 +12507,7 @@ Array [
           }
         }
       >
-        A
+        a
       </div>
       <div
         className="key center    "
@@ -12527,7 +12527,7 @@ Array [
           }
         }
       >
-        S
+        s
       </div>
       <div
         className="key center    "
@@ -12547,7 +12547,7 @@ Array [
           }
         }
       >
-        D
+        d
       </div>
       <div
         className="key center    "
@@ -12567,7 +12567,7 @@ Array [
           }
         }
       >
-        F
+        f
       </div>
       <div
         className="key center    "
@@ -12587,7 +12587,7 @@ Array [
           }
         }
       >
-        G
+        g
       </div>
       <div
         className="key center    "
@@ -12607,7 +12607,7 @@ Array [
           }
         }
       >
-        H
+        h
       </div>
       <div
         className="key center    "
@@ -12627,7 +12627,7 @@ Array [
           }
         }
       >
-        J
+        j
       </div>
       <div
         className="key center    "
@@ -12647,7 +12647,7 @@ Array [
           }
         }
       >
-        K
+        k
       </div>
       <div
         className="key center    "
@@ -12667,7 +12667,7 @@ Array [
           }
         }
       >
-        L
+        l
       </div>
       <div
         className="key center    "
@@ -12747,7 +12747,7 @@ Array [
           }
         }
       >
-        Y
+        y
       </div>
       <div
         className="key center    "
@@ -12767,7 +12767,7 @@ Array [
           }
         }
       >
-        X
+        x
       </div>
       <div
         className="key center    "
@@ -12787,7 +12787,7 @@ Array [
           }
         }
       >
-        C
+        c
       </div>
       <div
         className="key center    "
@@ -12807,7 +12807,7 @@ Array [
           }
         }
       >
-        V
+        v
       </div>
       <div
         className="key center    "
@@ -12827,7 +12827,7 @@ Array [
           }
         }
       >
-        B
+        b
       </div>
       <div
         className="key center    "
@@ -12847,7 +12847,7 @@ Array [
           }
         }
       >
-        N
+        n
       </div>
       <div
         className="key center    "
@@ -12867,7 +12867,7 @@ Array [
           }
         }
       >
-        M
+        m
       </div>
       <div
         className="key center    "
@@ -13656,53 +13656,53 @@ Array [
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Label>q</Label>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Label>w</Label>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Label>e</Label>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Label>r</Label>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Label>t</Label>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Label>z</Label>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Label>u</Label>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Label>i</Label>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Label>o</Label>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Label>p</Label>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
@@ -13718,48 +13718,48 @@ Array [
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Label>a</Label>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Label>s</Label>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Label>d</Label>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Label>f</Label>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Label>g</Label>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Label>h</Label>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Label>j</Label>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Label>k</Label>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Label>l</Label>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
@@ -13776,38 +13776,38 @@ Array [
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Label>y</Label>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Label>x</Label>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Label>c</Label>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Label>v</Label>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Label>b</Label>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Label>n</Label>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Label>m</Label>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
@@ -16151,7 +16151,7 @@ Array [
           }
         }
       >
-        Q
+        q
       </div>
       <div
         className="key center    "
@@ -16171,7 +16171,7 @@ Array [
           }
         }
       >
-        W
+        w
       </div>
       <div
         className="key center    "
@@ -16191,7 +16191,7 @@ Array [
           }
         }
       >
-        E
+        e
       </div>
       <div
         className="key center    "
@@ -16211,7 +16211,7 @@ Array [
           }
         }
       >
-        R
+        r
       </div>
       <div
         className="key center    "
@@ -16231,7 +16231,7 @@ Array [
           }
         }
       >
-        T
+        t
       </div>
       <div
         className="key center    "
@@ -16251,7 +16251,7 @@ Array [
           }
         }
       >
-        Z
+        z
       </div>
       <div
         className="key center    "
@@ -16271,7 +16271,7 @@ Array [
           }
         }
       >
-        U
+        u
       </div>
       <div
         className="key center    "
@@ -16291,7 +16291,7 @@ Array [
           }
         }
       >
-        I
+        i
       </div>
       <div
         className="key center    "
@@ -16311,7 +16311,7 @@ Array [
           }
         }
       >
-        O
+        o
       </div>
       <div
         className="key center    "
@@ -16331,7 +16331,7 @@ Array [
           }
         }
       >
-        P
+        p
       </div>
       <div
         className="key center    "
@@ -16411,7 +16411,7 @@ Array [
           }
         }
       >
-        A
+        a
       </div>
       <div
         className="key center    "
@@ -16431,7 +16431,7 @@ Array [
           }
         }
       >
-        S
+        s
       </div>
       <div
         className="key center    "
@@ -16451,7 +16451,7 @@ Array [
           }
         }
       >
-        D
+        d
       </div>
       <div
         className="key center    "
@@ -16471,7 +16471,7 @@ Array [
           }
         }
       >
-        F
+        f
       </div>
       <div
         className="key center    "
@@ -16491,7 +16491,7 @@ Array [
           }
         }
       >
-        G
+        g
       </div>
       <div
         className="key center    "
@@ -16511,7 +16511,7 @@ Array [
           }
         }
       >
-        H
+        h
       </div>
       <div
         className="key center    "
@@ -16531,7 +16531,7 @@ Array [
           }
         }
       >
-        J
+        j
       </div>
       <div
         className="key center    "
@@ -16551,7 +16551,7 @@ Array [
           }
         }
       >
-        K
+        k
       </div>
       <div
         className="key center    "
@@ -16571,7 +16571,7 @@ Array [
           }
         }
       >
-        L
+        l
       </div>
       <div
         className="key center    "
@@ -16651,7 +16651,7 @@ Array [
           }
         }
       >
-        Y
+        y
       </div>
       <div
         className="key center    "
@@ -16671,7 +16671,7 @@ Array [
           }
         }
       >
-        X
+        x
       </div>
       <div
         className="key center    "
@@ -16691,7 +16691,7 @@ Array [
           }
         }
       >
-        C
+        c
       </div>
       <div
         className="key center    "
@@ -16711,7 +16711,7 @@ Array [
           }
         }
       >
-        V
+        v
       </div>
       <div
         className="key center    "
@@ -16731,7 +16731,7 @@ Array [
           }
         }
       >
-        B
+        b
       </div>
       <div
         className="key center    "
@@ -16751,7 +16751,7 @@ Array [
           }
         }
       >
-        N
+        n
       </div>
       <div
         className="key center    "
@@ -16771,7 +16771,7 @@ Array [
           }
         }
       >
-        M
+        m
       </div>
       <div
         className="key center    "
@@ -17560,53 +17560,53 @@ Array [
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Label>q</Label>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Label>w</Label>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Label>e</Label>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Label>r</Label>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Label>t</Label>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Label>z</Label>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Label>u</Label>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Label>i</Label>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Label>o</Label>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Label>p</Label>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
@@ -17622,48 +17622,48 @@ Array [
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Label>a</Label>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Label>s</Label>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Label>d</Label>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Label>f</Label>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Label>g</Label>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Label>h</Label>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Label>j</Label>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Label>k</Label>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Label>l</Label>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
@@ -17680,38 +17680,38 @@ Array [
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Label>y</Label>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Label>x</Label>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Label>c</Label>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Label>v</Label>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Label>b</Label>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Label>n</Label>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Label>m</Label>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
@@ -20055,7 +20055,7 @@ Array [
           }
         }
       >
-        Q
+        q
       </div>
       <div
         className="key center    "
@@ -20075,7 +20075,7 @@ Array [
           }
         }
       >
-        W
+        w
       </div>
       <div
         className="key center    "
@@ -20095,7 +20095,7 @@ Array [
           }
         }
       >
-        E
+        e
       </div>
       <div
         className="key center    "
@@ -20115,7 +20115,7 @@ Array [
           }
         }
       >
-        R
+        r
       </div>
       <div
         className="key center    "
@@ -20135,7 +20135,7 @@ Array [
           }
         }
       >
-        T
+        t
       </div>
       <div
         className="key center    "
@@ -20155,7 +20155,7 @@ Array [
           }
         }
       >
-        Z
+        z
       </div>
       <div
         className="key center    "
@@ -20175,7 +20175,7 @@ Array [
           }
         }
       >
-        U
+        u
       </div>
       <div
         className="key center    "
@@ -20195,7 +20195,7 @@ Array [
           }
         }
       >
-        I
+        i
       </div>
       <div
         className="key center    "
@@ -20215,7 +20215,7 @@ Array [
           }
         }
       >
-        O
+        o
       </div>
       <div
         className="key center    "
@@ -20235,7 +20235,7 @@ Array [
           }
         }
       >
-        P
+        p
       </div>
       <div
         className="key center    "
@@ -20315,7 +20315,7 @@ Array [
           }
         }
       >
-        A
+        a
       </div>
       <div
         className="key center    "
@@ -20335,7 +20335,7 @@ Array [
           }
         }
       >
-        S
+        s
       </div>
       <div
         className="key center    "
@@ -20355,7 +20355,7 @@ Array [
           }
         }
       >
-        D
+        d
       </div>
       <div
         className="key center    "
@@ -20375,7 +20375,7 @@ Array [
           }
         }
       >
-        F
+        f
       </div>
       <div
         className="key center    "
@@ -20395,7 +20395,7 @@ Array [
           }
         }
       >
-        G
+        g
       </div>
       <div
         className="key center    "
@@ -20415,7 +20415,7 @@ Array [
           }
         }
       >
-        H
+        h
       </div>
       <div
         className="key center    "
@@ -20435,7 +20435,7 @@ Array [
           }
         }
       >
-        J
+        j
       </div>
       <div
         className="key center    "
@@ -20455,7 +20455,7 @@ Array [
           }
         }
       >
-        K
+        k
       </div>
       <div
         className="key center    "
@@ -20475,7 +20475,7 @@ Array [
           }
         }
       >
-        L
+        l
       </div>
       <div
         className="key center    "
@@ -20555,7 +20555,7 @@ Array [
           }
         }
       >
-        Y
+        y
       </div>
       <div
         className="key center    "
@@ -20575,7 +20575,7 @@ Array [
           }
         }
       >
-        X
+        x
       </div>
       <div
         className="key center    "
@@ -20595,7 +20595,7 @@ Array [
           }
         }
       >
-        C
+        c
       </div>
       <div
         className="key center    "
@@ -20615,7 +20615,7 @@ Array [
           }
         }
       >
-        V
+        v
       </div>
       <div
         className="key center    "
@@ -20635,7 +20635,7 @@ Array [
           }
         }
       >
-        B
+        b
       </div>
       <div
         className="key center    "
@@ -20655,7 +20655,7 @@ Array [
           }
         }
       >
-        N
+        n
       </div>
       <div
         className="key center    "
@@ -20675,7 +20675,7 @@ Array [
           }
         }
       >
-        M
+        m
       </div>
       <div
         className="key center    "
@@ -21464,53 +21464,53 @@ Array [
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Label>q</Label>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Label>w</Label>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Label>e</Label>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Label>r</Label>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Label>t</Label>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Label>z</Label>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Label>u</Label>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Label>i</Label>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Label>o</Label>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Label>p</Label>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
@@ -21526,48 +21526,48 @@ Array [
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Label>a</Label>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Label>s</Label>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Label>d</Label>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Label>f</Label>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Label>g</Label>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Label>h</Label>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Label>j</Label>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Label>k</Label>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Label>l</Label>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
@@ -21584,38 +21584,38 @@ Array [
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Label>y</Label>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Label>x</Label>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Label>c</Label>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Label>v</Label>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Label>b</Label>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Label>n</Label>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Label>m</Label>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">
@@ -23959,7 +23959,7 @@ Array [
           }
         }
       >
-        Q
+        q
       </div>
       <div
         className="key center    "
@@ -23979,7 +23979,7 @@ Array [
           }
         }
       >
-        W
+        w
       </div>
       <div
         className="key center    "
@@ -23999,7 +23999,7 @@ Array [
           }
         }
       >
-        E
+        e
       </div>
       <div
         className="key center    "
@@ -24019,7 +24019,7 @@ Array [
           }
         }
       >
-        R
+        r
       </div>
       <div
         className="key center    "
@@ -24039,7 +24039,7 @@ Array [
           }
         }
       >
-        T
+        t
       </div>
       <div
         className="key center    "
@@ -24059,7 +24059,7 @@ Array [
           }
         }
       >
-        Z
+        z
       </div>
       <div
         className="key center    "
@@ -24079,7 +24079,7 @@ Array [
           }
         }
       >
-        U
+        u
       </div>
       <div
         className="key center    "
@@ -24099,7 +24099,7 @@ Array [
           }
         }
       >
-        I
+        i
       </div>
       <div
         className="key center    "
@@ -24119,7 +24119,7 @@ Array [
           }
         }
       >
-        O
+        o
       </div>
       <div
         className="key center    "
@@ -24139,7 +24139,7 @@ Array [
           }
         }
       >
-        P
+        p
       </div>
       <div
         className="key center    "
@@ -24219,7 +24219,7 @@ Array [
           }
         }
       >
-        A
+        a
       </div>
       <div
         className="key center    "
@@ -24239,7 +24239,7 @@ Array [
           }
         }
       >
-        S
+        s
       </div>
       <div
         className="key center    "
@@ -24259,7 +24259,7 @@ Array [
           }
         }
       >
-        D
+        d
       </div>
       <div
         className="key center    "
@@ -24279,7 +24279,7 @@ Array [
           }
         }
       >
-        F
+        f
       </div>
       <div
         className="key center    "
@@ -24299,7 +24299,7 @@ Array [
           }
         }
       >
-        G
+        g
       </div>
       <div
         className="key center    "
@@ -24319,7 +24319,7 @@ Array [
           }
         }
       >
-        H
+        h
       </div>
       <div
         className="key center    "
@@ -24339,7 +24339,7 @@ Array [
           }
         }
       >
-        J
+        j
       </div>
       <div
         className="key center    "
@@ -24359,7 +24359,7 @@ Array [
           }
         }
       >
-        K
+        k
       </div>
       <div
         className="key center    "
@@ -24379,7 +24379,7 @@ Array [
           }
         }
       >
-        L
+        l
       </div>
       <div
         className="key center    "
@@ -24459,7 +24459,7 @@ Array [
           }
         }
       >
-        Y
+        y
       </div>
       <div
         className="key center    "
@@ -24479,7 +24479,7 @@ Array [
           }
         }
       >
-        X
+        x
       </div>
       <div
         className="key center    "
@@ -24499,7 +24499,7 @@ Array [
           }
         }
       >
-        C
+        c
       </div>
       <div
         className="key center    "
@@ -24519,7 +24519,7 @@ Array [
           }
         }
       >
-        V
+        v
       </div>
       <div
         className="key center    "
@@ -24539,7 +24539,7 @@ Array [
           }
         }
       >
-        B
+        b
       </div>
       <div
         className="key center    "
@@ -24559,7 +24559,7 @@ Array [
           }
         }
       >
-        N
+        n
       </div>
       <div
         className="key center    "
@@ -24579,7 +24579,7 @@ Array [
           }
         }
       >
-        M
+        m
       </div>
       <div
         className="key center    "
@@ -25368,53 +25368,53 @@ Array [
       <Text>/</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"1\\">
-      <ShiftUpLabel>q</ShiftUpLabel>
       <ShiftDownLabel>Q</ShiftDownLabel>
+      <Label>q</Label>
       <Text>q</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"2\\">
-      <ShiftUpLabel>w</ShiftUpLabel>
       <ShiftDownLabel>W</ShiftDownLabel>
+      <Label>w</Label>
       <Text>w</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"3\\">
-      <ShiftUpLabel>e</ShiftUpLabel>
       <ShiftDownLabel>E</ShiftDownLabel>
+      <Label>e</Label>
       <Text>e</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"4\\">
-      <ShiftUpLabel>r</ShiftUpLabel>
       <ShiftDownLabel>R</ShiftDownLabel>
+      <Label>r</Label>
       <Text>r</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"5\\">
-      <ShiftUpLabel>t</ShiftUpLabel>
       <ShiftDownLabel>T</ShiftDownLabel>
+      <Label>t</Label>
       <Text>t</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"6\\">
-      <ShiftUpLabel>z</ShiftUpLabel>
       <ShiftDownLabel>Z</ShiftDownLabel>
+      <Label>z</Label>
       <Text>z</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"7\\">
-      <ShiftUpLabel>u</ShiftUpLabel>
       <ShiftDownLabel>U</ShiftDownLabel>
+      <Label>u</Label>
       <Text>u</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"8\\">
-      <ShiftUpLabel>i</ShiftUpLabel>
       <ShiftDownLabel>I</ShiftDownLabel>
+      <Label>i</Label>
       <Text>i</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"9\\">
-      <ShiftUpLabel>o</ShiftUpLabel>
       <ShiftDownLabel>O</ShiftDownLabel>
+      <Label>o</Label>
       <Text>o</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"10\\">
-      <ShiftUpLabel>p</ShiftUpLabel>
       <ShiftDownLabel>P</ShiftDownLabel>
+      <Label>p</Label>
       <Text>p</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"11\\">
@@ -25430,48 +25430,48 @@ Array [
       <Text>_</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"2\\">
-      <ShiftUpLabel>a</ShiftUpLabel>
       <ShiftDownLabel>A</ShiftDownLabel>
+      <Label>a</Label>
       <Text>a</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"3\\">
-      <ShiftUpLabel>s</ShiftUpLabel>
       <ShiftDownLabel>S</ShiftDownLabel>
+      <Label>s</Label>
       <Text>s</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"4\\">
-      <ShiftUpLabel>d</ShiftUpLabel>
       <ShiftDownLabel>D</ShiftDownLabel>
+      <Label>d</Label>
       <Text>d</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"5\\">
-      <ShiftUpLabel>f</ShiftUpLabel>
       <ShiftDownLabel>F</ShiftDownLabel>
+      <Label>f</Label>
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftUpLabel>g</ShiftUpLabel>
       <ShiftDownLabel>G</ShiftDownLabel>
+      <Label>g</Label>
       <Text>g</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
-      <ShiftUpLabel>h</ShiftUpLabel>
       <ShiftDownLabel>H</ShiftDownLabel>
+      <Label>h</Label>
       <Text>h</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"8\\">
-      <ShiftUpLabel>j</ShiftUpLabel>
       <ShiftDownLabel>J</ShiftDownLabel>
+      <Label>j</Label>
       <Text>j</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"9\\">
-      <ShiftUpLabel>k</ShiftUpLabel>
       <ShiftDownLabel>K</ShiftDownLabel>
+      <Label>k</Label>
       <Text>k</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"10\\">
-      <ShiftUpLabel>l</ShiftUpLabel>
       <ShiftDownLabel>L</ShiftDownLabel>
+      <Label>l</Label>
       <Text>l</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"11\\">
@@ -25488,38 +25488,38 @@ Array [
       <Text>&lt;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"2\\">
-      <ShiftUpLabel>y</ShiftUpLabel>
       <ShiftDownLabel>Y</ShiftDownLabel>
+      <Label>y</Label>
       <Text>y</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"3\\">
-      <ShiftUpLabel>x</ShiftUpLabel>
       <ShiftDownLabel>X</ShiftDownLabel>
+      <Label>x</Label>
       <Text>x</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"4\\">
-      <ShiftUpLabel>c</ShiftUpLabel>
       <ShiftDownLabel>C</ShiftDownLabel>
+      <Label>c</Label>
       <Text>c</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"5\\">
-      <ShiftUpLabel>v</ShiftUpLabel>
       <ShiftDownLabel>V</ShiftDownLabel>
+      <Label>v</Label>
       <Text>v</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"6\\">
-      <ShiftUpLabel>b</ShiftUpLabel>
       <ShiftDownLabel>B</ShiftDownLabel>
+      <Label>b</Label>
       <Text>b</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"7\\">
-      <ShiftUpLabel>n</ShiftUpLabel>
       <ShiftDownLabel>N</ShiftDownLabel>
+      <Label>n</Label>
       <Text>n</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"8\\">
-      <ShiftUpLabel>m</ShiftUpLabel>
       <ShiftDownLabel>M</ShiftDownLabel>
+      <Label>m</Label>
       <Text>m</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"9\\">

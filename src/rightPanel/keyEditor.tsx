@@ -31,10 +31,6 @@ const KeyEditor = observer(() => {
     title: `Content[${keyIndex}].Label`,
     type: "string"
   }
-  const shiftUpLabelSchema = {
-    title: `Content[${keyIndex}].ShiftUpLabel`,
-    type: "string"
-  }
   const shiftDownLabelSchema = {
     title: `Content[${keyIndex}].ShiftDownLabel`,
     type: "string"
@@ -88,19 +84,9 @@ const KeyEditor = observer(() => {
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className="simplePanel">
             <div className="flex1 vertical">
-              <SharedField schema={labelTypeSchema} prefix={keyboardPrefix} />
-              {labelType === "Symbol" ? (
-                <>
-                  <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
-                </>
-              ) : labelType === "Text" ? (
-                <SharedField schema={labelSchema} prefix={keyboardPrefix} />
-              ) : (
-                <>
-                  <SharedField schema={shiftUpLabelSchema} prefix={keyboardPrefix} />
-                  <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
-                </>
-              )}
+              <SharedField schema={symbolSchema} prefix={keyboardPrefix} />
+              <SharedField schema={labelSchema} prefix={keyboardPrefix} />
+              <SharedField schema={shiftDownLabelSchema} prefix={keyboardPrefix} />
             </div>
           </ExpansionPanelDetails>
         </ExpansionPanel>)

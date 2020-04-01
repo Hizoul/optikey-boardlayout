@@ -323,9 +323,9 @@ Object {
     },
     Object {
       "Col": 1,
+      "Label": "q",
       "Row": 2,
       "ShiftDownLabel": "Q",
-      "ShiftUpLabel": "q",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -333,7 +333,7 @@ Object {
           "value": "q",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -354,9 +354,9 @@ Object {
     },
     Object {
       "Col": 2,
+      "Label": "w",
       "Row": 2,
       "ShiftDownLabel": "W",
-      "ShiftUpLabel": "w",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -364,7 +364,7 @@ Object {
           "value": "w",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -400,9 +400,9 @@ Object {
     },
     Object {
       "Col": 3,
+      "Label": "e",
       "Row": 2,
       "ShiftDownLabel": "E",
-      "ShiftUpLabel": "e",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -410,15 +410,15 @@ Object {
           "value": "e",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 4,
+      "Label": "r",
       "Row": 2,
       "ShiftDownLabel": "R",
-      "ShiftUpLabel": "r",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -426,15 +426,15 @@ Object {
           "value": "r",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 5,
+      "Label": "t",
       "Row": 2,
       "ShiftDownLabel": "T",
-      "ShiftUpLabel": "t",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -442,15 +442,15 @@ Object {
           "value": "t",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 6,
+      "Label": "z",
       "Row": 2,
       "ShiftDownLabel": "Z",
-      "ShiftUpLabel": "z",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -458,7 +458,7 @@ Object {
           "value": "z",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -479,9 +479,9 @@ Object {
     },
     Object {
       "Col": 7,
+      "Label": "u",
       "Row": 2,
       "ShiftDownLabel": "U",
-      "ShiftUpLabel": "u",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -489,7 +489,7 @@ Object {
           "value": "u",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -510,9 +510,9 @@ Object {
     },
     Object {
       "Col": 8,
+      "Label": "i",
       "Row": 2,
       "ShiftDownLabel": "I",
-      "ShiftUpLabel": "i",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -520,15 +520,15 @@ Object {
           "value": "i",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 2,
+      "Label": "a",
       "Row": 3,
       "ShiftDownLabel": "A",
-      "ShiftUpLabel": "a",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -536,15 +536,15 @@ Object {
           "value": "a",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 9,
+      "Label": "o",
       "Row": 2,
       "ShiftDownLabel": "O",
-      "ShiftUpLabel": "o",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -552,15 +552,15 @@ Object {
           "value": "o",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 10,
+      "Label": "p",
       "Row": 2,
       "ShiftDownLabel": "P",
-      "ShiftUpLabel": "p",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -568,15 +568,15 @@ Object {
           "value": "p",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 3,
+      "Label": "s",
       "Row": 3,
       "ShiftDownLabel": "S",
-      "ShiftUpLabel": "s",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -584,7 +584,7 @@ Object {
           "value": "s",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -605,9 +605,9 @@ Object {
     },
     Object {
       "Col": 4,
+      "Label": "d",
       "Row": 3,
       "ShiftDownLabel": "D",
-      "ShiftUpLabel": "d",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -615,15 +615,15 @@ Object {
           "value": "d",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 5,
+      "Label": "f",
       "Row": 3,
       "ShiftDownLabel": "F",
-      "ShiftUpLabel": "f",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -631,15 +631,15 @@ Object {
           "value": "f",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 6,
+      "Label": "g",
       "Row": 3,
       "ShiftDownLabel": "G",
-      "ShiftUpLabel": "g",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -647,15 +647,15 @@ Object {
           "value": "g",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 7,
+      "Label": "h",
       "Row": 3,
       "ShiftDownLabel": "H",
-      "ShiftUpLabel": "h",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -663,7 +663,7 @@ Object {
           "value": "h",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -685,9 +685,9 @@ Object {
     },
     Object {
       "Col": 8,
+      "Label": "j",
       "Row": 3,
       "ShiftDownLabel": "J",
-      "ShiftUpLabel": "j",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -695,7 +695,7 @@ Object {
           "value": "j",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -716,9 +716,9 @@ Object {
     },
     Object {
       "Col": 9,
+      "Label": "k",
       "Row": 3,
       "ShiftDownLabel": "K",
-      "ShiftUpLabel": "k",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -726,15 +726,15 @@ Object {
           "value": "k",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 2,
+      "Label": "y",
       "Row": 4,
       "ShiftDownLabel": "Y",
-      "ShiftUpLabel": "y",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -742,15 +742,15 @@ Object {
           "value": "y",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 10,
+      "Label": "l",
       "Row": 3,
       "ShiftDownLabel": "L",
-      "ShiftUpLabel": "l",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -758,15 +758,15 @@ Object {
           "value": "l",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 3,
+      "Label": "x",
       "Row": 4,
       "ShiftDownLabel": "X",
-      "ShiftUpLabel": "x",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -774,7 +774,7 @@ Object {
           "value": "x",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -795,9 +795,9 @@ Object {
     },
     Object {
       "Col": 4,
+      "Label": "c",
       "Row": 4,
       "ShiftDownLabel": "C",
-      "ShiftUpLabel": "c",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -805,15 +805,15 @@ Object {
           "value": "c",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 5,
+      "Label": "v",
       "Row": 4,
       "ShiftDownLabel": "V",
-      "ShiftUpLabel": "v",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -821,15 +821,15 @@ Object {
           "value": "v",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 6,
+      "Label": "b",
       "Row": 4,
       "ShiftDownLabel": "B",
-      "ShiftUpLabel": "b",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -837,15 +837,15 @@ Object {
           "value": "b",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
     Object {
       "Col": 7,
+      "Label": "n",
       "Row": 4,
       "ShiftDownLabel": "N",
-      "ShiftUpLabel": "n",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -853,7 +853,7 @@ Object {
           "value": "n",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
@@ -874,9 +874,9 @@ Object {
     },
     Object {
       "Col": 8,
+      "Label": "m",
       "Row": 4,
       "ShiftDownLabel": "M",
-      "ShiftUpLabel": "m",
       "associatedKeyGroups": Array [],
       "keyActions": Array [
         Object {
@@ -884,7 +884,7 @@ Object {
           "value": "m",
         },
       ],
-      "labelType": "Case Sensitive Text",
+      "labelType": "Text",
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
