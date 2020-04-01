@@ -31,21 +31,21 @@ const nameSchema: ExtendedJSONSchema = {
 }
 
 const widthSchema: ExtendedJSONSchema = {
-  title: "Width", type: "number",
+  title: "Width", type: "string",
   description: "Percent of screen. if negative then use the sum of the value and the screen's dimension"
 }
 
 const heightSchema: ExtendedJSONSchema = {
-  title: "Height", type: "number",
+  title: "Height", type: "string",
   description: "Percent of screen. if negative then use the sum of the value and the screen's dimension"
 }
 const horizontalSchema: ExtendedJSONSchema = {
-  title: "HorizontalOffset", type: "number",
+  title: "HorizontalOffset", type: "string",
   description: "Percent of screen. if negative then use the sum of the value and the screen's dimension"
 }
 
 const verticalSchema: ExtendedJSONSchema = {
-  title: "VerticalOffset", type: "number",
+  title: "VerticalOffset", type: "string",
   description: "Percent of screen. if negative then use the sum of the value and the screen's dimension"
 }
 

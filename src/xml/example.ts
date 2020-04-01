@@ -5,7 +5,7 @@ const exampleXml =  `<Keyboard>
 <BorderThickness>0,0,0,0</BorderThickness>
 <DockSize>Full</DockSize>
 <Position>Top</Position>
-<Width>100</Width>
+<Width>100%</Width>
 <HorizontalOffset>0</HorizontalOffset>
 <VerticalOffset>0</VerticalOffset>
 <BackgroundColor>Transparent</BackgroundColor>
@@ -381,7 +381,7 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
 <BorderThickness>0,0,0,0</BorderThickness>
 <DockSize>Full</DockSize>
 <Position>Top</Position>
-<Width>100</Width>
+<Width>100%</Width>
 <HorizontalOffset>0</HorizontalOffset>
 <VerticalOffset>0</VerticalOffset>
 <BackgroundColor>Transparent</BackgroundColor>

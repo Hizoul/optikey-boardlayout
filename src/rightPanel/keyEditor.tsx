@@ -20,6 +20,7 @@ const keyTypes: any[] = ["DynamicKey", "Scratchpad", "SuggestionRow", "Suggestio
 
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
+  console.log("ACTIVE KEY INDEX IS", keyIndex, toJS(FormStore.getValue(`Content[${keyIndex}]`, keyboardPrefix)))
   const keysLength = FormStore.getValue("Content.length", keyboardPrefix, 2)
   const typeSchema = {
     title: `Content[${keyIndex}].type`,
@@ -37,11 +38,11 @@ const KeyEditor = observer(() => {
   }
   const widthSchema = {
     title: `Content[${keyIndex}].Width`,
-    type: "number"
+    type: "string"
   }
   const heightSchema = {
     title: `Content[${keyIndex}].Height`,
-    type: "number"
+    type: "string"
   }
   const symbolSchema = {
     title: `Content[${keyIndex}].Symbol`,
@@ -73,7 +74,7 @@ const KeyEditor = observer(() => {
   thisKeysGroupSchema.title = `Content[${keyIndex}]`
   const typeValue = FormStore.getValue(typeSchema.title, keyboardPrefix)
   const labelType = FormStore.getValue(labelTypeSchema.title, keyboardPrefix)
-  const keySelected = keyIndex && keyIndex > 0 && keyIndex < keysLength
+  const keySelected = keyIndex >= 0 && keyIndex < keysLength
   let editContent
   switch (typeValue) {
     case keyTypes[0].value: {
