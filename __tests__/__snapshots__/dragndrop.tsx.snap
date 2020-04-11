@@ -1833,7 +1833,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -3031,7 +3031,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -3684,7 +3684,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -5750,7 +5750,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -6948,7 +6948,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -7601,7 +7601,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -9654,7 +9654,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -10852,7 +10852,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -11505,7 +11505,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -13558,7 +13558,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -14756,7 +14756,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -15409,7 +15409,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -17462,7 +17462,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -18660,7 +18660,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -19313,7 +19313,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -21366,7 +21366,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -22564,7 +22564,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -23217,7 +23217,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -25270,7 +25270,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -26468,7 +26468,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -27121,7 +27121,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""

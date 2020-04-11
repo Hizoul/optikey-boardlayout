@@ -42,7 +42,7 @@ const KeyboardImporter = observer(() => {
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
   const rp: any = getRootProps()
   return (
-    <ExpansionPanel defaultExpanded={true} expanded={true}>
+    <ExpansionPanel defaultExpanded={true}>
       <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
         File
       </ExpansionPanelSummary>

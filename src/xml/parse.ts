@@ -231,8 +231,11 @@ const toXml = (keyboard: IKeyboard) => {
     return initial
   }
   changedContent = changedContent.sort(sorter)
-  const keyGroupElements = get(keyboard, "Keyboard.keyGroups", []).map((group: any) => {
+  const keyGroupElements = get(keyboard, "Keyboard.keyGroups", []).map((group: any, indx: any) => {
     const groupProps = {...group}
+    if (groupProps.Name == null || groupProps.Name.length == 0) {
+      groupProps.Name = `Keygroup #${indx+1}`
+    }
     return {type: "element", name: "KeyGroup", attributes: groupProps}
   })
   const res = js2xml({

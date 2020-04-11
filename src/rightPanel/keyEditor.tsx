@@ -51,7 +51,7 @@ const KeyEditor = observer(() => {
     type: "array",
     items: keyActionObjectSchema
   }
-  const selectableKeyGroups = FormStore.getValue(keyGroupArraySchema.title, keyboardPrefix, []).map((v: any) => v == null ? {label: "Unnamed", value: "Unnamed"} : {label: v.Name, value: v.Name})
+  const selectableKeyGroups = FormStore.getValue(keyGroupArraySchema.title, keyboardPrefix, []).map((v: any, i: any) => v == null || v.length == 0  || v.Name == null ? {label: `Keygroup #${i+1}`, value: `Keygroup #${i+1}`} : {label: v.Name, value: v.Name})
   const keyGroupAssociationsSchema = {
     title: `Content[${keyIndex}].associatedKeyGroups`,
     type: "array",

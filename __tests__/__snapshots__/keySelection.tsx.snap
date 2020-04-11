@@ -1831,7 +1831,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -4402,7 +4402,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -4591,7 +4591,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -5244,7 +5244,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -7297,7 +7297,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -9866,7 +9866,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -10055,7 +10055,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -10708,7 +10708,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -12761,7 +12761,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -15330,7 +15330,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -15519,7 +15519,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -16172,7 +16172,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -18223,7 +18223,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -20792,7 +20792,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -20981,7 +20981,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -21634,7 +21634,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -23687,7 +23687,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -26256,7 +26256,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -26445,7 +26445,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -27098,7 +27098,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -29151,7 +29151,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -31721,7 +31721,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -31910,7 +31910,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -32563,7 +32563,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -34616,7 +34616,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -37186,7 +37186,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -37375,7 +37375,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -38028,7 +38028,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -40079,7 +40079,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -41279,7 +41279,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -41932,7 +41932,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -43983,7 +43983,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -45183,7 +45183,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -45836,7 +45836,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -47889,7 +47889,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -49087,7 +49087,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -49740,7 +49740,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -51793,7 +51793,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -52991,7 +52991,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -53644,7 +53644,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -55695,7 +55695,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -56895,7 +56895,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -57548,7 +57548,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -59601,7 +59601,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -62172,7 +62172,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -62361,7 +62361,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -63014,7 +63014,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -65431,7 +65431,7 @@ Array [
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
       <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTimes=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -67766,7 +67766,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -68608,7 +68608,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -69351,7 +69351,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -71768,7 +71768,7 @@ Array [
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
       <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTimes=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -74176,7 +74176,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value="500,500,500"
@@ -75018,7 +75018,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -75761,7 +75761,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -78178,7 +78178,7 @@ Array [
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
       <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTimes=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -79678,7 +79678,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -80421,7 +80421,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -82838,7 +82838,7 @@ Array [
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
       <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTimes=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -85617,7 +85617,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -86459,7 +86459,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -87202,7 +87202,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -89619,7 +89619,7 @@ Array [
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
       <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTimes=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -93465,7 +93465,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -94307,7 +94307,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -95050,7 +95050,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""
@@ -97103,7 +97103,7 @@ Array [
     <Rows>7</Rows>
     <Cols>12</Cols>
   </Grid>
-  <KeyGroup/>
+  <KeyGroup Name=\\"Keygroup #1\\"/>
   <Content>
     <DynamicKey Row=\\"0\\" Col=\\"0\\">
       <Label>~</Label>
@@ -97466,7 +97466,7 @@ Array [
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
       <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTimes=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -101312,7 +101312,7 @@ Array [
                                         "step": undefined,
                                       }
                                     }
-                                    label=" Completion Time"
+                                    label=" Completion Times"
                                     onChange={[Function]}
                                     type="number"
                                     value=""
@@ -101501,7 +101501,7 @@ Array [
                           <p
                             className="MuiTypography-root MuiTypography-body1"
                           >
-                            Keygroup Name
+                            Keygroup #1
                           </p>
                         </div>
                         <div
@@ -102154,7 +102154,7 @@ Array [
                                             "step": undefined,
                                           }
                                         }
-                                        label=" Completion Time"
+                                        label=" Completion Times"
                                         onChange={[Function]}
                                         type="number"
                                         value=""

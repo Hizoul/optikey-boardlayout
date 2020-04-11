@@ -382,7 +382,7 @@ exports[`parser: advanced js to xml 1`] = `
       <ChangeKeyboard BackReturnsHere=\\"false\\">HackerKeyboardSymbols2</ChangeKeyboard>
       <KeyGroup>Red Keys</KeyGroup>
     </DynamicKey>
-    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTime=\\"500,500,500\\">
+    <DynamicKey Row=\\"6\\" Col=\\"11\\" Width=\\"1\\" Height=\\"1\\" BackgroundColor=\\"Blue\\" ForegroundColor=\\"Blue\\" KeyDisabledForeground=\\"Blue\\" KeyDisabledOpacity=\\"1\\" KeyDownBackground=\\"Blue\\" KeyDownForeground=\\"Blue\\" KeyDownOpacity=\\"1\\" Opacity=\\"1\\" AutoScaleToOneKeyWidth=\\"true\\" AutoScaleToOneKeyHeight=\\"true\\" SharedSizeGroup=\\"true\\" UsePersianCompatibilityFont=\\"true\\" UseUnicodeCompatibilityFont=\\"true\\" UseUrduCompatibilityFont=\\"true\\" LockOnTime=\\"500\\" CompletionTimes=\\"500,500,500\\">
       <KeyDisabledBackgroud>Blue</KeyDisabledBackgroud>
       <Label>BackWithReturnTrue</Label>
       <ChangeKeyboard BackReturnsHere=\\"true\\">HackerKeyboardSymbols2</ChangeKeyboard>
@@ -1682,7 +1682,7 @@ Object {
         "AutoScaleToOneKeyWidth": "true",
         "BackgroundColor": "Blue",
         "Col": 11,
-        "CompletionTime": "500,500,500",
+        "CompletionTimes": "500,500,500",
         "ForegroundColor": "Blue",
         "Height": "1",
         "KeyDisabledBackgroud": "Blue",

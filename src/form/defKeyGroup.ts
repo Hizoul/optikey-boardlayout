@@ -70,7 +70,7 @@ const lockOnSchema: ExtendedJSONSchema = {
 }
 
 const completionTimeSchema: ExtendedJSONSchema = {
-  title: "CompletionTime", type: "number",
+  title: "CompletionTimes", type: "number",
   description: "milliseconds from the start of the progress animation to the key being triggered"
 }
 const groupNameSchema: ExtendedJSONSchema = {
