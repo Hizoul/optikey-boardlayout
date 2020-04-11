@@ -35,7 +35,7 @@ const AboutPanel = observer(() => {
   return (
     <ExpansionPanel defaultExpanded>
       <ExpansionPanelSummary  expandIcon={<ExpandMoreIcon />}>
-        <Typography>About</Typography>
+        <Typography  variant="h5">About</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
         <Typography>

@@ -21,9 +21,9 @@ const KeyGroupArray: React.FunctionComponent<IFieldProps> = observer((props) => 
   const groups = arrayHelper.fields.map((field, index) => {
     return (
     <div className={`flex flex1 center`} key={prependPrefix(field.mapTo, field.prefix)}>
-      <ExpansionPanel className="simplePanel">
+      <ExpansionPanel className="simplePanel" style={{backgroundColor: "rgba(0,0,0,0.02)"}}>
         <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
-          <Typography>{FormStore.getValue(`${field.mapTo}.Name`, field.prefix, "Keygroup #"+(index+1))}</Typography>
+          <Typography variant="h6">{FormStore.getValue(`${field.mapTo}.Name`, field.prefix, "Keygroup #"+(index+1))}</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="simplePanel">
           <div className="flex1 vertical">
@@ -62,7 +62,7 @@ const KeyGroupsComponent: React.FunctionComponent<{}> = (props) => {
   return (
     <ExpansionPanel>
       <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-        <Typography>Keygroups</Typography>
+        <Typography variant="h5">Keygroups</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
         <div className="flex1 vertical">

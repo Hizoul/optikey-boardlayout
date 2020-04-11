@@ -91,10 +91,22 @@ span.i {
   padding: 0pt !important;
   border: none !important;
   box-shadow: none !important;
+  border-radius: 1rem !important;
+}
+
+.simplePanel .MuiCollapse-wrapper {
+  margin-left: 1.25rem !important;
+  margin-right: 0.5rem !important;
 }
 
 .simplePanel::before {
   opacity: 0 !important;
+}
+.simplePanel.MuiExpansionPanelSummary-root {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+  margin-top: -0.1rem !important;
+  margin-bottom: 0rem !important;
 }
 
 .objectMargin {

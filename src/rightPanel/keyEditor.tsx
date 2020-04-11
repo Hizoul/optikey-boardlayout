@@ -75,9 +75,9 @@ const KeyEditor = observer(() => {
   switch (typeValue) {
     case keyTypes[0].value: {
       editContent = (
-        <ExpansionPanel key="editLabel" className="simplePanel">
+        <ExpansionPanel key="editLabel" className="simplePanel" style={{backgroundColor: "rgba(0,255,0,0.02)"}}>
           <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
-            <Typography>Label</Typography>
+            <Typography variant="h6">Label</Typography>
           </ExpansionPanelSummary>
           <ExpansionPanelDetails className="simplePanel">
             <div className="flex1 vertical">
@@ -93,9 +93,9 @@ const KeyEditor = observer(() => {
   const keyGroupPrefix = `${keyboardPrefix}.Content[${keyIndex}]`
   const keyGroupEditor = (
     <>
-      <ExpansionPanel className="simplePanel">
+      <ExpansionPanel className="simplePanel" style={{backgroundColor: "rgba(0,0,0,0.02)"}}>
         <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
-          <Typography>Associated Keygroups</Typography>
+          <Typography variant="h6">Associated Keygroups</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="simplePanel">
           <div className="flex1 vertical">
@@ -104,9 +104,9 @@ const KeyEditor = observer(() => {
           </div>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel className="simplePanel">
+      <ExpansionPanel className="simplePanel" style={{backgroundColor: "rgba(0,0,0,0.02)"}}>
         <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
-          <Typography>Override Keygroup Settings</Typography>
+          <Typography variant="h6">Override Keygroup Settings</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails className="simplePanel">
           <div className="flex1 vertical">
@@ -121,9 +121,9 @@ const KeyEditor = observer(() => {
     </>
   )
   return (
-    <ExpansionPanel expanded={keySelected ? true : false} onChange={resizeTriggerer}>
+    <ExpansionPanel expanded={keySelected ? true : false} onChange={resizeTriggerer} style={{backgroundColor: !keySelected ? "rgba(0,0,0,0.02)" : "rgba(0, 255, 123,0.02)"}}>
       <ExpansionPanelSummary className={keySelected ? "negateMarginBot" : ""}>
-        <Typography>{keySelected ? "Key Settings" : "Click on a key to edit it here"}</Typography>
+        <Typography variant="h5">{keySelected ? "Key Settings" : "Click on a key to edit it here"}</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
         {keySelected ? (
@@ -131,9 +131,9 @@ const KeyEditor = observer(() => {
             <SharedField schema={typeSchema} prefix={keyboardPrefix} />
             {editContent}
 
-            <ExpansionPanel className="simplePanel">
+            <ExpansionPanel className="simplePanel" style={{backgroundColor: "rgba(0,255,0,0.02)"}}>
               <ExpansionPanelSummary className="simplePanel negateMarginBot" expandIcon={<ExpandMoreIcon />}>
-                <Typography>Actions</Typography>
+                <Typography variant="h6">Actions</Typography>
               </ExpansionPanelSummary>
               <ExpansionPanelDetails className="simplePanel">
                 <div className="flex1 vertical">

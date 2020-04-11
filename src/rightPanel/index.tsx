@@ -23,9 +23,9 @@ const RightPanel: React.FunctionComponent<any> = () => {
   return (
     <div className="rightPanel">
       <KeyboardImporter />
-      <ExpansionPanel defaultExpanded={false} onChange={resizeTriggerer}>
+      <ExpansionPanel defaultExpanded={false} onChange={resizeTriggerer} style={{backgroundColor: "rgba(0, 0, 255, 0.02)"}}>
         <ExpansionPanelSummary  expandIcon={<ExpandMoreIcon />}>
-          <Typography>Global Settings</Typography>
+          <Typography variant="h5">Global Settings</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <div className="vertical flex1">

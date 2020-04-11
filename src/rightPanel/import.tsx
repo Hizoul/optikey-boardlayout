@@ -42,9 +42,9 @@ const KeyboardImporter = observer(() => {
   const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
   const rp: any = getRootProps()
   return (
-    <ExpansionPanel defaultExpanded={true}>
+    <ExpansionPanel defaultExpanded={true} style={{backgroundColor: "rgba(0, 255, 255,0.02)"}}>
       <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-        File
+        <Typography variant="h5">File</Typography>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
         <div className="flextainer">
