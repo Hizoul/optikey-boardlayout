@@ -30,7 +30,7 @@ const clickHandler = (index: number, Row: number, Col: number) => memo(() => act
   if (indexToUse === -1) {
     const keys = FormStore.getValue(`${keyboardPrefix}.Content`)
     indexToUse = keys.push({
-      Row, Col, type: "DynamicKey", Text: "", Label: "", associatedKeyGroups: []
+      Row, Col, type: "DynamicKey", name: "DynamicKey", Text: "", Label: "", associatedKeyGroups: []
     }) - 1
     FormStore.getValue(`${keyboardPrefix}.Content`, keys)
   }
