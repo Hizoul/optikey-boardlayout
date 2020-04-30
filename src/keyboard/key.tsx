@@ -28,11 +28,11 @@ const keyMaker = (index: number, row: number, col: number) => `x${index}X${row}X
 const clickHandler = (index: number, Row: number, Col: number) => memo(() => action(() => {
   let indexToUse = index
   if (indexToUse === -1) {
-    // const keys = FormStore.getValue(`${keyboardPrefix}.Content`)
-    // indexToUse = keys.push({
-    //   Row, Col, type: "DynamicKey", Text: "", Label: ""
-    // }) - 1
-    // FormStore.getValue(`${keyboardPrefix}.Content`, keys)
+    const keys = FormStore.getValue(`${keyboardPrefix}.Content`)
+    indexToUse = keys.push({
+      Row, Col, type: "DynamicKey", Text: "", Label: "", associatedKeyGroups: []
+    }) - 1
+    FormStore.getValue(`${keyboardPrefix}.Content`, keys)
   }
   FormStore.setValue(activeKey, indexToUse)
   setTimeout(resizeEventListener, 1100)
@@ -71,11 +71,20 @@ const KeyDisplay: React.FunctionComponent<{
   const isDragged = FormStore.getValue(k, dragKey, false)
   const keyIndex = FormStore.getValue(activeKey, undefined)
   const selected = props.index === keyIndex
-  const labelType = get(props, "entry.labelType", "Text")
-  const useSymbol = labelType === "Symbol"
-  const caseSensitive = labelType === "Case Sensitive Text"
-  const textLabel = get(props, (useSymbol ? "entry.Symbol" : caseSensitive ? "entry.ShiftDownLabel" : "entry.Label"), get(props, "entry.Action"))
+  let textLabel = ""
   const useSmall = textLabel == null ? false : textLabel.length > 4
+  let symbol = get(props, "entry.Symbol")
+  let down = get(props, "entry.ShiftDownLabel")
+  let regular = get(props, "entry.Label")
+  if (symbol != null) {
+    textLabel += textLabel.length == 0 ? symbol : " " + symbol
+  }
+  if (down != null) {
+    textLabel += textLabel.length == 0 ? down : " " + down
+  }
+  if (regular != null) {
+    textLabel += textLabel.length == 0 ? regular : " " + regular
+  }
   return (
     <div
       className={`key center ${selected ? "isSelected" : ""} ${isOver ? "isHovered" : ""} ${isDragged ? "isDragged" : ""} ${useSmall ? "smallerFont" : ""}`}

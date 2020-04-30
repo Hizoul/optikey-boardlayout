@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography"
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import TextField from '@material-ui/core/TextField'
 import Snackbar from "@material-ui/core/Snackbar"
+import Divider from "@material-ui/core/Divider"
 import Alert from "@material-ui/lab/Alert"
 import { FormStore } from "@xpfw/form"
 import * as React from "react"
@@ -14,6 +15,7 @@ import { useDropzone } from "react-dropzone"
 import { keyboardPrefix } from "../form/def"
 import xmlParser from "../xml/parse"
 import downloadKeyboard, { copyToClipboard, getKeyboardAsXml } from "../util/download"
+import EmptyKeyboardCreator from "./createKeyboard"
 import { observer } from "mobx-react"
 import { observable } from "mobx"
 
@@ -48,6 +50,8 @@ const KeyboardImporter = observer(() => {
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
         <div className="flextainer">
+          <EmptyKeyboardCreator />
+          <Divider variant="middle" className="inputMargin" />
           <div {...rp} className="uploadContainer">
             <input {...getInputProps()} />
             <Typography>Import existing Files:</Typography>

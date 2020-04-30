@@ -229,7 +229,7 @@ Array [
         0
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -265,7 +265,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -483,7 +485,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -522,7 +526,7 @@ Array [
           }
         }
       >
-        q
+        Q q
       </div>
       <div
         className="key center    "
@@ -542,7 +546,7 @@ Array [
           }
         }
       >
-        w
+        W w
       </div>
       <div
         className="key center    "
@@ -562,7 +566,7 @@ Array [
           }
         }
       >
-        e
+        E e
       </div>
       <div
         className="key center    "
@@ -582,7 +586,7 @@ Array [
           }
         }
       >
-        r
+        R r
       </div>
       <div
         className="key center    "
@@ -602,7 +606,7 @@ Array [
           }
         }
       >
-        t
+        T t
       </div>
       <div
         className="key center    "
@@ -622,7 +626,7 @@ Array [
           }
         }
       >
-        z
+        Z z
       </div>
       <div
         className="key center    "
@@ -642,7 +646,7 @@ Array [
           }
         }
       >
-        u
+        U u
       </div>
       <div
         className="key center    "
@@ -662,7 +666,7 @@ Array [
           }
         }
       >
-        i
+        I i
       </div>
       <div
         className="key center    "
@@ -682,7 +686,7 @@ Array [
           }
         }
       >
-        o
+        O o
       </div>
       <div
         className="key center    "
@@ -702,7 +706,7 @@ Array [
           }
         }
       >
-        p
+        P p
       </div>
       <div
         className="key center    "
@@ -782,7 +786,7 @@ Array [
           }
         }
       >
-        a
+        A a
       </div>
       <div
         className="key center    "
@@ -802,7 +806,7 @@ Array [
           }
         }
       >
-        s
+        S s
       </div>
       <div
         className="key center    "
@@ -822,7 +826,7 @@ Array [
           }
         }
       >
-        d
+        D d
       </div>
       <div
         className="key center    "
@@ -842,7 +846,7 @@ Array [
           }
         }
       >
-        f
+        F f
       </div>
       <div
         className="key center    "
@@ -862,7 +866,7 @@ Array [
           }
         }
       >
-        g
+        G g
       </div>
       <div
         className="key center    "
@@ -882,7 +886,7 @@ Array [
           }
         }
       >
-        h
+        H h
       </div>
       <div
         className="key center    "
@@ -902,7 +906,7 @@ Array [
           }
         }
       >
-        j
+        J j
       </div>
       <div
         className="key center    "
@@ -922,7 +926,7 @@ Array [
           }
         }
       >
-        k
+        K k
       </div>
       <div
         className="key center    "
@@ -942,7 +946,7 @@ Array [
           }
         }
       >
-        l
+        L l
       </div>
       <div
         className="key center    "
@@ -965,7 +969,7 @@ Array [
         ^
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1022,7 +1026,7 @@ Array [
           }
         }
       >
-        y
+        Y y
       </div>
       <div
         className="key center    "
@@ -1042,7 +1046,7 @@ Array [
           }
         }
       >
-        x
+        X x
       </div>
       <div
         className="key center    "
@@ -1062,7 +1066,7 @@ Array [
           }
         }
       >
-        c
+        C c
       </div>
       <div
         className="key center    "
@@ -1082,7 +1086,7 @@ Array [
           }
         }
       >
-        v
+        V v
       </div>
       <div
         className="key center    "
@@ -1102,7 +1106,7 @@ Array [
           }
         }
       >
-        b
+        B b
       </div>
       <div
         className="key center    "
@@ -1122,7 +1126,7 @@ Array [
           }
         }
       >
-        n
+        N n
       </div>
       <div
         className="key center    "
@@ -1142,7 +1146,7 @@ Array [
           }
         }
       >
-        m
+        M m
       </div>
       <div
         className="key center    "
@@ -1405,7 +1409,7 @@ Array [
         }
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1525,7 +1529,7 @@ Array [
         :
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1545,7 +1549,7 @@ Array [
         ShiftIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1581,9 +1585,11 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1603,7 +1609,7 @@ Array [
         EnterIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1623,7 +1629,7 @@ Array [
         BackOneIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1643,7 +1649,7 @@ Array [
         LeftArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1663,7 +1669,7 @@ Array [
         DownArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -1780,6 +1786,96 @@ Array [
                 <div
                   className="flextainer"
                 >
+                  <div
+                    className="flex vertical"
+                  >
+                    <div
+                      className="flex1 horizontal"
+                    >
+                      <div
+                        className="flex1 vertical"
+                        style={
+                          Object {
+                            "marginRight": "0.5rem",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Rows"
+                            onChange={[Function]}
+                            type="number"
+                            value={7}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="flex1 vertical"
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Columns"
+                            onChange={[Function]}
+                            type="number"
+                            value={12}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        New
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="MuiDivider-root inputMargin MuiDivider-middle"
+                  />
                   <div
                     className="uploadContainer"
                     onBlur={[Function]}
@@ -2566,7 +2662,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -2584,7 +2680,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-1104"
+                            className="PrivateSwitchBase-input-1146"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -2762,7 +2858,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -2780,7 +2876,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-1104"
+                            className="PrivateSwitchBase-input-1146"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -3344,7 +3440,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3362,7 +3458,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1104"
+                                              className="PrivateSwitchBase-input-1146"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -3399,7 +3495,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3417,7 +3513,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1104"
+                                              className="PrivateSwitchBase-input-1146"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -3454,7 +3550,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3472,7 +3568,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1104"
+                                              className="PrivateSwitchBase-input-1146"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -3509,7 +3605,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3527,7 +3623,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1104"
+                                              className="PrivateSwitchBase-input-1146"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -3562,7 +3658,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3580,7 +3676,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1104"
+                                              className="PrivateSwitchBase-input-1146"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -3615,7 +3711,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1101 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1143 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3633,7 +3729,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1104"
+                                              className="PrivateSwitchBase-input-1146"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -4155,7 +4251,7 @@ Array [
         0
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -4191,7 +4287,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -4409,7 +4507,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -4448,7 +4548,7 @@ Array [
           }
         }
       >
-        q
+        Q q
       </div>
       <div
         className="key center    "
@@ -4468,7 +4568,7 @@ Array [
           }
         }
       >
-        w
+        W w
       </div>
       <div
         className="key center    "
@@ -4488,7 +4588,7 @@ Array [
           }
         }
       >
-        e
+        E e
       </div>
       <div
         className="key center    "
@@ -4508,7 +4608,7 @@ Array [
           }
         }
       >
-        r
+        R r
       </div>
       <div
         className="key center    "
@@ -4528,7 +4628,7 @@ Array [
           }
         }
       >
-        t
+        T t
       </div>
       <div
         className="key center    "
@@ -4548,7 +4648,7 @@ Array [
           }
         }
       >
-        z
+        Z z
       </div>
       <div
         className="key center    "
@@ -4568,7 +4668,7 @@ Array [
           }
         }
       >
-        u
+        U u
       </div>
       <div
         className="key center    "
@@ -4588,7 +4688,7 @@ Array [
           }
         }
       >
-        i
+        I i
       </div>
       <div
         className="key center    "
@@ -4608,7 +4708,7 @@ Array [
           }
         }
       >
-        o
+        O o
       </div>
       <div
         className="key center    "
@@ -4628,7 +4728,7 @@ Array [
           }
         }
       >
-        p
+        P p
       </div>
       <div
         className="key center    "
@@ -4708,7 +4808,7 @@ Array [
           }
         }
       >
-        a
+        A a
       </div>
       <div
         className="key center    "
@@ -4728,7 +4828,7 @@ Array [
           }
         }
       >
-        s
+        S s
       </div>
       <div
         className="key center    "
@@ -4748,7 +4848,7 @@ Array [
           }
         }
       >
-        d
+        D d
       </div>
       <div
         className="key center    "
@@ -4768,7 +4868,7 @@ Array [
           }
         }
       >
-        f
+        F f
       </div>
       <div
         className="key center    "
@@ -4788,7 +4888,7 @@ Array [
           }
         }
       >
-        g
+        G g
       </div>
       <div
         className="key center    "
@@ -4808,7 +4908,7 @@ Array [
           }
         }
       >
-        h
+        H h
       </div>
       <div
         className="key center    "
@@ -4828,7 +4928,7 @@ Array [
           }
         }
       >
-        j
+        J j
       </div>
       <div
         className="key center    "
@@ -4848,7 +4948,7 @@ Array [
           }
         }
       >
-        k
+        K k
       </div>
       <div
         className="key center    "
@@ -4868,7 +4968,7 @@ Array [
           }
         }
       >
-        l
+        L l
       </div>
       <div
         className="key center    "
@@ -4891,7 +4991,7 @@ Array [
         ^
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -4948,7 +5048,7 @@ Array [
           }
         }
       >
-        y
+        Y y
       </div>
       <div
         className="key center    "
@@ -4968,7 +5068,7 @@ Array [
           }
         }
       >
-        x
+        X x
       </div>
       <div
         className="key center    "
@@ -4988,7 +5088,7 @@ Array [
           }
         }
       >
-        c
+        C c
       </div>
       <div
         className="key center    "
@@ -5008,7 +5108,7 @@ Array [
           }
         }
       >
-        v
+        V v
       </div>
       <div
         className="key center    "
@@ -5028,7 +5128,7 @@ Array [
           }
         }
       >
-        b
+        B b
       </div>
       <div
         className="key center    "
@@ -5048,7 +5148,7 @@ Array [
           }
         }
       >
-        n
+        N n
       </div>
       <div
         className="key center    "
@@ -5068,7 +5168,7 @@ Array [
           }
         }
       >
-        m
+        M m
       </div>
       <div
         className="key center    "
@@ -5331,7 +5431,7 @@ Array [
         }
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5451,7 +5551,7 @@ Array [
         :
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5471,7 +5571,7 @@ Array [
         ShiftIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5507,9 +5607,11 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5529,7 +5631,7 @@ Array [
         EnterIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5549,7 +5651,7 @@ Array [
         BackOneIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5569,7 +5671,7 @@ Array [
         LeftArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5589,7 +5691,7 @@ Array [
         DownArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -5706,6 +5808,96 @@ Array [
                 <div
                   className="flextainer"
                 >
+                  <div
+                    className="flex vertical"
+                  >
+                    <div
+                      className="flex1 horizontal"
+                    >
+                      <div
+                        className="flex1 vertical"
+                        style={
+                          Object {
+                            "marginRight": "0.5rem",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Rows"
+                            onChange={[Function]}
+                            type="number"
+                            value={7}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="flex1 vertical"
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Columns"
+                            onChange={[Function]}
+                            type="number"
+                            value={12}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        New
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="MuiDivider-root inputMargin MuiDivider-middle"
+                  />
                   <div
                     className="uploadContainer"
                     onBlur={[Function]}
@@ -6492,7 +6684,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -6510,7 +6702,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-919"
+                            className="PrivateSwitchBase-input-954"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -6688,7 +6880,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -6706,7 +6898,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-919"
+                            className="PrivateSwitchBase-input-954"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -7270,7 +7462,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -7288,7 +7480,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-919"
+                                              className="PrivateSwitchBase-input-954"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -7325,7 +7517,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -7343,7 +7535,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-919"
+                                              className="PrivateSwitchBase-input-954"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -7380,7 +7572,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -7398,7 +7590,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-919"
+                                              className="PrivateSwitchBase-input-954"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -7435,7 +7627,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -7453,7 +7645,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-919"
+                                              className="PrivateSwitchBase-input-954"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -7488,7 +7680,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -7506,7 +7698,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-919"
+                                              className="PrivateSwitchBase-input-954"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -7541,7 +7733,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-916 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-951 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -7559,7 +7751,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-919"
+                                              className="PrivateSwitchBase-input-954"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -8068,7 +8260,7 @@ Array [
         0
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -8104,7 +8296,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -8322,7 +8516,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -8361,7 +8557,7 @@ Array [
           }
         }
       >
-        q
+        Q q
       </div>
       <div
         className="key center    "
@@ -8381,7 +8577,7 @@ Array [
           }
         }
       >
-        w
+        W w
       </div>
       <div
         className="key center    "
@@ -8401,7 +8597,7 @@ Array [
           }
         }
       >
-        e
+        E e
       </div>
       <div
         className="key center    "
@@ -8421,7 +8617,7 @@ Array [
           }
         }
       >
-        r
+        R r
       </div>
       <div
         className="key center    "
@@ -8441,7 +8637,7 @@ Array [
           }
         }
       >
-        t
+        T t
       </div>
       <div
         className="key center    "
@@ -8461,7 +8657,7 @@ Array [
           }
         }
       >
-        z
+        Z z
       </div>
       <div
         className="key center    "
@@ -8481,7 +8677,7 @@ Array [
           }
         }
       >
-        u
+        U u
       </div>
       <div
         className="key center    "
@@ -8501,7 +8697,7 @@ Array [
           }
         }
       >
-        i
+        I i
       </div>
       <div
         className="key center    "
@@ -8521,7 +8717,7 @@ Array [
           }
         }
       >
-        o
+        O o
       </div>
       <div
         className="key center    "
@@ -8541,7 +8737,7 @@ Array [
           }
         }
       >
-        p
+        P p
       </div>
       <div
         className="key center    "
@@ -8621,7 +8817,7 @@ Array [
           }
         }
       >
-        a
+        A a
       </div>
       <div
         className="key center    "
@@ -8641,7 +8837,7 @@ Array [
           }
         }
       >
-        s
+        S s
       </div>
       <div
         className="key center    "
@@ -8661,7 +8857,7 @@ Array [
           }
         }
       >
-        d
+        D d
       </div>
       <div
         className="key center    "
@@ -8681,7 +8877,7 @@ Array [
           }
         }
       >
-        f
+        F f
       </div>
       <div
         className="key center    "
@@ -8701,7 +8897,7 @@ Array [
           }
         }
       >
-        g
+        G g
       </div>
       <div
         className="key center    "
@@ -8721,7 +8917,7 @@ Array [
           }
         }
       >
-        h
+        H h
       </div>
       <div
         className="key center    "
@@ -8741,7 +8937,7 @@ Array [
           }
         }
       >
-        j
+        J j
       </div>
       <div
         className="key center    "
@@ -8761,7 +8957,7 @@ Array [
           }
         }
       >
-        k
+        K k
       </div>
       <div
         className="key center    "
@@ -8781,7 +8977,7 @@ Array [
           }
         }
       >
-        l
+        L l
       </div>
       <div
         className="key center    "
@@ -8804,7 +9000,7 @@ Array [
         ^
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -8861,7 +9057,7 @@ Array [
           }
         }
       >
-        y
+        Y y
       </div>
       <div
         className="key center    "
@@ -8881,7 +9077,7 @@ Array [
           }
         }
       >
-        x
+        X x
       </div>
       <div
         className="key center    "
@@ -8901,7 +9097,7 @@ Array [
           }
         }
       >
-        c
+        C c
       </div>
       <div
         className="key center    "
@@ -8921,7 +9117,7 @@ Array [
           }
         }
       >
-        v
+        V v
       </div>
       <div
         className="key center    "
@@ -8941,7 +9137,7 @@ Array [
           }
         }
       >
-        b
+        B b
       </div>
       <div
         className="key center    "
@@ -8961,7 +9157,7 @@ Array [
           }
         }
       >
-        n
+        N n
       </div>
       <div
         className="key center    "
@@ -8981,7 +9177,7 @@ Array [
           }
         }
       >
-        m
+        M m
       </div>
       <div
         className="key center    "
@@ -9244,7 +9440,7 @@ Array [
         }
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9364,7 +9560,7 @@ Array [
         :
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9384,7 +9580,7 @@ Array [
         ShiftIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9420,9 +9616,11 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9442,7 +9640,7 @@ Array [
         EnterIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9462,7 +9660,7 @@ Array [
         BackOneIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9482,7 +9680,7 @@ Array [
         LeftArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9502,7 +9700,7 @@ Array [
         DownArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -9619,6 +9817,96 @@ Array [
                 <div
                   className="flextainer"
                 >
+                  <div
+                    className="flex vertical"
+                  >
+                    <div
+                      className="flex1 horizontal"
+                    >
+                      <div
+                        className="flex1 vertical"
+                        style={
+                          Object {
+                            "marginRight": "0.5rem",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Rows"
+                            onChange={[Function]}
+                            type="number"
+                            value={7}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="flex1 vertical"
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Columns"
+                            onChange={[Function]}
+                            type="number"
+                            value={12}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        New
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="MuiDivider-root inputMargin MuiDivider-middle"
+                  />
                   <div
                     className="uploadContainer"
                     onBlur={[Function]}
@@ -10405,7 +10693,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -10423,7 +10711,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-734"
+                            className="PrivateSwitchBase-input-762"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -10601,7 +10889,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -10619,7 +10907,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-734"
+                            className="PrivateSwitchBase-input-762"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -11183,7 +11471,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -11201,7 +11489,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-734"
+                                              className="PrivateSwitchBase-input-762"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -11238,7 +11526,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -11256,7 +11544,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-734"
+                                              className="PrivateSwitchBase-input-762"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -11293,7 +11581,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -11311,7 +11599,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-734"
+                                              className="PrivateSwitchBase-input-762"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -11348,7 +11636,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -11366,7 +11654,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-734"
+                                              className="PrivateSwitchBase-input-762"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -11401,7 +11689,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -11419,7 +11707,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-734"
+                                              className="PrivateSwitchBase-input-762"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -11454,7 +11742,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-731 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-759 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -11472,7 +11760,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-734"
+                                              className="PrivateSwitchBase-input-762"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -11981,7 +12269,7 @@ Array [
         0
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -12017,7 +12305,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -12235,7 +12525,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -12274,7 +12566,7 @@ Array [
           }
         }
       >
-        q
+        Q q
       </div>
       <div
         className="key center    "
@@ -12294,7 +12586,7 @@ Array [
           }
         }
       >
-        w
+        W w
       </div>
       <div
         className="key center    "
@@ -12314,7 +12606,7 @@ Array [
           }
         }
       >
-        e
+        E e
       </div>
       <div
         className="key center    "
@@ -12334,7 +12626,7 @@ Array [
           }
         }
       >
-        r
+        R r
       </div>
       <div
         className="key center    "
@@ -12354,7 +12646,7 @@ Array [
           }
         }
       >
-        t
+        T t
       </div>
       <div
         className="key center    "
@@ -12374,7 +12666,7 @@ Array [
           }
         }
       >
-        z
+        Z z
       </div>
       <div
         className="key center    "
@@ -12394,7 +12686,7 @@ Array [
           }
         }
       >
-        u
+        U u
       </div>
       <div
         className="key center    "
@@ -12414,7 +12706,7 @@ Array [
           }
         }
       >
-        i
+        I i
       </div>
       <div
         className="key center    "
@@ -12434,7 +12726,7 @@ Array [
           }
         }
       >
-        o
+        O o
       </div>
       <div
         className="key center    "
@@ -12454,7 +12746,7 @@ Array [
           }
         }
       >
-        p
+        P p
       </div>
       <div
         className="key center    "
@@ -12534,7 +12826,7 @@ Array [
           }
         }
       >
-        a
+        A a
       </div>
       <div
         className="key center    "
@@ -12554,7 +12846,7 @@ Array [
           }
         }
       >
-        s
+        S s
       </div>
       <div
         className="key center    "
@@ -12574,7 +12866,7 @@ Array [
           }
         }
       >
-        d
+        D d
       </div>
       <div
         className="key center    "
@@ -12594,7 +12886,7 @@ Array [
           }
         }
       >
-        f
+        F f
       </div>
       <div
         className="key center    "
@@ -12614,7 +12906,7 @@ Array [
           }
         }
       >
-        g
+        G g
       </div>
       <div
         className="key center    "
@@ -12634,7 +12926,7 @@ Array [
           }
         }
       >
-        h
+        H h
       </div>
       <div
         className="key center    "
@@ -12654,7 +12946,7 @@ Array [
           }
         }
       >
-        j
+        J j
       </div>
       <div
         className="key center    "
@@ -12674,7 +12966,7 @@ Array [
           }
         }
       >
-        k
+        K k
       </div>
       <div
         className="key center    "
@@ -12694,7 +12986,7 @@ Array [
           }
         }
       >
-        l
+        L l
       </div>
       <div
         className="key center    "
@@ -12717,7 +13009,7 @@ Array [
         ^
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -12774,7 +13066,7 @@ Array [
           }
         }
       >
-        y
+        Y y
       </div>
       <div
         className="key center    "
@@ -12794,7 +13086,7 @@ Array [
           }
         }
       >
-        x
+        X x
       </div>
       <div
         className="key center    "
@@ -12814,7 +13106,7 @@ Array [
           }
         }
       >
-        c
+        C c
       </div>
       <div
         className="key center    "
@@ -12834,7 +13126,7 @@ Array [
           }
         }
       >
-        v
+        V v
       </div>
       <div
         className="key center    "
@@ -12854,7 +13146,7 @@ Array [
           }
         }
       >
-        b
+        B b
       </div>
       <div
         className="key center    "
@@ -12874,7 +13166,7 @@ Array [
           }
         }
       >
-        n
+        N n
       </div>
       <div
         className="key center    "
@@ -12894,7 +13186,7 @@ Array [
           }
         }
       >
-        m
+        M m
       </div>
       <div
         className="key center    "
@@ -13157,7 +13449,7 @@ Array [
         }
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13277,7 +13569,7 @@ Array [
         :
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13297,7 +13589,7 @@ Array [
         ShiftIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13333,9 +13625,11 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13355,7 +13649,7 @@ Array [
         EnterIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13375,7 +13669,7 @@ Array [
         BackOneIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13395,7 +13689,7 @@ Array [
         LeftArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13415,7 +13709,7 @@ Array [
         DownArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -13532,6 +13826,96 @@ Array [
                 <div
                   className="flextainer"
                 >
+                  <div
+                    className="flex vertical"
+                  >
+                    <div
+                      className="flex1 horizontal"
+                    >
+                      <div
+                        className="flex1 vertical"
+                        style={
+                          Object {
+                            "marginRight": "0.5rem",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Rows"
+                            onChange={[Function]}
+                            type="number"
+                            value={7}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="flex1 vertical"
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Columns"
+                            onChange={[Function]}
+                            type="number"
+                            value={12}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        New
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="MuiDivider-root inputMargin MuiDivider-middle"
+                  />
                   <div
                     className="uploadContainer"
                     onBlur={[Function]}
@@ -14318,7 +14702,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -14336,7 +14720,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-549"
+                            className="PrivateSwitchBase-input-570"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -14514,7 +14898,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -14532,7 +14916,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-549"
+                            className="PrivateSwitchBase-input-570"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -15096,7 +15480,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -15114,7 +15498,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-549"
+                                              className="PrivateSwitchBase-input-570"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -15151,7 +15535,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -15169,7 +15553,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-549"
+                                              className="PrivateSwitchBase-input-570"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -15206,7 +15590,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -15224,7 +15608,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-549"
+                                              className="PrivateSwitchBase-input-570"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -15261,7 +15645,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -15279,7 +15663,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-549"
+                                              className="PrivateSwitchBase-input-570"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -15314,7 +15698,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -15332,7 +15716,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-549"
+                                              className="PrivateSwitchBase-input-570"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -15367,7 +15751,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-546 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-567 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -15385,7 +15769,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-549"
+                                              className="PrivateSwitchBase-input-570"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -15894,7 +16278,7 @@ Array [
         0
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -15930,7 +16314,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -16148,7 +16534,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -16187,7 +16575,7 @@ Array [
           }
         }
       >
-        q
+        Q q
       </div>
       <div
         className="key center    "
@@ -16207,7 +16595,7 @@ Array [
           }
         }
       >
-        w
+        W w
       </div>
       <div
         className="key center    "
@@ -16227,7 +16615,7 @@ Array [
           }
         }
       >
-        e
+        E e
       </div>
       <div
         className="key center    "
@@ -16247,7 +16635,7 @@ Array [
           }
         }
       >
-        r
+        R r
       </div>
       <div
         className="key center    "
@@ -16267,7 +16655,7 @@ Array [
           }
         }
       >
-        t
+        T t
       </div>
       <div
         className="key center    "
@@ -16287,7 +16675,7 @@ Array [
           }
         }
       >
-        z
+        Z z
       </div>
       <div
         className="key center    "
@@ -16307,7 +16695,7 @@ Array [
           }
         }
       >
-        u
+        U u
       </div>
       <div
         className="key center    "
@@ -16327,7 +16715,7 @@ Array [
           }
         }
       >
-        i
+        I i
       </div>
       <div
         className="key center    "
@@ -16347,7 +16735,7 @@ Array [
           }
         }
       >
-        o
+        O o
       </div>
       <div
         className="key center    "
@@ -16367,7 +16755,7 @@ Array [
           }
         }
       >
-        p
+        P p
       </div>
       <div
         className="key center    "
@@ -16447,7 +16835,7 @@ Array [
           }
         }
       >
-        a
+        A a
       </div>
       <div
         className="key center    "
@@ -16467,7 +16855,7 @@ Array [
           }
         }
       >
-        s
+        S s
       </div>
       <div
         className="key center    "
@@ -16487,7 +16875,7 @@ Array [
           }
         }
       >
-        d
+        D d
       </div>
       <div
         className="key center    "
@@ -16507,7 +16895,7 @@ Array [
           }
         }
       >
-        f
+        F f
       </div>
       <div
         className="key center    "
@@ -16527,7 +16915,7 @@ Array [
           }
         }
       >
-        g
+        G g
       </div>
       <div
         className="key center    "
@@ -16547,7 +16935,7 @@ Array [
           }
         }
       >
-        h
+        H h
       </div>
       <div
         className="key center    "
@@ -16567,7 +16955,7 @@ Array [
           }
         }
       >
-        j
+        J j
       </div>
       <div
         className="key center    "
@@ -16587,7 +16975,7 @@ Array [
           }
         }
       >
-        k
+        K k
       </div>
       <div
         className="key center    "
@@ -16607,7 +16995,7 @@ Array [
           }
         }
       >
-        l
+        L l
       </div>
       <div
         className="key center    "
@@ -16630,7 +17018,7 @@ Array [
         ^
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -16687,7 +17075,7 @@ Array [
           }
         }
       >
-        y
+        Y y
       </div>
       <div
         className="key center    "
@@ -16707,7 +17095,7 @@ Array [
           }
         }
       >
-        x
+        X x
       </div>
       <div
         className="key center    "
@@ -16727,7 +17115,7 @@ Array [
           }
         }
       >
-        c
+        C c
       </div>
       <div
         className="key center    "
@@ -16747,7 +17135,7 @@ Array [
           }
         }
       >
-        v
+        V v
       </div>
       <div
         className="key center    "
@@ -16767,7 +17155,7 @@ Array [
           }
         }
       >
-        b
+        B b
       </div>
       <div
         className="key center    "
@@ -16787,7 +17175,7 @@ Array [
           }
         }
       >
-        n
+        N n
       </div>
       <div
         className="key center    "
@@ -16807,7 +17195,7 @@ Array [
           }
         }
       >
-        m
+        M m
       </div>
       <div
         className="key center    "
@@ -17070,7 +17458,7 @@ Array [
         }
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17190,7 +17578,7 @@ Array [
         :
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17210,7 +17598,7 @@ Array [
         ShiftIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17246,9 +17634,11 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17268,7 +17658,7 @@ Array [
         EnterIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17288,7 +17678,7 @@ Array [
         BackOneIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17308,7 +17698,7 @@ Array [
         LeftArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17328,7 +17718,7 @@ Array [
         DownArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -17445,6 +17835,96 @@ Array [
                 <div
                   className="flextainer"
                 >
+                  <div
+                    className="flex vertical"
+                  >
+                    <div
+                      className="flex1 horizontal"
+                    >
+                      <div
+                        className="flex1 vertical"
+                        style={
+                          Object {
+                            "marginRight": "0.5rem",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Rows"
+                            onChange={[Function]}
+                            type="number"
+                            value={7}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="flex1 vertical"
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Columns"
+                            onChange={[Function]}
+                            type="number"
+                            value={12}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        New
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="MuiDivider-root inputMargin MuiDivider-middle"
+                  />
                   <div
                     className="uploadContainer"
                     onBlur={[Function]}
@@ -18231,7 +18711,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -18249,7 +18729,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-1289"
+                            className="PrivateSwitchBase-input-1338"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -18427,7 +18907,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -18445,7 +18925,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-1289"
+                            className="PrivateSwitchBase-input-1338"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -19009,7 +19489,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -19027,7 +19507,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1289"
+                                              className="PrivateSwitchBase-input-1338"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -19064,7 +19544,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -19082,7 +19562,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1289"
+                                              className="PrivateSwitchBase-input-1338"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -19119,7 +19599,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -19137,7 +19617,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1289"
+                                              className="PrivateSwitchBase-input-1338"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -19174,7 +19654,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -19192,7 +19672,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1289"
+                                              className="PrivateSwitchBase-input-1338"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -19227,7 +19707,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -19245,7 +19725,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1289"
+                                              className="PrivateSwitchBase-input-1338"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -19280,7 +19760,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1286 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1335 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -19298,7 +19778,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-1289"
+                                              className="PrivateSwitchBase-input-1338"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -19807,7 +20287,7 @@ Array [
         0
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -19843,7 +20323,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -20061,7 +20543,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -20100,7 +20584,7 @@ Array [
           }
         }
       >
-        q
+        Q q
       </div>
       <div
         className="key center    "
@@ -20120,7 +20604,7 @@ Array [
           }
         }
       >
-        w
+        W w
       </div>
       <div
         className="key center    "
@@ -20140,7 +20624,7 @@ Array [
           }
         }
       >
-        e
+        E e
       </div>
       <div
         className="key center    "
@@ -20160,7 +20644,7 @@ Array [
           }
         }
       >
-        r
+        R r
       </div>
       <div
         className="key center    "
@@ -20180,7 +20664,7 @@ Array [
           }
         }
       >
-        t
+        T t
       </div>
       <div
         className="key center    "
@@ -20200,7 +20684,7 @@ Array [
           }
         }
       >
-        z
+        Z z
       </div>
       <div
         className="key center    "
@@ -20220,7 +20704,7 @@ Array [
           }
         }
       >
-        u
+        U u
       </div>
       <div
         className="key center    "
@@ -20240,7 +20724,7 @@ Array [
           }
         }
       >
-        i
+        I i
       </div>
       <div
         className="key center    "
@@ -20260,7 +20744,7 @@ Array [
           }
         }
       >
-        o
+        O o
       </div>
       <div
         className="key center    "
@@ -20280,7 +20764,7 @@ Array [
           }
         }
       >
-        p
+        P p
       </div>
       <div
         className="key center    "
@@ -20360,7 +20844,7 @@ Array [
           }
         }
       >
-        a
+        A a
       </div>
       <div
         className="key center    "
@@ -20380,7 +20864,7 @@ Array [
           }
         }
       >
-        s
+        S s
       </div>
       <div
         className="key center    "
@@ -20400,7 +20884,7 @@ Array [
           }
         }
       >
-        d
+        D d
       </div>
       <div
         className="key center    "
@@ -20420,7 +20904,7 @@ Array [
           }
         }
       >
-        f
+        F f
       </div>
       <div
         className="key center    "
@@ -20440,7 +20924,7 @@ Array [
           }
         }
       >
-        g
+        G g
       </div>
       <div
         className="key center    "
@@ -20460,7 +20944,7 @@ Array [
           }
         }
       >
-        h
+        H h
       </div>
       <div
         className="key center    "
@@ -20480,7 +20964,7 @@ Array [
           }
         }
       >
-        j
+        J j
       </div>
       <div
         className="key center    "
@@ -20500,7 +20984,7 @@ Array [
           }
         }
       >
-        k
+        K k
       </div>
       <div
         className="key center    "
@@ -20520,7 +21004,7 @@ Array [
           }
         }
       >
-        l
+        L l
       </div>
       <div
         className="key center    "
@@ -20543,7 +21027,7 @@ Array [
         ^
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -20600,7 +21084,7 @@ Array [
           }
         }
       >
-        y
+        Y y
       </div>
       <div
         className="key center    "
@@ -20620,7 +21104,7 @@ Array [
           }
         }
       >
-        x
+        X x
       </div>
       <div
         className="key center    "
@@ -20640,7 +21124,7 @@ Array [
           }
         }
       >
-        c
+        C c
       </div>
       <div
         className="key center    "
@@ -20660,7 +21144,7 @@ Array [
           }
         }
       >
-        v
+        V v
       </div>
       <div
         className="key center    "
@@ -20680,7 +21164,7 @@ Array [
           }
         }
       >
-        b
+        B b
       </div>
       <div
         className="key center    "
@@ -20700,7 +21184,7 @@ Array [
           }
         }
       >
-        n
+        N n
       </div>
       <div
         className="key center    "
@@ -20720,7 +21204,7 @@ Array [
           }
         }
       >
-        m
+        M m
       </div>
       <div
         className="key center    "
@@ -20983,7 +21467,7 @@ Array [
         }
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21103,7 +21587,7 @@ Array [
         :
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21123,7 +21607,7 @@ Array [
         ShiftIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21159,9 +21643,11 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21181,7 +21667,7 @@ Array [
         EnterIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21201,7 +21687,7 @@ Array [
         BackOneIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21221,7 +21707,7 @@ Array [
         LeftArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21241,7 +21727,7 @@ Array [
         DownArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -21358,6 +21844,96 @@ Array [
                 <div
                   className="flextainer"
                 >
+                  <div
+                    className="flex vertical"
+                  >
+                    <div
+                      className="flex1 horizontal"
+                    >
+                      <div
+                        className="flex1 vertical"
+                        style={
+                          Object {
+                            "marginRight": "0.5rem",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Rows"
+                            onChange={[Function]}
+                            type="number"
+                            value={7}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="flex1 vertical"
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Columns"
+                            onChange={[Function]}
+                            type="number"
+                            value={12}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        New
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="MuiDivider-root inputMargin MuiDivider-middle"
+                  />
                   <div
                     className="uploadContainer"
                     onBlur={[Function]}
@@ -22144,7 +22720,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -22162,7 +22738,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-179"
+                            className="PrivateSwitchBase-input-186"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -22340,7 +22916,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -22358,7 +22934,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-179"
+                            className="PrivateSwitchBase-input-186"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -22922,7 +23498,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -22940,7 +23516,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-179"
+                                              className="PrivateSwitchBase-input-186"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -22977,7 +23553,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -22995,7 +23571,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-179"
+                                              className="PrivateSwitchBase-input-186"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -23032,7 +23608,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -23050,7 +23626,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-179"
+                                              className="PrivateSwitchBase-input-186"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -23087,7 +23663,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -23105,7 +23681,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-179"
+                                              className="PrivateSwitchBase-input-186"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -23140,7 +23716,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -23158,7 +23734,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-179"
+                                              className="PrivateSwitchBase-input-186"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -23193,7 +23769,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-176 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -23211,7 +23787,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-179"
+                                              className="PrivateSwitchBase-input-186"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -23720,7 +24296,7 @@ Array [
         0
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -23756,7 +24332,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -23974,7 +24552,9 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
         className="key center    "
         draggable={true}
@@ -24013,7 +24593,7 @@ Array [
           }
         }
       >
-        q
+        Q q
       </div>
       <div
         className="key center    "
@@ -24033,7 +24613,7 @@ Array [
           }
         }
       >
-        w
+        W w
       </div>
       <div
         className="key center    "
@@ -24053,7 +24633,7 @@ Array [
           }
         }
       >
-        e
+        E e
       </div>
       <div
         className="key center    "
@@ -24073,7 +24653,7 @@ Array [
           }
         }
       >
-        r
+        R r
       </div>
       <div
         className="key center    "
@@ -24093,7 +24673,7 @@ Array [
           }
         }
       >
-        t
+        T t
       </div>
       <div
         className="key center    "
@@ -24113,7 +24693,7 @@ Array [
           }
         }
       >
-        z
+        Z z
       </div>
       <div
         className="key center    "
@@ -24133,7 +24713,7 @@ Array [
           }
         }
       >
-        u
+        U u
       </div>
       <div
         className="key center    "
@@ -24153,7 +24733,7 @@ Array [
           }
         }
       >
-        i
+        I i
       </div>
       <div
         className="key center    "
@@ -24173,7 +24753,7 @@ Array [
           }
         }
       >
-        o
+        O o
       </div>
       <div
         className="key center    "
@@ -24193,7 +24773,7 @@ Array [
           }
         }
       >
-        p
+        P p
       </div>
       <div
         className="key center    "
@@ -24273,7 +24853,7 @@ Array [
           }
         }
       >
-        a
+        A a
       </div>
       <div
         className="key center    "
@@ -24293,7 +24873,7 @@ Array [
           }
         }
       >
-        s
+        S s
       </div>
       <div
         className="key center    "
@@ -24313,7 +24893,7 @@ Array [
           }
         }
       >
-        d
+        D d
       </div>
       <div
         className="key center    "
@@ -24333,7 +24913,7 @@ Array [
           }
         }
       >
-        f
+        F f
       </div>
       <div
         className="key center    "
@@ -24353,7 +24933,7 @@ Array [
           }
         }
       >
-        g
+        G g
       </div>
       <div
         className="key center    "
@@ -24373,7 +24953,7 @@ Array [
           }
         }
       >
-        h
+        H h
       </div>
       <div
         className="key center    "
@@ -24393,7 +24973,7 @@ Array [
           }
         }
       >
-        j
+        J j
       </div>
       <div
         className="key center    "
@@ -24413,7 +24993,7 @@ Array [
           }
         }
       >
-        k
+        K k
       </div>
       <div
         className="key center    "
@@ -24433,7 +25013,7 @@ Array [
           }
         }
       >
-        l
+        L l
       </div>
       <div
         className="key center    "
@@ -24456,7 +25036,7 @@ Array [
         ^
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -24513,7 +25093,7 @@ Array [
           }
         }
       >
-        y
+        Y y
       </div>
       <div
         className="key center    "
@@ -24533,7 +25113,7 @@ Array [
           }
         }
       >
-        x
+        X x
       </div>
       <div
         className="key center    "
@@ -24553,7 +25133,7 @@ Array [
           }
         }
       >
-        c
+        C c
       </div>
       <div
         className="key center    "
@@ -24573,7 +25153,7 @@ Array [
           }
         }
       >
-        v
+        V v
       </div>
       <div
         className="key center    "
@@ -24593,7 +25173,7 @@ Array [
           }
         }
       >
-        b
+        B b
       </div>
       <div
         className="key center    "
@@ -24613,7 +25193,7 @@ Array [
           }
         }
       >
-        n
+        N n
       </div>
       <div
         className="key center    "
@@ -24633,7 +25213,7 @@ Array [
           }
         }
       >
-        m
+        M m
       </div>
       <div
         className="key center    "
@@ -24896,7 +25476,7 @@ Array [
         }
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25016,7 +25596,7 @@ Array [
         :
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25036,7 +25616,7 @@ Array [
         ShiftIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25072,9 +25652,11 @@ Array [
             "width": 30,
           }
         }
-      />
+      >
+        
+      </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25094,7 +25676,7 @@ Array [
         EnterIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25114,7 +25696,7 @@ Array [
         BackOneIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25134,7 +25716,7 @@ Array [
         LeftArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25154,7 +25736,7 @@ Array [
         DownArrowKeyIcon
       </div>
       <div
-        className="key center    smallerFont"
+        className="key center    "
         draggable={true}
         onClick={[Function]}
         onDragEnd={[Function]}
@@ -25271,6 +25853,96 @@ Array [
                 <div
                   className="flextainer"
                 >
+                  <div
+                    className="flex vertical"
+                  >
+                    <div
+                      className="flex1 horizontal"
+                    >
+                      <div
+                        className="flex1 vertical"
+                        style={
+                          Object {
+                            "marginRight": "0.5rem",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Rows"
+                            onChange={[Function]}
+                            type="number"
+                            value={7}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className="flex1 vertical"
+                      >
+                        <div
+                          className="MuiFormControl-root inputMargin"
+                        >
+                          <input
+                            fullWidth={true}
+                            inputProps={
+                              Object {
+                                "max": undefined,
+                                "min": undefined,
+                                "step": undefined,
+                              }
+                            }
+                            label=" Columns"
+                            onChange={[Function]}
+                            type="number"
+                            value={12}
+                          />
+                          <p
+                            className="MuiFormHelperText-root"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <button
+                      className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-fullWidth"
+                      disabled={false}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={0}
+                      type="button"
+                    >
+                      <span
+                        className="MuiButton-label"
+                      >
+                        New
+                      </span>
+                    </button>
+                  </div>
+                  <hr
+                    className="MuiDivider-root inputMargin MuiDivider-middle"
+                  />
                   <div
                     className="uploadContainer"
                     onBlur={[Function]}
@@ -26057,7 +26729,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -26075,7 +26747,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-364"
+                            className="PrivateSwitchBase-input-378"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -26253,7 +26925,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -26271,7 +26943,7 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-364"
+                            className="PrivateSwitchBase-input-378"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
@@ -26835,7 +27507,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -26853,7 +27525,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-364"
+                                              className="PrivateSwitchBase-input-378"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -26890,7 +27562,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -26908,7 +27580,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-364"
+                                              className="PrivateSwitchBase-input-378"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -26945,7 +27617,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -26963,7 +27635,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-364"
+                                              className="PrivateSwitchBase-input-378"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -27000,7 +27672,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -27018,7 +27690,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-364"
+                                              className="PrivateSwitchBase-input-378"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -27053,7 +27725,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -27071,7 +27743,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-364"
+                                              className="PrivateSwitchBase-input-378"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
@@ -27106,7 +27778,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-361 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -27124,7 +27796,7 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-364"
+                                              className="PrivateSwitchBase-input-378"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
