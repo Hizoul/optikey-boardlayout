@@ -1751,7 +1751,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"
@@ -2430,7 +2430,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"
@@ -2675,7 +2675,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -2693,13 +2693,13 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-378"
+                            className="PrivateSwitchBase-input-8"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
                           />
                           <svg
-                            aria-hidden="true"
+                            aria-hidden={true}
                             className="MuiSvgIcon-root"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -2871,7 +2871,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -2889,13 +2889,13 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-378"
+                            className="PrivateSwitchBase-input-8"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
                           />
                           <svg
-                            aria-hidden="true"
+                            aria-hidden={true}
                             className="MuiSvgIcon-root"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -3044,7 +3044,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"
@@ -3110,7 +3110,7 @@ Array [
                         className="MuiButton-endIcon MuiButton-iconSizeMedium"
                       >
                         <svg
-                          aria-hidden="true"
+                          aria-hidden={true}
                           className="MuiSvgIcon-root"
                           focusable="false"
                           viewBox="0 0 24 24"
@@ -3183,7 +3183,7 @@ Array [
                             className="MuiIconButton-label"
                           >
                             <svg
-                              aria-hidden="true"
+                              aria-hidden={true}
                               className="MuiSvgIcon-root"
                               focusable="false"
                               viewBox="0 0 24 24"
@@ -3453,7 +3453,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3471,13 +3471,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -3508,7 +3508,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3526,13 +3526,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -3563,7 +3563,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3581,13 +3581,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -3618,7 +3618,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3636,13 +3636,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -3671,7 +3671,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3689,13 +3689,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -3724,7 +3724,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -3742,13 +3742,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -3850,7 +3850,7 @@ Array [
                         className="MuiIconButton-label"
                       >
                         <svg
-                          aria-hidden="true"
+                          aria-hidden={true}
                           className="MuiSvgIcon-root"
                           focusable="false"
                           viewBox="0 0 24 24"
@@ -3923,7 +3923,7 @@ Array [
                             className="MuiIconButton-label"
                           >
                             <svg
-                              aria-hidden="true"
+                              aria-hidden={true}
                               className="MuiSvgIcon-root"
                               focusable="false"
                               viewBox="0 0 24 24"
@@ -4193,7 +4193,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -4211,13 +4211,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -4248,7 +4248,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -4266,13 +4266,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -4303,7 +4303,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -4321,13 +4321,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -4358,7 +4358,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -4376,13 +4376,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -4411,7 +4411,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -4429,13 +4429,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -4464,7 +4464,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-375 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-5 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -4482,13 +4482,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-378"
+                                              className="PrivateSwitchBase-input-8"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -4590,7 +4590,7 @@ Array [
                         className="MuiIconButton-label"
                       >
                         <svg
-                          aria-hidden="true"
+                          aria-hidden={true}
                           className="MuiSvgIcon-root"
                           focusable="false"
                           viewBox="0 0 24 24"
@@ -4662,7 +4662,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"
@@ -6513,7 +6513,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"
@@ -7179,7 +7179,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"
@@ -7424,7 +7424,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -7442,13 +7442,13 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-186"
+                            className="PrivateSwitchBase-input-4"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
                           />
                           <svg
-                            aria-hidden="true"
+                            aria-hidden={true}
                             className="MuiSvgIcon-root"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -7620,7 +7620,7 @@ Array [
                     >
                       <span
                         aria-disabled={false}
-                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                        className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                         onBlur={[Function]}
                         onDragLeave={[Function]}
                         onFocus={[Function]}
@@ -7638,13 +7638,13 @@ Array [
                           className="MuiIconButton-label"
                         >
                           <input
-                            className="PrivateSwitchBase-input-186"
+                            className="PrivateSwitchBase-input-4"
                             data-indeterminate={false}
                             onChange={[Function]}
                             type="checkbox"
                           />
                           <svg
-                            aria-hidden="true"
+                            aria-hidden={true}
                             className="MuiSvgIcon-root"
                             focusable="false"
                             viewBox="0 0 24 24"
@@ -7793,7 +7793,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"
@@ -7859,7 +7859,7 @@ Array [
                         className="MuiButton-endIcon MuiButton-iconSizeMedium"
                       >
                         <svg
-                          aria-hidden="true"
+                          aria-hidden={true}
                           className="MuiSvgIcon-root"
                           focusable="false"
                           viewBox="0 0 24 24"
@@ -7932,7 +7932,7 @@ Array [
                             className="MuiIconButton-label"
                           >
                             <svg
-                              aria-hidden="true"
+                              aria-hidden={true}
                               className="MuiSvgIcon-root"
                               focusable="false"
                               viewBox="0 0 24 24"
@@ -8202,7 +8202,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -8220,13 +8220,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-186"
+                                              className="PrivateSwitchBase-input-4"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -8257,7 +8257,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -8275,13 +8275,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-186"
+                                              className="PrivateSwitchBase-input-4"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -8312,7 +8312,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -8330,13 +8330,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-186"
+                                              className="PrivateSwitchBase-input-4"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -8367,7 +8367,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -8385,13 +8385,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-186"
+                                              className="PrivateSwitchBase-input-4"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -8420,7 +8420,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -8438,13 +8438,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-186"
+                                              className="PrivateSwitchBase-input-4"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -8473,7 +8473,7 @@ Array [
                                       >
                                         <span
                                           aria-disabled={false}
-                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-183 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+                                          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
                                           onBlur={[Function]}
                                           onDragLeave={[Function]}
                                           onFocus={[Function]}
@@ -8491,13 +8491,13 @@ Array [
                                             className="MuiIconButton-label"
                                           >
                                             <input
-                                              className="PrivateSwitchBase-input-186"
+                                              className="PrivateSwitchBase-input-4"
                                               data-indeterminate={false}
                                               onChange={[Function]}
                                               type="checkbox"
                                             />
                                             <svg
-                                              aria-hidden="true"
+                                              aria-hidden={true}
                                               className="MuiSvgIcon-root"
                                               focusable="false"
                                               viewBox="0 0 24 24"
@@ -8599,7 +8599,7 @@ Array [
                         className="MuiIconButton-label"
                       >
                         <svg
-                          aria-hidden="true"
+                          aria-hidden={true}
                           className="MuiSvgIcon-root"
                           focusable="false"
                           viewBox="0 0 24 24"
@@ -8671,7 +8671,7 @@ Array [
             className="MuiIconButton-label"
           >
             <svg
-              aria-hidden="true"
+              aria-hidden={true}
               className="MuiSvgIcon-root"
               focusable="false"
               viewBox="0 0 24 24"

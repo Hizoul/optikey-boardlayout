@@ -14,7 +14,7 @@ import { resizeTriggerer } from "./index"
 
 const keyTypes: any[] = ["DynamicKey", "Scratchpad", "SuggestionRow", "SuggestionCol"].map((v) =>{return {value: v, label: v}})
 
-
+const resetList: any[] = [{value: "", label: "No Symbol"}]
 const KeyEditor = observer(() => {
   const keyIndex = FormStore.getValue(activeKey, undefined)
   const keysLength = FormStore.getValue("Content.length", keyboardPrefix, 2)
@@ -44,7 +44,7 @@ const KeyEditor = observer(() => {
     title: `Content[${keyIndex}].Symbol`,
     type: "string",
     theme: "select",
-    selectOptions: symbolList.map((v) => ({label: v, value: v}))
+    selectOptions: resetList.concat(symbolList.map((v) => ({label: v, value: v})))
   }
   const keyActionSchema = {
     title: `Content[${keyIndex}].keyActions`,
