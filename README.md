@@ -8,7 +8,7 @@ You can use it [in your browser](https://hizoul.github.io/optikey-boardlayout/) 
 - Symbols can be removed by selecting "No Symbol" at the top of the dropdown menu
 
 # Credits
-Special thanks go out to [Julius Sweetland](https://github.com/JuliusSweetland) for programming [OptiKey](http://www.optikey.org/), [AdamRoden](https://github.com/AdamRoden) for improving custom keyboard features in OptiKey V3, [kmcnaught](https://github.com/kmcnaught) for providing valuable feedback to improve the usability of this tool and [all the developers of the open-source packages](https://github.com/hizoul/optikey-boardlayout/blob/master/License.3rdparty) this software is built upon.
+Special thanks go out to [Julius Sweetland](https://github.com/JuliusSweetland) for programming [OptiKey](http://www.optikey.org/), [AdamRoden](https://github.com/AdamRoden) for improving custom keyboard features in OptiKey V3, [kmcnaught](https://github.com/kmcnaught) and [bigmutty](https://github.com/bigmutty) for providing valuable feedback to improve the usability of this tool and [all the developers of the open-source packages](https://github.com/hizoul/optikey-boardlayout/blob/master/License.3rdparty) this software is built upon.
 
 # Screenshot
 ![Screenshot](screenshot.png)
