@@ -199,9 +199,9 @@ exports[`parser: advanced js to xml 1`] = `
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftDownLabel>G</ShiftDownLabel>
-      <Label>g</Label>
-      <Text>g</Text>
+      <ShiftDownLabel>&amp;</ShiftDownLabel>
+      <Label>&amp;</Label>
+      <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
       <ShiftDownLabel>H</ShiftDownLabel>
@@ -1029,14 +1029,14 @@ Object {
       },
       Object {
         "Col": 6,
-        "Label": "g",
+        "Label": "&",
         "Row": 3,
-        "ShiftDownLabel": "G",
+        "ShiftDownLabel": "&",
         "associatedKeyGroups": Array [],
         "keyActions": Array [
           Object {
             "actionType": "Text",
-            "value": "g",
+            "value": "&",
           },
         ],
         "labelType": "Text",
@@ -1852,6 +1852,11 @@ exports[`parser: js to xml 1`] = `
     <DynamicKey Row=\\"1\\" Col=\\"10\\">
       <Label>$</Label>
       <Text>$</Text>
+    </DynamicKey>
+    <DynamicKey Row=\\"1\\" Col=\\"11\\">
+      <ShiftDownLabel>&amp;</ShiftDownLabel>
+      <Label>&amp;</Label>
+      <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"0\\">
       <Label>/</Label>
@@ -3564,6 +3569,22 @@ Object {
           },
         ],
         "labelType": "Symbol",
+        "name": "DynamicKey",
+        "type": "DynamicKey",
+      },
+      Object {
+        "Col": 11,
+        "Label": "&",
+        "Row": 1,
+        "ShiftDownLabel": "&",
+        "associatedKeyGroups": Array [],
+        "keyActions": Array [
+          Object {
+            "actionType": "Text",
+            "value": "&",
+          },
+        ],
+        "labelType": "Text",
         "name": "DynamicKey",
         "type": "DynamicKey",
       },

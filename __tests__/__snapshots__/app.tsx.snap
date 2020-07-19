@@ -866,7 +866,7 @@ Array [
           }
         }
       >
-        G g
+        & &
       </div>
       <div
         className="key center    "
@@ -2118,9 +2118,9 @@ Array [
       <Text>f</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"6\\">
-      <ShiftDownLabel>G</ShiftDownLabel>
-      <Label>g</Label>
-      <Text>g</Text>
+      <ShiftDownLabel>&amp;</ShiftDownLabel>
+      <Label>&amp;</Label>
+      <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"3\\" Col=\\"7\\">
       <ShiftDownLabel>H</ShiftDownLabel>
@@ -5248,7 +5248,7 @@ Array [
           }
         }
       >
-        
+        & &
       </div>
       <div
         className="key center    "
@@ -6791,6 +6791,11 @@ Array [
     <DynamicKey Row=\\"1\\" Col=\\"10\\">
       <Label>$</Label>
       <Text>$</Text>
+    </DynamicKey>
+    <DynamicKey Row=\\"1\\" Col=\\"11\\">
+      <ShiftDownLabel>&amp;</ShiftDownLabel>
+      <Label>&amp;</Label>
+      <Text>&amp;</Text>
     </DynamicKey>
     <DynamicKey Row=\\"2\\" Col=\\"0\\">
       <Label>/</Label>

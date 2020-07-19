@@ -370,6 +370,11 @@ const exampleXml =  `<Keyboard>
     <Symbol>RightArrowKeyIcon</Symbol>
     <Action>ArrowRight</Action>
   </DynamicKey>
+  <DynamicKey Row="1" Col="11">
+    <Text>&</Text>
+    <Label>&</Label>
+    <ShiftDownLabel>&</ShiftDownLabel>
+  </DynamicKey>
 </Content>
 </Keyboard>
 `;
@@ -573,9 +578,9 @@ const exampleKeyGroupOverrideXml = `<Keyboard>
     <ShiftDownLabel>F</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="6">
-    <Text>g</Text>
-    <Label>g</Label>
-    <ShiftDownLabel>G</ShiftDownLabel>
+    <Text>&amp;</Text>
+    <Label>&amp;</Label>
+    <ShiftDownLabel>&amp;</ShiftDownLabel>
   </DynamicKey>
   <DynamicKey Row="3" Col="7">
     <Text>h</Text>

@@ -1267,6 +1267,22 @@ Object {
       "name": "DynamicKey",
       "type": "DynamicKey",
     },
+    Object {
+      "Col": 11,
+      "Label": "&",
+      "Row": 1,
+      "ShiftDownLabel": "&",
+      "associatedKeyGroups": Array [],
+      "keyActions": Array [
+        Object {
+          "actionType": "Text",
+          "value": "&",
+        },
+      ],
+      "labelType": "Text",
+      "name": "DynamicKey",
+      "type": "DynamicKey",
+    },
   ],
   "DockSize": "Full",
   "Grid": Object {

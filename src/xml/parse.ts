@@ -18,7 +18,8 @@ export interface IKeyboard {
 const getElementText = (ele: any, def?: any) => get(ele, "elements[0].text", def)
 
 const xmlParser: (xml: string) => any = (xml: string) => {
-  const data = xml2js(xml, {compact: false})
+  let properly_esacped_xml = xml.replace(/&( |<)/g, "&amp;$1")
+  const data = xml2js(properly_esacped_xml, {compact: false})
   const root = data.elements[0].elements
   const Name = getElementText(find(root, ["name", "Name"]))
   const BorderThickness = getElementText(find(root, ["name", "BorderThickness"]))
@@ -170,7 +171,10 @@ const toXml = (keyboard: IKeyboard) => {
     if (key != null) {
       let newKey = cloneDeep(key)
       if (newKey.Label === "&") {
-        newKey.Label = "&amp;amp;"
+        newKey.Label = "&amp;"
+      }
+      if (newKey.ShiftDownLabel === "&") {
+        newKey.ShiftDownLabel = "&amp;"
       }
       delete newKey.labelType
       let name = newKey.name
@@ -193,7 +197,7 @@ const toXml = (keyboard: IKeyboard) => {
       const convertAction = (action: any) => {
         let value = action.value
         if (value === "&") {
-          value = "&amp;amp;"
+          value = "&amp;"
         }
         const objToPush: any = {
           type: "element", name: action.actionType, elements: [{type: "text", text: value}]
@@ -247,7 +251,7 @@ const toXml = (keyboard: IKeyboard) => {
       ]}
     ]
   }, {compact: false, spaces: 2})
-  return res.replace(/\&amp;/g, "&")
+  return res.replace(/&amp;#/g, "&#")
 }
 
 export default xmlParser
