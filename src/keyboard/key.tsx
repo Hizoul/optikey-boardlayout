@@ -6,18 +6,20 @@ import * as React from "react"
 import { activeKey, dragKey, hoverKey, keyboardPrefix } from "../form/def"
 import { resizeEventListener } from "./index"
 
+const requiredKeyEntryThings = {type: "DynamicKey", name: "DynamicKey", Text: "", Label: "", associatedKeyGroups: []}
+
 const switchKeys = action((row1: number, col1: number, row2: number, col2: number) => {
   const keys = FormStore.getValue("Content", keyboardPrefix, [])
   const v1 = findIndex(keys, {Row: row1, Col: col1})
   const v2 = findIndex(keys, {Row: row2, Col: col2})
   if (v1 === -1) {
-    keys.push({Row: row2, Col: col2})
+    keys.push({Row: row2, Col: col2, ...requiredKeyEntryThings})
   } else {
     keys[v1].Row = row2
     keys[v1].Col = col2
   }
   if (v2 === -1) {
-    keys.push({Row: row1, Col: col1})
+    keys.push({Row: row1, Col: col1, ...requiredKeyEntryThings})
   } else {
     keys[v2].Row = row1
     keys[v2].Col = col1
@@ -30,7 +32,7 @@ const clickHandler = (index: number, Row: number, Col: number) => memo(() => act
   if (indexToUse === -1) {
     const keys = FormStore.getValue(`${keyboardPrefix}.Content`)
     indexToUse = keys.push({
-      Row, Col, type: "DynamicKey", name: "DynamicKey", Text: "", Label: "", associatedKeyGroups: []
+      Row, Col, ...requiredKeyEntryThings
     }) - 1
     FormStore.getValue(`${keyboardPrefix}.Content`, keys)
   }

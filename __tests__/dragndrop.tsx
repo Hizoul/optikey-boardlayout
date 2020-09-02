@@ -42,4 +42,5 @@ test("app", () => {
   FormStore.setValue("Content", [], keyboardPrefix)
   switchKeys(c1, c2, r1, r2)
   expect(toJS(FormStore.getValue("Content", keyboardPrefix))).toMatchSnapshot("after switching two invalid keys")
+  renderSnapshot(<App />, "after switching to invalid key")
 })
