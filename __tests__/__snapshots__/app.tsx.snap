@@ -1988,9 +1988,7 @@ Array [
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
     </DynamicKey>
-    <DynamicKey Row=\\"1\\" Col=\\"0\\">
-      <Text>undefined</Text>
-    </DynamicKey>
+    <DynamicKey Row=\\"1\\" Col=\\"0\\"/>
     <DynamicKey Row=\\"1\\" Col=\\"1\\">
       <Label>!</Label>
       <Text>!</Text>
@@ -2149,7 +2147,6 @@ Array [
     <DynamicKey Row=\\"4\\" Col=\\"0\\">
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
-      <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"1\\">
       <Label>&lt;</Label>
@@ -2273,12 +2270,10 @@ Array [
     <DynamicKey Row=\\"6\\" Col=\\"5\\" Width=\\"2\\" Height=\\"2\\">
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
-      <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"7\\">
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
-      <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"8\\">
       <Symbol>BackOneIcon</Symbol>
@@ -2288,11 +2283,6 @@ Array [
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"9\\">
       <Label>A burst with text</Label>
-      <Loop Count=\\"3\\">
-        <KeyDown>a</KeyDown>
-        <Wait>100</Wait>
-        <KeyUp>a</KeyUp>
-      </Loop>
       <Text>b</Text>
       <KeyGroup>Blue Keys</KeyGroup>
     </DynamicKey>
@@ -6749,9 +6739,7 @@ Array [
       <Symbol>MenuIcon</Symbol>
       <Action>MenuKeyboard</Action>
     </DynamicKey>
-    <DynamicKey Row=\\"1\\" Col=\\"0\\">
-      <Text>undefined</Text>
-    </DynamicKey>
+    <DynamicKey Row=\\"1\\" Col=\\"0\\"/>
     <DynamicKey Row=\\"1\\" Col=\\"1\\">
       <Label>!</Label>
       <Text>!</Text>
@@ -6915,7 +6903,6 @@ Array [
     <DynamicKey Row=\\"4\\" Col=\\"0\\">
       <Symbol>TabIcon</Symbol>
       <Text>&#9;</Text>
-      <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"4\\" Col=\\"1\\">
       <Label>&lt;</Label>
@@ -7039,12 +7026,10 @@ Array [
     <DynamicKey Row=\\"6\\" Col=\\"5\\" Width=\\"2\\" Height=\\"2\\">
       <Symbol>SpaceIcon</Symbol>
       <Text>&#32;</Text>
-      <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"7\\">
       <Symbol>EnterIcon</Symbol>
       <Text>&#13;</Text>
-      <Text>undefined</Text>
     </DynamicKey>
     <DynamicKey Row=\\"6\\" Col=\\"8\\">
       <Symbol>BackOneIcon</Symbol>

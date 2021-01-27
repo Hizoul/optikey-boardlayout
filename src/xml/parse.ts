@@ -213,7 +213,7 @@ const toXml = (keyboard: IKeyboard) => {
       }
       if (keyActions != null) {
         for (const action of keyActions) {
-          if (action != null) {
+          if (action != null && action.value != null) {
             newKey.push(convertAction(action))
           }
         }
