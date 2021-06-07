@@ -2,7 +2,7 @@
   "name": "optikeyboardlayout",
   "version": "0.1.0",
   "main": "dist",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "scripts": {
     "start": "npm run dev",
     "build": "./node_modules/.bin/webpack --config ./webpack.config.prod.ts",
