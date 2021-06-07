@@ -17,27 +17,13 @@
     "declaration": true,
     "strict": true,
     "baseUrl": ".",
-    "paths": {
-        "*": ["*"]
-    },
     "typeRoots": [
       "./@types",
       "./src/@types",
       "./node_modules/@types"
     ]
   },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "scripts",
-    "acceptance-tests",
-    "webpack",
-    "jest",
-    "src/setupTests.ts",
-    "./src/scripts/",
-    "**/*.test.ts",
-    "**/*.test.tsx"
-  ],
+  
   "include": [
     "./src/"
   ],

@@ -26,13 +26,17 @@ const webpackConfig: webpack.Configuration = {
         ]
       }, {
         test: /\.tsx?$/,
-        loader: "awesome-typescript-loader"
+        loader: "ts-loader"
       }
     ]
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".json"],
     alias: {
+    },
+    fallback: {
+      "buffer": require.resolve("buffer"),
+      "stream": require.resolve("stream-browserify")
     }
   }
 }
